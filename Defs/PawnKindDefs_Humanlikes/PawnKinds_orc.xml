@@ -99,5 +99,6 @@
       <li>
         <defname>Bloodlust</defname>
       </li>
+    </disallowedTraits>
 </AlienRace.BackstoryDef>
 </Defs>
