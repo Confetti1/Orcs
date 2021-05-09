@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 <PawnKindDef>
   <defName>ExampleAlienKind</defName>
   <label>Orc</label>
@@ -98,3 +100,4 @@
         <defname>Bloodlust</defname>
       </li>
 </AlienRace.BackstoryDef>
+</Defs>
