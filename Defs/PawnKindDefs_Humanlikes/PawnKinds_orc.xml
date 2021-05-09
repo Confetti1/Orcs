@@ -3,7 +3,7 @@
 <PawnKindDef>
   <defName>Orc</defName>
   <label>orc</label>
-  <race>Orc</race>
+  <race>orc</race>
   <backstoryFiltersOverride>
     <li>
       <categories>
