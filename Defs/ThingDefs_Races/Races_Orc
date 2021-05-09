@@ -1,19 +1,70 @@
 <AlienRace.ThingDef_AlienRace ParentName="HumanRace">
     <defName>Orc</defName>
     <label>Orc</label>
-    <description>Orcs are genetically stronger and tougher than humans, but tend to be reckless and easy to provoke. Some orcs are raised in cities and develop much more peacefully, however.</description>
+    <description>Orcs are genetically stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however.</description>
     <alienRace>
       <generalSettings>
-      
+        <maleGenderProbability>0.7</maleGenderProbability>
+        <forcedRaceTraitEntries>
+            <li>
+                <defName>Bloodlust</defName>
+                <degree>2</degree>
+                <chance>50</chance>
+            </li>
+        </forcedRaceTraitEntries>
+        <traitCount>2~3</traitCount>
+        <allowHumanBios>true</allowHumanBios>
+        <humanRecipeImport>true<humanRecipeImport>
+        <alienbodytypes>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Hulk</li>
+        </alienbodytypes>
+        <useGenderedHeads>false</useGenderedHeads>
+        <useGenderedBodies>true</useGenderedBodies>
+        <customDrawSize>(1.2)(1.2)</customDrawSize>
+        <colorChannels>
+            <li>
+                <name>skin</name>
+                <first Class="ColorGenerator_Options">
+                    <options>
+                        <li>
+                            <weight>10</weight>
+                            <only>RGBA(90, 140, 80, 255)</only>
+                        </li>
+                        <li>
+                            <weight>10</weight>
+                            <only>RGBA(100, 140, 60, 255)</only>
+                        </li>
+                        <li>
+                            <weight>10<weight>
+                            <only>RGBA(20, 125, 80, 255)</only>
+                        </li>
+                    </options>
+                </first>
+                <second Class="colorGeneratorOptions">
+                    <options>
+                        <li>
+                            <weight>10</weight>
+                            <only>RGBA(50, 100, 60, 255)</only>
+                        </li>
+                    </options>
+                </second>
+            </li>
+        </colorChannels>
       </generalSettings>
       <graphicPaths>
       
       </graphicPaths>
       <hairSettings>
-      
+        <hasHair>true</hasHair>
+        <getsGreyAt>40</getsGreyAt>
       </hairSettings>
       <thoughtSettings>
-      
+        <cannotReceiveThoughts>
+            <li>ButcheredHumanlikeCorpse</li>
+            <li>AteHumanlikeMeatDirectly</li>
+        </cannotRecieveThoughts>
       </thoughtSettings>
       <relationSettings>
       
@@ -22,7 +73,9 @@
       
       </raceRestriction>
       <compatibility>
-      
+        <isFlesh>true</isFlesh>
+        <isSentient>true</isSentient>
+        <hasBlood>true</hasBlood>
       </compatibility>
     </alienRace>
 </AlienRace.ThingDef_AlienRace>
