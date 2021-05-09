@@ -1,1 +1,28 @@
-
+<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+    <defName>Orc</defName>
+    <label>Orc</label>
+    <description>Orcs are genetically stronger and tougher than humans, but tend to be reckless and easy to provoke. Some orcs are raised in cities and develop much more peacefully, however.</description>
+    <alienRace>
+      <generalSettings>
+      
+      </generalSettings>
+      <graphicPaths>
+      
+      </graphicPaths>
+      <hairSettings>
+      
+      </hairSettings>
+      <thoughtSettings>
+      
+      </thoughtSettings>
+      <relationSettings>
+      
+      </relationSettings>
+      <raceRestriction>
+      
+      </raceRestriction>
+      <compatibility>
+      
+      </compatibility>
+    </alienRace>
+</AlienRace.ThingDef_AlienRace>
