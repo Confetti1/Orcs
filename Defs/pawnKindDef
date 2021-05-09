@@ -59,8 +59,14 @@
         </factionDefs>
       </li>
     </alienwandererkinds>
-    
   </pawnKindSettings>
+  
+  <modExtensions>
+    <li Class="AlienRace.Info">
+      <allowHumanBios>true</allowHumanBios>
+      <maleGenderProbability>50</maleGenderProbability>
+    </li>
+  </modExtensions>
 </PawnKindDef>
 
 <AlienRace.BackstoryDef>
