@@ -95,10 +95,11 @@
       <defName>Melee</defName>
       <amount>-4</amount>
     </li>
-    <disallowedTraits>
-      <li>
-        <defname>Bloodlust</defname>
-      </li>
-    </disallowedTraits>
+  </skillGains>
+  <disallowedTraits>
+    <li>
+      <defname>Bloodlust</defname>
+    </li>
+  </disallowedTraits>
 </AlienRace.BackstoryDef>
 </Defs>
