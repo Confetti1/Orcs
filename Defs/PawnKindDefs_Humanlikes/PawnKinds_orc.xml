@@ -11,7 +11,7 @@
       </categories>
     </li>
   </backstoryFiltersOverride>
-  <pawnKindSettings>
+  <pawnKindSettings>defnam
     <alienslavekinds>
       <li>
         <kindDefs>
@@ -98,7 +98,7 @@
   </skillGains>
   <disallowedTraits>
     <li>
-      <defname>Bloodlust</defname>
+      <defName>Bloodlust</defName>
     </li>
   </disallowedTraits>
 </AlienRace.BackstoryDef>
