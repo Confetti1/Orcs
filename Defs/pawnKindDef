@@ -1,1 +1,12 @@
-
+<PawnKindDef>
+  <defName>ExampleAlienKind</defName>
+  <label>Orc</label>
+  <race>Orc</race>
+  <backstoryFiltersOverride>
+    <li>
+      <categories>
+        <li>CityRaised</li>
+      <categories>
+    </li>
+  </backstoryFiltersOverride>
+</PawnKindDef>
