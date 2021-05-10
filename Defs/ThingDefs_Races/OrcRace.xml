@@ -17,6 +17,7 @@
                 <hasHair>true</hasHair>
                 <getsGreyAt>40</getsGreyAt>
             </hairSettings>
+		
             <generalSettings>
                 <maleGenderProbability>0.7</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
@@ -37,18 +38,21 @@
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <allowHumanBios>true</allowHumanBios>
                 <immuneToXenophobia>true</immuneToXenophobia>
-                <minAgeForAdulthood>16</minAgeForAdulthood>
+                <minAgeForAdulthood>18</minAgeForAdulthood>
                 
                 <alienPartGenerator>
+			
                     <aliencrowntypes>
 			    <li>Average_Wide</li>
 			    <li>Narrow_Wide</li>
                     </aliencrowntypes>
+			
                	    <alienbodytypes>
                         <li>Male</li>
                         <li>Female</li>
                         <li>Hulk</li>
                     </alienbodytypes>
+			
                     <useGenderedHeads>true</useGenderedHeads>
                     <useGenderedBodies>true</useGenderedBodies>
                     
@@ -67,7 +71,7 @@
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(20, 125, 80, 150)</only>
+                                        <only>RGBA(20, 125, 80, 255)</only>
                                     </li>
                                 </options>
                             </first>
@@ -97,54 +101,56 @@
                 <isSentient>true</isSentient>
                 <hasBlood>true</hasBlood>
             </compatibility>
+		
         </alienRace>
         <race>
-            <thinkTreeMain>Humanlike</thinkTreeMain>
+		
+            	<thinkTreeMain>Humanlike</thinkTreeMain>
 		<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 		<intelligence>Humanlike</intelligence>
 		<makesFootprints>true</makesFootprints>
 		<lifeExpectancy>80</lifeExpectancy>
 		<leatherDef>Leather_Human</leatherDef>
 		<nameCategory>HumanStandard</nameCategory>
-		<body>orc</body>
-		<baseBodySize>1</baseBodySize>
-		<baseHealthScale>1</baseHealthScale>
+		<body>Human</body>
+		<baseBodySize>1.1</baseBodySize>
+		<baseHealthScale>1.2</baseHealthScale>
 		<foodType>OmnivoreHuman</foodType>
 		<gestationPeriodDays>45</gestationPeriodDays>
 		<meatMarketValue>0.8</meatMarketValue>
 		<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-            <litterSizeCurve>
-				<!-- how many babies are made. unused in vanilla for humanlikes but is used for animals -->
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(1.01, 0.02)</li>
-					<li>(3.5, 0)</li>
-				</points>
-			</litterSizeCurve>
-			<lifeStageAges>
-				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
-				<li>
-					<def>HumanlikeBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>HumanlikeToddler</def>
-					<minAge>2</minAge>
-				</li>
-				<li>
-					<def>HumanlikeChild</def>
-					<minAge>4</minAge>
-				</li>
-				<li>
-					<def>HumanlikeTeenager</def>
-					<minAge>13</minAge>
-				</li>
-				<li>
-					<def>HumanlikeAdult</def>
-					<minAge>18</minAge>
-				</li>
+		
+		<litterSizeCurve>
+			<points>
+				<li>(0.5, 0)</li>
+				<li>(1, 1)</li>
+				<li>(1.01, 0.02)</li>
+				<li>(3.5, 0)</li>
+			</points>
+		</litterSizeCurve>
+		
+		<lifeStageAges>
+			<li>
+				<def>HumanlikeBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>HumanlikeToddler</def>
+				<minAge>2</minAge>
+			</li>
+			<li>
+				<def>HumanlikeChild</def>
+				<minAge>4</minAge>
+			</li>
+			<li>
+				<def>HumanlikeTeenager</def>
+				<minAge>13</minAge>
+			</li>
+			<li>
+				<def>HumanlikeAdult</def>
+				<minAge>18</minAge>
+			</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
 				<!--<li Class="AlienRace.LifeStageAgeAlien">
 					<def>AlienAdult</def>
