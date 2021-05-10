@@ -34,7 +34,7 @@
     <techHediffsChance>0.02</techHediffsChance>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="BasePlayerOrcKind">
+  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
     <defName>RichOrc</defName>
     <label>richorc</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
