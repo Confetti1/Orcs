@@ -1,1 +1,35 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>CityRaised</defName>
+    <title>Raised in the City</title>
+    <titleShort>Civilized</titleShort>
+    <baseDescription>NAME was born and raised by civilized folks in the city. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>CityRaised</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Bloodlust</defName>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+</Defs>
+    
