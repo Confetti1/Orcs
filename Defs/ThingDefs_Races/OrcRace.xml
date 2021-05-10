@@ -141,7 +141,7 @@
 					<def>AlienAdult</def>
 					<minAge>18</minAge>
 					<body>AdultAlienBody</body> -->
-				</li>
+				</li> -->
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
