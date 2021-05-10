@@ -39,7 +39,7 @@
                                 <only>RGBA(100, 140, 60, 255)</only>
                             </li>
                             <li>
-                                <weight>10<weight>
+                                <weight>10</weight>
                                 <only>RGBA(20, 125, 80, 255)</only>
                             </li>
                         </options>
