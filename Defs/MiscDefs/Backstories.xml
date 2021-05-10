@@ -41,7 +41,7 @@
     <title>Bloodrager</title>
     <titleShort>Bloodrager</titleShort>
     <baseDescription>Pawn_nameDef was born and bred for war, and they became a paragon of it. Nearby villages grew to fear the sound of Pawn_nameDef's roar. He learned to relish in the feeling of burning down buildings. </baseDescription>
-    <bodyTypeGlobal>Hulk</bodyTypeMale>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
     <spawnCategories>
       <li>Bloodrager</li>
     </spawnCategories>
