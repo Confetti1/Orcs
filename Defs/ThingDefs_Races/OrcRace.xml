@@ -84,7 +84,7 @@
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(255, 255, 255, 255)</only>
+                                        <only>RGBA(230, 255, 230, 255)</only>
                                     </li>
                                 </options>
                             </second>
