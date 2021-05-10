@@ -36,7 +36,7 @@
                      <li>Blunt</li>
                  </capacities>
                  <power>9</power>
-                 <cooldownTime>2<cooldownTime>
+                 <cooldownTime>2</cooldownTime>
                  <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
                  <surpriseAttack>
                      <extraMeleeDamages>
