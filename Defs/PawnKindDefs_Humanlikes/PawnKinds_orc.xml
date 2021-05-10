@@ -26,7 +26,7 @@
     <techHediffsChance>0.02</techHediffsChance>
   </PawnKindDef>
   
-<AlienRace.RaceSettings>
+<!--<AlienRace.RaceSettings>
   <defName>Orc</defName>
   <backstoryFiltersOverride>
     <li>
