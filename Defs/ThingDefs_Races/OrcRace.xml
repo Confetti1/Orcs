@@ -164,13 +164,6 @@
 					<li>(100,0)</li>
 				</points>
 			</ageGenerationCurve>
-			
-			<hediffGiverSets>
-				<!-- this is what controls what illnesses you get or any hediff really and can be a very powerful tool but you have to set immune to age to false -->
-				<li>YourOwnRace_HediffGiverSet</li>
-				<li>OrganicStandard</li>
-				<li>Human</li>
-			</hediffGiverSets>
 		</race>
         
         <statBases>
