@@ -64,13 +64,13 @@
   
   <!--                                                       SCHOLAR, ORC  -->
   <AlienRace.BackstoryDef>
-    <defName>OrcScholar</defName>
-    <title>Orc Scholar</title>
-    <titleShort>Scholar</titleShort>
+    <defName>OrcDrunkard</defName>
+    <title>Orc Drunkard</title>
+    <titleShort>Drunkard</titleShort>
     <baseDescription>Life was good for Pawn_nameDef until they had their first sip of ale. They were unable to stop, and found themselves in the tavern more than anywhere else. They learned to hold their own in a bar fight, as well as keep up with drunken songs.</baseDescription>
     <linkedBackstory>CityRaised</linkedBackstory>
     <spawnCategories>
-      <li>OrcScholar</li>
+      <li>OrcDrunkard</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -93,11 +93,11 @@
       
   <!--                                                       DRUNKARD, ORC  -->
   <AlienRace.BackstoryDef>
-    <defName>OrcDrunkard</defName>
-    <title>Orc Drunkard</title>
-    <titleShort>Drunkard</titleShort>
-    <baseDescription>Having grown up around books, Pawn_nameDef found his way into an academy. He graduated with ease, but not without learning to defend himself from bullies.</baseDescription>
-    <linkedBackstory>OrcDrunkard</linkedBackstory>
+    <defName>OrcScholar</defName>
+    <title>OrcScholar</title>
+    <titleShort>Scholar</titleShort>
+    <baseDescription>Having grown up around books, Pawn_nameDef found their way into an academy. They graduated with ease, but not without learning to defend themself from bullies.</baseDescription>
+    <linkedBackstory>OrcScholar</linkedBackstory>
     <spawnCategories>
       <li>OrcDrunkard</li>
     </spawnCategories>
