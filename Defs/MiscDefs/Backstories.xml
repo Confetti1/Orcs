@@ -61,7 +61,7 @@
     </skillGains>
     <forcedTraits>
       <li>
-        <defname>Psychopath</defname>
+        <defName>Psychopath</defName>
       </li>
     </forcedTraits>
     <workDisables>
