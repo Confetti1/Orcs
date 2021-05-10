@@ -3,7 +3,7 @@
   <!--                                                              CITY RAISED, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>CityRaised</defName>
-    <title>Raised in the City</title>
+    <title>Raised in a City</title>
     <titleShort>Civilized</titleShort>
     <baseDescription>Pawn_nameDef was taken in and raised by civilized folks in the city when they were only a child. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -78,7 +78,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Intellectual<defName>
+        <defName>Intellectual</defName>
         <amount>-4</amount>
       </li>
       <li>
@@ -164,7 +164,7 @@
     </spawnCategories>
     <skillGains>
       <li>
-        <defName>Ranged</defName>
+        <defName>Shooting</defName>
         <amount>2</amount>
       </li>
       <li>
