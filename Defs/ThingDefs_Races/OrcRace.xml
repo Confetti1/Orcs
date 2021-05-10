@@ -84,7 +84,7 @@
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>ButcheredHumanlikeCorpse</li>
-                    <li>AteHumanlikeMeatDirectly</li>
+                    <!-- <li>AteHumanlikeMeatDirectly</li> -->
                 </cannotReceiveThoughts>
             </thoughtSettings>
             <compatibility>
