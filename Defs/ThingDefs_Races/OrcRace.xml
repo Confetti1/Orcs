@@ -60,19 +60,19 @@
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(90, 140, 80, 255)</only>
+                                        <only>RGBA(90, 140, 80, 150)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(100, 140, 60, 255)</only>
+                                        <only>RGBA(100, 140, 60, 150)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(20, 125, 80, 255)</only>
+                                        <only>RGBA(20, 125, 80, 150)</only>
                                     </li>
                                 </options>
                             </first>
-                            <second Class="colorGenerator_Options">
+                            <second Class="ColorGenerator_Options">
                                 <options>
                                     <li>
                                         <weight>10</weight>
