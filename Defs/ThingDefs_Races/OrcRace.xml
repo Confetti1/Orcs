@@ -7,10 +7,7 @@
         <alienRace>
   	    
 	    <graphicPaths>
-		    <body></body>
-		    <head></head>
-		    <skeleton></skeleton>
-		    <skull></skull>
+	
 	    </graphicPaths>
             
 	    <hairSettings>
