@@ -30,6 +30,24 @@
                      </extraMeleeDamages>
                  </surpriseAttack>
              </li>
+             <li>
+                 <label>right fist</label>
+                 <capacities>
+                     <li>Blunt</li>
+                 </capacities>
+                 <power>9</power>
+                 <cooldownTime>2<cooldownTime>
+                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                 <surpriseAttack>
+                     <extraMeleeDamages>
+                         <li>
+                             <def>Stun</def>
+                             <amount>14</amount>
+                         </li>
+                     </extraMeleeDamages>
+                 </surpriseAttack>
+             </li>
+                
         </tools>
         <alienRace>
             <generalSettings>
