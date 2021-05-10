@@ -16,7 +16,7 @@
             </forcedRaceTraitEntries>
             <traitCount>2~3</traitCount>
             <allowHumanBios>true</allowHumanBios>
-            <humanRecipeImport>true<humanRecipeImport>
+            <humanRecipeImport>true</humanRecipeImport>
             <alienbodytypes>
                 <li>Male</li>
                 <li>Female</li>
