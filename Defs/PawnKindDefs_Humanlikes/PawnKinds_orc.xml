@@ -8,8 +8,8 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
-    <defName>CommonOrc</defName>
-    <label>commonorc</label>
+    <defName>OrcCommon</defName>
+    <label>orccommon</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
     <backstoryFiltersOverride>
@@ -35,8 +35,8 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
-    <defName>RichOrc</defName>
-    <label>richorc</label>
+    <defName>OrcRich</defName>
+    <label>orcrich</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
     <backstoryFiltersOverride>
