@@ -26,10 +26,8 @@
     <techHediffsChance>0.02</techHediffsChance>
   </PawnKindDef>
   
-  <!--
+<AlienRace.RaceSettings>
   <defName>Orc</defName>
-  <label>orc</label>
-  <race>orc</race>
   <backstoryFiltersOverride>
     <li>
       <categories>
@@ -95,7 +93,7 @@
       <maleGenderProbability>50</maleGenderProbability>
     </li>
   </modExtensions>
-</PawnKindDef>
+</AlienRace.RaceSettings>
 
 <AlienRace.BackstoryDef>
   <defName>CityRaised</defName>
