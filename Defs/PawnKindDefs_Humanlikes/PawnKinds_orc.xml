@@ -35,7 +35,7 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcKind">
-    <defName>RichOrc</DefName>
+    <defName>RichOrc</defName>
     <label>richorc</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
