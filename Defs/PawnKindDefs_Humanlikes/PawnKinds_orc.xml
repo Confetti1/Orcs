@@ -17,6 +17,10 @@
         <categories>
           <li>CityRaised</li>
           <li>Bloodrager</li>
+          <li>OrcBartender</li>
+          <li>OrcScholar</li>
+          <li>OrcDrunkard</li>
+          <li>Witness</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
