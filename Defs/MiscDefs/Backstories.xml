@@ -165,7 +165,7 @@
     <skillGains>
       <li>
         <defName>Ranged</defName>
-        <amount>+2<amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Melee</defName>
