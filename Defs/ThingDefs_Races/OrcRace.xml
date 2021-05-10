@@ -41,7 +41,7 @@
 						<li>Narrow_Pointy</li>
 						<li>Narrow_Wide</li>
                     </aliencrowntypes>
-                <   alienbodytypes>
+               	    <alienbodytypes>
                         <li>Male</li>
                         <li>Female</li>
                         <li>Hulk</li>
