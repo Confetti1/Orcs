@@ -27,11 +27,11 @@
                 <forcedRaceTraitEntries>
                     	<li>
                         	<defName>Bloodlust</defName>
-                        	<chance>50</chance>
+                        	<chance>30</chance>
                 	</li>
 			<li>
 				<defName>Brawler</defName>
-				<chance>50</chance>
+				<chance>30</chance>
 			</li>
                 </forcedRaceTraitEntries>
 		    
@@ -58,7 +58,7 @@
                         <li>Hulk</li>
                     </alienbodytypes>
 			
-                    <useGenderedHeads>true</useGenderedHeads>
+                    <useGenderedHeads>false</useGenderedHeads>
                     <useGenderedBodies>false</useGenderedBodies>
                     
                     <colorChannels>
