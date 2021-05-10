@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--                                                              CITY RAISED, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>CityRaised</defName>
     <title>Raised in the City</title>
     <titleShort>Civilized</titleShort>
-    <baseDescription>Pawn_nameDef was taken in and raised by civilized folks in the city when they were only a baby. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
+    <baseDescription>Pawn_nameDef was taken in and raised by civilized folks in the city when they were only a child. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
@@ -33,9 +34,91 @@
       <li>
         <defName>Bloodlust</defName>
       </li>
+      <li>
+        <defName>Brawler<defName>
+      </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
   
+  <!--                                                           BARTENDER, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>OrcBartender</defName>
+    <title>Orc Bartender</title>
+    <titleShort>Bartender</titleShort>
+    <baseDescription>Pawn_Pronoun learned that they had a knack for talking with people and a particular interest in ale. In their adulthood, they opened up their own bar. They even brewed their own ale!</baseDescription>
+    <linkedBackstory>CityRaised</linkedBackstory>
+    <spawnCategories>
+      <li>OrcBartender</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                       SCHOLAR, ORC  -->
+  <AlienRace.BackstoryDef>
+    <defName>OrcScholar</defName>
+    <title>Orc Scholar</title>
+    <titleShort>Scholar</titleShort>
+    <baseDescription>Life was good for Pawn_nameDef until they had their first sip of ale. They were unable to stop, and found themselves in the tavern more than anywhere else. They learned to hold their own in a bar fight, as well as keep up with drunken songs.</baseDescription>
+    <linkedBackstory>CityRaised</linkedBackstory>
+    <spawnCategories>
+      <li>OrcScholar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual<defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+      
+  <!--                                                       DRUNKARD, ORC  -->
+  <AlienRace.BackstoryDef>
+    <defName>OrcDrunkard</defName>
+    <title>Orc Drunkard</title>
+    <titleShort>Drunkard</titleShort>
+    <baseDescription>Having grown up around books, Pawn_nameDef found his way into an academy. He graduated with ease, but not without learning to defend himself from bullies.</baseDescription>
+    <linkedBackstory>OrcDrunkard</linkedBackstory>
+    <spawnCategories>
+      <li>OrcDrunkard</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual<defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+      
+  
+  <!---                                                           BLOODRAGER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Bloodrager</defName>
     <title>Bloodrager</title>
@@ -68,5 +151,90 @@
       <li>Firefighting</li>
     </workDisables>
   </AlienRace.BackstoryDef>
+      
+        <!--                                                          WITNESS, ORC, CHILDHOOD -->
+  <AlienRace.BackstoryDef>
+    <defName>Witness</defName>
+    <title>Witness</title>
+    <titleShort>Witness</titleShort>
+    <baseDescription>Pawn_nameDef's childhood was ordinary for an orc until Pawn_pronoun witnessed a tribesmate kill the chieftan. The tribesmate threatened that they would do worse than kill Pawn_nameDef if they spoke about this. They never spoke again, but trained quietly in secret.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Witness</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Ranged</defName>
+        <amount>+2<amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription></baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li></li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription></baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li></li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
+<!--  <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription></baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li></li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef> -->
+  
+  
+  
 </Defs>
     
