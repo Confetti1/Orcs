@@ -8,8 +8,8 @@
   	    
 	    <graphicPaths>
 		<li>
-			<body>Orc/Bodies/</body>
-			<head>Orc/Heads/</head>
+			<body>Textures/Orc/Bodies/</body>
+			<head>Textures/Orc/Heads/</head>
 		</li>
 	    </graphicPaths>
             
