@@ -17,7 +17,6 @@
                 <forcedRaceTraitEntries>
                     <li>
                         <defName>Bloodlust</defName>
-                        <degree>2</degree>
                         <chance>50</chance>
                     </li>
                 </forcedRaceTraitEntries>
