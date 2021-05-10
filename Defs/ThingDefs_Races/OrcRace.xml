@@ -4,7 +4,7 @@
         <defName>Orc</defName>
         <label>orc</label>
         <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however.</description>
-        <alienRace>
+        <alienRace>ge
   	    
 	    <graphicPaths>
 		<li>
@@ -59,7 +59,7 @@
                     </alienbodytypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
-                    <useGenderedBodies>true</useGenderedBodies>
+                    <useGenderedBodies>false</useGenderedBodies>
                     
                     <colorChannels>
                         <li>
