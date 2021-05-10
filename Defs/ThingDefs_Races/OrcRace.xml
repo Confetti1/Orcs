@@ -82,35 +82,7 @@
             </generalSettings>
 		
 	    <graphicPaths>
-            	<li>
-                	<body>TestPawn/Base/</body>
-                	<head>TestPawn/Head/</head>
-                	<skeleton>TestPawn/Dessicated/</skeleton>
-                	<skull>TestPawn/Skull/</skull>
-           	 </li>
-            	<li>
-                	<lifeStageDefs>
-                    		<li>HumanlikeAdult</li>
-                	</lifeStageDefs>
-                	<body>TestPawn/BaseAdult/</body>
-                	<head>TestPawn/HeadAdults/</head>
-                	<skeleton>TestPawn/Dessicated/</skeleton>
-                	<skull>TestPawn/Skull/</skull>
-
-                	<customDrawSize>(1.2, 1.2)</customDrawSize>
-                	<customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
-                	<customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
-                	<customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
-                	<headOffset>(0.1, 0.2)</headOffset>
-                	<headOffsetDirectional>
-                    		<north>(0.1, 0.1)</north>
-                    		<east>(0.1, 0.1)</east>
-                    		<south>(0.1, 0.1)</south>
-                    		<west>(0.1, 0.1)</west>
-                	</headOffsetDirectional>
-                <skinShader>CutoutSkin</skinShader>
-            	</li>
-        	</graphicPaths>
+	    </graphicPaths>
 		
             <thoughtSettings>
                 <cannotReceiveThoughts>
