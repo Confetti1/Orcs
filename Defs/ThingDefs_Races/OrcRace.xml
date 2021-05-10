@@ -38,7 +38,7 @@
                 <disallowedTraits>
                 </disallowedTraits>
                 
-                <traitCount>2~3</traitCount>
+                <traitCount>1~2</traitCount>
                 <additionalTraits>1~2</additionalTraits>
                 
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
@@ -53,8 +53,8 @@
                     </aliencrowntypes>
 			
                	    <alienbodytypes>
-                        <li>Male</li>
-                        <li>Female</li>
+                        <li>Masculine</li>
+                        <li>Feminine</li>
                         <li>Hulk</li>
                     </alienbodytypes>
 			
