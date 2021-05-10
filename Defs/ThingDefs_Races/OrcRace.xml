@@ -4,6 +4,184 @@
         <defName>Orc</defName>
         <label>orc</label>
         <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however.</description>
+        <!-- <statBases>
+            <MarketValue>2000</MarketValue>
+            <MoveSpeed>4.6</MoveSpeed>
+            <ComfyTemperatureMin>10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>26</ComfyTemperatureMax>
+            <LeatherAmount>60</LeatherAmount>
+            <RoyalFavorValue>3</RoyalFavorValue>
+        </statBases>
+         -->
+        <alienRace>
+            <hairSettings>
+                <hasHair>true</hasHair>
+                <getsGreyAt>40</getsGreyAt>
+            </hairSettings>
+            <generalSettings>
+                <maleGenderProbability>0.7</maleGenderProbability>
+                <immuneToAge>false</immuneToAge>
+                <humanRecipeImport>true</humanRecipeImport>
+                <canLayDown>true</canLayDown>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Bloodlust</defName>
+                        <degree>2</degree>
+                        <chance>50</chance>
+                    </li>
+                </forcedRaceTraitEntries>
+                <disallowedTraits>
+                </disallowedTraits>
+                
+                <traitCount>2~3</traitCount>
+                <additionalTraits>1~2</additionalTraits>
+                
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <allowHumanBios>true</allowHumanBios>
+                <immuneToXenophobia>true</immuneToXenophobia>
+                <minAgeForAdulthood>16</minAgeForAdulthood>
+                
+                <alienPartGenerator>
+                    <aliencrowntypes>
+                        <li>Average_Normal</li>
+						<li>Average_Wide</li>
+						<li>Average_Pointy</li>
+						<li>Narrow_Normal</li>
+						<li>Narrow_Pointy</li>
+						<li>Narrow_Wide</li>
+                    </aliencrowntypes>
+                <   alienbodytypes>
+                        <li>Male</li>
+                        <li>Female</li>
+                        <li>Hulk</li>
+                    </alienbodytypes>
+                    <useGenderedHeads>true</useGenderedHeads>
+                    <useGenderedBodies>true</useGenderedBodies>
+                    
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(90, 140, 80, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(100, 140, 60, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(20, 125, 80, 255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                            <second Class="colorGeneratorOptions">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(50, 100, 60, 255)</only>
+                                    </li>
+                                </options>
+                            </second>
+                        </li>
+                    </colorChannels>
+                    <customDrawSize>(1.2)(1.2)</customDrawSize>
+                </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>ButcheredHumanlikeCorpse</li>
+                    <li>AteHumanlikeMeatDirectly</li>
+                </cannotReceiveThoughts>
+            </thoughtSettings>
+            <compatibility>
+                <isFlesh>true</isFlesh>
+                <isSentient>true</isSentient>
+                <hasBlood>true</hasBlood>
+            </compatibility>
+        </alienRace>
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>80</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>Human</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<meatMarketValue>0.8</meatMarketValue>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+            <litterSizeCurve>
+				<!-- how many babies are made. unused in vanilla for humanlikes but is used for animals -->
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>AlienAdult</def>
+					<minAge>18</minAge>
+					<body>AdultAlienBody</body>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<!-- these values must be less than your youngest pawnkind and greater than your oldest pawn kind of this Race -->
+				<points>
+					<li>(14,0)</li>
+					<li>(16,100)</li>
+					<li>(50,100)</li>
+					<li>(60,30)</li>
+					<li>(70,18)</li>
+					<li>(80,10)</li>
+					<li>(90,3)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+			
+			<hediffGiverSets>
+				<!-- this is what controls what illnesses you get or any hediff really and can be a very powerful tool but you have to set immune to age to false -->
+				<li>YourOwnRace_HediffGiverSet</li>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets>
+		</race>
+        
         <statBases>
             <MarketValue>2000</MarketValue>
             <MoveSpeed>4.6</MoveSpeed>
@@ -12,7 +190,8 @@
             <LeatherAmount>60</LeatherAmount>
             <RoyalFavorValue>3</RoyalFavorValue>
         </statBases>
-        <tools>
+        
+        <tools Inherit="False">
              <li>
                  <label>left fist</label>
                  <capacities>
@@ -71,81 +250,15 @@
                 <chanceFactor>0.2</chanceFactor>
             </li>
         </tools>
-        <alienRace>
-            <generalSettings>
-            <maleGenderProbability>0.7</maleGenderProbability>
-            <forcedRaceTraitEntries>
-                <li>
-                    <defName>Bloodlust</defName>
-                    <degree>2</degree>
-                    <chance>50</chance>
-                </li>
-            </forcedRaceTraitEntries>
-            <traitCount>2~3</traitCount>
-            <allowHumanBios>true</allowHumanBios>
-            <humanRecipeImport>true</humanRecipeImport>
-            <alienbodytypes>
-                <li>Male</li>
-                <li>Female</li>
-                <li>Hulk</li>
-            </alienbodytypes>
-            <useGenderedHeads>false</useGenderedHeads>
-            <useGenderedBodies>true</useGenderedBodies>
-            <customDrawSize>(1.2)(1.2)</customDrawSize>
-            <colorChannels>
-                <li>
-                    <name>skin</name>
-                    <first Class="ColorGenerator_Options">
-                        <options>
-                            <li>
-                                <weight>10</weight>
-                                <only>RGBA(90, 140, 80, 255)</only>
-                            </li>
-                            <li>
-                                <weight>10</weight>
-                                <only>RGBA(100, 140, 60, 255)</only>
-                            </li>
-                            <li>
-                                <weight>10</weight>
-                                <only>RGBA(20, 125, 80, 255)</only>
-                            </li>
-                        </options>
-                    </first>
-                    <second Class="colorGeneratorOptions">
-                        <options>
-                            <li>
-                                <weight>10</weight>
-                                <only>RGBA(50, 100, 60, 255)</only>
-                            </li>
-                        </options>
-                    </second>
-                </li>
-            </colorChannels>
-            </generalSettings>
-            <graphicPaths>
-      
-            </graphicPaths>
-            <hairSettings>
-                <hasHair>true</hasHair>
-                <getsGreyAt>40</getsGreyAt>
-            </hairSettings>
-            <thoughtSettings>
-                <cannotReceiveThoughts>
-                    <li>ButcheredHumanlikeCorpse</li>
-                    <li>AteHumanlikeMeatDirectly</li>
-                </cannotReceiveThoughts>
-            </thoughtSettings>
-            <relationSettings>
-      
-            </relationSettings>
-            <raceRestriction>
-      
-            </raceRestriction>
-            <compatibility>
-                <isFlesh>true</isFlesh>
-                <isSentient>true</isSentient>
-                <hasBlood>true</hasBlood>
-            </compatibility>
-        </alienRace>
+        
+        <recipes>
+        </recipes>
+        
+        <comps>
+        </comps>
+        
+        <modExtensions>
+        </modExtensions>
+
     </AlienRace.ThingDef_AlienRace>
 </Defs>
