@@ -68,7 +68,7 @@
                                     </li>
                                 </options>
                             </first>
-                            <second Class="colorGeneratorOptions">
+                            <second Class="colorGenerator_Options">
                                 <options>
                                     <li>
                                         <weight>10</weight>
