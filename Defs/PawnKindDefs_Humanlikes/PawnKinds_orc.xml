@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<PawnKindDef>
+  <PawnKindDef Abstract="True" Name ="BasePlayerOrcPawnKind">
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
+    <defName>CommonOrc</defName>
+    <label>commonorc</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <race>Orc</race>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.09</apparelAllowHeadgearChance>
+    <apparelMoney>100~200<apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.02</techHediffsChance>
+  </PawnKindDef>
+  
+  <!--
   <defName>Orc</defName>
   <label>orc</label>
   <race>orc</race>
@@ -101,5 +127,5 @@
       <defName>Bloodlust</defName>
     </li>
   </disallowedTraits>
-</AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef> -->
 </Defs>
