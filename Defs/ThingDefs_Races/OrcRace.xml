@@ -78,7 +78,7 @@
                             </second>
                         </li>
                     </colorChannels>
-                    <customDrawSize>(1.2)(1.2)</customDrawSize>
+                    <customDrawSize>(1.2, 1.2)</customDrawSize>
                 </alienPartGenerator>
             </generalSettings>
             <thoughtSettings>
