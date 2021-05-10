@@ -137,10 +137,10 @@
 					<minAge>13</minAge>
 				</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
-				<li Class="AlienRace.LifeStageAgeAlien">
+				<!--<li Class="AlienRace.LifeStageAgeAlien">
 					<def>AlienAdult</def>
 					<minAge>18</minAge>
-					<body>AdultAlienBody</body>
+					<body>AdultAlienBody</body> -->
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
