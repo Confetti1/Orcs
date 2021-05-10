@@ -137,7 +137,7 @@
 					<minAge>13</minAge>
 				</li>
 				<li>
-					<def>HumanlikeAdult<def>
+					<def>HumanlikeAdult</def>
 					<minAge>18</minAge>
 				</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
