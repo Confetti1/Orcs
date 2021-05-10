@@ -4,7 +4,7 @@
     <defName>CityRaised</defName>
     <title>Raised in the City</title>
     <titleShort>Civilized</titleShort>
-    <baseDescription>NAME was born and raised by civilized folks in the city. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
+    <baseDescription>Pawn_nameDef was taken in and raised by civilized folks in the city when they were only a baby. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
@@ -24,12 +24,49 @@
         <defName>Melee</defName>
         <amount>-4</amount>
       </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</defName>
+      </li>
     </skillGains>
     <disallowedTraits>
       <li>
         <defName>Bloodlust</defName>
       </li>
     </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Bloodrager</defName>
+    <title>Bloodrager</title>
+    <titleShort>Bloodrager</titleShort>
+    <baseDescription>Pawn_nameDef was born and bred for war, and they became a paragon of it. Nearby villages grew to fear the sound of Pawn_nameDef's roar. He learned to relish in the feeling of burning down buildings. </baseDescription>
+    <bodyTypeGlobal>Hulk</bodyTypeMale>
+    <spawnCategories>
+      <li>Bloodrager</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-8</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-8</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defname>Psychopath</defname>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Firefight</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
 </Defs>
     
