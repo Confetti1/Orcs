@@ -59,7 +59,7 @@
                     </alienbodytypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
-                    <useGenderedBodies>false</useGenderedBodies>
+                    <useGenderedBodies>true</useGenderedBodies>
                     
                     <colorChannels>
                         <li>
