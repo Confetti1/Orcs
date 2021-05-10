@@ -76,7 +76,7 @@
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(80, 110, 80, 255)</only>
+                                        <only>RGBA(100, 110, 100, 255)</only>
                                     </li>
                                 </options>
                             </first>
