@@ -23,12 +23,18 @@
                 <immuneToAge>false</immuneToAge>
                 <humanRecipeImport>true</humanRecipeImport>
                 <canLayDown>true</canLayDown>
+		    
                 <forcedRaceTraitEntries>
-                    <li>
-                        <defName>Bloodlust</defName>
-                        <chance>50</chance>
-                    </li>
+                    	<li>
+                        	<defName>Bloodlust</defName>
+                        	<chance>50</chance>
+                	</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>
                 </forcedRaceTraitEntries>
+		    
                 <disallowedTraits>
                 </disallowedTraits>
                 
@@ -40,8 +46,7 @@
                 <immuneToXenophobia>true</immuneToXenophobia>
                 <minAgeForAdulthood>18</minAgeForAdulthood>
                 
-                <alienPartGenerator>
-			
+                <alienPartGenerator>	
                     <aliencrowntypes>
 			    <li>Average_Wide</li>
 			    <li>Narrow_Wide</li>
@@ -162,12 +167,13 @@
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+		
 			<specialShadowData>
 				<volume>(0.3, 0.8, 0.4)</volume>
 				<offset>(0,0,-0.3)</offset>
 			</specialShadowData>
+		
 			<ageGenerationCurve>
-				<!-- these values must be less than your youngest pawnkind and greater than your oldest pawn kind of this Race -->
 				<points>
 					<li>(14,0)</li>
 					<li>(16,100)</li>
