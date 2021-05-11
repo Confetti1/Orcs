@@ -47,16 +47,16 @@
                 <minAgeForAdulthood>18</minAgeForAdulthood>
                 
                 <alienPartGenerator>	
-                    <aliencrowntypes>
-			    <li>Average_Wide</li>
-			    <li>Narrow_Wide</li>
-                    </aliencrowntypes>
 			
                	    <alienbodytypes>
 			<li>Hulk</li>
                         <li>Male</li>
-                        <li>Female</li>
                     </alienbodytypes>
+			
+                    <aliencrowntypes>
+			    <li>Average_Wide</li>
+			    <li>Narrow_Wide</li>
+                    </aliencrowntypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
                     <useGenderedBodies>false</useGenderedBodies>
