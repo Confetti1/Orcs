@@ -51,6 +51,7 @@
                	    <alienbodytypes>
 			<li>Hulk</li>
                         <li>Male</li>
+			<li>Female</li>
                     </alienbodytypes>
 			
                     <aliencrowntypes>
@@ -59,7 +60,7 @@
                     </aliencrowntypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
-                    <useGenderedBodies>false</useGenderedBodies>
+                    <useGenderedBodies>true</useGenderedBodies>
                     
                     <colorChannels>
                         <li>
@@ -175,7 +176,7 @@
 		
 			<ageGenerationCurve>
 				<points>
-					<li>(10,0)</li>
+					<li>(11,0)</li>
 					<li>(13,100)</li>
 					<li>(30,100)</li>
 					<li>(37,30)</li>
