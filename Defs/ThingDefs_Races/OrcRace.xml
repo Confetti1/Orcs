@@ -53,13 +53,13 @@
                     </aliencrowntypes>
 			
                	    <alienbodytypes>
-                        <li>Masculine</li>
-                        <li>Feminine</li>
-                        <li>Hulk</li>
+			<li>Hulk</li>
+                        <li>Male</li>
+                        <li>Female</li>
                     </alienbodytypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
-                    <useGenderedBodies>true</useGenderedBodies>
+                    <useGenderedBodies>false</useGenderedBodies>
                     
                     <colorChannels>
                         <li>
