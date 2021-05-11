@@ -5,6 +5,7 @@
     <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
+    <maxGenerationAge>40</maxGenerationAge>
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
@@ -12,6 +13,7 @@
     <label>orctribal</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
+    <itemQuality>Poor</itemQuality>
     <backstoryFiltersOverride>
       <li>
         <categories>
@@ -36,7 +38,8 @@
       <li>Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.09</apparelAllowHeadgearChance>
-    <apparelMoney>200~300</apparelMoney>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>90~150</weaponMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <techHediffsMoney>50~50</techHediffsMoney>
     <techHediffsTags>
@@ -63,10 +66,11 @@
     </backstoryFiltersOverride>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
-      <li>Industrial</li>
+      <li>Industrial_Basic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>50</apparelAllowHeadgearChance>
-    <apparelMoney>1000~3000</apparelMoney>
+    <apparelMoney>400~1000</apparelMoney>
+    <weaponMoney>500~1000</weaponMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <techHediffsMoney>500~500</techHediffsMoney>
     <techHediffsTags>
