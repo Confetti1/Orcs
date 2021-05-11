@@ -92,6 +92,8 @@
                         </li>
                     </colorChannels>
                     <customDrawSize>(1.1, 1.1)</customDrawSize>
+		    <customHeadDrawSize>0.9, 0.9</customHeadDrawSize>
+		    <headOffset>(0.0, 0.1)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
 	
@@ -119,7 +121,7 @@
 		<leatherDef>Leather_Human</leatherDef>
 		<nameCategory>HumanStandard</nameCategory>
 		<body>Human</body>
-		<baseBodySize>1.1</baseBodySize>
+		<baseBodySize>1.0</baseBodySize>
 		<baseHealthScale>1.2</baseHealthScale>
 		<foodType>OmnivoreHuman</foodType>
 		<gestationPeriodDays>45</gestationPeriodDays>
