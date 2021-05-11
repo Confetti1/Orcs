@@ -302,11 +302,11 @@
     <workDisables>
       <li>Intellectual</li>
     </workDisables>
-    <ForcedTraits>
+    <forcedTraits>
       <li>
         <defName>Greedy</defName>
       </li>
-    </ForcedTraits>
+    </forcedTraits>
   </AlienRace.BackstoryDef>
   
  <!--                                                          HUNTER, ORC -->
@@ -454,7 +454,7 @@
     <title>Seer</title>
     <titleShort>Seer</titleShort>
     <baseDescription>[PAWN_nameDef] began having odd dreams, and soon realized that they pertained to the future. Trained by their tribe seer, [PAWN_pronoun] was able to channel their divination. [PAWN_pronoun] also learned about various tonics and treatments for common ailments.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <spawnCategories>
       <li>OrcSeer</li>
     </spawnCategories>
