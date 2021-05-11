@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Orc</defName>
         <label>orc</label>
-        <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however.</description>
+        <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however. Orcs tend to have shorter lifespans than most other races.</description>
         <alienRace>
   	    
 	    <graphicPaths>
@@ -44,7 +44,7 @@
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <allowHumanBios>true</allowHumanBios>
                 <immuneToXenophobia>true</immuneToXenophobia>
-                <minAgeForAdulthood>18</minAgeForAdulthood>
+                <minAgeForAdulthood>15</minAgeForAdulthood>
                 
                 <alienPartGenerator>	
 			
@@ -90,7 +90,7 @@
                             </second>
                         </li>
                     </colorChannels>
-                    <customDrawSize>(1.2, 1.2)</customDrawSize>
+                    <customDrawSize>(1.1, 1.1)</customDrawSize>
                 </alienPartGenerator>
             </generalSettings>
 	
@@ -142,19 +142,19 @@
 			</li>
 			<li>
 				<def>HumanlikeToddler</def>
-				<minAge>2</minAge>
+				<minAge>1</minAge>
 			</li>
 			<li>
 				<def>HumanlikeChild</def>
-				<minAge>4</minAge>
+				<minAge>3</minAge>
 			</li>
 			<li>
 				<def>HumanlikeTeenager</def>
-				<minAge>13</minAge>
+				<minAge>10</minAge>
 			</li>
 			<li>
 				<def>HumanlikeAdult</def>
-				<minAge>18</minAge>
+				<minAge>15</minAge>
 			</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
 				<!--<li Class="AlienRace.LifeStageAgeAlien">
@@ -175,14 +175,14 @@
 		
 			<ageGenerationCurve>
 				<points>
-					<li>(14,0)</li>
-					<li>(16,100)</li>
-					<li>(50,100)</li>
-					<li>(60,30)</li>
-					<li>(70,18)</li>
-					<li>(80,10)</li>
-					<li>(90,3)</li>
-					<li>(100,0)</li>
+					<li>(10,0)</li>
+					<li>(13,100)</li>
+					<li>(30,100)</li>
+					<li>(37,30)</li>
+					<li>(40,18)</li>
+					<li>(43,10)</li>
+					<li>(50,3)</li>
+					<li>(52,0)</li>
 				</points>
 			</ageGenerationCurve>
 		</race>
