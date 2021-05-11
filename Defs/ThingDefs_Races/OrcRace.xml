@@ -60,7 +60,7 @@
                     </aliencrowntypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
-                    <useGenderedBodies>true</useGenderedBodies>
+                    <useGenderedBodies>false</useGenderedBodies>
                     
                     <colorChannels>
                         <li>
