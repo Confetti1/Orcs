@@ -192,6 +192,7 @@
     <baseDescription>[PAWN_nameDef] was born and raised in the orcish tribes. They participated in training, rituals, and every other facet of tribe life. [PAWN_pronoun] was often in charge of taking care of livestock.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcTribeChild</li>
     </spawnCategories>
@@ -219,6 +220,7 @@
     <baseDescription>[PAWN_nameDef] grew up around the stories of great orc heroes told around the campfire. [PAWN_pronoun] did [PAWN_possessive] best to emulate the storied heroes by chasing wild animals away from the growing field with [PAWN_possessive] sling.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcFieldChild</li>
     </spawnCategories>
@@ -384,7 +386,7 @@
     <defName>Runt</defName>
     <title>Runt</title>
     <titleShort>Runt</titleShort>
-    <baseDescription>Try as [PAWN_pronoun] might, [PAWN_defName] was the least likely to become a chief among their current offspring. [PAWN_pronoun] became bitter, but decided to focus [PAWN_possessive] efforts elsewhere. </baseDescription>
+    <baseDescription>Try as [PAWN_pronoun] might, [PAWN_nameDef] was the least likely to become a chief among their current offspring. [PAWN_pronoun] became bitter, but decided to focus [PAWN_possessive] efforts elsewhere. </baseDescription>
     <slot>Adulthood</slot>
     <linkedBackstory>ChiefChild</linkedBackstory>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -426,6 +428,7 @@
     <slot>Adulthood</slot>
     <linkedBackstory>ChiefChild</linkedBackstory>
     <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
     <spawnCategories>
       <li>OrcChief</li>
     </spawnCategories>
