@@ -324,7 +324,6 @@
          <defName>Shooting</defName>
          <amount>5</amount>
       </li>
-      <skillGains>
       <li>
          <defName>Animals</defName>
          <amount>3</amount>
@@ -347,7 +346,6 @@
          <defName>Plants</defName>
          <amount>5</amount>
       </li>
-      <skillGains>
       <li>
          <defName>Mining</defName>
          <amount>3</amount>
@@ -370,7 +368,6 @@
          <defName>Construction</defName>
          <amount>4</amount>
       </li>
-      <skillGains>
       <li>
          <defName>Crafting</defName>
          <amount>3</amount>
