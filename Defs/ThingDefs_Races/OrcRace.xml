@@ -54,8 +54,10 @@
                     </alienbodytypes>
 			
                     <aliencrowntypes>
-			    <li>Average_Wide</li>
-			    <li>Narrow_Wide</li>
+			    <li>Female_Average_Wide</li>
+			    <li>Female_Narrow_Wide</li>
+			    <li>Male_Average_Wide</li>
+			    <li>Male_Narrow_Wide</li>
                     </aliencrowntypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
