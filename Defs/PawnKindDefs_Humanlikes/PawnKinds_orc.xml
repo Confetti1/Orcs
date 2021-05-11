@@ -8,19 +8,26 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
-    <defName>OrcCommon</defName>
-    <label>orccommon</label>
+    <defName>Orc_Tribal</defName>
+    <label>orctribal</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>CityRaised</li>
-          <li>Bloodrager</li>
-          <li>OrcBartender</li>
-          <li>OrcScholar</li>
-          <li>OrcDrunkard</li>
-          <li>Witness</li>
+          <li>OrcBloodrager</li>
+          <li>OrcWitness</li>
+          <li>OrcTribeChild</li>
+          <li>OrcFieldChild</li>
+          <li>OrcChiefChild</li>
+          <li>OrcAspiringHunter</li>
+          <li>OrcGreedyChild</li>
+          <li>OrcHunter</li>
+          <li>OrcGrower</li>
+          <li>OrcBuilder</li>
+          <li>OrcRunt</li>
+          <li>OrcChief</li>
+          <li>OrcSeer</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -29,7 +36,7 @@
       <li>Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.09</apparelAllowHeadgearChance>
-    <apparelMoney>100~300</apparelMoney>
+    <apparelMoney>200~300</apparelMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <techHediffsMoney>50~50</techHediffsMoney>
     <techHediffsTags>
@@ -40,14 +47,17 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
-    <defName>OrcRich</defName>
-    <label>orcrich</label>
+    <defName>Orc_Colony</defName>
+    <label>orccolony</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>CityRaised</li>
+          <li>OrcCityRaised</li>
+          <li>OrcScholar</li>
+          <li>OrcBartender</li>
+          <li>OrcDrunkard</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
