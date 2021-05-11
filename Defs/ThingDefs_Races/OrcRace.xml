@@ -269,4 +269,41 @@
         </modExtensions>
 
     </AlienRace.ThingDef_AlienRace>
+	<AlienRace.RaceSettings>
+		<defName>OrcSettings</defName>
+		<pawnKindSettings>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>Orc_Tribal</li>
+					</kindDefs>
+				</li>
+				<chance>50.0</chance>
+			</alienslavekinds>
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>Orc_Tribal>
+					</kindDefs>
+					<chance>20.0</chance>
+				</li>
+			</alienrefugeekinds>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Orc_Tribal</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+						
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
 </Defs>
