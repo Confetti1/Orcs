@@ -114,7 +114,7 @@
 		<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 		<intelligence>Humanlike</intelligence>
 		<makesFootprints>true</makesFootprints>
-		<lifeExpectancy>80</lifeExpectancy>
+		<lifeExpectancy>50</lifeExpectancy>
 		<leatherDef>Leather_Human</leatherDef>
 		<nameCategory>HumanStandard</nameCategory>
 		<body>Human</body>
