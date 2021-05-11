@@ -93,7 +93,7 @@
                     </colorChannels>
                     <customDrawSize>(1.1, 1.1)</customDrawSize>
 		    <customHeadDrawSize>0.9, 0.9</customHeadDrawSize>
-		    <headOffset>(0.0, 0.1)</headOffset>
+		    <headOffset>(0.0, 0.05)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
 	
