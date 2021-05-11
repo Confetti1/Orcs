@@ -5,12 +5,12 @@
     <defName>CityRaised</defName>
     <title>Raised in a City</title>
     <titleShort>Civilized</titleShort>
-    <baseDescription>Pawn_nameDef was taken in and raised by civilized folks in the city when they were only a child. Pawn_pronoun learned the ways of proper behavior, and shun the tribal ways of others of their kind.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was taken in and raised by civilized folks in the city when [PAWN_pronoun] was only a child. [PAWN_pronoun] learned the ways of proper behavior, and shunned the tribal ways of others of [PAWN_possessive] kind.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>CityRaised</li>
+      <li>OrcCityRaised</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -45,8 +45,10 @@
     <defName>OrcBartender</defName>
     <title>Orc Bartender</title>
     <titleShort>Bartender</titleShort>
-    <baseDescription>Pawn_Pronoun learned that they had a knack for talking with people and a particular interest in ale. In their adulthood, they opened up their own bar. They even brewed their own ale!</baseDescription>
+    <baseDescription>[PAWN_nameDef] learned that [PAWN_pronoun] had a knack for talking with people and that [PAWN_pronoun] had particular interest in ale. In [PAWN_possessive] adulthood, [PAWN_pronoun] opened up [PAWN_possessive] own bar. [PAWN_pronoun] even brewed [PAWN_possessive] own ale!</baseDescription>
     <linkedBackstory>CityRaised</linkedBackstory>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>OrcBartender</li>
     </spawnCategories>
@@ -62,13 +64,15 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                       SCHOLAR, ORC  -->
+  <!--                                                       DRUNKARD, ORC  -->
   <AlienRace.BackstoryDef>
     <defName>OrcDrunkard</defName>
     <title>Orc Drunkard</title>
     <titleShort>Drunkard</titleShort>
-    <baseDescription>Life was good for Pawn_nameDef until they had their first sip of ale. They were unable to stop, and found themselves in the tavern more than anywhere else. They learned to hold their own in a bar fight, as well as keep up with drunken songs.</baseDescription>
+    <baseDescription>Life was good for [PAWN_nameDef] until they had their first sip of ale. They were unable to stop, and found [PAWN_objective]self in the tavern more than anywhere else. [PAWN_pronoun] learned to hold [PAWN_possessive] own in a bar fight, as well as keep up with drunken songs.</baseDescription>
     <linkedBackstory>CityRaised</linkedBackstory>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>OrcDrunkard</li>
     </spawnCategories>
@@ -91,13 +95,15 @@
     </workDisables>
   </AlienRace.BackstoryDef>
       
-  <!--                                                       DRUNKARD, ORC  -->
+  <!--                                                       SCHOLAR, ORC  -->
   <AlienRace.BackstoryDef>
     <defName>OrcScholar</defName>
     <title>OrcScholar</title>
     <titleShort>Scholar</titleShort>
-    <baseDescription>Having grown up around books, Pawn_nameDef found their way into an academy. They graduated with ease, but not without learning to defend themself from bullies.</baseDescription>
+    <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
     <linkedBackstory>OrcScholar</linkedBackstory>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>OrcDrunkard</li>
     </spawnCategories>
@@ -123,10 +129,11 @@
     <defName>Bloodrager</defName>
     <title>Bloodrager</title>
     <titleShort>Bloodrager</titleShort>
-    <baseDescription>Pawn_nameDef was born and bred for war, and they became a paragon of it. Nearby villages grew to fear the sound of Pawn_nameDef's roar. He learned to relish in the feeling of burning down buildings. </baseDescription>
+    <baseDescription>[PAWN_nameDef] was born and bred for war, and [PAWN_pronoun] became a paragon of it. Nearby villages grew to fear the sound of [PAWN_possessive] roar. [PAWN_pronoun] learned to relish in the feeling of burning down buildings.</baseDescription>
     <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
     <spawnCategories>
-      <li>Bloodrager</li>
+      <li>OrcBloodrager</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -157,10 +164,10 @@
     <defName>Witness</defName>
     <title>Witness</title>
     <titleShort>Witness</titleShort>
-    <baseDescription>Pawn_nameDef's childhood was ordinary for an orc until Pawn_pronoun witnessed a tribesmate kill the chieftan. The tribesmate threatened that they would do worse than kill Pawn_nameDef if they spoke about this. They never spoke again, but trained quietly in secret.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s childhood was ordinary for an orc until [PAWN_pronoun] witnessed a tribesmate kill the chieftan. The tribesmate threatened that they would do worse than kill [PAWN_nameDef] if [PAWN_pronoun] spoke about it to anyone. [PAWN_pronoun] never spoke again, but trained quietly in secret.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>Witness</li>
+      <li>OrcWitness</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -176,56 +183,315 @@
       <li>Social</li>
     </workDisables>
   </AlienRace.BackstoryDef>
-  <!--
+  
+  <!--                                                          TRIBE CHILD, ORC, CHILD -->
   <AlienRace.BackstoryDef>
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
+    <defName>TribeChild</defName>
+    <title>Tribe Child</title>
+    <titleShort>Tribe Child</titleShort>
+    <baseDescription>[PAWN_nameDef] was born and raised in the orcish tribes. They participated in training, rituals, and every other facet of tribe life. [PAWN_pronoun] was often in charge of taking care of livestock.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li></li>
+      <li>OrcTribeChild</li>
     </spawnCategories>
     <skillGains>
       <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
       </li>
     </skillGains>
-    <disallowedTraits>
-      <li>
-      </li>
-    </disallowedTraits>
   </AlienRace.BackstoryDef>
   
+  <!--                                                          FIELD CHILD, ORC, CHILD -->
   <AlienRace.BackstoryDef>
-    <defName></defName>
-    <title></title>
-    <titleShort></titleShort>
-    <baseDescription></baseDescription>
+    <defName>FieldChild</defName>
+    <title>Field Child</title>
+    <titleShort>Field Child</titleShort>
+    <baseDescription>[PAWN_nameDef] grew up around the stories of great orc heroes told around the campfire. [PAWN_pronoun] did [PAWN_possessive] best to emulate the storied heroes by chasing wild animals away from the growing field with [PAWN_possessive] sling.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li></li>
+      <li>OrcFieldChild</li>
     </spawnCategories>
     <skillGains>
       <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
       </li>
     </skillGains>
-    <disallowedTraits>
-      <li>
-      </li>
-    </disallowedTraits>
-  </AlienRace.BackstoryDef> -->
+  </AlienRace.BackstoryDef>
   
+    <!--                                                          CHIEF CHILD, ORC, CHILD -->
+  <AlienRace.BackstoryDef>
+    <defName>ChiefChild</defName>
+    <title>Child of the Chief</title>
+    <titleShort>Chief's Offspring</titleShort>
+    <baseDescription>[PAWN_nameDef] was born to one of the chiefs of [PAWN_possessive] tribe, which meant that [PAWN_pronoun] had the chance to become a chief one day. [PAWN_pronoun] had to work extra hard to prove that [PAWN_pronoun] was worthy.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcChiefChild</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                          ASPIRING HUNTER, ORC, CHILD -->
+  <AlienRace.BackstoryDef>
+    <defName>AspiringHunter</defName>
+    <title>Aspiring Hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>[PAWN_nameDef] watched the hunters haul back dead beasts to feed the tribe, and [PAWN_pronoun] believed that [PAWN_pronoun] wanted to do the same when [PAWN_pronoun] was older. [PAWN_pronoun] did [PAWN_possessive] best to practice, even if [PAWN_pronoun] only had access to a small bow.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcAspiringHunter</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>3</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  
+  <!--                                                        Greedy Child -->
+  <AlienRace.BackstoryDef>
+    <defName>GreedyChild</defName>
+    <title>Greedy Child</title>
+    <titleShort>Greedy</titleShort>
+    <baseDescription>[PAWN_nameDef] cared more about food than anything else. [PAWN_pronoun] would sneak by the bonfire to steal more than [PAWN_pronoun] was supposed to have. Often [PAWN_pronoun] would be caught by the cook, and be forced to help.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcGreedyChild</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Cooking</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <ForcedTraits>
+      <li>
+        <defName>Greedy</defName>
+      </li>
+    </ForcedTraits>
+  </AlienRace.BackstoryDef>
+  
+ <!--                                                          HUNTER, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>Hunter</defName>
+    <title>Hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>[PAWN_nameDef] showed promise with hunting as a child, and was given the opportunity to provide food for [PAWN_possessive] tribe. [PAWN_pronoun] didn't disappoint. </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcHunter</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>5</amount>
+      </li>
+      <skillGains>
+      <li>
+         <defName>Animals</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+    
+  <!--                                                          GROWER, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>Grower</defName>
+    <title>Grower</title>
+    <titleShort>Grower</titleShort>
+    <baseDescription>[PAWN_nameDef] found that they had a knack for plants, and decided to start growing them. Before long, [PAWN_possessive] little farm plot became a vital source of food for [PAWN_possessive] tribe. [PAWN_pronoun] spent lots of time digging out areas to expand [PAWN_possessive] farm. </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcGrower</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Plants</defName>
+         <amount>5</amount>
+      </li>
+      <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+
+  <!--                                                          BUILDER, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>Builder</defName>
+    <title>Builder</title>
+    <titleShort>Builder</titleShort>
+    <baseDescription>When it was time for [PAWN_nameDef] to build [PAWN_possessive] own hut, [PAWN_pronoun] ended up doing a great job. Other tribesmates relied on [PAWN_possessive] insights for all future construction projects. </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcBuilder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Construction</defName>
+         <amount>4</amount>
+      </li>
+      <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>3</amount>
+      </li>
+       <li>
+         <defName>Mining</defName>
+         <amount>3</amount>
+     </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+ 
+<!--                                                          RUNT, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>Runt</defName>
+    <title>Runt</title>
+    <titleShort>Runt</titleShort>
+    <baseDescription>Try as [PAWN_pronoun] might, [PAWN_defName] was the least likely to become a chief among their current offspring. [PAWN_pronoun] became bitter, but decided to focus [PAWN_possessive] efforts elsewhere. </baseDescription>
+    <slot>Adulthood</slot>
+    <linkedBackstory>ChiefChild</linkedBackstory>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>OrcRunt</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
+         <amount>-8</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>-4</amount>
+      </li>
+    </skillGains>
+      <forcedTraits>
+        <li>
+          <defName>Jealous</defName>
+        </li>
+      </forcedTraits>
+  </AlienRace.BackstoryDef>  
+
+    <!--                                                          CHIEF, ORC -->
+  <AlienRace.BackstoryDef>
+    <defName>Chieftan</defName>
+    <title>Chieftan</title>
+    <titleShort>Chief</titleShort>
+    <baseDescription>[PAWN_nameDef] was able to prove [PAWN_possessive] strength, courage, and cunning, thus were chosen by the seer to become a new chieftan. Due to ancient tradition, [PAWN_nameDef] is not allowed to do menial labor around the camp.</baseDescription>
+    <slot>Adulthood</slot>
+    <linkedBackstory>ChiefChild</linkedBackstory>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcChief</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Social</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Medicine</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </AlienRace.BackstoryDef> 
+   
+        <!--                                                          Seer, ORC -->
+    <AlienRace.BackstoryDef>
+    <defName>Seer</defName>
+    <title>Seer</title>
+    <titleShort>Seer</titleShort>
+    <baseDescription>[PAWN_nameDef] began having odd dreams, and soon realized that they pertained to the future. Trained by their tribe seer, [PAWN_pronoun] was able to channel their divination. [PAWN_pronoun] also learned about various tonics and treatments for common ailments.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <spawnCategories>
+      <li>OrcSeer</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Medicine</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+    
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
     <title></title>
     <titleShort></titleShort>
     <baseDescription></baseDescription>
-    <slot>Childhood</slot>
+    <slot>Childhood/Adulthood</slot>
     <spawnCategories>
       <li></li>
     </spawnCategories>
     <skillGains>
       <li>
+         <defName></defName>
+         <amount></amount>
       </li>
     </skillGains>
     <disallowedTraits>
