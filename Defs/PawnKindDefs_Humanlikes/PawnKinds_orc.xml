@@ -164,6 +164,13 @@
     <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>999</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ChiefStory</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
     <itemQuality>Normal</itemQuality>
     <factionLeader>true</factionLeader>
     <canBeSapper>true</canBeSapper>
