@@ -76,5 +76,19 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>Textures/Symbols/OrcIcon</settlementTexturePath>
+  </FactionDef>
+
+  <FactionDef ParentName="OrcTribeBase">
+    <defName>RuggedOrcTribe</defName>
+    <label>rugged orc tribe</label>
+    <description>The orcs live off the land. Sometimes, when the land isn't giving enough, they resort to raids. An orc raid is a matter that is worth taking quite seriously.</description>
+    <colorSpectrum>
+      <li>(150, 16, 16)</li>
+      <li>(80, 110, 30)</li>
+    </colorSpectrum>
+    <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
+    <startingGoodwill>5</startingGoodwill>
+    <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
+  </FactionDef>
   
 </Defs>
