@@ -245,6 +245,7 @@
     <slot>Childhood</slot>
     <spawnCategories>
       <li>OrcTribal</li>
+      <li>ChiefStory</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -431,6 +432,7 @@
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <spawnCategories>
       <li>OrcTribal</li>
+      <li>ChiefStory</li>
     </spawnCategories>
     <skillGains>
       <li>
