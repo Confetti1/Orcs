@@ -1,1 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerOrcUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc6]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc6]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc4][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3][SylOrc5]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>SylOrc1->WordParts/Syllables_OrcNames1</li>
+                <li>SylOrc2->WordParts/Syllables_OrcNames2</li>
+                <li>SylOrc3->WordParts/Syllables_OrcNames3</li>
+                <li>SylOrc4->WordParts/Syllables_OrcNames4</li>
+                <li>SylOrc5->WordParts/Syllables_OrcNames5</li>
+                <li>SylOrc6->WordParts/Syllables_OrcNames6</li>
+                <li>OrcSurname->Words/OrcSurnames</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
 
+    
+    <RulePackDef>
+        <defName>NamerPersonOrc</defName>
+        <include>
+            <li>NamerOrcUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=3)->[MaleOrcFirst] [Color]</li>
+                <li>r_name(p=2)->[MaleOrcFirst] [OrcSurname]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
