@@ -7,7 +7,7 @@
     <categoryTag>Tribal</categoryTag>
     <listOrderPriority>20</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
-    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
