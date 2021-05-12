@@ -3,7 +3,7 @@
 
   <FactionDef ParentName="HumanFactionBase" Name="OrcTribeBase" Abstract ="True">
     <pawnSingular>orc</pawnSingular>
-    <pawnPlural>orcs</pawnPlural>
+    <pawnsPlural>orcs</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
     <listOrderPriority>19</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
