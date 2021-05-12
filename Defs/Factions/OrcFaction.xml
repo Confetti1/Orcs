@@ -62,7 +62,7 @@
         <options>
           <Orc_Tribal>5</Orc_Tribal>
           <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
-          <Orc_Tribal_Archer>5</Orc_TribalArcher>
+          <Orc_Tribal_Archer>5</Orc_Tribal_Archer>
           <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
           <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
         </options>
@@ -70,7 +70,7 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
           <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
           <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
           <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
@@ -88,7 +88,7 @@
           <Elephant>2</Elephant>
         </carriers>
         <guards>
-          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
           <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
           <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
         </guards>
@@ -97,7 +97,7 @@
         <kindDef>Settlement</kindDef>
         <options>
           <Orc_Tribal>10</Orc_Tribal>
-          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
           <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
           <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
           <Orc_Tribal_Chief>10</Orc_Tribal_Chief>
