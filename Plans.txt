@@ -1,0 +1,4 @@
+Finish implementing orcs (to see if I can)
+Add additional races, backstories, and factions for: Elves, Halflings, Gnomes, Dwarves, and possibly even Goblins!
+Add new Pathfinder-based weapons to allow a more medieval-focused run possible (Greatswords, battleaxes, crossbows, etc.)
+Add Pathfinder-based monsters (Trolls?) and creatures (goblin dogs, wollipeds) to appear in the wild, and possibly also add mysterious fey.
