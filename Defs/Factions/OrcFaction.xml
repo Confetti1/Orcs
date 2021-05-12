@@ -14,8 +14,8 @@
     <geneticVariance>0.1</geneticVariance>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
-    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonTribal</pawnNameMakerFemale>
+    <pawnNameMaker>NamerPersonOrc</pawnNameMaker>
+    <pawnNameMakerFemale>NamerPersonOrc</pawnNameMakerFemale>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
       <li>
