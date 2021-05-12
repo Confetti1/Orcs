@@ -19,7 +19,7 @@
             </hairSettings>
 		
             <generalSettings>
-                <maleGenderProbability>0.7</maleGenderProbability>
+                <maleGenderProbability>0.6</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
                 <humanRecipeImport>true</humanRecipeImport>
                 <canLayDown>true</canLayDown>
@@ -293,7 +293,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Orc_Tribal</li>
+								<li>Orc_Colonist</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
