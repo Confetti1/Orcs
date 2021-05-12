@@ -15,7 +15,7 @@
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonTribal</pawnNameMaker>
+    <pawnNameMakerFemale>NamerPersonTribal</pawnNameMakerFemale>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
       <li>
