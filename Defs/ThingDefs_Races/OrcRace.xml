@@ -277,8 +277,8 @@
 					<kindDefs>
 						<li>Orc_Tribal</li>
 					</kindDefs>
-				</li>
-				<chance>50.0</chance>
+					<chance>50.0</chance>
+				</li>	
 			</alienslavekinds>
 			<alienrefugeekinds>
 				<li>
