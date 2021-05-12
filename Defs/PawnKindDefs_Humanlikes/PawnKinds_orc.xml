@@ -17,19 +17,7 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>OrcBloodrager</li>
-          <li>OrcWitness</li>
-          <li>OrcTribeChild</li>
-          <li>OrcFieldChild</li>
-          <li>OrcChiefChild</li>
-          <li>OrcAspiringHunter</li>
-          <li>OrcGreedyChild</li>
-          <li>OrcHunter</li>
-          <li>OrcGrower</li>
-          <li>OrcBuilder</li>
-          <li>OrcRunt</li>
-          <li>OrcChief</li>
-          <li>OrcSeer</li>
+          <li>OrcTribal</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -57,10 +45,7 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>OrcCityRaised</li>
-          <li>OrcScholar</li>
-          <li>OrcBartender</li>
-          <li>OrcDrunkard</li>
+          <li>OrcCivil</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
