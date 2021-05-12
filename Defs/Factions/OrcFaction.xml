@@ -5,7 +5,7 @@
     <pawnSingular>orc</pawnSingular>
     <pawnsPlural>orcs</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
-    <listOrderPriority>19</listOrderPriority>
+    <listOrderPriority>20</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>0</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -32,6 +32,7 @@
       <li>Caravan_Neolithic_BulkGoods</li>
       <li>Caravan_Neolithic_WarMerchant</li>
       <li>Caravan_Neolithic_ShamanMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Neolithic_Standard</li>
@@ -42,7 +43,7 @@
     <allowedArrivalTemperatureRange>-40~40</allowedArrivalTemperatureRange>
     <raidCommonalityFromPointsCurve>
       <points>
-        <li>(0, 2)</li>
+        <li>(0, 1)</li>
       </points>
     </raidCommonalityFromPointsCurve>
     <maxPawnCostPerTotalPointsCurve>
@@ -59,24 +60,69 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <Orc_Tribal>10</Orc_Tribal>
+          <Orc_Tribal>5</Orc_Tribal>
+          <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
+          <Orc_Tribal_Archer>5</Orc_TribalArcher>
+          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
+          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
         </options>
       </li>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Orc_Tribal>10</Orc_Tribal>
+          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
+          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
+          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
         </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Orc_Tribal_Trader>1</Orc_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
+          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
+        </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
           <Orc_Tribal>10</Orc_Tribal>
+          <Orc_Tribal_Archer>10</Orc_TribalArcher>
+          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
+          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
+          <Orc_Tribal_Chief>10</Orc_Tribal_Chief>
         </options>
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>Textures/Symbols/OrcIcon</settlementTexturePath>
   </FactionDef>
+  
+  <ThingSetMakerDef>
+    <defName>OrcTribeRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+            <li>Silver</li>
+            <li>Jade</li>
+            <li>MedicineHerbal</li>
+            <li>Pemmican</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
 
   <FactionDef ParentName="OrcTribeBase">
     <defName>RuggedOrcTribe</defName>
