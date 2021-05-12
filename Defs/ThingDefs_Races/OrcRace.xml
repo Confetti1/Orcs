@@ -92,7 +92,7 @@
                         </li>
                     </colorChannels>
                     <customDrawSize>(1.1, 1.1)</customDrawSize>
-		    <customHeadDrawSize>0.9, 0.9</customHeadDrawSize>
+		    <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 		    <headOffset>(0.0, 0.05)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
@@ -276,6 +276,7 @@
 				<li>
 					<kindDefs>
 						<li>Orc_Tribal</li>
+						<li>Orc_Colonist</li>
 					</kindDefs>
 					<chance>50.0</chance>
 				</li>	
@@ -284,6 +285,7 @@
 				<li>
 					<kindDefs>
 						<li>Orc_Tribal</li>
+						<li>Orc_Colonist</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
