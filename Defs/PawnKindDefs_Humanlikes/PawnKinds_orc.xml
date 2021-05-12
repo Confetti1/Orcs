@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- PLAYER PAWNS -->
   <PawnKindDef Abstract="True" Name ="BasePlayerOrcPawnKind">    
     <race>Orc</race>
     <combatPower>30</combatPower>
@@ -12,7 +13,7 @@
     <defName>Orc_Colonist</defName>
     <label>orccolonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <chemicalAddictionChance>0.6</chemicalAddictionChance>
+    <chemicalAddictionChance>0.3</chemicalAddictionChance>
     <backstoryFiltersOverride>
       <li>
         <categories>
@@ -34,9 +35,50 @@
     </techHediffsTags>
  </PawnKindDef>
   
+  <!-- NPC PAWNS -->
   
-  <!--
-  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
+<PawnKindDef Name="OrcTribalBase" Abstract="True">
+  <race>Orc</race>
+  <defaultFactionType>RuggedOrcTribe</defaultFactionType>
+  <maxGenerationAge>40</maxGenerationAge>
+  <chemicalAddictionChance>0.05</chemicalAddictionChance>
+  <invNutrition>2.55</invNutrition>
+  <invFoodDef>Pemmican</invFoodDef>
+  <apparelTags>
+    <li>Neolithic</li>
+  </apparelTags>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="OrcTribalBase">
+  <defName>Orc_Tribal</defName>
+  <label>orctribal</label>
+  <combatPower>40</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>OrcTribal</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Poor</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>100~200</weaponMoney>
+  <weaponTags>
+    <li>NeolithicMeleeBasic</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+
+      
+      <!--
+<PawnKindDef ParentName="BasePlayerOrcPawnKind">
     <defName>Orc_Tribal</defName>
     <label>orctribal</label>
     <combatPower>50</combatPower>
