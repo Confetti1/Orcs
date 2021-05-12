@@ -103,7 +103,7 @@
     <title>OrcScholar</title>
     <titleShort>Scholar</titleShort>
     <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
-    <linkedBackstory>OrcScholar</linkedBackstory>
+    <linkedBackstory>CityRaised</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -125,6 +125,58 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
+  <!--                                                       PIT CHILD -->
+  <AlienRace.BackstoryDef>
+    <defName>PitChild</defName>
+    <title>Pit Child</title>
+    <titleShort>Pit Child</titleShort>
+    <baseDescription>[PAWN_nameDef] never knew [PAWN_possessive] parents, only that [PAWN_pronoun] was meant to fight. Chosen for [PAWN_possessive] natural strength, [PAWN_nameDef] was forced to fight for the entertainment of others.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+      <li>Social</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                       PIT FIGHTER -->
+  <AlienRace.BackstoryDef>
+    <defName>PitFighter</defName>
+    <title>Pit Fighter</title>
+    <titleShort>Pit Fighter</titleShort>
+    <linkedBackstory>PitChild</linkedBackstory>
+    <baseDescription>[PAWN_nameDef] grew up around violence and blood. [PAWN_pronoun] never learned to relate to people, as [PAWN_pronoun] was far too busy figuring out their weakness. One day, [PAWN_pronoun] was able to fight [PAWN_possessive] way out of the fighting pits, but didn't know where to go after that. </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>8</amount>
+      </li>
+    </skillGains>
+    <workAllows>
+      <li>ManualDumb</li>
+      <li>Construction</li>
+      <li>Violent</li>
+      <li>Hauling</li>
+    </workAllows>
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
       
   
   <!---                                                           BLOODRAGER, ORC -->
