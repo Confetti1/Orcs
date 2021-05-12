@@ -41,9 +41,21 @@
                 <traitCount>1~2</traitCount>
                 <additionalTraits>1~2</additionalTraits>
                 
+		<factionRelations>
+			<li>
+				<factions>
+					<li>RuggedOrcTribe</li>
+				</factions>
+				<goodwill>
+					<min>-50</min>
+					<max>100</max>
+				</goodwill>
+			</li>
+		    </factionRelations>
+		    
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <allowHumanBios>true</allowHumanBios>
-                <immuneToXenophobia>true</immuneToXenophobia>
+                <immuneToXenophobia>false</immuneToXenophobia>
                 <minAgeForAdulthood>15</minAgeForAdulthood>
                 
                 <alienPartGenerator>	
