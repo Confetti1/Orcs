@@ -1,4 +1,4 @@
-Finish implementing orcs (to see if I can)
+Finish implementing orcs (to see if it's possible) (I'm almost there I swear)
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
   -Halflings 
