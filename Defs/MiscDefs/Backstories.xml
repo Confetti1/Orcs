@@ -49,6 +49,7 @@
     <linkedBackstory>CityRaised</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -73,6 +74,7 @@
     <linkedBackstory>CityRaised</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -104,6 +106,7 @@
     <linkedBackstory>OrcScholar</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
