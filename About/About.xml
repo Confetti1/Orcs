@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Orc Race</name>
+  <name>Rimfinder</name>
   <author>Confetti</author>
   <supportedVersions>
     <li>1.2</li>
   </supportedVersions>
-  <packageId>Confetti.OrcRace.core</packageId>
+  <packageId>Confetti.Rimfinder.core</packageId>
   
   <modDependencies>
     <li>
@@ -15,7 +15,7 @@
     </li>
   </modDependencies>
   
-  <description>Adds Orcs, probably</description>
+  <description>Adds Orcs, and hopefully other races to the game!</description>
   <loadAfter>
       <li>Ludeon.RimWorld</li>
     	<li>Ludeon.RimWorld.Royalty</li>
