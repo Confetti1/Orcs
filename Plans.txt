@@ -9,6 +9,10 @@ Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Greatswords
   -Battleaxes
   -Crossbows
+Add new Pathfinder-based siege weapons and defenses
+  -Ballistae (Like an autocannon that needs to be manned)
+  -Catapult (similar to mortars)
+  -Cannon (With possible ammunition options)
 Add Pathfinder-based monsters and creatures to appear in the wild, and possibly also add mysterious fey.
   -Goblin Dogs
   -Wollipeds
