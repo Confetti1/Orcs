@@ -10,7 +10,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>OrcCityRaised</li>
+      <li>OrcCivil</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -50,7 +50,7 @@
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li>OrcBartender</li>
+      <li>OrcCivil</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -74,7 +74,7 @@
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li>OrcDrunkard</li>
+      <li>OrcCivil</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -105,7 +105,7 @@
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li>OrcDrunkard</li>
+      <li>OrcCivil</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -133,7 +133,7 @@
     <bodyTypeGlobal>Hulk</bodyTypeGlobal>
     <slot>Adulthood</slot>
     <spawnCategories>
-      <li>OrcBloodrager</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -167,7 +167,7 @@
     <baseDescription>[PAWN_nameDef]'s childhood was ordinary for an orc until [PAWN_pronoun] witnessed a tribesmate kill the chieftan. The tribesmate threatened that they would do worse than kill [PAWN_nameDef] if [PAWN_pronoun] spoke about it to anyone. [PAWN_pronoun] never spoke again, but trained quietly in secret.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>OrcWitness</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -194,7 +194,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
-      <li>OrcTribeChild</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -222,7 +222,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
-      <li>OrcFieldChild</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -244,7 +244,7 @@
     <baseDescription>[PAWN_nameDef] was born to one of the chiefs of [PAWN_possessive] tribe, which meant that [PAWN_pronoun] had the chance to become a chief one day. [PAWN_pronoun] had to work extra hard to prove that [PAWN_pronoun] was worthy.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>OrcChiefChild</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -270,7 +270,7 @@
     <baseDescription>[PAWN_nameDef] watched the hunters haul back dead beasts to feed the tribe, and [PAWN_pronoun] believed that [PAWN_pronoun] wanted to do the same when [PAWN_pronoun] was older. [PAWN_pronoun] did [PAWN_possessive] best to practice, even if [PAWN_pronoun] only had access to a small bow.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>OrcAspiringHunter</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -293,7 +293,7 @@
     <baseDescription>[PAWN_nameDef] cared more about food than anything else. [PAWN_pronoun] would sneak by the bonfire to steal more than [PAWN_pronoun] was supposed to have. Often [PAWN_pronoun] would be caught by the cook, and be forced to help.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
-      <li>OrcGreedyChild</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -319,7 +319,7 @@
     <baseDescription>[PAWN_nameDef] showed promise with hunting as a child, and was given the opportunity to provide food for [PAWN_possessive] tribe. [PAWN_pronoun] didn't disappoint. </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
-      <li>OrcHunter</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -341,7 +341,7 @@
     <baseDescription>[PAWN_nameDef] found that they had a knack for plants, and decided to start growing them. Before long, [PAWN_possessive] little farm plot became a vital source of food for [PAWN_possessive] tribe. [PAWN_pronoun] spent lots of time digging out areas to expand [PAWN_possessive] farm. </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
-      <li>OrcGrower</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -363,7 +363,7 @@
     <baseDescription>When it was time for [PAWN_nameDef] to build [PAWN_possessive] own hut, [PAWN_pronoun] ended up doing a great job. Other tribesmates relied on [PAWN_possessive] insights for all future construction projects. </baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
-      <li>OrcBuilder</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -392,7 +392,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li>OrcRunt</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -430,7 +430,7 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <spawnCategories>
-      <li>OrcChief</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -459,7 +459,7 @@
     <baseDescription>[PAWN_nameDef] began having odd dreams, and soon realized that they pertained to the future. Trained by their tribe seer, [PAWN_pronoun] was able to channel their divination. [PAWN_pronoun] also learned about various tonics and treatments for common ailments.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
-      <li>OrcSeer</li>
+      <li>OrcTribal</li>
     </spawnCategories>
     <skillGains>
       <li>
