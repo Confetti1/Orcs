@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <PawnKindDef Abstract="True" Name ="BasePlayerOrcPawnKind">    
+    <race>Orc</race>
+    <combatPower>30</combatPower>
+    <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
-    <maxGenerationAge>40</maxGenerationAge>
   </PawnKindDef>
   
+  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
+    <defName>Orc_Colonist</defName>
+    <label>orccolonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.6</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>OrcCivil</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <IndustrialBasic>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+ </PawnKindDefs>
+  
+  
+  <!--
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
     <defName>Orc_Tribal</defName>
     <label>orctribal</label>
     <combatPower>50</combatPower>
-    <isFighter>false</isFighter>
-    <defaultFactionType>RuggedOrcTribe</defaultFactionType>
+    
+    <defaultFactionType>PlayerColony</defaultFactionType>
     <race>Orc</race>
     <itemQuality>Poor</itemQuality>
     <backstoryFiltersOverride>
@@ -35,7 +65,9 @@
       <li>Simple</li>
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
-  </PawnKindDef>
+  </PawnKindDef>   -->
+  
+  
   <!--
   <PawnKindDef ParentName="BasePlayerOrcPawnKind">
     <defName>Orc_Colony</defName>
