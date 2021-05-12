@@ -269,7 +269,6 @@
         </modExtensions>
 
     </AlienRace.ThingDef_AlienRace>
-	<!--
 	<AlienRace.RaceSettings>
 		<defName>OrcSettings</defName>
 		<pawnKindSettings>
@@ -307,5 +306,4 @@
 						
 		</pawnKindSettings>
 	</AlienRace.RaceSettings>
-	-->
 </Defs>
