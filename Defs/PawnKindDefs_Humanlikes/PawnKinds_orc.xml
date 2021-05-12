@@ -21,7 +21,7 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <IndustrialBasic>
+      <li>IndustrialBasic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>350~600</apparelMoney>
