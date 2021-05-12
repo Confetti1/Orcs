@@ -104,7 +104,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <settlementTexturePath>Textures/Symbols/OrcIcon</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/OrcSettlement</settlementTexturePath>
   </FactionDef>
   
   <ThingSetMakerDef>
@@ -132,7 +132,7 @@
       <li>(150, 16, 16)</li>
       <li>(80, 110, 30)</li>
     </colorSpectrum>
-    <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
     <startingGoodwill>5</startingGoodwill>
     <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
   </FactionDef>
