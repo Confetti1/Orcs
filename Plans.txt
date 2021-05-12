@@ -13,6 +13,8 @@ Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Flintlocks
   -Double Hackbut
   -Shield pistol/tamohawk pistol?
+  
+-------POSSIBLE/STRETCH THINGS-------
 Add new Pathfinder-based siege weapons and defenses
   -Ballistae (Like an autocannon that needs to be manned)
   -Catapult (similar to mortars)
@@ -21,3 +23,6 @@ Add Pathfinder-based monsters and creatures to appear in the wild, and possibly 
   -Goblin Dogs
   -Wollipeds
   -Trolls?
+Add Pathfinder-based ores and materials
+  -Adamantine (Ignores armor, improves defense by a lot)
+  -Mithril (Weapons attack faster? Decrease movement speed penalty in armor)
