@@ -12,6 +12,7 @@
   <PawnKindDef ParentName="GoblinTribalbase">
     <defName>Goblin_Tribal</defName>
     <label>goblintribal</label>
+    <race>Goblin</race>
     <combatPower>10</combatPower>
     <defaultFactionType>GoblinTribe</defaultFactionType>
     <chemicalAddictionChance>0.3</chemicalAddictionChance>
