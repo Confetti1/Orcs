@@ -9,8 +9,10 @@ Add additional races, backstories (race specific and otherwise), and factions fo
   -Dwarves 
     -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
     -Custom dwarven-themed ale that gives big benefits to Dwarves, but more penalties to others?
+    -Dwarven themed weapons?
   -Goblins
     -Incredibly weak, but large in numbers. Have silly names.
+    -Goblin themed weapons
   -Tieflings
     -Use tiefling heritages as child backstories
     -See what customization I can get away with based on the backstories (different skin colors, maybe even horn shapes from tiefling.)
