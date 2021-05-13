@@ -46,7 +46,6 @@
     <title>Orc Bartender</title>
     <titleShort>Bartender</titleShort>
     <baseDescription>[PAWN_nameDef] learned that [PAWN_pronoun] had a knack for talking with people and that [PAWN_pronoun] had particular interest in ale. In [PAWN_possessive] adulthood, [PAWN_pronoun] opened up [PAWN_possessive] own bar. [PAWN_pronoun] even brewed [PAWN_possessive] own ale!</baseDescription>
-    <linkedBackstory>CityRaised</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -71,7 +70,6 @@
     <title>Orc Drunkard</title>
     <titleShort>Drunkard</titleShort>
     <baseDescription>Life was good for [PAWN_nameDef] until they had their first sip of ale. They were unable to stop, and found [PAWN_objective]self in the tavern more than anywhere else. [PAWN_pronoun] learned to hold [PAWN_possessive] own in a bar fight, as well as keep up with drunken songs.</baseDescription>
-    <linkedBackstory>CityRaised</linkedBackstory>
     <slot>Adulthood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -169,6 +167,7 @@
       <li>Construction</li>
       <li>Violent</li>
       <li>Hauling</li>
+      <li>Mining</li>
     </workAllows>
     <forcedTraits>
       <li>
@@ -176,6 +175,117 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
+  
+  <!--                                                          Homeless  -->
+  <AlienRace.BackstoryDef>
+    <defName>HomelessChild</defName>
+    <title>Homeless Child</title>
+    <titleShort>Homeless</titleShort>
+    <baseDescription>[PAWN_nameDef] lived on the streets for as long as [PAWN_pronoun] can remember. [PAWN_pronoun] learned some tricks to survive. </baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                          Ex Tribe Member -->
+  <AlienRace.BackstoryDef>
+    <defName>ExTribeMember</defName>
+    <title>Ex Tribe Member</title>
+    <titleShort>City Orc</titleShort>
+    <baseDescription>[PAWN_nameDef] was born and raised with orcish tribes, but one day got lost when [PAWN_pronoun] was little. When [PAWN_pronoun] was rescued by civilized humans, [PAWN_pronoun] followed them without looking back on [PAWN_possessive] old life.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Medicine</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                          HAULER -->
+  <AlienRace.BackstoryDef>
+    <defName>Hauler</defName>
+    <title>Hauler</title>
+    <titleShort>Hauler</titleShort>
+    <baseDescription>Revered for [PAWN_possessive] strength, [PAWN_nameDef] was hired for many different construction and mining projects. [PAWN_pronoun] found [PAWN_possessive] pulling carts full of materials regularly, and got incredibly fit from it.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Construction</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Mining</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>SpeedOffset</defName>
+        <degree>2</degree>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                          Performer -->
+  <AlienRace.BackstoryDef>
+    <defName>Performer</defName>
+    <title>Performer</title>
+    <titleShort>Performer</titleShort>
+    <baseDescription>Due to being an orc, [PAWN_nameDef] got lots of attention, and [PAWN_pronoun] quickly learned that [PAWN_pronoun] enjoyed it. [PAWN_pronoun] sought out to hone [PAWN_possessive] skills to get as much attention as possible!</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>OrcCivil</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  
   
       
   
