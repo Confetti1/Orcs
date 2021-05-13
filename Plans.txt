@@ -1,8 +1,8 @@
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
-    -Better shooters, 
+    -Better shooters, faster research
   -Halflings 
-    -Better growers, (something to represent sneakiness?)
+    -Better growers, (something to represent sneakiness?), Somehow give mood bonuses to nearby colonists (or some other way to represent luck?)
   -Gnomes 
     -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shap
     -Add custom tinker-type researches/craft projects that only gnomes can make. (Limber Leg, clockwork limbs)
