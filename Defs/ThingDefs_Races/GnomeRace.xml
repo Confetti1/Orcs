@@ -26,7 +26,7 @@
 		    
                 <forcedRaceTraitEntries>
                     	<li>
-                        	<defName>Nuerotic</defName>
+                        	<defName>Neurotic</defName>
 				<degree>2</degree>
                         	<chance>30</chance>
                 	</li>
@@ -295,7 +295,7 @@
 	    
     </AlienRace.ThingDef_AlienRace>
 	<AlienRace.RaceSettings>
-		<defName>OrcSettings</defName>
+		<defName>GnomeSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds>
 				<li>
