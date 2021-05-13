@@ -381,7 +381,7 @@
     </disallowedTraits>
     <forcedTraits>
       <li>
-        <defName>TorturedArtist</defname>
+        <defName>TorturedArtist</defName>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
