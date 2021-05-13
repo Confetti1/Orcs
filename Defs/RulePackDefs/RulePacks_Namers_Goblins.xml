@@ -7,7 +7,7 @@
             <rulesStrings>
                 <li>GoblinFirst->[GobNoun][GobVerb]</li>
                 <li>GoblinFirst->[GobNoise][GobNoise]</li>
-                <li>GoblinFirst->[GobNoun]</li>
+                <li>GoblinLast->[GobNoun]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>GobNoise->Words/GoblinNoise</li>
@@ -25,7 +25,7 @@
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=1)->[GoblinFirst]</li>
+                <li>r_name(p=w)->[GoblinFirst] [GoblinLast]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
