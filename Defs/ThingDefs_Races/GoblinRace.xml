@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-        <defName>Gnome</defName>
-        <label>gnome</label>
-        <description>Gnomes are small humanoids with strange connections to Fey and the First World. They have an excitable demeanor, and are prone to becoming incredibly passionate about a craft or trade.</description>
+        <defName>Goblin</defName>
+        <label>goblin</label>
+        <description>Goblins are childish, impulsive, and stupid. They are tiny, ugly creatures with a mouth full of fangs and an obsession with fire. They will do whatever they want, whether it's beat each other up or raid people for fun. They can be civilized, but their childish ways will always be missing. They breed and mature quickly, so actual goblin children are fairly rare.</description>
         <alienRace>
   	    
 	    <graphicPaths>
 		<li>
-			<body>Gnome/Bodies/</body>
-			<head>Gnome/Heads/</head>
+			<body>Goblin/Bodies/</body>
+			<head>Goblin/Heads/</head>
 		</li>
 	    </graphicPaths>
             
 	    <hairSettings>
-                <hasHair>true</hasHair>
-                <getsGreyAt>200</getsGreyAt>
+                <hasHair>False</hasHair>
             </hairSettings>
 		
             <generalSettings>
@@ -26,7 +25,7 @@
 		    
                 <forcedRaceTraitEntries>
                     	<li>
-                        	<defName>Neurotic</defName>
+                        	<defName>Bloodlust</defName>
 				<degree>2</degree>
                         	<chance>30</chance>
                 	</li>
@@ -35,19 +34,17 @@
                 <disallowedTraits>
                 </disallowedTraits>
                 
-                <traitCount>1~2</traitCount>
+                <traitCount>1</traitCount>
                 <additionalTraits>1~2</additionalTraits>
 		    
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <allowHumanBios>true</allowHumanBios>
                 <immuneToXenophobia>false</immuneToXenophobia>
-                <minAgeForAdulthood>15</minAgeForAdulthood>
+                <minAgeForAdulthood>10</minAgeForAdulthood>
                 
                 <alienPartGenerator>				
                	    <alienbodytypes>
 			<li>Thin</li>
-                        <li>Male</li>
-			<li>Female</li>
                     </alienbodytypes>
 			
                     <aliencrowntypes>
@@ -62,7 +59,7 @@
 			
 		    <customDrawSize>(0.7, 0.7)</customDrawSize>
 		    <customHeadDrawSize>(0.8, 0.8)</customHeadDrawSize>
-		    <customPortraitDrawSize>(0.7, 0.7)</customPortraitDrawSize>
+		    <customPortraitDrawSize>(0.8, 0.8)</customPortraitDrawSize>
 		    <customPortraitHeadDrawSize>(0.8,0.8)</customPortraitHeadDrawSize>
                     
                     <colorChannels>
@@ -148,9 +145,9 @@
 		<nameCategory>HumanStandard</nameCategory>
 		<body>Human</body>
 		<baseBodySize>0.6</baseBodySize>
-		<baseHealthScale>0.8</baseHealthScale>
+		<baseHealthScale>0.5</baseHealthScale>
 		<foodType>OmnivoreHuman</foodType>
-		<gestationPeriodDays>45</gestationPeriodDays>
+		<gestationPeriodDays>20</gestationPeriodDays>
 		<meatMarketValue>0.8</meatMarketValue>
 		<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
@@ -171,19 +168,19 @@
 			</li>
 			<li>
 				<def>HumanlikeToddler</def>
-				<minAge>5</minAge>
+				<minAge>3</minAge>
 			</li>
 			<li>
 				<def>HumanlikeChild</def>
-				<minAge>15</minAge>
+				<minAge>5</minAge>
 			</li>
 			<li>
 				<def>HumanlikeTeenager</def>
-				<minAge>25</minAge>
+				<minAge>9</minAge>
 			</li>
 			<li>
 				<def>HumanlikeAdult</def>
-				<minAge>40</minAge>
+				<minAge>12</minAge>
 			</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
 				<!--<li Class="AlienRace.LifeStageAgeAlien">
@@ -204,24 +201,24 @@
 		
 			<ageGenerationCurve>
 				<points>
-					<li>(40,0)</li>
-					<li>(60,100)</li>
-					<li>(80,100)</li>
-					<li>(120,30)</li>
-					<li>(180,18)</li>
-					<li>(240,10)</li>
-					<li>(300,3)</li>
-					<li>(360,0)</li>
+					<li>(11,0)</li>
+					<li>(13,100)</li>
+					<li>(30,100)</li>
+					<li>(37,30)</li>
+					<li>(40,18)</li>
+					<li>(43,10)</li>
+					<li>(50,3)</li>
+					<li>(52,0)</li>
 				</points>
 			</ageGenerationCurve>
 		</race>
         
         <statBases>
-            <MarketValue>1500</MarketValue>
-            <MoveSpeed>3.5</MoveSpeed>
-            <ComfyTemperatureMin>16</ComfyTemperatureMin>
-            <ComfyTemperatureMax>26</ComfyTemperatureMax>
-            <LeatherAmount>30</LeatherAmount>
+            <MarketValue>750</MarketValue>
+            <MoveSpeed>4.6</MoveSpeed>
+            <ComfyTemperatureMin>12</ComfyTemperatureMin>
+            <ComfyTemperatureMax>28</ComfyTemperatureMax>
+            <LeatherAmount>15</LeatherAmount>
             <RoyalFavorValue>3</RoyalFavorValue>
         </statBases>
         
@@ -265,8 +262,8 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>5</power>
-                <cooldownTime>2</cooldownTime>
+                <power>10</power>
+                <cooldownTime>.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.04</chanceFactor>
                 <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
@@ -296,40 +293,16 @@
 	    
     </AlienRace.ThingDef_AlienRace>
 	<AlienRace.RaceSettings>
-		<defName>GnomeSettings</defName>
+		<defName>GoblinSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>Gnome_Colonist</li>
+						<li>Goblin_Tribal</li>
 					</kindDefs>
-					<chance>30.0</chance>
+					<chance>10.0</chance>
 				</li>	
-			</alienslavekinds>
-			<alienrefugeekinds>
-				<li>
-					<kindDefs>
-						<li>Gnome_Colonist</li>
-					</kindDefs>
-					<chance>30.0</chance>
-				</li>
-			</alienrefugeekinds>
-			<startingColonists>
-				<li>
-					<pawnKindEntries>
-						<li>
-							<kindDefs>
-								<li>Gnome_Colonist</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-					</pawnKindEntries>
-					<factionDefs>
-						<li>PlayerColony</li>
-					</factionDefs>
-				</li>
-			</startingColonists>
-						
+			</alienslavekinds>						
 		</pawnKindSettings>
 	</AlienRace.RaceSettings>
 </Defs>
