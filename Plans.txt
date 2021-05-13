@@ -1,10 +1,14 @@
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
+    -Better shooters, 
   -Halflings 
+    -Better growers, (something to represent sneakiness?)
   -Gnomes 
     -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shape
   -Dwarves 
+    -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
   -Goblins
+    -Incredibly weak, but large in numbers. Have silly names.
   -Tieflings
     -Use tiefling heritages as child backstories
     -See what customization I can get away with based on the backstories (different skin colors, maybe even horn shapes from tiefling.)
