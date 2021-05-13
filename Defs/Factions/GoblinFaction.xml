@@ -16,6 +16,8 @@
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <pawnNameMaker>NamerPersonGoblin</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonGoblin</pawnNameMakerFemale>
+    <hairTags>
+    </hairTags>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
       <li>
