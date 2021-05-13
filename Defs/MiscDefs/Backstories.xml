@@ -444,7 +444,7 @@
     <title>Artistic Genius</title>
     <titleShort>Artistic Genius</titleShort>
     <baseDescription>[PAWN_nameDef]'s obsession with art never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
-    <slot>Adulthhood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
 		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
     <linkedBackstory>EarlyArtObsession</linkedBackstory>
@@ -460,9 +460,8 @@
     <workDisables>
       <li>Hauling</li>
       <li>Mining</li>
-      <li>Plantwork</li>
+      <li>PlantWork</li>
       <li>Cooking</li>
-      <li>Medicine</li>
     </workDisables>
   </AlienRace.BackstoryDef>
   
@@ -472,7 +471,7 @@
     <title>Crafting Genius</title>
     <titleShort>Crafting Genius</titleShort>
     <baseDescription>[PAWN_nameDef]'s obsession with crafting never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
-    <slot>Adulthhood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
 		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
     <linkedBackstory>EarlyCraftObsession</linkedBackstory>
@@ -488,9 +487,8 @@
     <workDisables>
       <li>Hauling</li>
       <li>Mining</li>
-      <li>Plantwork</li>
+      <li>PlantWork</li>
       <li>Cooking</li>
-      <li>Medicine</li>
     </workDisables>
   </AlienRace.BackstoryDef>
   
@@ -500,7 +498,7 @@
     <title>Genius Inventor</title>
     <titleShort>Inventor</titleShort>
     <baseDescription>[PAWN_nameDef]'s obsession with inventing never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else. Their ramblings are so incoherent that it bothers others, too.</baseDescription>
-    <slot>Adulthhood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
 		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
     <linkedBackstory>EarlyInventionObsession</linkedBackstory>
@@ -516,9 +514,8 @@
     <workDisables>
       <li>Hauling</li>
       <li>Mining</li>
-      <li>Plantwork</li>
+      <li>PlantWork</li>
       <li>Cooking</li>
-      <li>Medicine</li>
     </workDisables>
     <forcedTraits>
       <li>
