@@ -112,7 +112,11 @@
     <workDisables>
       <li>
         <defName>ManualDumb</defName>
+      </li>
+      <li>
         <defName>Cooking</defName>
+      </li>
+      <li>
         <defName>Mining</defName>
       </li>
     </workDisables>
