@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerGoblinUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>GoblinFirst->[GobNoun][GobVerb]</li>
+                <li>GoblinFirst->[GobNoun][GobNoise]</li>
+                <li>GoblinFirst->[GobNoise][GobNoise]</li>
+                <li>GoblinFirst->[GobNoun]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>GobNoise->Words/GoblinNoise</li>
+                <li>GobVerb->WordParts/GoblinVerb</li>
+                <li>GobNoun->WordParts/GoblinNoun</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    
+    <RulePackDef>
+        <defName>NamerPersonGoblin</defName>
+        <include>
+            <li>NamerGoblinUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[GoblinFirst]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
