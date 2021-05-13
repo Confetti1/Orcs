@@ -110,7 +110,7 @@
 		<nameCategory>HumanStandard</nameCategory>
 		<body>Human</body>
 		<baseBodySize>0.6</baseBodySize>
-		<baseHealthScale>0.5</baseHealthScale>
+		<baseHealthScale>0.4</baseHealthScale>
 		<foodType>OmnivoreHuman</foodType>
 		<gestationPeriodDays>20</gestationPeriodDays>
 		<meatMarketValue>0.8</meatMarketValue>
