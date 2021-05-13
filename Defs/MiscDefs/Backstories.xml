@@ -357,7 +357,7 @@
     <defName>EarlyArtObsession</defName>
     <title>Early Art Obsession</title>
     <titleShort>Obsessed</titleShort>
-    <baseDescription>[PAWN_nameDef] was raised by gnomes who encouranged [PAWN_possessive] creativity and uniqueness. [PAWN_pronoun] quickly developed a specific obsession with art.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was raised by gnomes who encouraged [PAWN_possessive] creativity and uniqueness. [PAWN_pronoun] quickly developed a specific obsession with art.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1109,7 +1109,11 @@
     </spawnCategories>
     <skillGains>
       <li>
-         <defName>Ranged</defName>
+         <defName>Shooting</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
          <amount>2</amount>
       </li>
       <li>
