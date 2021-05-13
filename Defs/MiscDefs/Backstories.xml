@@ -433,7 +433,7 @@
     </disallowedTraits>
     <forcedTraits>
       <li>
-        <defName>TooSmart</defname>
+        <defName>TooSmart</defName>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
