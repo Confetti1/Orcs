@@ -67,19 +67,19 @@
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(200, 190, 180, 255)</only>
+                                        <only>RGBA(240, 210, 170, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(200, 180, 210, 255)</only>
+                                        <only>RGBA(210, 242, 200, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(180, 210, 180, 255)</only>
+                                        <only>RGBA(220, 200, 240, 255)</only>
                                     </li>
 				    <li>
                                         <weight>10</weight>
-                                        <only>RGBA(150, 188, 194, 255)</only>
+                                        <only>RGBA(240, 200, 200, 255)</only>
                                     </li>
                                 </options>
                             </first> <!--
@@ -124,8 +124,8 @@
                             </second>
                         </li>
                     </colorChannels>
-                    <customDrawSize>(.7, .7)</customDrawSize>
-		    <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+                    <customDrawSize>(0.7, 0.7)</customDrawSize>
+		    <customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 		    <headOffset>(0.0, -0.1)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
@@ -203,8 +203,8 @@
 		
 			<ageGenerationCurve>
 				<points>
-					<li>(30,0)</li>
-					<li>(40,100)</li>
+					<li>(40,0)</li>
+					<li>(60,100)</li>
 					<li>(80,100)</li>
 					<li>(120,30)</li>
 					<li>(180,18)</li>
