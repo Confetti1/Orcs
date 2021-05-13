@@ -6,7 +6,7 @@
     <defName>ResponsibleChild</defName>
     <title>Oldest Child</title>
     <titleShort>Oldest</titleShort>
-    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large family of [PAWN_alienRace]s. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
+    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large family of [PAWN_alienRace]s. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>bl
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
@@ -204,7 +204,7 @@
     <titleShort>Blacksmith</titleShort>
     <baseDescription>[PAWN_nameDef] enjoyed working with metal, and decided to turn it into [PAWN_possessive] livelihood. [PAWN_pronoun] would regularly visit mines to source [PAWN_possessive] materials, and enjoyed practicing with [PAWN_possessive] latest masterpiece. </baseDescription>
     <slot>Adulthood</slot>
-    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
     <spawnCategories>
       <li>City</li>
     </spawnCategories>
