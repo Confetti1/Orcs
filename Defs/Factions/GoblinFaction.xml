@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="HumanFactionBase" Name="OrcTribeBase" Abstract ="True">
+  <FactionDef ParentName="HumanFactionBase" Name="GoblinTribeBase" Abstract ="True">
     <pawnSingular>goblin</pawnSingular>
     <pawnsPlural>goblins</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
