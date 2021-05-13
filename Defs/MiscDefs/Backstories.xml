@@ -6,7 +6,7 @@
     <defName>ResponsibleChild</defName>
     <title>Oldest Child</title>
     <titleShort>Oldest</titleShort>
-    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>bl
+    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
@@ -1117,12 +1117,14 @@
          <amount>2</amount>
       </li>
     </skillGains>
+	<!--
     <workDisables>
       <li>
 	      <defName>Cleaning</defName>
 	      <defName>Intellectual</defName>
       </li>
     </workDisables>
+-->
     <forcedTraits>
 	    <li>
 		    <defName>Beauty</defName>
