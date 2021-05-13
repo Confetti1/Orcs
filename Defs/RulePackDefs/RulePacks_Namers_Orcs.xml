@@ -7,11 +7,11 @@
             <rulesStrings>
                 <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc6]</li>
                 <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc6]</li>
-                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc3]</li>
                 <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
                 <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc5]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc4][SylOrc5]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>SylOrc1->WordParts/Syllables_OrcNames1</li>
@@ -32,7 +32,6 @@
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=3)->[MaleOrcFirst] [Color]</li>
                 <li>r_name(p=2)->[MaleOrcFirst] [OrcSurname]</li>
             </rulesStrings>
         </rulePack>
