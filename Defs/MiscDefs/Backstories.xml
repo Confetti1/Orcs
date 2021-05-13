@@ -278,7 +278,7 @@
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>8</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
     <workDisables>
