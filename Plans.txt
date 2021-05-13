@@ -1,10 +1,10 @@
-Finish implementing orcs (to see if it's possible) (I'm almost there I swear)
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
   -Halflings 
   -Gnomes 
+    -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shape
   -Dwarves 
-  -Goblins?
+  -Goblins
 Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Greatswords
   -Battleaxes
