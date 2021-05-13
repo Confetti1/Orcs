@@ -1,0 +1,12 @@
+heart
+shield
+axe
+sword
+hammer
+chin
+foot
+beard
+helm
+belt
+brand
+anvil

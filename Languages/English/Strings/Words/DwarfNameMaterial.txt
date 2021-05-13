@@ -1,0 +1,12 @@
+steel
+coal
+iron
+gold
+silver
+wood
+platinum
+oak
+copper
+stone
+granite
+marble
