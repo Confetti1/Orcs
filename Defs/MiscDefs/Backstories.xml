@@ -610,13 +610,13 @@
          <amount>8</amount>
       </li>
     </skillGains>
-    <workAllows>
-      <li>ManualDumb</li>
-      <li>ManualSkilled</li>
-      <li>Violent</li>
-      <li>Hauling</li>
-      <li>Mining</li>
-    </workAllows>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Plants</li>
+      <li>Animals</li>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
     <forcedTraits>
       <li>
         <defName>Psychopath</defName>
