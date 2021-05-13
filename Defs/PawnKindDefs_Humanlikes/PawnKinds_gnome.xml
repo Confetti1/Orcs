@@ -1,1 +1,37 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- PLAYER PAWNS -->
+  <PawnKindDef Abstract="True" Name ="BasePlayerGnomePawnKind">    
+    <race>Gnome</race>
+    <combatPower>30</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
+    <defName>Gnome_Colonist</defName>
+    <label>orccolonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Gnome</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+ </PawnKindDef>
+</Defs>
