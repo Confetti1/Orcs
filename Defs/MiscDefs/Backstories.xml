@@ -164,7 +164,7 @@
     </skillGains>
     <workAllows>
       <li>ManualDumb</li>
-      <li>Construction</li>
+      <li>ManualSkilled</li>
       <li>Violent</li>
       <li>Hauling</li>
       <li>Mining</li>
