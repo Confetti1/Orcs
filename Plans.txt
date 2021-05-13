@@ -5,6 +5,7 @@ Add additional races, backstories (race specific and otherwise), and factions fo
     -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shape
   -Dwarves 
   -Goblins
+  -Tieflings? (Use tiefling heritages as child backstories)
 Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Greatswords
   -Battleaxes
