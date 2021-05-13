@@ -26,7 +26,7 @@
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=2)->[GoblinFirst]</li>
+                <li>r_name(p=1)->[GoblinFirst]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
