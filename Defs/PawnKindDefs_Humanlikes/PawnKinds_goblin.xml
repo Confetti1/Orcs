@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- PLAYER PAWNS -->
+  <!-- Tribal -->
   <PawnKindDef Abstract="True" Name ="GoblinTribalBase">    
     <race>Goblin</race>
-    <combatPower>30</combatPower>
+    <combatPower>10</combatPower>
     <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
