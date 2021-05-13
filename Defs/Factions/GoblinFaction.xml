@@ -17,6 +17,7 @@
     <pawnNameMaker>NamerPersonGoblin</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonGoblin</pawnNameMakerFemale>
     <hairTags>
+      <li>Tribal</li>
     </hairTags>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
