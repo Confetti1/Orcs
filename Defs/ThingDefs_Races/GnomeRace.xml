@@ -62,7 +62,7 @@
 			
 		    <customDrawSize>(0.7, 0.7)</customDrawSize>
 		    <customHeadDrawSize>(0.8, 0.8)</customHeadDrawSize>
-		    <customPortraitDrawSize>(0.7, 0.7)</customDrawSize>
+		    <customPortraitDrawSize>(0.7, 0.7)</customPortraitDrawSize>
 		    <customPortraitHeadDrawSize>(0.8,0.8)</customPortraitHeadDrawSize>
                     
                     <colorChannels>
