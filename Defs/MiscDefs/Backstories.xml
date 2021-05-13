@@ -51,6 +51,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
+      <li>City</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -75,6 +76,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
+      <li>City</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -107,6 +109,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
+      <li>City</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -189,6 +192,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
+      <li>City</li>
     </spawnCategories>
     <skillGains>
       <li>
