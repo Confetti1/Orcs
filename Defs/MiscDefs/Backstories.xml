@@ -110,15 +110,9 @@
       </li>
     </skillGains>
     <workDisables>
-      <li>
-        <defName>ManualDumb</defName>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-      </li>
-      <li>
-        <defName>Mining</defName>
-      </li>
+	    <li>ManualDumb</li>
+	    <li>Cooking</li>
+	    <li>Mining</li>
     </workDisables>
   </AlienRace.BackstoryDef>
   
