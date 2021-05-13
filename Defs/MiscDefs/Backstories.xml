@@ -1096,6 +1096,71 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
+	
+	<!--                                                                 BROODCHILD, GOBLIN, CHILD (if applicable)              -->   
+<AlienRace.BackstoryDef>
+    <defName>BroodChild</defName>
+    <title>Broodchild</title>
+    <titleShort>Broodchild</titleShort>
+    <baseDescription>[PAWN_nameDef] was born among many other young goblins, and quickly learned to be as rambunctious and careless as possible. [PAWN_pronoun] loved throwing rocks and chasing animals as much as any other goblin.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Ranged</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>
+	      <defName>Cleaning</defName>
+	      <defName>Intellectual</defName>
+      </li>
+    </workDisables>
+    <forcedTraits>
+	    <li>
+		    <defName>Beauty</defName>
+		    <degree>3</degree>
+		    <chance>30</chance>
+	    </li>
+	    <li>
+		    <defName>Beauty</defName>
+		    <degree>4</degree>
+		    <chance>30</chance>
+	    </li>
+     </forcedTraits>
+  </AlienRace.BackstoryDef>
+	
+<!--                                                                 FIRELOVER, GOBLIN, CHILD (if applicable)              -->   
+<AlienRace.BackstoryDef>
+    <defName>FireLover</defName>
+    <title>Fire Lover</title>
+    <titleShort>Fire Lover</titleShort>
+    <baseDescription>[PAWN_nameDef] discovered that fire was [PAWN_possessive] best friend, and wanted to share their friendship with the world! </baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Cooking</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    </workDisables>
+    <forcedTraits>
+	    <li>
+		    <defName>Pyromaniac</defName>
+	    </li>
+     </forcedTraits>
+  </AlienRace.BackstoryDef>
+	
 <!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
