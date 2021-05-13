@@ -9,9 +9,9 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="BasePlayerOrcPawnKind">
+  <PawnKindDef ParentName="BasePlayerGnomePawnKind">
     <defName>Gnome_Colonist</defName>
-    <label>orccolonist</label>
+    <label>gnomecolonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <chemicalAddictionChance>0.3</chemicalAddictionChance>
     <backstoryFiltersOverride>
