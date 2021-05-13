@@ -43,7 +43,7 @@
   <!--                                                           BARTENDER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>OrcBartender</defName>
-    <title>Orc Bartender</title>
+    <title>Bartender</title>
     <titleShort>Bartender</titleShort>
     <baseDescription>[PAWN_nameDef] learned that [PAWN_pronoun] had a knack for talking with people and that [PAWN_pronoun] had particular interest in ale. In [PAWN_possessive] adulthood, [PAWN_pronoun] opened up [PAWN_possessive] own bar. [PAWN_pronoun] even brewed [PAWN_possessive] own ale!</baseDescription>
     <slot>Adulthood</slot>
@@ -67,7 +67,7 @@
   <!--                                                       DRUNKARD, ORC  -->
   <AlienRace.BackstoryDef>
     <defName>OrcDrunkard</defName>
-    <title>Orc Drunkard</title>
+    <title>Drunkard</title>
     <titleShort>Drunkard</titleShort>
     <baseDescription>Life was good for [PAWN_nameDef] until they had their first sip of ale. They were unable to stop, and found [PAWN_objective]self in the tavern more than anywhere else. [PAWN_pronoun] learned to hold [PAWN_possessive] own in a bar fight, as well as keep up with drunken songs.</baseDescription>
     <slot>Adulthood</slot>
@@ -98,7 +98,7 @@
   <!--                                                       SCHOLAR, ORC  -->
   <AlienRace.BackstoryDef>
     <defName>OrcScholar</defName>
-    <title>OrcScholar</title>
+    <title>Scholar</title>
     <titleShort>Scholar</titleShort>
     <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
     <linkedBackstory>CityRaised</linkedBackstory>
@@ -128,6 +128,7 @@
     <defName>PitChild</defName>
     <title>Pit Child</title>
     <titleShort>Pit Child</titleShort>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
     <baseDescription>[PAWN_nameDef] never knew [PAWN_possessive] parents, only that [PAWN_pronoun] was meant to fight. Chosen for [PAWN_possessive] natural strength, [PAWN_nameDef] was forced to fight for the entertainment of others.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
@@ -153,6 +154,7 @@
     <linkedBackstory>PitChild</linkedBackstory>
     <baseDescription>[PAWN_nameDef] grew up around violence and blood. [PAWN_pronoun] never learned to relate to people, as [PAWN_pronoun] was far too busy figuring out their weakness. One day, [PAWN_pronoun] was able to fight [PAWN_possessive] way out of the fighting pits, but didn't know where to go after that. </baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -183,6 +185,8 @@
     <titleShort>Homeless</titleShort>
     <baseDescription>[PAWN_nameDef] lived on the streets for as long as [PAWN_pronoun] can remember. [PAWN_pronoun] learned some tricks to survive. </baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -209,6 +213,8 @@
     <titleShort>City Orc</titleShort>
     <baseDescription>[PAWN_nameDef] was born and raised with orcish tribes, but one day got lost when [PAWN_pronoun] was little. When [PAWN_pronoun] was rescued by civilized humans, [PAWN_pronoun] followed them without looking back on [PAWN_possessive] old life.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -235,6 +241,7 @@
     <titleShort>Hauler</titleShort>
     <baseDescription>Revered for [PAWN_possessive] strength, [PAWN_nameDef] was hired for many different construction and mining projects. [PAWN_pronoun] found [PAWN_possessive] pulling carts full of materials regularly, and got incredibly fit from it.</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
@@ -263,6 +270,8 @@
     <titleShort>Performer</titleShort>
     <baseDescription>Due to being an orc, [PAWN_nameDef] got lots of attention, and [PAWN_pronoun] quickly learned that [PAWN_pronoun] enjoyed it. [PAWN_pronoun] sought out to hone [PAWN_possessive] skills to get as much attention as possible!</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>OrcCivil</li>
     </spawnCategories>
