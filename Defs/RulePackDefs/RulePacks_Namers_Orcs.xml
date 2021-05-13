@@ -19,7 +19,6 @@
                 <li>SylOrc3->WordParts/Syllables_OrcNames3</li>
                 <li>SylOrc4->WordParts/Syllables_OrcNames4</li>
                 <li>SylOrc5->WordParts/Syllables_OrcNames5</li>
-                <li>SylOrc6->WordParts/Syllables_OrcNames6</li>
                 <li>OrcSurname->Words/OrcSurnames</li>
             </rulesFiles>
         </rulePack>
