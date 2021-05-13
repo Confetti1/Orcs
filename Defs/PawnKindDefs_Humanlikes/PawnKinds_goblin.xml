@@ -16,8 +16,6 @@
     <combatPower>10</combatPower>
     <defaultFactionType>GoblinTribe</defaultFactionType>
     <chemicalAddictionChance>0.3</chemicalAddictionChance>
-    <pawnNameMaker>NamerPersonGoblin</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonGoblin</pawnNameMakerFemale>
     <backstoryFiltersOverride>
       <li>
         <categories>
