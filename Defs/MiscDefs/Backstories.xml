@@ -1132,12 +1132,12 @@
     <forcedTraits>
 	    <li>
 		    <defName>Beauty</defName>
-		    <degree>3</degree>
+		    <degree>-1</degree>
 		    <chance>30</chance>
 	    </li>
 	    <li>
 		    <defName>Beauty</defName>
-		    <degree>4</degree>
+		    <degree>-2</degree>
 		    <chance>15</chance>
 	    </li>
      </forcedTraits>
