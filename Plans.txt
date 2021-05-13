@@ -4,7 +4,8 @@ Add additional races, backstories (race specific and otherwise), and factions fo
   -Halflings 
     -Better growers, (something to represent sneakiness?)
   -Gnomes 
-    -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shape
+    -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shap
+    -Add custom tinker-type researches/craft projects that only gnomes can make. (Limber Leg, clockwork limbs)
   -Dwarves 
     -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
   -Goblins
