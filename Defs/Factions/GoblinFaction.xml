@@ -10,7 +10,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
+    <factionIconPath>Textures/World/WorldObjects/GoblinCamp</factionIconPath>
     <geneticVariance>1</geneticVariance>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
@@ -125,10 +125,10 @@
     <label>goblin tribe</label>
     <description>Gobs!</description>
     <colorSpectrum>
-      <li>(150, 16, 16)</li>
-      <li>(80, 110, 30)</li>
+      <li>(255, 126, 61)</li>
+      <li>(140, 230, 135)</li>
     </colorSpectrum>
-    <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/GoblinCamp</factionIconPath>
     <startingGoodwill>-50</startingGoodwill>
     <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
   </FactionDef>
