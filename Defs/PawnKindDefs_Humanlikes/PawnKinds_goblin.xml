@@ -13,7 +13,7 @@
     <defName>Goblin_Tribal</defName>
     <label>goblintribal</label>
     <combatPower>10</combatPower>
-    <defaultFactionType>Tribal</defaultFactionType>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
     <chemicalAddictionChance>0.3</chemicalAddictionChance>
     <pawnNameMaker>NamerPersonGoblin</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonGoblin</pawnNameMakerFemale>
