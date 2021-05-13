@@ -130,7 +130,7 @@
                         </li>
                     </colorChannels>
                     
-		    <headOffset>(0.0, -0.5)</headOffset>
+		    <headOffset>(0.0, 0.0)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
 		
