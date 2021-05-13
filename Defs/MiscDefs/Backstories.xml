@@ -1,5 +1,533 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  
+  <!--                                                                     RESPONSIBLE CHILD, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>ResponsibleChild</defName>
+    <title>Oldest Child</title>
+    <titleShort>Oldest</titleShort>
+    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large family of [PAWN_alienRace]s. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Cooking</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Medicine</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>-2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+    <!--                                                                     SHY CHILD, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>ShyChild</defName>
+    <title>Shy Child</title>
+    <titleShort>Shy</titleShort>
+    <baseDescription>[PAWN_defName] was the quietest child in [PAWN_possessive] large family of [PAWN_alienRace]s. In order to escape from the chaos, [PAWN_pronoun] often sneaked out of the city and spent time in the forests around it.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting/defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+    <!--                                                                     URBAN SCAVENGER, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>UrbanScavenger</defName>
+    <title>Urban Scavenger</title>
+    <titleShort>Scavenger</titleShort>
+    <baseDescription>[PAWN_defName] enjoyed climbing through the parts of the city where people threw out their junk. [PAWN_pronoun] knew that [PAWN_pronoun] could make their trash into [PAWN_possessive] treasure.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Cooking</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Construction</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+      <!--                                                                     PAMPERED CHILD, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>PamperedChild</defName>
+    <title>Pampered Child</title>
+    <titleShort>Pampered</titleShort>
+    <baseDescription>In [PAWN_nameDef]'s home, every one of [PAWN_possessive] whims were catered to. [PAWN_pronoun] enjoyed this life, but it didn't prepare [PAWN_pronoun] for the harshness of the world. At least [PAWN_possessive] parents occasionaly took [PAWN_pronoun] to the archery range.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>5</amount>
+      </li>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>5</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>
+        <defName>ManualDumb</defName>
+        <defName>Cooking</defName>
+        <defName>Mining</defName>
+      </li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+   <!--                                                                     INDUSTRIOUS CHILD, CHILD              --> 
+  <AlienRace.BackstoryDef>
+    <defName>IndustriousChild</defName>
+    <title>Industrious Child</title>
+    <titleShort>Industrious</titleShort>
+    <baseDescription>[PAWN_nameDef]'s home city was rife with shortages and war, which meant that all pairs of able hands were needed to produce things. As soon as [PAWN_nameDef] could hold a hammer, [PAWN_pronoun] was put to work. There was no room for creativity in [PAWN_possessive] work.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Construction</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Artistic</defName>
+         <amount>-4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                           BARTENDER -->
+  <AlienRace.BackstoryDef>
+    <defName>Bartender</defName>
+    <title>Bartender</title>
+    <titleShort>Bartender</titleShort>
+    <baseDescription>[PAWN_nameDef] learned that [PAWN_pronoun] had a knack for talking with people and that [PAWN_pronoun] had particular interest in ale. In [PAWN_possessive] adulthood, [PAWN_pronoun] opened up [PAWN_possessive] own bar. [PAWN_pronoun] even brewed [PAWN_possessive] own ale!</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  
+  <!--                                                           FARMER -->
+  <AlienRace.BackstoryDef>
+    <defName>Farmer</defName>
+    <title>Farmer</title>
+    <titleShort>Farmer</titleShort>
+    <baseDescription>[PAWN_nameDef] purchased a farm on the outskirts of town. [PAWN_possessive] life was a simple one, as [PAWN_pronoun] took care of crops and animals while scaring away the occasional animal or raider.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                           BLACKSMITH -->
+  <AlienRace.BackstoryDef>
+    <defName>Blacksmith</defName>
+    <title>Blacksmith</title>
+    <titleShort>Blacksmith</titleShort>
+    <baseDescription>[PAWN_nameDef] enjoyed working with metal, and decided to turn it into [PAWN_possessive] livelihood. [PAWN_pronoun] would regularly visit mines to source [PAWN_possessive] materials, and enjoyed practicing with [PAWN_possessive] latest masterpiece. </baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+    <!--                                                           ALCHEMIST -->
+  <AlienRace.BackstoryDef>
+    <defName>Alchemist</defName>
+    <title>Alchemist</title>
+    <titleShort>Alchemist</titleShort>
+    <baseDescription>[PAWN_nameDef] stumbled upon the art of alchemy, and decided to open up an apothecary. Using [PAWN_possessive] new talents, [PAWN_possessive] provided extracts and serums to soothe their city's woes.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  
+  
+  <!--                                                       DRUNKARD  -->
+  <AlienRace.BackstoryDef>
+    <defName>OrcDrunkard</defName>
+    <title>Drunkard</title>
+    <titleShort>Drunkard</titleShort>
+    <baseDescription>Life was good for [PAWN_nameDef] until they had their first sip of ale. They were unable to stop, and found [PAWN_objective]self in the tavern more than anywhere else. [PAWN_pronoun] learned to hold [PAWN_possessive] own in a bar fight, as well as keep up with drunken songs.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+      
+  <!--                                                       SCHOLAR  -->
+  <AlienRace.BackstoryDef>
+    <defName>OrcScholar</defName>
+    <title>Scholar</title>
+    <titleShort>Scholar</titleShort>
+    <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
+    <linkedBackstory>CityRaised</linkedBackstory>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                       SERVANT  -->
+  <AlienRace.BackstoryDef>
+    <defName>Servant</defName>
+    <title>Servant</title>
+    <titleShort>Servant</titleShort>
+    <baseDescription>[PAWN_nameDef] worked as a servant under a city noble. [PAWN_pronoun] learned the intricacies of nobility. It was also necessary for [PAWN_objective] to gain a tough skin, as [PAWN_pronoun] had to put up with the noble's stuck up children.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nerves</defName>
+        <degree>1</degree>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  
+  
+  <!--                                                                     EARLY ART OBSESSION, GNOME, CHILD             -->   
+<AlienRace.BackstoryDef>
+    <defName>EarlyArtObsession</defName>
+    <title>Early Art Obsession</title>
+    <titleShort>Obsessed</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised by gnomes who encouranged [PAWN_possessive] creativity and uniqueness. [PAWN_pronoun] quickly developed a specific obsession with art.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>5</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Neurotic</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>TorturedArtist</defname>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                                     EARLY CRAFT OBSESSION, GNOME, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>EarlyCraftObsession</defName>
+    <title>Early Craft Obsession</title>
+    <titleShort>Obsessed</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised by industrius gnomes who supported [PAWN_possessive] tinkering and production. [PAWN_pronoun] quickly developed a specific obsession with craft.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>5</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                                     EARLY INVENTION OBSESSION, GNOME, CHILD              -->   
+<AlienRace.BackstoryDef>
+    <defName>EarlyInventionObsession</defName>
+    <title>Early Invention Obsession</title>
+    <titleShort>Obsessed</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised by studious gnomes who reinforced [PAWN_possessive] wild ideas and plans. [PAWN_pronoun] quickly developed a specific obsession with inventing.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>5</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Neurotic</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defname>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <!--                                                                     ARTISTIC GENIUS, GNOME              -->   
+<AlienRace.BackstoryDef>
+    <defName>ArtisticGenius</defName>
+    <title>Artistic Genius</title>
+    <titleShort>Artistic Genius</titleShort>
+    <baseDescription>[PAWN_nameDef]'s obsession with art never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
+    <slot>Adulthhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <linkedBackstory>EarlyArtObsession</linkedBackstory>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>Mining</li>
+      <li>Plantwork</li>
+      <li>Cooking</li>
+      <li>Medicine</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+    <!--                                                                     CRAFTING GENIUS, GNOME             -->   
+<AlienRace.BackstoryDef>
+    <defName>CraftingGenius</defName>
+    <title>Crafting Genius</title>
+    <titleShort>Crafting Genius</titleShort>
+    <baseDescription>[PAWN_nameDef]'s obsession with crafting never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
+    <slot>Adulthhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <linkedBackstory>EarlyCraftObsession</linkedBackstory>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>Mining</li>
+      <li>Plantwork</li>
+      <li>Cooking</li>
+      <li>Medicine</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+    <!--                                                                   GENIUS INVENTOR, GNOME             -->   
+<AlienRace.BackstoryDef>
+    <defName>GeniusInventor</defName>
+    <title>Genius Inventor</title>
+    <titleShort>Inventor</titleShort>
+    <baseDescription>[PAWN_nameDef]'s obsession with inventing never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else. Their ramblings are so incoherent that it bothers others, too.</baseDescription>
+    <slot>Adulthhood</slot>
+    <bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+    <linkedBackstory>EarlyInventionObsession</linkedBackstory>
+    <spawnCategories>
+      <li>Gnome</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>Mining</li>
+      <li>Plantwork</li>
+      <li>Cooking</li>
+      <li>Medicine</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defName>AnnoyingVoice</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  
   <!--                                                              CITY RAISED, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>CityRaised</defName>
@@ -40,93 +568,8 @@
     </disallowedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                           BARTENDER, ORC -->
-  <AlienRace.BackstoryDef>
-    <defName>OrcBartender</defName>
-    <title>Bartender</title>
-    <titleShort>Bartender</titleShort>
-    <baseDescription>[PAWN_nameDef] learned that [PAWN_pronoun] had a knack for talking with people and that [PAWN_pronoun] had particular interest in ale. In [PAWN_possessive] adulthood, [PAWN_pronoun] opened up [PAWN_possessive] own bar. [PAWN_pronoun] even brewed [PAWN_possessive] own ale!</baseDescription>
-    <slot>Adulthood</slot>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <spawnCategories>
-      <li>OrcCivil</li>
-      <li>City</li>
-    </spawnCategories>
-    <skillGains>
-      <li>
-        <defName>Social</defName>
-        <amount>4</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-  </AlienRace.BackstoryDef>
   
-  <!--                                                       DRUNKARD, ORC  -->
-  <AlienRace.BackstoryDef>
-    <defName>OrcDrunkard</defName>
-    <title>Drunkard</title>
-    <titleShort>Drunkard</titleShort>
-    <baseDescription>Life was good for [PAWN_nameDef] until they had their first sip of ale. They were unable to stop, and found [PAWN_objective]self in the tavern more than anywhere else. [PAWN_pronoun] learned to hold [PAWN_possessive] own in a bar fight, as well as keep up with drunken songs.</baseDescription>
-    <slot>Adulthood</slot>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <spawnCategories>
-      <li>OrcCivil</li>
-      <li>City</li>
-    </spawnCategories>
-    <skillGains>
-      <li>
-        <defName>Social</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>-4</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>8</amount>
-      </li>
-    </skillGains>
-    <workDisables>
-      <li>Cleaning</li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-      
-  <!--                                                       SCHOLAR, ORC  -->
-  <AlienRace.BackstoryDef>
-    <defName>OrcScholar</defName>
-    <title>Scholar</title>
-    <titleShort>Scholar</titleShort>
-    <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
-    <linkedBackstory>CityRaised</linkedBackstory>
-    <slot>Adulthood</slot>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <spawnCategories>
-      <li>OrcCivil</li>
-      <li>City</li>
-    </spawnCategories>
-    <skillGains>
-      <li>
-        <defName>Social</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>4</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>2</amount>
-      </li>
-    </skillGains>
-  </AlienRace.BackstoryDef>
-  <!--                                                       PIT CHILD -->
+  <!--                                                       PIT CHILD, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>PitChild</defName>
     <title>Pit Child</title>
@@ -149,7 +592,7 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-  <!--                                                       PIT FIGHTER -->
+  <!--                                                       PIT FIGHTER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>PitFighter</defName>
     <title>Pit Fighter</title>
@@ -181,7 +624,7 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          Homeless  -->
+  <!--                                                          HOMELESS CHILD, CHILDHOOD  -->
   <AlienRace.BackstoryDef>
     <defName>HomelessChild</defName>
     <title>Homeless Child</title>
@@ -210,7 +653,7 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          Ex Tribe Member -->
+  <!--                                                          EX TRIBE MEMBER, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>ExTribeMember</defName>
     <title>Ex Tribe Member</title>
@@ -238,7 +681,7 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          HAULER -->
+  <!--                                                          HAULER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Hauler</defName>
     <title>Hauler</title>
@@ -267,7 +710,7 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          Performer -->
+  <!--                                                          PERFORMER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Performer</defName>
     <title>Performer</title>
@@ -658,7 +1101,7 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
-    
+<!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
     <title></title>
@@ -674,10 +1117,10 @@
          <amount></amount>
       </li>
     </skillGains>
-    <disallowedTraits>
+    <workDisables>
       <li>
       </li>
-    </disallowedTraits>
+    </workDisables>
   </AlienRace.BackstoryDef> -->
   
   
