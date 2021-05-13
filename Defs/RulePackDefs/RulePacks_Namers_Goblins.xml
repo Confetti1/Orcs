@@ -12,8 +12,8 @@
             </rulesStrings>
             <rulesFiles>
                 <li>GobNoise->Words/GoblinNoise</li>
-                <li>GobVerb->WordParts/GoblinVerb</li>
-                <li>GobNoun->WordParts/GoblinNoun</li>
+                <li>GobVerb->Words/GoblinVerb</li>
+                <li>GobNoun->Words/GoblinNoun</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
