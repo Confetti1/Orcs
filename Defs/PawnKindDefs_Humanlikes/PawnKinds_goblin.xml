@@ -9,7 +9,7 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="GoblinTribalbase">
+  <PawnKindDef ParentName="GoblinTribalBase">
     <defName>Goblin_Tribal</defName>
     <label>goblintribal</label>
     <race>Goblin</race>
