@@ -82,7 +82,7 @@
                                         <only>RGBA(150, 188, 194, 255)</only>
                                     </li>
                                 </options>
-                            </first>
+                            </first> <!--
                             <second Class="ColorGenerator_Options">
                                 <options>
                                     <li>
@@ -90,7 +90,7 @@
                                         <only>RGBA(255, 255, 255, 255)</only>
                                     </li>
                                 </options>
-                            </second>
+                            </second> -->
                         </li>
 			<li>
                             <name>hair</name>
@@ -98,19 +98,19 @@
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(200, 190, 180, 255)</only>
+                                        <only>RGBA(40, 140, 50, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(200, 180, 210, 255)</only>
+                                        <only>RGBA(40, 80, 180, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(180, 210, 180, 255)</only>
+                                        <only>RGBA(170, 60, 60, 255)</only>
                                     </li>
 				    <li>
                                         <weight>10</weight>
-                                        <only>RGBA(150, 188, 194, 255)</only>
+                                        <only>RGBA(100, 50, 150, 255)</only>
                                     </li>
                                 </options>
                             </first>
