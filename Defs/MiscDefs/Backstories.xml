@@ -1153,11 +1153,11 @@
          <amount>2</amount>
       </li>
     </skillGains>
-    </workDisables>
     <forcedTraits>
 	    <li>
 		    <defName>Pyromaniac</defName>
 	    </li>
+	    
      </forcedTraits>
   </AlienRace.BackstoryDef>
 	
