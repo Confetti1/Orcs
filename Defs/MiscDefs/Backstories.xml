@@ -1138,7 +1138,7 @@
 	    <li>
 		    <defName>Beauty</defName>
 		    <degree>4</degree>
-		    <chance>30</chance>
+		    <chance>15</chance>
 	    </li>
      </forcedTraits>
   </AlienRace.BackstoryDef>
@@ -1149,7 +1149,7 @@
     <title>Fire Lover</title>
     <titleShort>Fire Lover</titleShort>
     <baseDescription>[PAWN_nameDef] discovered that fire was [PAWN_possessive] best friend, and wanted to share their friendship with the world! </baseDescription>
-    <slot>Childhood</slot>
+    <slot>Adulthood</slot>
     <spawnCategories>
       <li>Goblin</li>
     </spawnCategories>
