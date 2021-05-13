@@ -41,7 +41,7 @@
     </spawnCategories>
     <skillGains>
       <li>
-         <defName>Shooting/defName>
+         <defName>Shooting<defName>
          <amount>2</amount>
       </li>
       <li>
