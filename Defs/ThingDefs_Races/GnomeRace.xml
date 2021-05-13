@@ -92,6 +92,37 @@
                                 </options>
                             </second>
                         </li>
+			<li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(200, 190, 180, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(200, 180, 210, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(180, 210, 180, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(150, 188, 194, 255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(255, 255, 255, 255)</only>
+                                    </li>
+                                </options>
+                            </second>
+                        </li>
                     </colorChannels>
                     <customDrawSize>(.7, .7)</customDrawSize>
 		    <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
