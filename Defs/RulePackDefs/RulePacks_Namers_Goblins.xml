@@ -6,7 +6,6 @@
         <rulePack>
             <rulesStrings>
                 <li>GoblinFirst->[GobNoun][GobVerb]</li>
-                <li>GoblinFirst->[GobNoun][GobNoise]</li>
                 <li>GoblinFirst->[GobNoise][GobNoise]</li>
                 <li>GoblinFirst->[GobNoun]</li>
             </rulesStrings>
