@@ -101,19 +101,19 @@
                                 <options>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(40, 140, 50, 255)</only>
+                                        <only>RGBA(50, 80, 200, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(40, 80, 180, 255)</only>
+                                        <only>RGBA(150, 80, 230, 255)</only>
                                     </li>
                                     <li>
                                         <weight>10</weight>
-                                        <only>RGBA(170, 60, 60, 255)</only>
+                                        <only>RGBA(100, 200, 100, 255)</only>
                                     </li>
 				    <li>
                                         <weight>10</weight>
-                                        <only>RGBA(100, 50, 150, 255)</only>
+                                        <only>RGBA(194, 100, 100, 255)</only>
                                     </li>
                                 </options>
                             </first>
