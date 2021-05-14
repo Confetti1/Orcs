@@ -31,4 +31,14 @@
       <li>Gnome</li>
     </hairTags>      
   </HairDef> 
+  
+  <HairDef>
+    <defName>Controlled</defName>
+    <label>controlled</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Controlled</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTage>
+  <HairDef>
 </Defs>
