@@ -1129,18 +1129,6 @@
       </li>
     </workDisables>
 -->
-    <forcedTraits>
-	    <li>
-		    <defName>Beauty</defName>
-		    <degree>-1</degree>
-		    <chance>30</chance>
-	    </li>
-	    <li>
-		    <defName>Beauty</defName>
-		    <degree>-2</degree>
-		    <chance>15</chance>
-	    </li>
-     </forcedTraits>
   </AlienRace.BackstoryDef>
 	
 <!--                                                                 FIRELOVER, GOBLIN, CHILD (if applicable)              -->   
@@ -1165,6 +1153,79 @@
 	    </li>
 	    
      </forcedTraits>
+  </AlienRace.BackstoryDef>
+	
+	<!--                                                     MOLD EATER                              -->
+  <AlienRace.BackstoryDef>
+    <defName>MoldEater</defName>
+    <title>Mold Eater</title>
+    <titleShort>Eater</titleShort>
+    <baseDescription>[PAWN_nameDef] spent lots of time crawling under moldy logs to see what kind of fun things there were to eat. [PAWN_pronoun] learned the hard way what kinds of plants are poisonous, which ones are safe, and which ones make other goblins barf.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Plants</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Cooking</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+	
+	<!--                                                     BEAST CHASER                            -->
+  <AlienRace.BackstoryDef>
+    <defName>BeastChaser</defName>
+    <title>Beast Chaser</title>
+    <titleShort>Chaser</titleShort>
+    <baseDescription>[PAWN_nameDef] loved to chase dogs. When [PAWN_pronoun] finally caught up with one, [PAWN_pronoun] didn't know what to do. [PAWN_nameDef] simply decided that [PAWN_pronoun] a friend to dogs.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Animals</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	<li>
+	<defName>SpeedOffset</defName>
+	<degree>2</degree>
+	</li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+	
+	<!--                                                     WORD HATER                              -->
+  <AlienRace.BackstoryDef>
+    <defName>WordHater</defName>
+    <title>Word Hater</title>
+    <titleShort>Word Hater</titleShort>
+    <baseDescription>[PAWN_nameDef] knows that reading steals words from your brain, and they have dedicated their life to  </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Plants</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Medicine</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>
+	      <defName>Intellectual</defName>
+      </li>
+    </workDisables>
   </AlienRace.BackstoryDef>
 	
 <!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
