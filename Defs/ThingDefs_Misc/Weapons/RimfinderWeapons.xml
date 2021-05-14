@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_DogSlicer</defName>
+    <label>Dogslicer</label>
+    <description>Shoddy looking swords like this were invented by goblins who, in a surprisingly intelligent move, drill holes through the weapon weapon in order to reduce it's weight.</description>
+    <graphicData>  
+      <texPath></texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>Goblin</li>
+    </weaponTags>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <equippedAngleOffset>20</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
   
 </Defs>
