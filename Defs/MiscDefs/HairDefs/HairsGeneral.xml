@@ -6,7 +6,7 @@
     <defName>GnomeLips</defName>    
     <label>lips</label>    
     <hairGender>Any</hairGender>    
-    <texPath>Textures/Hairs/</texPath>
+    <texPath>Textures/Hairs/GnomeLips</texPath>
     <hairTags>
       <li>Gnome</li>
     </hairTags>      
