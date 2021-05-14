@@ -3,7 +3,7 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>MeleeWeapon_DogSlicer</defName>
-    <label>Dogslicer</label>
+    <label>dogslicer</label>
     <description>Shoddy looking swords like this were invented by goblins who, in a surprisingly intelligent move, drill holes through the weapon weapon in order to reduce it's weight.</description>
     <graphicData>  
       <texPath>Textures/Weapons/Dogslicer</texPath>
