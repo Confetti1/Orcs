@@ -89,6 +89,14 @@
                                         <weight>10</weight>
                                         <only>RGBA(240, 200, 200, 255)</only>
                                     </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(250, 250, 200, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(250, 200, 225, 255)</only>
+                                    </li>
                                 </options>
                             </first> <!--
                             <second Class="ColorGenerator_Options">
@@ -119,6 +127,26 @@
 				    <li>
                                         <weight>10</weight>
                                         <only>RGBA(194, 100, 100, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(240, 80, 160, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(110, 60, 230, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(100, 200, 200, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(140, 200, 200, 255)</only>
+                                    </li>
+				    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(200, 110, 60, 255)</only>
                                     </li>
                                 </options>
                             </first>
