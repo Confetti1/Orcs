@@ -16,6 +16,9 @@
 	    <hairSettings>
                 <hasHair>true</hasHair>
                 <getsGreyAt>200</getsGreyAt>
+		<hairTags>
+			<li>Gnome</li>
+		</hairTags>
             </hairSettings>
 		
             <generalSettings>
