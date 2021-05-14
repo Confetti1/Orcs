@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- ============================== GNOME ============================== -->
   
   <HairDef>
-    <defName>GnomeLips</defName>
-    <label>lips</label>
-    <hairGender>Any</hairGender>
-    <texPath>Textures/Hairs/<texPath>
+    <defName>GnomeLips</defName>    
+    <label>lips</label>    
+    <hairGender>Any</hairGender>    
+    <texPath>Textures/Hairs/</texPath>
     <hairTags>
       <li>Gnome</li>
-    </hairTags>
+    </hairTags>      
   </HairDef> 
 </Defs>
