@@ -15,7 +15,7 @@
     </li>
   </modDependencies>
   
-  <description>Adds Orcs, and hopefully other races to the game!</description>
+  <description>Adds the core races to Rimworld! Wowie!</description>
   <loadAfter>
       <li>Ludeon.RimWorld</li>
     	<li>Ludeon.RimWorld.Royalty</li>
