@@ -11,4 +11,24 @@
       <li>Gnome</li>
     </hairTags>      
   </HairDef> 
+  
+  <HairDef>
+    <defName>Frazzled</defName>    
+    <label>frazzled</label>    
+    <hairGender>Any</hairGender>    
+    <texPath>Hairs/Frazzled</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>      
+  </HairDef> 
+  
+  <HairDef>
+    <defName>Classygnome</defName>    
+    <label>classygnome</label>    
+    <hairGender>Any</hairGender>    
+    <texPath>Hairs/Classygnome</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>      
+  </HairDef> 
 </Defs>
