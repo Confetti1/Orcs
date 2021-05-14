@@ -1131,7 +1131,7 @@
 -->
   </AlienRace.BackstoryDef>
 	
-<!--                                                                 FIRELOVER, GOBLIN, CHILD (if applicable)              -->   
+<!--                                                                 FIRELOVER, GOBLIN            -->   
 <AlienRace.BackstoryDef>
     <defName>FireLover</defName>
     <title>Fire Lover</title>
@@ -1227,6 +1227,57 @@
       </li>
     </workDisables>
   </AlienRace.BackstoryDef>
+	
+	<!--                                                      GOBLIN BULLY                                -->
+  <AlienRace.BackstoryDef>
+    <defName>GoblinBully</defName>
+    <title>Goblin Bully</title>
+    <titleShort>Bully</titleShort>
+    <baseDescription>[PAWN_nameDef] was laughed at by fellow goblins when [PAWN_pronoun] fell face-first into a puddle of mud. [PAWN_nameDef] got [PAWN_possessive] revenge by beating up the other goblins. [PAWN_pronoun] decided that [PAWN_pronoun] would always be the one to get the first (and last) laugh from now on.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>
+	      <defName>Caring</defName>
+      </li>
+    </workDisables>
+    <forcedTraits>
+        <li>
+                <defName>Abrasive</defName>
+	</li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+        
+               <!--                                                        BULLIED       -->
+ <AlienRace.BackstoryDef>
+    <defName>Bullied</defName>
+    <title>Bullied</title>
+    <titleShort>Bullied</titleShort>
+    <baseDescription>[PAWN_nameDef] was bullied often. [PAWN_pronoun] took out their anger on dolls [PAWN_pronoun] had made to represent [PAWN_possessive] biggest enemies. Crafting them was fun, but destroying them was the funnest part.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+	
 	
 <!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
 <!--  <AlienRace.BackstoryDef>
