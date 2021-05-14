@@ -6,7 +6,7 @@
     <defName>ResponsibleChild</defName>
     <title>Oldest Child</title>
     <titleShort>Oldest</titleShort>
-    <baseDescription>[PAWN_defName] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
@@ -32,7 +32,7 @@
     <defName>ShyChild</defName>
     <title>Shy Child</title>
     <titleShort>Shy</titleShort>
-    <baseDescription>[PAWN_defName] was the quietest child in [PAWN_possessive] large, bustling family. In order to escape from the chaos, [PAWN_pronoun] often sneaked out of the city and spent time in the forests around it.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the quietest child in [PAWN_possessive] large, bustling family. In order to escape from the chaos, [PAWN_pronoun] often sneaked out of the city and spent time in the forests around it.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -60,7 +60,7 @@
     <defName>UrbanScavenger</defName>
     <title>Urban Scavenger</title>
     <titleShort>Scavenger</titleShort>
-    <baseDescription>[PAWN_defName] enjoyed climbing through the parts of the city where people threw out their junk. [PAWN_pronoun] knew that [PAWN_pronoun] could make their trash into [PAWN_possessive] treasure.</baseDescription>
+    <baseDescription>[PAWN_nameDef] enjoyed climbing through the parts of the city where people threw out their junk. [PAWN_pronoun] knew that [PAWN_pronoun] could make their trash into [PAWN_possessive] treasure.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
