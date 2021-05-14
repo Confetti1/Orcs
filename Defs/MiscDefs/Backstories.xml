@@ -1221,11 +1221,13 @@
          <amount>2</amount>
       </li>
     </skillGains>
+          <!--
     <workDisables>
       <li>
 	      <defName>Intellectual</defName>
       </li>
     </workDisables>
+-->
   </AlienRace.BackstoryDef>
 	
 	<!--                                                      GOBLIN BULLY                                -->
@@ -1244,11 +1246,13 @@
          <amount>6</amount>
       </li>
     </skillGains>
+	  <!--
     <workDisables>
       <li>
 	      <defName>Caring</defName>
       </li>
     </workDisables>
+-->
     <forcedTraits>
         <li>
                 <defName>Abrasive</defName>
