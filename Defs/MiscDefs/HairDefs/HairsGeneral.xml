@@ -3,8 +3,12 @@
   <!-- ============================== GNOME ============================== -->
   
   <HairDef>
-  
-  
-  
-  
+    <defName>GnomeLips</defName>
+    <label>Lips</label>
+    <hairGender>Any</hairGender>
+    <texPath>Textures/Hairs/<texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>
+  </HairDef> 
 </Defs>
