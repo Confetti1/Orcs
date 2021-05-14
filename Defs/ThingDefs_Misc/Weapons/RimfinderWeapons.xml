@@ -6,7 +6,7 @@
     <label>Dogslicer</label>
     <description>Shoddy looking swords like this were invented by goblins who, in a surprisingly intelligent move, drill holes through the weapon weapon in order to reduce it's weight.</description>
     <graphicData>  
-      <texPath></texPath>
+      <texPath>Textures/Item/Equipment/Weapons/Dogslicer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Neolithic</techLevel>
