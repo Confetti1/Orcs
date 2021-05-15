@@ -441,7 +441,7 @@
     <defName>ArtisticGenius</defName>
     <title>Artistic Genius</title>
     <titleShort>Artistic Genius</titleShort>
-    <baseDescription>[PAWN_nameDef]'s obsession with art never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s obsession with art never truly went away. [PAWN_pronoun] honed [PAWN_possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -468,7 +468,7 @@
     <defName>CraftingGenius</defName>
     <title>Crafting Genius</title>
     <titleShort>Crafting Genius</titleShort>
-    <baseDescription>[PAWN_nameDef]'s obsession with crafting never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s obsession with crafting never truly went away. [PAWN_pronoun] honed [PAWN_possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -495,7 +495,7 @@
     <defName>GeniusInventor</defName>
     <title>Genius Inventor</title>
     <titleShort>Inventor</titleShort>
-    <baseDescription>[PAWN_nameDef]'s obsession with inventing never truly went away. [PAWN_pronoun] honed [PAWN_Possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else. Their ramblings are so incoherent that it bothers others, too.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s obsession with inventing never truly went away. [PAWN_pronoun] honed [PAWN_possessive] craft for years, becoming the best around! Unfortunately, [PAWN_pronoun] didn't learn to do much else. Their ramblings are so incoherent that it bothers others, too.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
