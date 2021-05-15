@@ -39,4 +39,37 @@
       <li>Poor</li>
     </techHediffsTags>
  </PawnKindDef>
+  
+  <PawnKindDef ParentName="GoblinTribalBase">
+    <defName>Goblin_Fighter</defName>
+    <label>goblinfighter</label>
+    <race>Goblin</race>
+    <combatPower>10</combatPower>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
+    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Goblin</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>NeolithicBasic</li>
+    </apparelTags>
+    <invNutrition>0</invNutrition>
+    <weaponMoney>200~400/weaponMoney>
+    <weaponTags>
+      <li>Goblin</li>
+    </weaponTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>300~400</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+ </PawnKindDef>
+  
+  
 </Defs>
