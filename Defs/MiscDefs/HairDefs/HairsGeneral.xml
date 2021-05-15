@@ -48,7 +48,6 @@
     <texPath>Hairs/Beardy</texPath>
     <hairTags>
       <li>Gnome</li>
-      <li>Dwarf</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -78,4 +77,60 @@
       <li>Gnome</li>
     </hairTags>
   </HairDef>
+  <!-- ============================== DWARF ============================== -->
+  <HairDef>
+    <defName>Careless</defName>
+    <label>careless</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/careless</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>DumbleDwarf</defName>
+    <label>careless</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/dumbledwarf</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>FemGambler</defName>
+    <label>femgambler</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/femgambler</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Gambler</defName>
+    <label>gambler</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/gambler</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Jesus</defName>
+    <label>jesus</label>
+    <hairGender>male</hairGender>
+    <texPath>Hairs/jesus</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LittleRed</defName>
+    <label>littlered</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/littlered</texPath>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+  </HairDef>
+  
 </Defs>
