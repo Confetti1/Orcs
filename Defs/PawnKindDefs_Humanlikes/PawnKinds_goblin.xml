@@ -39,7 +39,7 @@
       <li>Poor</li>
     </techHediffsTags>
  </PawnKindDef>
-  
+   <!--                 ===================GOBLIN FIGHTER==================== -->
   <PawnKindDef ParentName="GoblinTribalBase">
     <defName>Goblin_Fighter</defName>
     <label>goblinfighter</label>
@@ -70,6 +70,68 @@
       <li>Poor</li>
     </techHediffsTags>
  </PawnKindDef>
-  
+    <!--                 ===================GOBLIN ARCHER==================== -->
+  <PawnKindDef ParentName="GoblinTribalBase">
+    <defName>Goblin_Archer</defName>
+    <label>goblinarcher</label>
+    <race>Goblin</race>
+    <combatPower>30</combatPower>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
+    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Goblin</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>NeolithicBasic</li>
+    </apparelTags>
+    <invNutrition>0</invNutrition>
+    <weaponMoney>100~200/weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>100~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+ </PawnKindDef>
+ 
+       <!--                 ===================GOBLIN CHIEF==================== -->
+  <PawnKindDef ParentName="GoblinTribalBase">
+    <defName>Goblin_Chief</defName>
+    <label>goblinchief</label>
+    <race>Goblin</race>
+    <combatPower>100</combatPower>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
+    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Goblin</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>NeolithicBasic</li>
+    </apparelTags>
+    <invNutrition>0</invNutrition>
+    <weaponMoney>400~500/weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>100~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+ </PawnKindDef>
   
 </Defs>
