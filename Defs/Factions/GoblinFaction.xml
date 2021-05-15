@@ -51,57 +51,39 @@
             <li>(100000, 10000)</li>
           </points>
     </maxPawnCostPerTotalPointsCurve>
-    <!--
+    
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <Orc_Tribal>5</Orc_Tribal>
-          <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
-          <Orc_Tribal_Archer>5</Orc_Tribal_Archer>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
+          <Goblin_Tribal>10</Goblin_Tribal>
+          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Archer>10</Goblin_Archer>
+          <GoblinDog>8</GoblinDog>
+          <Goblin_Chief>3</Goblin_Chief>
         </options>
       </li>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
+          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Archer>10</Goblin_Archer>
         </options>
       </li>
-      <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <Orc_Tribal_Trader>1</Orc_Tribal_Trader>
-        </traders>
-        <carriers>
-          <Muffalo>6</Muffalo>
-          <Dromedary>5</Dromedary>
-          <Alpaca>2.5</Alpaca>
-          <Elephant>2</Elephant>
-        </carriers>
-        <guards>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-        </guards>
-      </li>
+     
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Orc_Tribal>10</Orc_Tribal>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>10</Orc_Tribal_Chief>
+          <Goblin_Tribal>10</Goblin_Tribal>
+          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Archer>10</Goblin_Archer>
+          <GoblinDog>8</GoblinDog>
+          <Goblin_Chief>10</Goblin_Chief>
         </options>
       </li>
     </pawnGroupMakers>
--->
+
     <settlementTexturePath>World/WorldObjects/OrcSettlement</settlementTexturePath>
   </FactionDef>
   
