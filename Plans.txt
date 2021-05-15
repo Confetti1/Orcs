@@ -13,6 +13,7 @@ Add additional races, backstories (race specific and otherwise), and factions fo
   -Goblins
     -Incredibly weak, but large in numbers. Have silly names.
     -Goblin themed weapons
+    -Add Barghests to be the chief of goblins, add Goblin Dogs to aid in goblin raids. 
   -Tieflings
     -Use tiefling heritages as child backstories
     -See what customization I can get away with based on the backstories (different skin colors, maybe even horn shapes from tiefling.)
