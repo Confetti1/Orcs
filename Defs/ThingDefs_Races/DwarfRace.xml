@@ -49,14 +49,14 @@
                 
                 <alienPartGenerator>				
                	    <alienbodytypes>
-			                <li>Male</li>
+		      <li>Male</li>
                       <li>Male</li>
                       <li>Fat</li>
                     </alienbodytypes>
 			
                     <aliencrowntypes>
-			                <li>Average_Normal</li>
-			                <li>Average_Wide</li>
+                       <li>Average_Normal</li>
+                       <li>Average_Wide</li>
                     </aliencrowntypes>
 			
                     <useGenderedHeads>true</useGenderedHeads>
