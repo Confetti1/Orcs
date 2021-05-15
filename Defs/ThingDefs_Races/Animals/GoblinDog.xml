@@ -3,7 +3,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GoblinDog</defName>
     <label>goblin dog</label>
-    <description>Despite it's name, goblin dogs are actually a closer relative to rodents. They has been poorly bred by goblins seeking to make a creature that would serve them like a dog, but be much friendlier to them. Their hide is full of allergenic dander that only goblins seem to be immune to.</description>
+    <description>Despite their name, goblin dogs are actually a closer relative to rodents. They has been poorly bred by goblins seeking to make a creature that would serve them like a dog, but be much friendlier to them. Their hide is full of allergenic dander that only goblins seem to be immune to.</description>
     <statBases>
       <MoveSpeed>6.0</MoveSpeed>
       <MarketValue>100</MarketValue>
