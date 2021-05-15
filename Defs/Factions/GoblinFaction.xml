@@ -58,7 +58,7 @@
         <commonality>100</commonality>
         <options>
           <Goblin_Tribal>10</Goblin_Tribal>
-          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
           <GoblinDog>8</GoblinDog>
           <Goblin_Chief>3</Goblin_Chief>
@@ -67,7 +67,7 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
         </options>
       </li>
@@ -76,7 +76,7 @@
         <kindDef>Settlement</kindDef>
         <options>
           <Goblin_Tribal>10</Goblin_Tribal>
-          <Goblin_Warrior>10</Goblin_Warrior>
+          <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
           <GoblinDog>8</GoblinDog>
           <Goblin_Chief>10</Goblin_Chief>
