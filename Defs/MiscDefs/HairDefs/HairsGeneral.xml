@@ -41,4 +41,40 @@
       <li>Gnome</li>
     </hairTags>
   </HairDef>
+  <HairDef>
+    <defName>Beardy</defName>
+    <label>beardy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/Beardy</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>ClassyMaleGnome</defName>
+    <label>Classymalegnome</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/ClassyMaleGnome</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>PonyTailGnome</defName>
+    <label>ponytailgnome</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/ponytailgnome</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Vee</defName>
+    <label>vee</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Vee</texPath>
+    <hairTags>
+      <li>Gnome</li>
+    </hairTags>
+  </HairDef>
 </Defs>
