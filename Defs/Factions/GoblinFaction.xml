@@ -6,7 +6,7 @@
     <pawnsPlural>goblins</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
     <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>.5</settlementGenerationWeight>
+    <settlementGenerationWeight>.4</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
