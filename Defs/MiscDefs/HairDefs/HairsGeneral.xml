@@ -54,7 +54,7 @@
     <defName>ClassyMaleGnome</defName>
     <label>Classymalegnome</label>
     <hairGender>Male</hairGender>
-    <texPath>Hairs/ClassyMaleGnome</texPath>
+    <texPath>Hairs/Classymalegnome</texPath>
     <hairTags>
       <li>Gnome</li>
     </hairTags>
