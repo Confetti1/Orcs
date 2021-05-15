@@ -31,7 +31,7 @@
                 	</li>
                   <li>
                      <defName>Industriousness</defName>
-                     <degree>2</defName>
+                     <degree>2</degree>
                      <chance>30</chance>
                 	</li>
                 </forcedRaceTraitEntries>
