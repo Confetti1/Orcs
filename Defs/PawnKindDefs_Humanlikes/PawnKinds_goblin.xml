@@ -44,7 +44,7 @@
     <defName>Goblin_Fighter</defName>
     <label>goblinfighter</label>
     <race>Goblin</race>
-    <combatPower>10</combatPower>
+    <combatPower>30</combatPower>
     <defaultFactionType>GoblinTribe</defaultFactionType>
     <chemicalAddictionChance>0.3</chemicalAddictionChance>
     <backstoryFiltersOverride>
