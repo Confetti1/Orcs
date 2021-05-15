@@ -14,7 +14,10 @@
 	    </graphicPaths>
             
 	    <hairSettings>
-                <hasHair>False</hasHair>
+                <hasHair>True</hasHair>
+		<hairTags>
+			<li>Dwarf</li>
+		</hairTags>
             </hairSettings>
 		
             <generalSettings>
