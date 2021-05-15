@@ -89,7 +89,7 @@
       <li>NeolithicBasic</li>
     </apparelTags>
     <invNutrition>0</invNutrition>
-    <weaponMoney>100~200/weaponMoney>
+    <weaponMoney>100~200<weaponMoney>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
     </weaponTags>
