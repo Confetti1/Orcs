@@ -264,7 +264,7 @@
         </modExtensions>
 	    
     </AlienRace.ThingDef_AlienRace>
-	<!-- <AlienRace.RaceSettings>
+	<AlienRace.RaceSettings>
 		<defName>GoblinSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds>
@@ -274,7 +274,22 @@
 					</kindDefs>
 					<chance>10.0</chance>
 				</li>	
-			</alienslavekinds>						
-		</pawnKindSettings>
-	</AlienRace.RaceSettings> -->
+			</alienslavekinds>
+                        <startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Dwarf_Colonist</li>
+							</kindDefs>
+							<chance>20.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+	        </pawnKindSettings>
+	</AlienRace.RaceSettings>
 </Defs>
