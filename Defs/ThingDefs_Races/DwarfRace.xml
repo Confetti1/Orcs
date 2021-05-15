@@ -314,7 +314,7 @@
 							<kindDefs>
 								<li>Dwarf_Colonist</li>
 							</kindDefs>
-							<chance>20.0</chance>
+							<chance>40.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
