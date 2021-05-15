@@ -66,9 +66,9 @@
                     <useGenderedBodies>false</useGenderedBodies>
 			
 		    <customDrawSize>(1.08, 0.85)</customDrawSize>
-		    <customHeadDrawSize>(1, 1)</customHeadDrawSize>
+		    <customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 		    <customPortraitDrawSize>(1.08, 0.85)</customPortraitDrawSize>
-		    <customPortraitHeadDrawSize>(1, 1)</customPortraitHeadDrawSize>
+		    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
                     
                     <colorChannels>
                         <li>
