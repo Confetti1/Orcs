@@ -117,7 +117,7 @@
   <HairDef>
     <defName>Jesus</defName>
     <label>jesus</label>
-    <hairGender>male</hairGender>
+    <hairGender>Male</hairGender>
     <texPath>Hairs/jesus</texPath>
     <hairTags>
       <li>Dwarf</li>
