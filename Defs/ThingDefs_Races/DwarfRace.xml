@@ -89,6 +89,7 @@
                                     </li>
                                 </options>
                             </first>
+				<!--
                             <second Class="ColorGenerator_Options">
                                 <options>
                                     <li>
@@ -97,6 +98,7 @@
                                     </li>
                                 </options>
                             </second>
+				-->
                         </li>
                     </colorChannels>
 		              <headOffset>(0.0, -0.05)</headOffset>
