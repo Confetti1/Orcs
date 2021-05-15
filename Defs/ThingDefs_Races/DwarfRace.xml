@@ -100,8 +100,35 @@
                             </second>
 				-->
                         </li>
+			<li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(69, 69, 69, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(87, 82, 68, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(94, 71, 50, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(125, 102, 35, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>RGBA(200, 130, 25, 255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
                     </colorChannels>
-		              <headOffset>(0.0, -0.05)</headOffset>
+		              <headOffset>(0.0, -0.02)</headOffset>
                </alienPartGenerator>
             </generalSettings>
 		
