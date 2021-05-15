@@ -114,7 +114,7 @@
         <label>goblin dog puppy</label>
         <labelPlural>goblin dog puppies</labelPlural>
         <bodyGraphicData>
-          <texPath>Animals/Goblindog</texPath>
+          <texPath>Animal/Goblindog</texPath>
           <drawSize>0.95</drawSize>
           <color>(212,193,169)</color>
         </bodyGraphicData>
@@ -125,7 +125,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Goblindog</texPath>
+          <texPath>Animal/Goblindog</texPath>
           <drawSize>1.35</drawSize>
           <color>(212,193,169)</color>
           <shadowData>
@@ -140,7 +140,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Goblindog</texPath>
+          <texPath>Animal/Goblindog</texPath>
           <drawSize>1.6</drawSize>
           <color>(212,193,169)</color>
           <shadowData>
