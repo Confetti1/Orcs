@@ -265,7 +265,7 @@
 	    
     </AlienRace.ThingDef_AlienRace>
 	<AlienRace.RaceSettings>
-		<defName>GoblinSettings</defName>
+		<defName>DwarfSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds>
 				<li>
