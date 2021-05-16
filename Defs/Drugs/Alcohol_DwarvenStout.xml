@@ -8,7 +8,7 @@
     <descriptionHyperlinks>
       <HediffDef>DwarvenStoutHigh</HediffDef>
       <HediffDef>AlcoholTolerance</HediffDef>
-      <HediffDef>DwarvenHangover</HediffDef>
+      <HediffDef>DwarvenStoutHangover</HediffDef>
       <HediffDef>AlcoholAddiction</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
@@ -273,7 +273,7 @@
     <label>dwarven stout hangover</label>
     <labelNoun>a dwarven hangover</labelNoun>
     <description>An unpleasant delayed after-effect of alcohol intoxication.</description>
-    <hediffClass>Hediff_Hangover</hediffClass>
+    <hediffClass>Hediff_DwarvenHangover</hediffClass>
     <initialSeverity>1</initialSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
