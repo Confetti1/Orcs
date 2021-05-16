@@ -1,140 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-<!--             
-  <FactionDef ParentName="HumanFactionBase" Name="OrcTribeBase" Abstract ="True">
-    <pawnSingular>orc</pawnSingular>
-    <pawnsPlural>orcs</pawnsPlural>
+<Defs>            
+  <FactionDef ParentName="PlayerFactionBase" Name="PlayerColonyDwarf" Abstract ="True">
+    <pawnSingular>dwarf</pawnSingular>
+    <pawnsPlural>dwarves</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
     <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>.5</settlementGenerationWeight>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>0</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
-    <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
-    <pawnNameMaker>NamerPersonOrc</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonOrc</pawnNameMakerFemale>
-    <techLevel>Neolithic</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <pawnNameMaker>NamerPersonDwarfMale</pawnNameMaker>
+    <pawnNameMakerFemale>NamerPersonDwarfFemale</pawnNameMakerFemale>
+    <techLevel>Medieval</techLevel>
     <backstoryFilters>
       <li>
         <categories>
-          <li>OrcTribal</li>
+          <li>Dwarf</li>
+          <li>City</li>
         </categories>
       </li>
     </backstoryFilters>
-    <leaderTitle>chief</leaderTitle>
+    <leaderTitle>King</leaderTitle>
     <hairTags>
-      <li>Tribal</li>
+      <li>Dwarf</li>
     </hairTags>
-    <caravanTraderKinds>
-      <li>Caravan_Neolithic_BulkGoods</li>
-      <li>Caravan_Neolithic_WarMerchant</li>
-      <li>Caravan_Neolithic_ShamanMerchant</li>
-      <li>Caravan_Neolithic_Slaver</li>
-    </caravanTraderKinds>
-    <visitorTraderKinds>
-      <li>Visitor_Neolithic_Standard</li>
-    </visitorTraderKinds>
-    <baseTraderKinds>
-      <li>Base_Neolithic_Standard</li>
-    </baseTraderKinds>
-    <allowedArrivalTemperatureRange>-40~40</allowedArrivalTemperatureRange>
-    <raidCommonalityFromPointsCurve>
-      <points>
-        <li>(0, 1)</li>
-      </points>
-    </raidCommonalityFromPointsCurve>
-    <maxPawnCostPerTotalPointsCurve>
-          <points>
-            <li>(0,35)</li>
-            <li>(70, 50)</li>
-            <li>(800, 100)</li>
-            <li>(1300, 150)</li>
-            <li>(100000, 10000)</li>
-          </points>
-    </maxPawnCostPerTotalPointsCurve>
-    <pawnGroupMakers>
-      <li>
-        <kindDef>Combat</kindDef>
-        <commonality>100</commonality>
-        <options>
-          <Orc_Tribal>5</Orc_Tribal>
-          <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
-          <Orc_Tribal_Archer>5</Orc_Tribal_Archer>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
-        </options>
-      </li>
-      <li>
-        <kindDef>Peaceful</kindDef>
-        <options>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
-        </options>
-      </li>
-      <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <Orc_Tribal_Trader>1</Orc_Tribal_Trader>
-        </traders>
-        <carriers>
-          <Muffalo>6</Muffalo>
-          <Dromedary>5</Dromedary>
-          <Alpaca>2.5</Alpaca>
-          <Elephant>2</Elephant>
-        </carriers>
-        <guards>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-        </guards>
-      </li>
-      <li>
-        <kindDef>Settlement</kindDef>
-        <options>
-          <Orc_Tribal>10</Orc_Tribal>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>10</Orc_Tribal_Chief>
-        </options>
-      </li>
-    </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/OrcSettlement</settlementTexturePath>
   </FactionDef>
-  
-  <ThingSetMakerDef>
-    <defName>OrcTribeRaidLootMaker</defName>
-    <root Class="ThingSetMaker_MarketValue">
-      <fixedParams>
-        <filter>
-          <thingDefs>
-            <li>Gold</li>
-            <li>Silver</li>
-            <li>Jade</li>
-            <li>MedicineHerbal</li>
-            <li>Pemmican</li>
-          </thingDefs>
-        </filter>
-      </fixedParams>
-    </root>
-  </ThingSetMakerDef>
-
-  <FactionDef ParentName="OrcTribeBase">
-    <defName>RuggedOrcTribe</defName>
-    <label>rugged orc tribe</label>
-    <description>The orcs live off the land. Sometimes, when the land isn't giving enough, they resort to raids. An orc raid is a matter that is worth taking quite seriously.</description>
-    <colorSpectrum>
-      <li>(150, 16, 16)</li>
-      <li>(80, 110, 30)</li>
-    </colorSpectrum>
-    <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
-    <startingGoodwill>5</startingGoodwill>
-    <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
-  </FactionDef>
-  -->
 </Defs>
