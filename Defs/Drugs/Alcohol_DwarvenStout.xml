@@ -2,19 +2,19 @@
 <Defs>
 
   <ThingDef ParentName="DrugBase">
-    <defName>Beer</defName>
-    <label>beer</label>
-    <description>The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</description>
+    <defName>DwarvenStout</defName>
+    <label>dwarven stout</label>
+    <description>Dwarven stout is a classic dwarven ale characterized by it's trademark burnt flavor. It's said that a mug of it can fill you up as much as a meal! Each dwarven society uses a different, closely guarded recipe. </description>
     <descriptionHyperlinks>
-      <HediffDef>AlcoholHigh</HediffDef>
-      <HediffDef>AlcoholTolerance</HediffDef>
-      <HediffDef>Hangover</HediffDef>
-      <HediffDef>AlcoholAddiction</HediffDef>
+      <HediffDef>DwarvenStoutHigh</HediffDef>
+      <HediffDef>DwarvenStoutTolerance</HediffDef>
+      <HediffDef>DwarvenStoutHangover</HediffDef>
+      <HediffDef>DwarvenStoutAddiction</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>Things/Item/Drug/Beer</texPath>
+      <texPath>Item/Drug/DwarvenStout</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
@@ -30,7 +30,7 @@
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
       <joyKind>Chemical</joyKind>
-      <joy>0.17</joy>
+      <joy>0.30</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
@@ -154,8 +154,8 @@
   </ThingDef>
   
   <HediffDef>
-    <defName>AlcoholHigh</defName>
-    <label>alcohol</label>
+    <defName>DwarvenStoutHigh</defName>
+    <label>dwarven stout</label>
     <labelNoun>drunkenness</labelNoun>
     <description>Alcohol in the bloodstream. It makes people happy, but reduces capacities.</description>
     <hediffClass>Hediff_Alcohol</hediffClass>
@@ -175,7 +175,7 @@
       <stages>
         <li>
           <label>warm</label>
-          <painFactor>0.9</painFactor>
+          <painFactor>0.8</painFactor>
           <socialFightChanceFactor>1.5</socialFightChanceFactor>
             <capMods>
               <li>
@@ -187,7 +187,7 @@
         <li>
           <minSeverity>0.25</minSeverity>
           <label>tipsy</label>
-          <painFactor>0.8</painFactor>
+          <painFactor>0.7</painFactor>
           <socialFightChanceFactor>2.5</socialFightChanceFactor>
             <capMods>
               <li>
