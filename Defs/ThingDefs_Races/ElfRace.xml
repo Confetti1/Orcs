@@ -145,7 +145,7 @@
 					<drawSize>(1, 1)</drawSize>
 					<drawSizePortrait>(1, 1)</drawSizePortait>
                                         <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-                                        <drawInBed>true</drawInBed>
+                                        <drawnInBed>true</drawnInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
                                         <colorChannel>skin</colorChannel>
                                 </li>
