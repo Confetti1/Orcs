@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Orc</defName>
         <label>orc</label>
-        <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however. Orcs tend to have shorter lifespans than most other races.</description>
+        <description>Orcs tend to be stronger and tougher than humans, but tend to be reckless and easy to provoke. They have no qualms over eating humanlikes. Some orcs are raised in cities and develop much more peacefully, however. Orcs tend to have shorter lifespans than most other races. Thanks to darkvision, orcs do not care about being in the dark (though they may still work slower).</description>
         <alienRace>
   	    
 	    <graphicPaths>
@@ -38,8 +38,8 @@
                 <disallowedTraits>
                 </disallowedTraits>
                 
-                <traitCount>1~2</traitCount>
-                <additionalTraits>1~2</additionalTraits>
+                <traitCount>1</traitCount>
+                <additionalTraits>0~1</additionalTraits>
                 
 		<factionRelations>
 			<li>
@@ -114,6 +114,7 @@
                     <li>ButcheredHumanlikeCorpse</li>
                     <li>KnowButcheredHumanlikeCorpse</li>
                     <li>AteHumanlikeMeatAsIngredient</li>
+                    <li>EnvironmentDark</li>
                 </cannotReceiveThoughts>
                 <replacerList>
                         <li>
