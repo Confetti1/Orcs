@@ -18,6 +18,7 @@
 		<getsGreyAt>350</getsGreyAt>
 		  <hairTags>
 			<li>Elf</li>
+			<li>Rural</li>
 		</hairTags>
             </hairSettings>
 		
@@ -118,6 +119,15 @@
                         </li>
                     </colorChannels>
 		              <headOffset>(0.0, 0.02)</headOffset>
+                        
+                        <bodyAddons>
+                                <li>
+                                        <path>Elf/Ears/RightEar</path>
+                                        <bodyPart>
+                                </li>
+                        </bodyAddons>
+                        
+                        
                </alienPartGenerator>
             </generalSettings>
             <thoughtSettings>
