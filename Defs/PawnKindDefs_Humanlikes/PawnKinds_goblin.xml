@@ -15,7 +15,7 @@
     <race>Goblin</race>
     <combatPower>10</combatPower>
     <defaultFactionType>GoblinTribe</defaultFactionType>
-    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <backstoryFiltersOverride>
       <li>
         <categories>
