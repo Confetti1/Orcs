@@ -107,6 +107,7 @@
                                 <li>AteCorpse</li>
                                 <li>AteKibble</li>
                                 <li>AteRawFood</li>
+				<li>SleptInBedroom</li>
                         </cannotRecieveThoughts>
                                 
                 </thoughtSettings>
