@@ -128,8 +128,8 @@
 					<layerInvert>true</layerInvert>
 					<layerOffset>0</layerOffset>
 					<alignWithHead>true</alignWithHead>
-					<drawSize>(1, 1)</drawSize>
-					<drawSizePortrait>(1, 1)</drawSizePortait>
+					<drawSize>(1,1)</drawSize>
+					<drawSizePortrait>(1,1)</drawSizePortrait>
                                         <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                                         <drawInBed>true</drawInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
