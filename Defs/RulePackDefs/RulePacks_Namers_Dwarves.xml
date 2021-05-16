@@ -5,8 +5,10 @@
         <defName>NamerDwarfUtility</defName>
         <rulePack>
             <rulesStrings>
-                <li>DwarfFirst->[GobNoun][GobVerb]</li>
-                <li>DwarfFirst->[GobNoise][GobNoise]</li>
+                <li>MaleDwarfFirst->[GobNoun][GobVerb]</li>
+                <li>MaleDwarfFirst->[GobNoise][GobNoise]</li>
+                <li>FemaleDwarfFirst->
+                <li>FemaleDwarfFirst->
                 <li>DwarfLast->[DwarfAdjective][DwarfNoun]</li>
                 <li>DwarfLast->[DwarfAdjective][DwarfMaterial]</li>
                 <li>DwarfLast->[DwarfMaterial][DwarfNoun]</li>
@@ -15,19 +17,37 @@
                 <li>DwarfNoun->Words/DwarfNameNoun</li>
                 <li>DwarfAdjective->Words/DwarfNameAdjective</li>
                 <li>DwarfMaterial->Words/DwarfNameMaterial</li>
+                <li>M1->WordParts/MDwarfSyllable1</li>
+                <li>M2->WordParts/MDwarfSyllable2</li>
+                <li>M3->WordParts/MDwarfSyllable3</li>
+                <li>F1->WordParts/FDwarfSyllable1</li>
+                <li>F2->WordParts/FDwarfSyllable2</li>
+                <li>F3->WordParts/FDwarfSyllable3</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
 
     
     <RulePackDef>
-        <defName>NamerPersonDwarf</defName>
+        <defName>NamerPersonDwarfMale</defName>
         <include>
             <li>NamerDwarfUtility</li>
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=2)->[DwarfFirst] [DwarfLast]</li>
+                <li>r_name(p=2)->[MaleDwarfFirst] [DwarfLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+            
+    <RulePackDef>
+        <defName>NamerPersonDwarfFemale</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[FemaleDwarfFirst] [DwarfLast]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
