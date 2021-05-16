@@ -102,6 +102,9 @@
     <soundWorking>Recipe_Brewing</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>1000</workAmount>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
       <li>
