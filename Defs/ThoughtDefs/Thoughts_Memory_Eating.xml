@@ -68,4 +68,38 @@
     </stages>
   </ThoughtDef>
   
+  <ThoughtDef>
+    <defName>ButcheredAnOrc</defName>
+    <durationDays>1</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>butchered an orc</label>
+        <description>I had to skin and prepare the meat of one of my kin.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KnowButcheredAnOrc</defName>
+    <durationDays>1</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>we butchered an orc</label>
+        <description>I can't believe we skinned one of our own...</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
 </Defs>
