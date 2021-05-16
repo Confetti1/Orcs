@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Dwarf</defName>
         <label>dwarf</label>
-        <description>Dwarves are a stoic race that typically live in cities carved out from mountains. They tend to be skilled in crafting and mining, and are renowned for their smithing.</description>
+        <description>Dwarves are a stoic race that typically live in cities carved out from mountains. They tend to be skilled in crafting and mining, and are renowned for their smithing. They do not mind being in the dark, and enjoy the safety of overhead mountains. They often have the Undergrounder trait. Dwarves who don't have it still don't mind being in the dark.</description>
         <alienRace>
   	    
 	    <graphicPaths>
@@ -36,7 +36,10 @@
                      <defName>Industriousness</defName>
                      <degree>2</degree>
                      <chance>30</chance>
-                	</li>
+                  </li>
+                  <li>
+                     <defName>Undergrounder</defName>
+                  </li>
                 </forcedRaceTraitEntries>
 		    
                 <disallowedTraits>
@@ -131,6 +134,15 @@
 		              <headOffset>(0.0, -0.02)</headOffset>
                </alienPartGenerator>
             </generalSettings>
+            <thoughtSettings>
+                    <replacerList>
+                            <li>
+                            </li>
+                    </replacerList>
+                    <cannotRecieveThoughts>
+                            <li>EnvironmentDark</li>
+                    </cannotRecieveThoughts>
+            </thoughtSettings>
 		
             <compatibility>
                 <isFlesh>true</isFlesh>
