@@ -374,7 +374,7 @@
   </ThoughtDef>
   
   <!-- Alcohol addiction -->
-  <!--
+  
   <ChemicalDef>
     <defName>Alcohol</defName>
     <label>alcohol</label>
@@ -491,6 +491,4 @@
       </li>
     </stages>
   </ThoughtDef>
--->
-
 </Defs>
