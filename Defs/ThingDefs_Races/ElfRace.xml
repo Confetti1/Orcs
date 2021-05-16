@@ -123,7 +123,7 @@
                         <bodyAddons>
                                 <li>
                                         <path>Elf/Ears/RightEar</path>
-					<bodyPart>RightEar</bodyPart>
+					<bodyPart>right ear</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<layerOffset>0</layerOffset>
@@ -137,7 +137,7 @@
                                 </li>
                                 <li>
                                         <path>Elf/Ears/LeftEar</path>
-					<bodyPart>LeftEar</bodyPart>
+					<bodyPart>left ear</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<layerInvert>true</layerInvert>
 					<layerOffset>0</layerOffset>
@@ -177,7 +177,7 @@
 		      <leatherDef>Leather_Human</leatherDef>
 		      <nameGenerator>NamerPersonDwarfMale</nameGenerator>
           <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
-		      <body>Elf</body>
+		      <body>Human</body>
 		      <baseBodySize>1</baseBodySize>
 		      <baseHealthScale>0.8</baseHealthScale>
 		      <foodType>OmnivoreHuman</foodType>
