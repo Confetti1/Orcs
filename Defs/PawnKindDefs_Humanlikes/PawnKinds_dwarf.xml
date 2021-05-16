@@ -13,7 +13,7 @@
     <defName>Dwarf_Colonist</defName>
     <label>dwarfcolonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <chemicalAddictionChance>0.3</chemicalAddictionChance>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <backstoryFiltersOverride>
       <li>
         <categories>
