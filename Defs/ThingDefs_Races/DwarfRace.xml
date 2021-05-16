@@ -46,7 +46,7 @@
                 </disallowedTraits>
                 
                 <traitCount>1</traitCount>
-                <additionalTraits>1~2</additionalTraits>
+                <additionalTraits>0~1</additionalTraits>
 		    
                 <maxDamageForSocialfight>6</maxDamageForSocialfight>
                 <allowHumanBios>true</allowHumanBios>
