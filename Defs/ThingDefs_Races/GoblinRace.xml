@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Goblin</defName>
         <label>goblin</label>
-        <description>Goblins are childish, impulsive, and stupid. They are tiny, ugly creatures with a mouth full of fangs and an obsession with fire. They will do whatever they want, whether it's beat each other up or raid people for fun. They can be civilized, but their childish ways will always be missing. They breed and mature quickly, so actual goblin children are fairly rare.</description>
+        <description>Goblins are childish, impulsive, and stupid. They are tiny, ugly creatures with a mouth full of fangs and an obsession with fire. They will do whatever they want, whether it's beat each other up or raid people for fun. They can be civilized, but their childish ways will always be there in some degree. They breed and mature quickly, so actual goblin children are fairly rare. Goblins don't mind eating raw food, and particularly love to eat bugs.</description>
         <alienRace>
   	    
 	    <graphicPaths>
@@ -91,6 +91,25 @@
 		    <headOffset>(0.0, -0.08)</headOffset>
                 </alienPartGenerator>
             </generalSettings>
+                
+                <thoughtSettings>
+                        <replacerList>
+                                <li>
+                                        <original>AteInsectMeatAsIngredient</original>
+                                        <replacer>GoblinAteInsectMeatAsIngredient</replacer>
+                                </li>
+                                <li>
+                                        <original>AteInsectMeatDirect</original>
+                                        <replacer>GoblinAteInsectMeatDirect</replacer>
+                                </li>
+                        </replacerList>
+                        <cannotRecieveThoughts>
+                                <li>AteCorpse</li>
+                                <li>AteKibble</li>
+                                <li>AteRawFood</li>
+                        </cannotRecieveThoughts>
+                                
+                </thoughtSettings>
 		
             <compatibility>
                 <isFlesh>true</isFlesh>
@@ -104,7 +123,7 @@
 		<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 		<intelligence>Humanlike</intelligence>
 		<makesFootprints>true</makesFootprints>
-		<lifeExpectancy>300</lifeExpectancy>
+		<lifeExpectancy>50</lifeExpectancy>
 		<leatherDef>Leather_Human</leatherDef>
 		<nameCategory>HumanStandard</nameCategory>
 		<body>Human</body>
