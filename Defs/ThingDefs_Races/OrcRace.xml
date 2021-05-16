@@ -112,8 +112,35 @@
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>ButcheredHumanlikeCorpse</li>
-                    <!-- <li>AteHumanlikeMeatDirectly</li> -->
+                    <li>KnowButcheredHumanlikeCorpse</li>
+                    <li>AteHumanlikeMeatAsIngredient</li>
                 </cannotReceiveThoughts>
+                <replacerList>
+                        <li>
+                                <original>AteHumanlikeMeatDirect</original>
+                                <replacer>AteRawFood</replacer>
+                        </li>
+                </replacerList>
+                <butcherThoughtSpecific>
+                        <li>
+                                <raceList>
+                                        <li>Orc</li>
+                                </raceList>
+                                <thought>ButcheredAnOrc</thought>
+                                <knowThought>KnowButcheredAnOrc</knowThought>
+                        </li>
+                </butcherThoughtSpecific>
+                <ateThoughtSpecific>
+                        <li>
+                                <raceList>
+                                        <li>Orc</li>
+                                </raceList>
+                                <thought>AteOrcMeatDirect</thought>
+                                <thought>AteOrcMeatDirectCannibal</thought>
+                                <ingredientThought>AteOrcMeatAsIngredient</ingredientThought>
+                                <ingredientThought>AteOrcMeatAsIngredientCannibal</ingredientThought>
+                        </li>
+                </ateThoughtSpecific>
             </thoughtSettings>
 		
             <compatibility>
