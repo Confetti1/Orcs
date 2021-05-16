@@ -183,7 +183,8 @@
 		<makesFootprints>true</makesFootprints>
 		<lifeExpectancy>300</lifeExpectancy>
 		<leatherDef>Leather_Human</leatherDef>
-		<nameCategory>HumanStandard</nameCategory>
+		<nameGenerator>NamerPersonGnomeMale</nameGenerator>
+		<nameGeneratorFemale>NamerPersonGnomeFemale</NameGeneratorFemale>
 		<body>Human</body>
 		<baseBodySize>0.6</baseBodySize>
 		<baseHealthScale>0.8</baseHealthScale>
