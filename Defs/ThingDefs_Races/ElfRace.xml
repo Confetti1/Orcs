@@ -133,7 +133,38 @@
                                         <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                                         <drawnInBed>true</drawnInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
-                                        <colorChannel>skin</colorChannel>                  
+                                        <colorChannel>skin</colorChannel>
+					<offsets>
+						<south>
+							<layerOffset>0</layerOffset>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</south>
+						<north>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</north>
+						<east>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</east>
+					</offsets>
+					<shaderType>Cutout</shaderType>
                                 <li>
                                         <path>Elf/Ears/LeftEar</path>
 					<bodyPart>left ear</bodyPart>
@@ -147,6 +178,37 @@
                                         <drawnInBed>true</drawnInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
                                         <colorChannel>skin</colorChannel>
+					<offsets>
+						<south>
+							<layerOffset>0</layerOffset>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</south>
+						<north>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</north>
+						<east>
+							<bodyTypes>
+								<Thin>0</Thin>
+							</bodyTypes>
+							<crownTypes>
+								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+							</crownTypes>
+						</east>
+					</offsets>
+					<shaderType>Cutout</shaderType>
                                 </li>
                         </bodyAddons>                   
                </alienPartGenerator>
