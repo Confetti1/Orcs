@@ -142,7 +142,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
@@ -151,7 +151,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</north>
 						<east>
@@ -160,7 +160,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</east>
 					</offsets>
@@ -186,7 +186,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
@@ -195,7 +195,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</north>
 						<east>
@@ -204,7 +204,7 @@
 							</bodyTypes>
 							<crownTypes>
 								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0)</Narrow_Normal>
 							</crownTypes>
 						</east>
 					</offsets>
