@@ -139,9 +139,9 @@
                             <li>
                             </li>
                     </replacerList>
-                    <cannotRecieveThoughts>
+                    <cannotReceiveThoughts>
                             <li>EnvironmentDark</li>
-                    </cannotRecieveThoughts>
+                    </cannotReceiveThoughts>
             </thoughtSettings>
 		
             <compatibility>
