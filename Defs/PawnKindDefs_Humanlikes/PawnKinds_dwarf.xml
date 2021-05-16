@@ -12,7 +12,7 @@
   <PawnKindDef ParentName="BasePlayerDwarfPawnKind">
     <defName>Dwarf_Colonist</defName>
     <label>dwarfcolonist</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
+    <defaultFactionType>PlayerColonyDwarf</defaultFactionType>
     <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <backstoryFiltersOverride>
       <li>
