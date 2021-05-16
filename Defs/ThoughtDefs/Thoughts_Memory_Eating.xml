@@ -102,7 +102,7 @@
 
 <!-- ==================================== GOBLIN THOUGHTS ========================================== -->
   <ThoughtDef>
-    <defName>GoblinAteInsectMeat</defName>
+    <defName>GoblinAteInsectMeatDirect</defName>
     <durationDays>1</durationDays>
     <stages>
       <li>
@@ -111,5 +111,18 @@
         <baseMoodEffect>7</baseMoodEffect>
       </li>
     </stages>
+    
   </ThoughtDef>  
+  <ThoughtDef>
+    <defName>GoblinAteInsectMeatAsIngredient</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>bugs in the food</label>
+        <description>Mmm, normal food with bugs? This must be how king eats!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef> 
+  
 </Defs>
