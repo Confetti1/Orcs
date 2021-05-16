@@ -5,10 +5,10 @@
         <defName>NamerDwarfUtility</defName>
         <rulePack>
             <rulesStrings>
-                <li>MaleDwarfFirst->[GobNoun][GobVerb]</li>
-                <li>MaleDwarfFirst->[GobNoise][GobNoise]</li>
-                <li>FemaleDwarfFirst->
-                <li>FemaleDwarfFirst->
+                <li>MaleDwarfFirst->[M1][M2][M3]</li>
+                <li>MaleDwarfFirst->[M2][M3]</li>
+                <li>FemaleDwarfFirst->[F1][F2][F3]</li>
+                <li>FemaleDwarfFirst->[F2][F3]</li>
                 <li>DwarfLast->[DwarfAdjective][DwarfNoun]</li>
                 <li>DwarfLast->[DwarfAdjective][DwarfMaterial]</li>
                 <li>DwarfLast->[DwarfMaterial][DwarfNoun]</li>
