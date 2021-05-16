@@ -123,7 +123,31 @@
                         <bodyAddons>
                                 <li>
                                         <path>Elf/Ears/RightEar</path>
-                                        <bodyPart>
+					<bodyPart>RightEar</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<layerInvert>true</layerInvert>
+					<layerOffset>0</layerOffset>
+					<alignWithHead>true</alignWithHead>
+					<drawSize>(1, 1)</drawSize>
+					<drawSizePortrait>(1, 1)</drawSizePortait>
+                                        <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                                        <drawInBed>true</drawInBed>
+                                        <drawnDesiccated>false</drawnDesiccated>
+                                        <colorChannel>skin</colorChannel>
+                                </li>
+                                <li>
+                                        <path>Elf/Ears/LeftEar</path>
+					<bodyPart>LeftEar</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<layerInvert>true</layerInvert>
+					<layerOffset>0</layerOffset>
+					<alignWithHead>true</alignWithHead>
+					<drawSize>(1, 1)</drawSize>
+					<drawSizePortrait>(1, 1)</drawSizePortait>
+                                        <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                                        <drawInBed>true</drawInBed>
+                                        <drawnDesiccated>false</drawnDesiccated>
+                                        <colorChannel>skin</colorChannel>
                                 </li>
                         </bodyAddons>
                         
@@ -153,7 +177,7 @@
 		      <leatherDef>Leather_Human</leatherDef>
 		      <nameGenerator>NamerPersonDwarfMale</nameGenerator>
           <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
-		      <body>Human</body>
+		      <body>Elf</body>
 		      <baseBodySize>1</baseBodySize>
 		      <baseHealthScale>0.8</baseHealthScale>
 		      <foodType>OmnivoreHuman</foodType>
