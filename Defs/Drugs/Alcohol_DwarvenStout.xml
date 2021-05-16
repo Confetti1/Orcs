@@ -273,7 +273,7 @@
     <label>dwarven stout hangover</label>
     <labelNoun>a dwarven hangover</labelNoun>
     <description>An unpleasant delayed after-effect of alcohol intoxication.</description>
-    <hediffClass>Hediff_DwarvenHangover</hediffClass>
+    <hediffClass>Hediff_Hangover</hediffClass>
     <initialSeverity>1</initialSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
