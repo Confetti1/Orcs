@@ -4,17 +4,17 @@
   <ThingDef ParentName="DrugBase">
     <defName>DwarvenStout</defName>
     <label>dwarven stout</label>
-    <description>Dwarven stout is a classic dwarven ale characterized by it's trademark burnt flavor. It's said that a mug of it can fill you up as much as a meal! Each dwarven society uses a different, closely guarded recipe. </description>
+    <description>Dwarven stout is a classic dwarven ale characterized by it's trademark burnt flavor. It's said that a mug of it can fill you up as much as a meal! Each dwarven society uses a different, closely guarded recipe.</description>
     <descriptionHyperlinks>
       <HediffDef>DwarvenStoutHigh</HediffDef>
-      <HediffDef>DwarvenStoutTolerance</HediffDef>
+      <HediffDef>AlcoholTolerance</HediffDef>
       <HediffDef>DwarvenHangover</HediffDef>
       <HediffDef>AlcoholAddiction</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>Item/Drug/DwarvenStout</texPath>
+      <texPath>Item/Drug</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
