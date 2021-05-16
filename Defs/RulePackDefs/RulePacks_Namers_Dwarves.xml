@@ -1,1 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerDwarfUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>DwarfFirst->[GobNoun][GobVerb]</li>
+                <li>DwarfFirst->[GobNoise][GobNoise]</li>
+                <li>DwarfLast->[DwarfAdjective][DwarfNoun]</li>
+                <li>DwarfLast->[DwarfAdjective][DwarfMaterial]</li>
+                <li>DwarfLast->[DwarfMaterial][DwarfNoun]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>DwarfNoun->Words/DwarfNameNoun</li>
+                <li>DwarfAdjective->Words/DwarfNameAdjective</li>
+                <li>DwarfMaterial->Words/DwarfNameMaterial</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
 
+    
+    <RulePackDef>
+        <defName>NamerPersonDwarf</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[DwarfFirst] [DwarfLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
