@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>            
-  <FactionDef ParentName="PlayerFactionBase" Name="PlayerColonyDwarf" Abstract ="True">
+  <FactionDef ParentName="PlayerFactionBase" Name="DwarfColonyBase" Abstract ="True">
     <pawnSingular>dwarf</pawnSingular>
     <pawnsPlural>dwarves</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
@@ -29,5 +29,18 @@
       <li>Dwarf</li>
     </hairTags>
     <settlementTexturePath>World/WorldObjects/OrcSettlement</settlementTexturePath>
+  </FactionDef>
+  
+  <FactionDef ParentName="DwarfColonyBase">
+    <defName>PlayerColonyDwarf</defName>
+    <label>player colony dwarf</label>
+    <description>A dwarf in your starting colony.</description>
+    <colorSpectrum>
+      <li>(150, 16, 16)</li>
+      <li>(80, 110, 30)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
+    <startingGoodwill>5</startingGoodwill>
+    <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
   </FactionDef>
 </Defs>
