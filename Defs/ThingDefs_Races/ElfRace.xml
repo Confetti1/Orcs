@@ -15,6 +15,7 @@
             
 	    <hairSettings>
                 <hasHair>True</hasHair>
+		<getsGreyAt>350</getsGreyAt>
 		  <hairTags>
 			<li>Elf</li>
 		</hairTags>
