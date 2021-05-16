@@ -136,9 +136,7 @@
                                         <li>Orc</li>
                                 </raceList>
                                 <thought>AteOrcMeatDirect</thought>
-                                <thought>AteOrcMeatDirectCannibal</thought>
                                 <ingredientThought>AteOrcMeatAsIngredient</ingredientThought>
-                                <ingredientThought>AteOrcMeatAsIngredientCannibal</ingredientThought>
                         </li>
                 </ateThoughtSpecific>
             </thoughtSettings>
