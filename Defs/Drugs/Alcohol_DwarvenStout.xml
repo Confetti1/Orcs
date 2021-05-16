@@ -8,8 +8,8 @@
     <descriptionHyperlinks>
       <HediffDef>DwarvenStoutHigh</HediffDef>
       <HediffDef>DwarvenStoutTolerance</HediffDef>
-      <HediffDef>DwarvenStoutHangover</HediffDef>
-      <HediffDef>DwarvenStoutAddiction</HediffDef>
+      <HediffDef>DwarvenHangover</HediffDef>
+      <HediffDef>AlcoholAddiction</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
     </descriptionHyperlinks>
@@ -19,13 +19,13 @@
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
     <rotatable>false</rotatable>
-    <stackLimit>25</stackLimit>
+    <stackLimit>50</stackLimit>
     <statBases>
       <DeteriorationRate>0.5</DeteriorationRate>
-      <MarketValue>12</MarketValue>
+      <MarketValue>30</MarketValue>
       <Mass>0.3</Mass>
       <Flammability>0.5</Flammability>
-      <Nutrition>0.08</Nutrition>
+      <Nutrition>0.5</Nutrition>
     </statBases>
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
@@ -57,11 +57,11 @@
       </outcomeDoers>
     </ingestible>
     <equipmentType>Primary</equipmentType>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Medieval</techLevel>
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Alcohol</chemical>
-        <addictiveness>0.010</addictiveness>
+        <addictiveness>0.020</addictiveness>
         <minToleranceToAddict>0.25</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>0.9</needLevelOffset>
@@ -92,10 +92,10 @@
   </ThingDef>
 
   <RecipeDef>
-    <defName>Make_Wort</defName>
-    <label>make wort</label>
-    <description>Make wort from hops.</description>
-    <jobString>Making wort.</jobString>
+    <defName>Make_Dwarven_Wort</defName>
+    <label>make dwarven wort</label>
+    <description>Make dwarven stout wort from hops and .</description>
+    <jobString>Making dwarven wort.</jobString>
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <effectWorking>Cook</effectWorking>
@@ -112,23 +112,32 @@
         </filter>
         <count>25</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>RawHops</li>
+        <li>RawPotatoes</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Wort>5</Wort>
+      <DwarvenWort>6</DwarvenWort>
     </products>
   </RecipeDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>Wort</defName>
-    <label>wort</label>
-    <description>Un-fermented beer. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
+    <defName>DwarvenWort</defName>
+    <label>dwarven wort</label>
+    <description>Un-fermented dwarven stout. This substance needs to ferment in a fermenting barrel before it becomes drinkable.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Wort</texPath>
+      <texPath>Item/Resource/DwarvenWort</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -139,7 +148,7 @@
     </thingCategories>
     <statBases>
       <DeteriorationRate>1.0</DeteriorationRate>
-      <MarketValue>2.5</MarketValue>
+      <MarketValue>4</MarketValue>
       <Mass>0.8</Mass>
       <Flammability>0.2</Flammability>
       <MaxHitPoints>60</MaxHitPoints>
@@ -175,19 +184,19 @@
       <stages>
         <li>
           <label>warm</label>
-          <painFactor>0.8</painFactor>
+          <painFactor>0.6</painFactor>
           <socialFightChanceFactor>1.5</socialFightChanceFactor>
             <capMods>
               <li>
                 <capacity>Manipulation</capacity>
-                <offset>-0.02</offset>
+                <offset>-0.03</offset>
               </li>
             </capMods>
         </li>
         <li>
           <minSeverity>0.25</minSeverity>
           <label>tipsy</label>
-          <painFactor>0.7</painFactor>
+          <painFactor>0.5</painFactor>
           <socialFightChanceFactor>2.5</socialFightChanceFactor>
             <capMods>
               <li>
@@ -203,7 +212,7 @@
         <li>
           <minSeverity>0.4</minSeverity>
           <label>drunk</label>
-          <painFactor>0.5</painFactor>
+          <painFactor>0.4</painFactor>
           <socialFightChanceFactor>4.0</socialFightChanceFactor>
           <vomitMtbDays>0.75</vomitMtbDays>
           <tale>Drunk</tale>
@@ -232,7 +241,7 @@
               </li>
               <li>
                 <capacity>Moving</capacity>
-                <offset>-0.10</offset>
+                <offset>-0.12</offset>
               </li>
             </capMods>
         </li>
@@ -260,9 +269,9 @@
   </HediffDef>
 
   <HediffDef>
-    <defName>Hangover</defName>
-    <label>hangover</label>
-    <labelNoun>a hangover</labelNoun>
+    <defName>DwarvenStoutHangover</defName>
+    <label>dwarven stout hangover</label>
+    <labelNoun>a dwarven hangover</labelNoun>
     <description>An unpleasant delayed after-effect of alcohol intoxication.</description>
     <hediffClass>Hediff_Hangover</hediffClass>
     <initialSeverity>1</initialSeverity>
@@ -316,47 +325,47 @@
     <stages>
       <li>
         <label>alcohol warmth</label>
-        <description>I just feel a bit more relaxed after that drink. That's good.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <description>The dwarven stout burns my throat still. It makes me feel warm.</description>
+        <baseMoodEffect>14</baseMoodEffect>
       </li>
       <li>
         <label>quite inebriated</label>
-        <description>I'm a bit wobbly! And this is quite enjoyable.</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <description>I'm stumbling about. Anyone know any dwarven tavern songs?</description>
+        <baseMoodEffect>18</baseMoodEffect>
       </li>     
       <li>
         <label>drunk</label>
-        <description>I feel so uninhibited and unafraid! This is a great time!</description>
-        <baseMoodEffect>20</baseMoodEffect>
+        <description>Make room on that table; it's time to dance!</description>
+        <baseMoodEffect>25</baseMoodEffect>
       </li>
       <li>
         <label>hammered</label>
-        <description>Wooo! What's going on?</description>
-        <baseMoodEffect>26</baseMoodEffect>
+        <description>Which way is up?! Bah, who cares!!</description>
+        <baseMoodEffect>35</baseMoodEffect>
       </li>   
     </stages>
   </ThoughtDef>
 
   <ThoughtDef>
-    <defName>Hungover</defName>
+    <defName>DwarvenHangover</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>Hangover</hediff>
+    <hediff>DwarvenHangover</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>mild hangover</label>
         <description>The headache is almost gone.</description>
-        <baseMoodEffect>-3</baseMoodEffect>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
       <li>
         <label>serious hangover</label>
-        <description>My head hurts from all that liquor.</description>
-        <baseMoodEffect>-6</baseMoodEffect>
+        <description>My head burns like a furnace.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
       </li>
       <li>
         <label>pounding hangover</label>
-        <description>It feels like a gaggle of geese are pecking at my skull.</description>
-        <baseMoodEffect>-12</baseMoodEffect>
+        <description>Is there a dwarf in my head using my brain as an anvil or something?!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
       </li>
       <li>
         <visible>false</visible>
@@ -365,7 +374,7 @@
   </ThoughtDef>
   
   <!-- Alcohol addiction -->
-  
+  <!--
   <ChemicalDef>
     <defName>Alcohol</defName>
     <label>alcohol</label>
@@ -482,5 +491,6 @@
       </li>
     </stages>
   </ThoughtDef>
+-->
 
 </Defs>
