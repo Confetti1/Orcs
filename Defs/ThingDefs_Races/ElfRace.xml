@@ -134,6 +134,42 @@
                                         <drawnInBed>true</drawnInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
                                         <colorChannel>skin</colorChannel>
+					<offsets>
+                    <south>
+                        <layerOffset>0.25</layerOffset>
+                        <bodyTypes>
+                            <Male>(0.42,-0.22)</Male>
+                            <Female>(0.42,-0.22)</Female>
+                            <Fat>(0.42,-0.22)</Fat>
+                            <Thin>(0.42,-0.22)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0.42,-0.22)</Normal_Average>
+                        </crownTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Male>(0,-0.55)</Male>
+                            <Female>(0,-0.55)</Female>
+                            <Fat>(0,-0.55)</Fat>
+                            <Thin>(0,-0.55)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0.55,-0.55)</Normal_Average>
+                        </crownTypes>
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Male>(-0.42,-0.22)</Male>
+                            <Female>(-0.42,-0.22)</Female>
+                            <Fat>(-0.42,-0.22)</Fat>
+                            <Thin>(-0.42,-0.22)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                        </crownTypes>
+                    </east>
+                </offsets>
                                 </li>
                                 <li>
                                         <path>Elf/Ears/LeftEar</path>
@@ -148,6 +184,41 @@
                                         <drawnInBed>true</drawnInBed>
                                         <drawnDesiccated>false</drawnDesiccated>
                                         <colorChannel>skin</colorChannel>
+                                        <south>
+                        <layerOffset>0.25</layerOffset>
+                        <bodyTypes>
+                            <Male>(0.42,-0.22)</Male>
+                            <Female>(0.42,-0.22)</Female>
+                            <Fat>(0.42,-0.22)</Fat>
+                            <Thin>(0.42,-0.22)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0.42,-0.22)</Normal_Average>
+                        </crownTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Male>(0,-0.55)</Male>
+                            <Female>(0,-0.55)</Female>
+                            <Fat>(0,-0.55)</Fat>
+                            <Thin>(0,-0.55)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0.55,-0.55)</Normal_Average>
+                        </crownTypes>
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Male>(-0.42,-0.22)</Male>
+                            <Female>(-0.42,-0.22)</Female>
+                            <Fat>(-0.42,-0.22)</Fat>
+                            <Thin>(-0.42,-0.22)</Thin>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                        </crownTypes>
+                    </east>
+                </offsets>
                                 </li>
                         </bodyAddons>
                         
