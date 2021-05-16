@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Elf</defName>
         <label>elf</label>
-        <description></description>
+        <description>Elves are elegant</description>
         <alienRace>
   	    
 	    <graphicPaths>
