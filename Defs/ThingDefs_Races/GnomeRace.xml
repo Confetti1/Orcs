@@ -184,7 +184,7 @@
 		<lifeExpectancy>300</lifeExpectancy>
 		<leatherDef>Leather_Human</leatherDef>
 		<nameGenerator>NamerPersonGnomeMale</nameGenerator>
-		<nameGeneratorFemale>NamerPersonGnomeFemale</NameGeneratorFemale>
+		<nameGeneratorFemale>NamerPersonGnomeFemale</nameGeneratorFemale>
 		<body>Human</body>
 		<baseBodySize>0.6</baseBodySize>
 		<baseHealthScale>0.8</baseHealthScale>
