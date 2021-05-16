@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerGnomeUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>MaleGnomeFirst->[M1][M2][M3]</li>
+                <li>MaleGnomeFirst->[M2][M3]</li>
+                <li>MaleGnomeFirst->[M1][M2]</li>
+                <li>FemaleGnomeFirst->[F1][F2][F3]</li>
+                <li>FemaleGnomeFirst->[F2][F3]</li>
+                <li>FemaleGnomeFirst->[F1][F2]</li>
+                <li>GnomeLast->[M1][F2][M3]</li>
+                <li>GnomeLast->[F1][M2][F3]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>DwarfNoun->Words/DwarfNameNoun</li>
+                <li>DwarfAdjective->Words/DwarfNameAdjective</li>
+                <li>DwarfMaterial->Words/DwarfNameMaterial</li>
+                <li>M1->WordParts/Syllables_GnomeMale1</li>
+                <li>M2->WordParts/Syllables_GnomeMale2</li>
+                <li>M3->WordParts/Syllables_GnomeMale3</li>
+                <li>F1->WordParts/Syllables_GnomeFemale1</li>
+                <li>F2->WordParts/Syllables_GnomeFemale2</li>
+                <li>F3->WordParts/Syllables_GnomeFemale3</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    
+    <RulePackDef>
+        <defName>NamerPersonGnomeMale</defName>
+        <include>
+            <li>NamerGnomeUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[MaleGnomeFirst] [GnomeLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+            
+    <RulePackDef>
+        <defName>NamerPersonGnomeFemale</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[FemaleGnomeFirst] [GnomeLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
