@@ -103,7 +103,7 @@
                                         <replacer>GoblinAteInsectMeatDirect</replacer>
                                 </li>
                         </replacerList>
-                        <cannotRecieveThoughts>
+                        <cannotReceiveThoughts>
                                 <li>AteCorpse</li>
                                 <li>AteKibble</li>
                                 <li>AteRawFood</li>
@@ -111,7 +111,7 @@
 				<li>HumanLeatherApparelSad</li>
 				<li>EnvironmentDark</li>
 				<li>DeadMansApparel</li>
-                        </cannotRecieveThoughts>
+                        </cannotReceiveThoughts>
                                 
                 </thoughtSettings>
 		
