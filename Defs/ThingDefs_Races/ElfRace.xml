@@ -165,6 +165,7 @@
 						</east>
 					</offsets>
 					<shaderType>Cutout</shaderType>
+				</li>
                                 <li>
                                         <path>Elf/Ears/LeftEar</path>
 					<bodyPart>left ear</bodyPart>
