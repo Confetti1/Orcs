@@ -108,6 +108,9 @@
                                 <li>AteKibble</li>
                                 <li>AteRawFood</li>
 				<li>SleptInBedroom</li>
+				<li>HumanLeatherApparelSad</li>
+				<li>EnvironmentDark</li>
+				<li>DeadMansApparel</li>
                         </cannotRecieveThoughts>
                                 
                 </thoughtSettings>
