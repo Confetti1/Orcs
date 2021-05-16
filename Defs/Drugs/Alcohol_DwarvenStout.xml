@@ -349,7 +349,7 @@
   <ThoughtDef>
     <defName>DwarvenHangover</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>DwarvenHangover</hediff>
+    <hediff>DwarvenStoutHangover</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
