@@ -12,4 +12,4 @@ str
 tyv
 ug
 ulg
-wulf
+w
