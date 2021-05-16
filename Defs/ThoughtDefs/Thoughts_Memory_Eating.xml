@@ -34,5 +34,38 @@
     </stages>
   </ThoughtDef>
   
+  <ThoughtDef>
+    <defName>AteOrcMeatAsIngredient</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>cooked orc cannibalism</label>
+        <description>We have resorted to eating our own. May our ancestors have mercy on what we have become.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteOrcMeatAsIngredientCannibal</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <requiredTraits>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cooked orc cannibalism</label>
+        <description>I know it's wrong, but I cannot help but love the strength I feel from eating my own kin.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   
 </Defs>
