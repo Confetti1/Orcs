@@ -7,8 +7,6 @@
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
-    <pawnNameMaker>NamerPersonDwarfMale</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonDwarfFemale</pawnNameMakerFemale>
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerDwarfPawnKind">
