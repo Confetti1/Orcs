@@ -75,7 +75,6 @@
       <li>Psychopath</li>
       <li>Cannibal</li>
     </nullifyingTraits>
-    </requiredTraits>
     <stages>
       <li>
         <label>butchered an orc</label>
@@ -92,7 +91,6 @@
       <li>Psychopath</li>
       <li>Cannibal</li>
     </nullifyingTraits>
-    </requiredTraits>
     <stages>
       <li>
         <label>we butchered an orc</label>
@@ -101,5 +99,17 @@
       </li>
     </stages>
   </ThoughtDef>
-  
+
+<!-- ==================================== GOBLIN THOUGHTS ========================================== -->
+  <ThoughtDef>
+    <defName>GoblinAteInsectMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>tasty bugs!</label>
+        <description>Mmm, crunch crunch, munch munch. Goblin love to eat bugs a bunch!</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>  
 </Defs>
