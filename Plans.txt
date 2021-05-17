@@ -1,18 +1,19 @@
+TO DO:
+-Need elf hairs
+-Need more dwarf hairs
+-Halflings and tieflings have not been implemented yet
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
   -Halflings 
     -Better growers, (something to represent sneakiness?), Somehow give mood bonuses to nearby colonists (or some other way to represent luck?)
   -Gnomes 
-    -Get Koroblin to make some custom hairs, find out if hairs automatically adjust to head shap
     -Add custom tinker-type researches/craft projects that only gnomes can make. (Limber Leg, clockwork limbs)
   -Dwarves 
     -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
     -Custom dwarven-themed ale that gives big benefits to Dwarves, but more penalties to others?
     -Dwarven themed weapons?
   -Goblins
-    -Incredibly weak, but large in numbers. Have silly names.
-    -Goblin themed weapons
     -Add Barghests to be the chief of goblins, add Goblin Dogs to aid in goblin raids. 
   -Tieflings
     -Use tiefling heritages as child backstories
@@ -33,7 +34,6 @@ Add new Pathfinder-based siege weapons and defenses
   -Catapult (similar to mortars)
   -Cannon (With possible ammunition options)
 Add Pathfinder-based monsters and creatures to appear in the wild, and possibly also add mysterious fey.
-  -Goblin Dogs
   -Wollipeds
   -Trolls?
 Add Pathfinder-based ores and materials
