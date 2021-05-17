@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Brewery"]/recipes</xpath>
+	  <value>
+		<li>Make_Dwarven_Stout</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "UniversalFermenter"]/comps/li[@Class="UniversalFermenter.CompProperties_UniversalFermenter"]/processes</xpath>
+		<value>
+			<li>
+				<thingDef>DwarvenStout</thingDef>
+				<ingredientFilter>
+					<thingDefs>
+						<li>DwarvenStout</li>
+					</thingDefs>
+				</ingredientFilter>
+				<processDays>15</processDays>
+			</li>
+		  </value>
+	</Operation>
+
+</Patch>
