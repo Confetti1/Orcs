@@ -121,7 +121,7 @@
     <soundInteract>Bow_Large</soundInteract>
     <costList>
       <WoodLog>60</WoodLog>
-      <Steel>60</Steel>
+      <Steel>40</Steel>
     </costList>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
@@ -131,11 +131,10 @@
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>2.9</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
+      <li>MedievalRanged</li>
     </weaponTags>
     <verbs>
       <li>
@@ -155,7 +154,7 @@
           <li>Poke</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <cooldownTime>4</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
@@ -176,9 +175,9 @@
     </graphicData>
     <projectile>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>18</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
   </ThingDef>
@@ -202,14 +201,13 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>3.0</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.85</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
+      <li>MedievalRanged</li>
     </weaponTags>
     <verbs>
       <li>
@@ -230,7 +228,7 @@
           <li>Poke</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <cooldownTime>5</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
