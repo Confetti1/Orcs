@@ -141,8 +141,8 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(-.42, 0.2)</Narrow_Pointy>
+								<Narrow_Normal>(-.42, 0.2)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
@@ -150,28 +150,21 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(0, 0.5)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0.5)</Narrow_Normal>
 							</crownTypes>
 						</north>
+						<west>
+						</west>
 						<east>
 							<bodyTypes>
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(-.38, 0.21)</Narrow_Pointy>
+								<Narrow_Normal>(-.38, 0.21)</Narrow_Normal>
 							</crownTypes>
 						</east>
-						<west>
-							<bodyTypes>
-								<Thin>0</Thin>
-							</bodyTypes>
-							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
-							</crownTypes>
-						</west>
 					</offsets>
 					<shaderType>Cutout</shaderType>
 				</li>
@@ -195,8 +188,8 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(-.42, 0.2)</Narrow_Pointy>
+								<Narrow_Normal>(-.42, 0.2)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
@@ -204,28 +197,21 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(0, 0.5)</Narrow_Pointy>
+								<Narrow_Normal>(0, 0.5)</Narrow_Normal>
 							</crownTypes>
 						</north>
-						<east>
-							<bodyTypes>
-								<Thin>0</Thin>
-							</bodyTypes>
-							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
-							</crownTypes>
-						</east>
 						<west>
 							<bodyTypes>
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(0, 0)</Narrow_Pointy>
-								<Narrow_Normal>(0, 0)</Narrow_Normal>
+								<Narrow_Pointy>(-.55, 0.19)</Narrow_Pointy>
+								<Narrow_Normal>(-.55, 0.19)</Narrow_Normal>
 							</crownTypes>
 						</west>
+						<east>
+						</east>
 					</offsets>
 					<shaderType>Cutout</shaderType>
                                 </li>
