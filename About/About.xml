@@ -13,6 +13,11 @@
       <displayName>Humanoid Alien Races 2.0</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
     </li>
+    <li>
+      <packageID>syrchalis.universalfermenter</packageID>
+      <displayName>[SYR] Universal Fermenter</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2073225100</steamWorkshopUrl>
+    </li>
   </modDependencies>
   
   <description>Adds the core races to Rimworld! Wowie!
