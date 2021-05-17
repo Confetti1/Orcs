@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
+<!--	<Operation Class="PatchOperationAdd">
 	  <xpath>*/ThingDef[defName = "Brewery"]/recipes</xpath>
 	  <value>
-		<li>Make_Dwarven_Stout</li>
+		<li>Make_Dwarven_Wort</li>
 	  </value>
-	</Operation>
+	</Operation> -->
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "UniversalFermenter"]/comps/li[@Class="UniversalFermenter.CompProperties_UniversalFermenter"]/processes</xpath>
