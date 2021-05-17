@@ -24,7 +24,7 @@
     <label>ballista</label>
     <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
     <graphicData>
-      <texPath>Things/Building/Security/TurretMortar_Top</texPath>
+      <texPath>Things/Building/Security/BallistaTop</texPath>
     </graphicData>
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
