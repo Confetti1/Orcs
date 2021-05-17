@@ -186,7 +186,7 @@
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Repeating_Crossbow</defName>
     <label>repeating crossbow</label>
-    <description>A crossbow with a clip fitted to the top of it, allowing multiple arrows to be fired in quick succession.</description>
+    <description>A crossbow with a clip fitted to the top of it, allowing multiple arrows to be fired in quick succession. It does take a bit longer to load a new clip, however.</description>
     <graphicData>
       <texPath>Item/Equipment/Weapons/RepeatingCrossbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
