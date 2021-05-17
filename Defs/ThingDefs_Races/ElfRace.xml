@@ -27,6 +27,8 @@
                 <immuneToAge>false</immuneToAge>
                 <humanRecipeImport>true</humanRecipeImport>
                 <canLayDown>true</canLayDown>
+                <nameGenerator>NamerPersonElfMale</nameGenerator>
+                <nameGeneratorFemale>NamerPersonElfFemale</nameGeneratorFemale>
 		    
                 <forcedRaceTraitEntries>
                 </forcedRaceTraitEntries>
