@@ -158,39 +158,6 @@
     </statBases>
     <tickerType>Rare</tickerType>
     <comps>
-      <li Class="UniversalFermenter.CompProperties_UniversalFermenter">
-        <showProductIcon>true</showProductIcon>
-        <barOffset>(0.0, 0.25)</barOffset>
-        <processes>
-          <li>
-            <thingDef>DwarvenStout</thingDef>
-            <ingredientFilter>
-              <thingDefs>
-                <li>DwarvenWort</li>
-              </thingDefs>
-            </ingredientFilter>
-            <usesTemperature>true</usesTemperature>
-            <temperatureSafe>-1.0~32.0</temperatureSafe>
-            <temperatureIdeal>7.0~32.0</temperatureIdeal>
-            <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
-            <speedBelowSafe>0.1</speedBelowSafe>
-            <speedAboveSafe>1.0</speedAboveSafe>
-            <processDays>6</processDays>
-            <maxCapacity>50</maxCapacity>
-            <efficiency>1.0</efficiency>
-            <sunFactor>1.0~1.0</sunFactor>
-            <rainFactor>1.0~1.0</rainFactor>
-            <snowFactor>1.0~1.0</snowFactor>
-            <windFactor>1.0~1.0</windFactor>
-            <graphicSuffix></graphicSuffix>
-            <colorCoded>false</colorCoded>
-            <color>(255, 255, 255)</color>
-            <usesQuality>false</usesQuality>
-            <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
-            <customLabel></customLabel>
-          </li>
-        </processes>
-      </li>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>5</daysToRotStart>
         <rotDestroys>true</rotDestroys>
