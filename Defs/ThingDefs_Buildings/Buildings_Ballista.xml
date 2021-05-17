@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseArtilleryBuilding">
+    <defName>BallistaBase</defName>
+    <label>ballista base</label>
+    <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
+    <comps>
+    </comps>
+    <designationHotKey>Misc4</designationHotKey>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <turretGunDef>Artillery_Mortar</turretGunDef>
+      <buildingTags>
+        <li>Artillery_BaseDestroyer</li>
+        <li>Artillery_MannedMortar</li>
+      </buildingTags>
+    </building>
+  <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+  <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Ballista</defName>
+    <label>ballista</label>
+    <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMortar_Top</texPath>
+    </graphicData>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_TurretSniper</defaultProjectile>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>4.0</warmupTime>
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>5</minRange>
+        <range>100</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_ChangeableProjectile" />
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>BallistaBolts</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>BallistaBolts</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>BallistaBolt</defName>
+    <label>ballista bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/BallistaBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <speed>88</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>
