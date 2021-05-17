@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Elf</defName>
         <label>elf</label>
-        <description>Elves are elegant</description>
+        <description>Elves are an elegant people, characterized by their tall height and sharp features. They have an intricate connection with nature.</description>
         <alienRace>
   	    
 	    <graphicPaths>
