@@ -47,7 +47,7 @@
     <label>basic ballista bolt</label>
     <description>A sturdy bolt meant to be launched from a ballista.</description>
     <graphicData>
-      <texPath>Buildings/BallistaBoltItem</texPath>
+      <texPath>Buildings/</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <comps>
@@ -55,7 +55,7 @@
     <projectileWhenLoaded>Bullet_BallistaBolt_Basic</projectileWhenLoaded>
     <costList>
       <Steel>20</Steel>
-      <WoodLogs>25</WoodLogs>
+      <Wood>25</Wood>
     </costList>
     <recipeMaker>
       <researchPrerequisite>Mortars</researchPrerequisite>
