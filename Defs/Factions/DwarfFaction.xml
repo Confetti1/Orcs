@@ -64,7 +64,7 @@
           <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
           <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
           <Dwarf_Warrior>10</Dwarf_Warrior>
-          <DwarfColonyKing>3</DwarfColonyKing>
+          <Dwarf_Colony_King>3</Dwarf_Colony_King>
         </options>
       </li>
       <li>
@@ -72,7 +72,7 @@
         <options>
           <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
           <Dwarf_Warrior>10</Dwarf_Warrior>
-          <DwarfColonyKing>3</DwarfColonyKing>
+          <Dwarf_Colony_King>3</Dwarf_Colony_King>
         </options>
       </li>
       <li>
@@ -97,7 +97,7 @@
           <Dwarf_Villager>10</Dwarf_Villager>
           <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
           <Dwarf_Warrior>20</Dwarf_Warrior>
-          <DwarfColonyKing>10</DwarfColonyKing>
+          <Dwarf_Colony_King>10</Dwarf_Colony_King>
         </options>
       </li>
     </pawnGroupMakers>
