@@ -33,6 +33,11 @@
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
+    <statBases>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
