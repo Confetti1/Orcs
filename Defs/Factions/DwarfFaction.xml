@@ -5,8 +5,8 @@
     <pawnsPlural>dwarves</pawnsPlural>
     <categoryTag>Outlander</categoryTag>
     <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>0</settlementGenerationWeight>
-    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <settlementGenerationWeight>.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
