@@ -144,7 +144,7 @@
   </AlienRace.BackstoryDef>
    
    <AlienRace.BackstoryDef>
-    <defName>AbadarDeacon</defName>
+    <defName>AbadarChild</defName>
     <title>Abadar Deacon</title>
     <titleShort>Deacon</titleShort>
     <baseDescription>[PAWN_nameDef] was orphaned as a child. They wandered to a chapel of Abadar, where [PAWN_pronoun] was taken in and raised by the clerics there. [PAWN_pronoun] learned the importance of order and understanding.</baseDescription>
@@ -163,9 +163,9 @@
   </AlienRace.BackstoryDef>
         
   <AlienRace.BackstoryDef>
-    <defName>ShelynDeacon</defName>
-    <title>Shelyn Deacon</title>
-    <titleShort>Deacon</titleShort>
+    <defName>ShelynChild</defName>
+    <title>Art Child</title>
+    <titleShort>Art Child</titleShort>
     <baseDescription>As a child, [PAWN_nameDef] was taken to a church of Shelyn where they recognized [PAWN_possessive] natural beauty and took [PAWN_pronoun] in. [PAWN_pronoun] was exposed to constant praise, treated like a piece of art while also being taught to make art themselves.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -197,9 +197,9 @@
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
-    <defName>DesnaDeacon</defName>
-    <title>Desna Deacon</title>
-    <titleShort>Deacon</titleShort>
+    <defName>DesnaChild</defName>
+    <title>Free Thinker</title>
+    <titleShort>Free Thinker</titleShort>
     <baseDescription>[PAWN_nameDef] was born to a couple of Desna clerics. They eagerly daught [PAWN_possessive] the ways of their church, encouraging free thinking and travel.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -225,6 +225,32 @@
          <chance>50</chance>
        </li>
     </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>GorumChild</defName>
+    <title>Child of War</title>
+    <titleShort>War Child</titleShort>
+    <baseDescription>As a desperate orphan, [PAWN_nameDef] was taken in by a group of mercenaries who worshiped Gorum. They taught [PAWN_possessive] the importance of faith demonstrated by strength.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
   
   <!--                                                           BARTENDER -->
