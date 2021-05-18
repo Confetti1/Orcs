@@ -166,12 +166,46 @@
     </weaponTags>
   </PawnKindDef> 
   
-  <PawnKindDef ParentName="Dwarf_Villager">
-    <defName>Dwarf_Trader</defName>
-    <label>dwarf trader</label>
-    <trader>true</trader>
-    <apparelRequired Inherit="False">
+  <PawnKindDef Name="DwarfColonistBase" Abstract="True">
+  <race>Dwarf</race>
+  <defaultFactionType>PowerfulDwarves</defaultFactionType>
+  <maxGenerationAge>250</maxGenerationAge>
+  <chemicalAddictionChance>0.05</chemicalAddictionChance>
+  <invNutrition>2.55</invNutrition>
+  <apparelTags>
+    <li>IndustrialBasic</li>
+  </apparelTags>
+</PawnKindDef>
+ <!-- Villager -->
+<PawnKindDef ParentName="DwarfColonistBase">
+  <defName>Dwarf_Trader</defName>
+  <label>dwarf trader</label>
+  <combatPower>30</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <trader>true</trader>
+  <apparelRequired Inherit="False">
       <li>Apparel_BowlerHat</li>
     </apparelRequired>
-  </PawnKindDef>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>100~200</weaponMoney>
+  <weaponTags>
+    <li>NeolithicMeleeAdvanced</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+
 </Defs>
