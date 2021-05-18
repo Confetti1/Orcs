@@ -40,14 +40,14 @@
     </recipeMaker>
   </ThingDef>
 
-  <!-- High-explosive -->
+  <!-- Bolt Deets -->
 
   <ThingDef ParentName="MakeableBallistaBoltBase">
     <defName>BallistaBolt_Basic</defName>
     <label>basic ballista bolt</label>
     <description>A sturdy bolt meant to be launched from a ballista.</description>
     <graphicData>
-      <texPath>Buildings</texPath>
+      <texPath>Item/BallistaBolts</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <comps>
