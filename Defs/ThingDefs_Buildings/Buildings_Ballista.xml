@@ -13,7 +13,7 @@
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <building>
-      <turretGunDef>Artillery_Mortar</turretGunDef>
+      <turretGunDef>Ballista</turretGunDef>
       <buildingTags>
         <li>Artillery_BaseDestroyer</li>
         <li>Artillery_MannedMortar</li>
