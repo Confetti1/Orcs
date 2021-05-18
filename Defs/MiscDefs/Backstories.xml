@@ -200,7 +200,7 @@
     <defName>DesnaChild</defName>
     <title>Free Thinker</title>
     <titleShort>Free Thinker</titleShort>
-    <baseDescription>[PAWN_nameDef] was born to a couple of Desna clerics. They eagerly daught [PAWN_possessive] the ways of their church, encouraging free thinking and travel.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born to a couple of Desna worshipers. They eagerly taught [PAWN_possessive] the ways of their church, encouraging free thinking and travel.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -237,6 +237,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
+      <li>OrcCivil</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -248,6 +249,11 @@
          <amount>2</amount>
       </li>
     </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
   
   <!--                                                           BARTENDER -->
@@ -477,6 +483,11 @@
     <workDisables>
       <li>Cleaning</li>
     </workDisables>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
       
   <AlienRace.BackstoryDef>
@@ -768,6 +779,11 @@
       <li>Caring</li>
       <li>Social</li>
     </workDisables>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
@@ -799,6 +815,11 @@
         <defName>Psychopath</defName>
       </li>
     </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
