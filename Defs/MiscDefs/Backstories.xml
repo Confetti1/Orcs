@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  
-  <!--                                                                     RESPONSIBLE CHILD, CHILD              -->   
-<AlienRace.BackstoryDef>
+<Defs>  
+  <AlienRace.BackstoryDef>
     <defName>ResponsibleChild</defName>
     <title>Responsible Child</title>
     <titleShort>Responsible</titleShort>
@@ -26,9 +24,8 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
-    <!--                                                                     SHY CHILD, CHILD              -->   
-<AlienRace.BackstoryDef>
+    
+  <AlienRace.BackstoryDef>
     <defName>ShyChild</defName>
     <title>Shy Child</title>
     <titleShort>Shy</titleShort>
@@ -55,8 +52,7 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-    <!--                                                                     URBAN SCAVENGER, CHILD              -->   
-<AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>UrbanScavenger</defName>
     <title>Urban Scavenger</title>
     <titleShort>Scavenger</titleShort>
@@ -83,8 +79,7 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-      <!--                                                                     PAMPERED CHILD, CHILD              -->   
-<AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>PamperedChild</defName>
     <title>Pampered Child</title>
     <titleShort>Pampered</titleShort>
@@ -116,7 +111,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-   <!--                                                                     INDUSTRIOUS CHILD, CHILD              --> 
   <AlienRace.BackstoryDef>
     <defName>IndustriousChild</defName>
     <title>Industrious Child</title>
