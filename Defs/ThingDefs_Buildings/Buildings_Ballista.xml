@@ -24,7 +24,7 @@
     <label>ballista</label>
     <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
     <graphicData>
-      <texPath>Things/Building/Security/BallistaTop</texPath>
+      <texPath>Buildings/BallistaTop</texPath>
     </graphicData>
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
@@ -32,7 +32,7 @@
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
-        <defaultProjectile>Bullet_TurretSniper</defaultProjectile>
+        <defaultProjectile>Bullet_BallistaBolt</defaultProjectile>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <warmupTime>4.0</warmupTime>
         <requireLineOfSight>true</requireLineOfSight>
@@ -67,10 +67,10 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>BallistaBolt</defName>
+    <defName>Bullet_BallistaBolt</defName>
     <label>ballista bolt</label>
     <graphicData>
-      <texPath>Things/Projectile/BallistaBolt</texPath>
+      <texPath>Buildings/BallistaBolt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
