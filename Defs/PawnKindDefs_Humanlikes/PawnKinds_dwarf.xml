@@ -35,4 +35,45 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <!-- =========================================NPC PAWNS=================================================== --> 
+  <PawnKindDef Name="DwarfColonyBase" Abstract="True">
+  <race>Dwarf</race>
+  <defaultFactionType>PowerfulDwarves</defaultFactionType>
+  <maxGenerationAge>250</maxGenerationAge>
+  <chemicalAddictionChance>0.05</chemicalAddictionChance>
+  <invNutrition>2.55</invNutrition>
+  <apparelTags>
+    <li>Medieval</li>
+  </apparelTags>
+</PawnKindDef>
+  
+  <PawnKindDef ParentName="DwarfColonyBase">
+  <defName>Dwarf_Villager</defName>
+  <label>dwarfvillager</label>
+  <combatPower>30</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>100~250</apparelMoney>
+  <weaponMoney>100~200</weaponMoney>
+  <weaponTags>
+    <li>NeolithicMeleeAdvanced</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+  
+  
 </Defs>
