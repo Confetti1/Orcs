@@ -44,11 +44,11 @@
   <chemicalAddictionChance>0.05</chemicalAddictionChance>
   <invNutrition>2.55</invNutrition>
   <apparelTags>
-    <li>Medieval</li>
+    <li>IndustrialBasic</li>
   </apparelTags>
 </PawnKindDef>
-  
-  <PawnKindDef ParentName="DwarfColonyBase">
+ <!-- Villager -->
+<PawnKindDef ParentName="DwarfColonyBase">
   <defName>Dwarf_Villager</defName>
   <label>dwarfvillager</label>
   <combatPower>30</combatPower>
@@ -63,7 +63,7 @@
   <invNutrition>0</invNutrition>
   <itemQuality>Normal</itemQuality>
   <gearHealthRange>0.2~1.1</gearHealthRange>
-  <apparelMoney>100~250</apparelMoney>
+  <apparelMoney>50~100</apparelMoney>
   <weaponMoney>100~200</weaponMoney>
   <weaponTags>
     <li>NeolithicMeleeAdvanced</li>
@@ -75,5 +75,94 @@
   <techHediffsChance>0.15</techHediffsChance>
 </PawnKindDef>
   
+  <!-- Crossbow Archer -->
+<PawnKindDef ParentName="DwarfColonyBase">
+  <defName>Dwarf_Villager</defName>
+  <label>dwarfvillager</label>
+  <combatPower>6</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>MedievalRanged</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DwarfColonyBase">
+  <defName>Dwarf_Villager</defName>
+  <label>dwarfvillager</label>
+  <combatPower>6</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+  <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+  <PawnKindDef ParentName="DwarfColonyBase" Name="DwarfColonyKingBase" Abstract="True">
+    <defName>Dwarf_Colony_King</defName>
+    <combatPower>140</combatPower>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <minGenerationAge>30</minGenerationAge>
+    <maxGenerationAge>999</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <itemQuality>Normal</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>450~750</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <weaponMoney>500~1000</weaponMoney>
+  </PawnKindDef>
   
+  <PawnKindDef ParentName="DwarfColonyKingBase">
+    <defName>Dwarf_Colony_King</defName>
+    <label>Dwarf Berserker King</label>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef> 
 </Defs>
