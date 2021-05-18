@@ -275,8 +275,97 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>BiographyAuthor</defName>
+    <title>Biography Author</title>
+    <titleShort>Author</titleShort>
+    <baseDescription>[PAWN_nameDef] deciced to write a number of books about [PAWN_possessive] life experiences. [PAWN_pronoun] found moderate success, but not before countless sleepless nights of hard work.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>QuickSleeper</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
   
-  <!--                                                           FARMER -->
+  <AlienRace.BackstoryDef>
+    <defName>NatureAuthor</defName>
+    <title>Nature Author</title>
+    <titleShort>Author</titleShort>
+    <baseDescription>[PAWN_nameDef] was inspired to write a survival guide about [PAWN_possessive] homeland. [PAWN_pronoun] spent lots of time researching the local wildlife and plants, and [PAWN_pronoun] took careful notes on what was edible or not.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>    
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+   <AlienRace.BackstoryDef>
+    <defName>Baker</defName>
+    <title>Baker</title>
+    <titleShort>Baker</titleShort>
+    <baseDescription>In rising loaves and mixing spices, [PAWN_nameDef] found [PAWN_possessive] passion. [PAWN_pronoun] opened up a small bakery to share [PAWN_possessive] crafts and quickly learned that the true joy of [PAWN_possessive] work came from seeing the satisfied look on [PAWN_possessive] customer's faces.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>    
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Kind</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
   <AlienRace.BackstoryDef>
     <defName>Farmer</defName>
     <title>Farmer</title>
@@ -304,7 +393,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                           BLACKSMITH -->
   <AlienRace.BackstoryDef>
     <defName>Blacksmith</defName>
     <title>Blacksmith</title>
@@ -331,7 +419,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-    <!--                                                           ALCHEMIST -->
   <AlienRace.BackstoryDef>
     <defName>Alchemist</defName>
     <title>Alchemist</title>
@@ -361,7 +448,6 @@
   
   
   
-  <!--                                                       DRUNKARD  -->
   <AlienRace.BackstoryDef>
     <defName>OrcDrunkard</defName>
     <title>Drunkard</title>
@@ -393,7 +479,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
       
-  <!--                                                       SCHOLAR  -->
   <AlienRace.BackstoryDef>
     <defName>OrcScholar</defName>
     <title>Scholar</title>
@@ -423,7 +508,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                       SERVANT  -->
   <AlienRace.BackstoryDef>
     <defName>Servant</defName>
     <title>Servant</title>
@@ -459,7 +543,7 @@
   
   
   
-  <!--                                                                     EARLY ART OBSESSION, GNOME, CHILD             -->   
+  <!-- ========================================================= GNOMES ========================================================== -->  
 <AlienRace.BackstoryDef>
     <defName>EarlyArtObsession</defName>
     <title>Early Art Obsession</title>
@@ -490,8 +574,7 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
-  
-  <!--                                                                     EARLY CRAFT OBSESSION, GNOME, CHILD              -->   
+   
 <AlienRace.BackstoryDef>
     <defName>EarlyCraftObsession</defName>
     <title>Early Craft Obsession</title>
@@ -510,8 +593,7 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
-  <!--                                                                     EARLY INVENTION OBSESSION, GNOME, CHILD              -->   
+   
 <AlienRace.BackstoryDef>
     <defName>EarlyInventionObsession</defName>
     <title>Early Invention Obsession</title>
@@ -543,7 +625,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                                     ARTISTIC GENIUS, GNOME              -->   
 <AlienRace.BackstoryDef>
     <defName>ArtisticGenius</defName>
     <title>Artistic Genius</title>
@@ -559,7 +640,7 @@
     <skillGains>
       <li>
          <defName>Artistic</defName>
-         <amount>8</amount>
+         <amount>6</amount>
       </li>
     </skillGains>
     <workDisables>
@@ -570,7 +651,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-    <!--                                                                     CRAFTING GENIUS, GNOME             -->   
 <AlienRace.BackstoryDef>
     <defName>CraftingGenius</defName>
     <title>Crafting Genius</title>
@@ -586,7 +666,7 @@
     <skillGains>
       <li>
          <defName>Crafting</defName>
-         <amount>8</amount>
+         <amount>6</amount>
       </li>
     </skillGains>
     <workDisables>
@@ -597,7 +677,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-    <!--                                                                   GENIUS INVENTOR, GNOME             -->   
 <AlienRace.BackstoryDef>
     <defName>GeniusInventor</defName>
     <title>Genius Inventor</title>
@@ -613,7 +692,7 @@
     <skillGains>
       <li>
          <defName>Intellectual</defName>
-         <amount>8</amount>
+         <amount>6</amount>
       </li>
     </skillGains>
     <workDisables>
@@ -629,8 +708,7 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  
-  <!--                                                              CITY RAISED, ORC, CHILDHOOD -->
+  <!-- ============================================================== ORCS ======================================================= -->
   <AlienRace.BackstoryDef>
     <defName>CityRaised</defName>
     <title>Raised in a City</title>
@@ -670,8 +748,6 @@
     </disallowedTraits>
   </AlienRace.BackstoryDef>
   
-  
-  <!--                                                       PIT CHILD, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>PitChild</defName>
     <title>Pit Child</title>
@@ -694,7 +770,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-  <!--                                                       PIT FIGHTER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>PitFighter</defName>
     <title>Pit Fighter</title>
@@ -726,7 +801,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          HOMELESS CHILD, CHILDHOOD  -->
   <AlienRace.BackstoryDef>
     <defName>HomelessChild</defName>
     <title>Homeless Child</title>
@@ -755,7 +829,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          EX TRIBE MEMBER, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>ExTribeMember</defName>
     <title>Ex Tribe Member</title>
@@ -783,7 +856,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          HAULER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Hauler</defName>
     <title>Hauler</title>
@@ -812,7 +884,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          PERFORMER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Performer</defName>
     <title>Performer</title>
@@ -842,12 +913,7 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
-  
-  
-  
-      
-  
-  <!---                                                           BLOODRAGER, ORC -->
+ 
   <AlienRace.BackstoryDef>
     <defName>Bloodrager</defName>
     <title>Bloodrager</title>
@@ -882,7 +948,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
       
-        <!--                                                          WITNESS, ORC, CHILDHOOD -->
   <AlienRace.BackstoryDef>
     <defName>Witness</defName>
     <title>Witness</title>
@@ -907,7 +972,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          TRIBE CHILD, ORC, CHILD -->
   <AlienRace.BackstoryDef>
     <defName>TribeChild</defName>
     <title>Tribe Child</title>
@@ -935,7 +999,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          FIELD CHILD, ORC, CHILD -->
   <AlienRace.BackstoryDef>
     <defName>FieldChild</defName>
     <title>Field Child</title>
@@ -959,7 +1022,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-    <!--                                                          CHIEF CHILD, ORC, CHILD -->
   <AlienRace.BackstoryDef>
     <defName>ChiefChild</defName>
     <title>Child of the Chief</title>
@@ -986,7 +1048,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  <!--                                                          ASPIRING HUNTER, ORC, CHILD -->
   <AlienRace.BackstoryDef>
     <defName>AspiringHunter</defName>
     <title>Aspiring Hunter</title>
@@ -1008,8 +1069,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
-  
-  <!--                                                        Greedy Child -->
   <AlienRace.BackstoryDef>
     <defName>GreedyChild</defName>
     <title>Greedy Child</title>
@@ -1035,7 +1094,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
- <!--                                                          HUNTER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Hunter</defName>
     <title>Hunter</title>
@@ -1057,7 +1115,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
     
-  <!--                                                          GROWER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Grower</defName>
     <title>Grower</title>
@@ -1079,7 +1136,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
 
-  <!--                                                          BUILDER, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Builder</defName>
     <title>Builder</title>
@@ -1105,7 +1161,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
  
-<!--                                                          RUNT, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Runt</defName>
     <title>Runt</title>
@@ -1143,7 +1198,6 @@
       </forcedTraits>
   </AlienRace.BackstoryDef>  
 
-    <!--                                                          CHIEF, ORC -->
   <AlienRace.BackstoryDef>
     <defName>Chieftan</defName>
     <title>Chieftan</title>
@@ -1176,7 +1230,6 @@
     </workDisables>
   </AlienRace.BackstoryDef> 
    
-        <!--                                                          Seer, ORC -->
     <AlienRace.BackstoryDef>
     <defName>Seer</defName>
     <title>Seer</title>
@@ -1203,8 +1256,8 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
-	<!-- ================================================================ GOBLIN BACKSTORIES =================================================== -->
-	<!--                                                                 BROODCHILD, GOBLIN, CHILD (if applicable)              -->   
+  
+	<!-- ================================================================ GOBLIN =================================================== -->
 <AlienRace.BackstoryDef>
     <defName>BroodChild</defName>
     <title>Broodchild</title>
@@ -1234,7 +1287,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
 	
-<!--                                                                 FIRELOVER, GOBLIN            -->   
 <AlienRace.BackstoryDef>
     <defName>FireLover</defName>
     <title>Fire Lover</title>
@@ -1258,7 +1310,6 @@
      </forcedTraits>
   </AlienRace.BackstoryDef>
 	
-	<!--                                                     MOLD EATER                              -->
   <AlienRace.BackstoryDef>
     <defName>MoldEater</defName>
     <title>Mold Eater</title>
@@ -1280,7 +1331,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
 	
-	<!--                                                     BEAST CHASER                            -->
   <AlienRace.BackstoryDef>
     <defName>BeastChaser</defName>
     <title>Beast Chaser</title>
@@ -1304,7 +1354,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
 	
-	<!--                                                     WORD HATER                              -->
   <AlienRace.BackstoryDef>
     <defName>WordHater</defName>
     <title>Word Hater</title>
@@ -1329,7 +1378,6 @@
     </workDisables>
   </AlienRace.BackstoryDef>
 	
-	<!--                                                      GOBLIN BULLY                                -->
   <AlienRace.BackstoryDef>
     <defName>GoblinBully</defName>
     <title>Goblin Bully</title>
@@ -1355,7 +1403,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
         
-               <!--                                                        BULLIED       -->
  <AlienRace.BackstoryDef>
     <defName>Bullied</defName>
     <title>Bullied</title>
@@ -1376,7 +1423,8 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-	<!-- ================================================================ ELVEN BACKSTORIES =================================================== -->
+  
+	<!-- ================================================================ ELVEN =================================================== -->
   <AlienRace.BackstoryDef>
     <defName>NatureChild</defName>
     <title>Nature Child</title>
@@ -1418,7 +1466,6 @@
     </skillGains>
   </AlienRace.BackstoryDef>
 	
-<!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
     <title></title>
