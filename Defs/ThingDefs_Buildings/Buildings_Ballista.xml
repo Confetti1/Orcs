@@ -38,6 +38,7 @@
       <AccuracyShort>0.7</AccuracyShort>
       <AccuracyMedium>0.8</AccuracyMedium>
       <AccuracyLong>0.7</AccuracyLong>
+    </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
