@@ -15,7 +15,7 @@
       <DeteriorationRate>1.5</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>BallistaBolts</li>
+      <li>Manufactured</li>
     </thingCategories>
     <tradeTags>
       <li>BallistaBolt</li>
