@@ -241,16 +241,13 @@
     <skillGains>
       <li>
          <defName>Melee</defName>
-         <amount>4</amount>
+         <amount>3</amount>
       </li>
       <li>
          <defName>Shooting</defName>
-         <amount>4</amount>
+         <amount>2</amount>
       </li>
     </skillGains>
-    <workDisables>
-      <li>Intellectual</li>
-    </workDisables>
   </AlienRace.BackstoryDef>
   
   <!--                                                           BARTENDER -->
