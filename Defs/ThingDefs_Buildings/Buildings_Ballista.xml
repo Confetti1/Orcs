@@ -6,6 +6,7 @@
     <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
     <comps>
     </comps>
+    <texPath>Buildings/Ballista_Base</texPath>
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <building>
@@ -15,7 +16,7 @@
         <li>Artillery_MannedMortar</li>
       </buildingTags>
     </building>
-  <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+  <uiIconPath>Building/BallistaTop</uiIconPath>
   <uiIconScale>0.9</uiIconScale>
   </ThingDef>
 
