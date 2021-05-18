@@ -1096,7 +1096,7 @@
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
-	
+	<!-- ================================================================ GOBLIN BACKSTORIES =================================================== -->
 	<!--                                                                 BROODCHILD, GOBLIN, CHILD (if applicable)              -->   
 <AlienRace.BackstoryDef>
     <defName>BroodChild</defName>
@@ -1121,14 +1121,10 @@
          <amount>2</amount>
       </li>
     </skillGains>
-	<!--
     <workDisables>
-      <li>
-	      <defName>Cleaning</defName>
-	      <defName>Intellectual</defName>
-      </li>
+	  <li>Cleaning</li>
+	  <li>Intellectual</li>
     </workDisables>
--->
   </AlienRace.BackstoryDef>
 	
 <!--                                                                 FIRELOVER, GOBLIN            -->   
@@ -1221,13 +1217,9 @@
          <amount>2</amount>
       </li>
     </skillGains>
-          <!--
     <workDisables>
-      <li>
-	      <defName>Intellectual</defName>
-      </li>
+       <li>Intellectual</li>
     </workDisables>
--->
   </AlienRace.BackstoryDef>
 	
 	<!--                                                      GOBLIN BULLY                                -->
@@ -1246,13 +1238,9 @@
          <amount>6</amount>
       </li>
     </skillGains>
-	  <!--
     <workDisables>
-      <li>
-	      <defName>Caring</defName>
-      </li>
+	<li>Caring</li>
     </workDisables>
--->
     <forcedTraits>
         <li>
                 <defName>Abrasive</defName>
@@ -1281,7 +1269,30 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-	
+	<!-- ================================================================ ELVEN BACKSTORIES =================================================== -->
+  <AlienRace.BackstoryDef>
+    <defName>NatureChild</defName>
+    <title>Nature Child</title>
+    <titleShort>Nature Child</titleShort>
+    <baseDescription>[PAWN_nameDef] spent much of their childhood in the wild, preferring the company of </baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Animals</defName>
+         <amount>3</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+            <li>Social</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
 	
 <!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
 <!--  <AlienRace.BackstoryDef>
@@ -1300,8 +1311,6 @@
       </li>
     </skillGains>
     <workDisables>
-      <li>
-      </li>
     </workDisables>
   </AlienRace.BackstoryDef> -->
   
