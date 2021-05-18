@@ -147,8 +147,10 @@
     <defName>AbadarDeacon</defName>
     <title>Abadar Deacon</title>
     <titleShort>Deacon</titleShort>
-    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Abadar. [PAWN_pronoun] learned the importance of being considerate of people's situations.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Abadar. [PAWN_pronoun] learned the importance of order and understanding.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
     </spawnCategories>
@@ -164,8 +166,10 @@
     <defName>ShelynDeacon</defName>
     <title>Shelyn Deacon</title>
     <titleShort>Deacon</titleShort>
-    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Shelyn who recognized [PAWN_possessive] natural beauty. [PAWN_pronoun] was exposed to constant praise, treated like a piece of art while also being taught to make art themselves.</baseDescription>
+    <baseDescription>As a child, [PAWN_nameDef] was taken to a church of Shelyn where they recognized [PAWN_possessive] natural beauty and took [PAWN_pronoun] in. [PAWN_pronoun] was exposed to constant praise, treated like a piece of art while also being taught to make art themselves.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
     </spawnCategories>
