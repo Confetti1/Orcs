@@ -161,8 +161,8 @@
   </AlienRace.BackstoryDef>
         
   <AlienRace.BackstoryDef>
-    <defName>AbadarDeacon</defName>
-    <title>Abadar Deacon</title>
+    <defName>ShelynDeacon</defName>
+    <title>Shelyn Deacon</title>
     <titleShort>Deacon</titleShort>
     <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Shelyn who recognized [PAWN_possessive] natural beauty. [PAWN_pronoun] was exposed to constant praise, treated like a piece of art while also being taught to make art themselves.</baseDescription>
     <slot>Childhood</slot>
@@ -187,6 +187,9 @@
          <chance>50</chance>
        </li>
     </forcedTraits>
+    <workDisables>
+       <li>Cleaning</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
   
   <!--                                                           BARTENDER -->
