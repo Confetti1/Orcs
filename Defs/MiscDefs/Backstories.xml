@@ -196,6 +196,37 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>DesnaDeacon</defName>
+    <title>Desna Deacon</title>
+    <titleShort>Deacon</titleShort>
+    <baseDescription>[PAWN_nameDef] was born to a couple of Desna clerics. They eagerly daught [PAWN_possessive] the ways of their church, encouraging free thinking and travel.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+         <defName>SpeedOffset</defName>
+         <degree>1</degree>
+         <chance>50</chance>
+       </li>
+       <li>
+         <defName>SpeedOffset</defName>
+         <degree>2</degree>
+         <chance>50</chance>
+       </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
   <!--                                                           BARTENDER -->
   <AlienRace.BackstoryDef>
     <defName>Bartender</defName>
