@@ -4,8 +4,8 @@
   <!--                                                                     RESPONSIBLE CHILD, CHILD              -->   
 <AlienRace.BackstoryDef>
     <defName>ResponsibleChild</defName>
-    <title>Oldest Child</title>
-    <titleShort>Oldest</titleShort>
+    <title>Responsible Child</title>
+    <titleShort>Responsible</titleShort>
     <baseDescription>[PAWN_nameDef] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
@@ -141,6 +141,52 @@
          <amount>-4</amount>
       </li>
     </skillGains>
+  </AlienRace.BackstoryDef>
+   
+   <AlienRace.BackstoryDef>
+    <defName>AbadarDeacon</defName>
+    <title>Abadar Deacon</title>
+    <titleShort>Deacon</titleShort>
+    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Abadar. [PAWN_pronoun] learned the importance of being considerate of people's situations.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Social</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+        
+  <AlienRace.BackstoryDef>
+    <defName>AbadarDeacon</defName>
+    <title>Abadar Deacon</title>
+    <titleShort>Deacon</titleShort>
+    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Shelyn who recognized [PAWN_possessive] natural beauty. [PAWN_pronoun] was exposed to constant praise, treated like a piece of art while also being taught to make art themselves.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+         <defName>Beauty</defName>
+         <degree>1</degree>
+         <chance>50</chance>
+       </li>
+       <li>
+         <defName>Beauty</defName>
+         <degree>2</degree>
+         <chance>50</chance>
+       </li>
+    </forcedTraits>
   </AlienRace.BackstoryDef>
   
   <!--                                                           BARTENDER -->
@@ -1298,7 +1344,7 @@
     <defName>LibrarianAssistant</defName>
     <title>Librarian's Assistant</title>
     <titleShort>Young Librarian</titleShort>
-    <baseDescription>[PAWN_nameDef]'s mind was good at organizing things, which made [PAWN_objective] a fantastic assistant to a stern librarian. [PAWN_pronoun] spent lots of time memorizing where books where kept, and would read them in [PAWN_possessive] spare time.</baseDescription>
+    <baseDescription>[PAWN_nameDef]'s mind was good at organizing things, which made [PAWN_objective] a fantastic assistant to a stern librarian. [PAWN_pronoun] spent lots of time memorizing where books where kept in the great elven library, and would read them in [PAWN_possessive] spare time.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>Elf</li>
