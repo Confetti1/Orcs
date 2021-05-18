@@ -77,8 +77,8 @@
   
   <!-- Crossbow Archer -->
 <PawnKindDef ParentName="DwarfColonyBase">
-  <defName>Dwarf_Villager</defName>
-  <label>dwarfvillager</label>
+  <defName>Dwarf_Crossbowman</defName>
+  <label>dwarf crossbowman</label>
   <combatPower>6</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -107,8 +107,8 @@
 </PawnKindDef>
 
 <PawnKindDef ParentName="DwarfColonyBase">
-  <defName>Dwarf_Villager</defName>
-  <label>dwarfvillager</label>
+  <defName>Dwarf_Warrior</defName>
+  <label>dwarf warrior</label>
   <combatPower>6</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -133,8 +133,8 @@
   <techHediffsTags>
     <li>Poor</li>
   </techHediffsTags>
-  <techHediffsChance>0.15</techHediffsChance>
-</PawnKindDef>
+  <techHediffsChance>0.15</techHediffsChance> 
+  </PawnKindDef>
   <PawnKindDef ParentName="DwarfColonyBase" Name="DwarfColonyKingBase" Abstract="True">
     <defName>Dwarf_Colony_King</defName>
     <combatPower>140</combatPower>
@@ -165,4 +165,13 @@
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
   </PawnKindDef> 
+  
+  <PawnKindDef ParentName="Dwarf_Villager">
+    <defName>Dwarf_Trader</defName>
+    <label>dwarf trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+  </PawnKindDef>
 </Defs>
