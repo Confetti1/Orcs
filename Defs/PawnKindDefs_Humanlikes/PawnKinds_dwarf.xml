@@ -37,7 +37,7 @@
   </PawnKindDef>
   
   <!-- =========================================NPC PAWNS=================================================== --> 
-  <PawnKindDef Name="DwarfColonyBase" Abstract="True">
+  <PawnKindDef Name="DwarfColonistBase" Abstract="True">
   <race>Dwarf</race>
   <defaultFactionType>PowerfulDwarves</defaultFactionType>
   <maxGenerationAge>250</maxGenerationAge>
@@ -48,7 +48,7 @@
   </apparelTags>
 </PawnKindDef>
  <!-- Villager -->
-<PawnKindDef ParentName="DwarfColonyBase">
+<PawnKindDef ParentName="DwarfColonistBase">
   <defName>Dwarf_Villager</defName>
   <label>dwarfvillager</label>
   <combatPower>30</combatPower>
@@ -76,7 +76,7 @@
 </PawnKindDef>
   
   <!-- Crossbow Archer -->
-<PawnKindDef ParentName="DwarfColonyBase">
+<PawnKindDef ParentName="DwarfColonistBase">
   <defName>Dwarf_Crossbowman</defName>
   <label>dwarf crossbowman</label>
   <combatPower>6</combatPower>
@@ -106,7 +106,7 @@
   <techHediffsChance>0.15</techHediffsChance>
 </PawnKindDef>
 
-<PawnKindDef ParentName="DwarfColonyBase">
+<PawnKindDef ParentName="DwarfColonistBase">
   <defName>Dwarf_Warrior</defName>
   <label>dwarf warrior</label>
   <combatPower>6</combatPower>
@@ -135,7 +135,7 @@
   </techHediffsTags>
   <techHediffsChance>0.15</techHediffsChance> 
   </PawnKindDef>
-  <PawnKindDef ParentName="DwarfColonyBase" Name="DwarfColonyKingBase" Abstract="True">
+  <PawnKindDef ParentName="DwarfColonistBase" Name="DwarfColonyKingBase" Abstract="True">
     <defName>Dwarf_Colony_King</defName>
     <combatPower>140</combatPower>
     <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
