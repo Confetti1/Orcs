@@ -147,7 +147,7 @@
     <defName>AbadarDeacon</defName>
     <title>Abadar Deacon</title>
     <titleShort>Deacon</titleShort>
-    <baseDescription>[PAWN_nameDef] was orphaned as a child, but [PAWN_pronoun] was taken in and raised by clerics of Abadar. [PAWN_pronoun] learned the importance of order and understanding.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was orphaned as a child. They wandered to a chapel of Abadar, where [PAWN_pronoun] was taken in and raised by the clerics there. [PAWN_pronoun] learned the importance of order and understanding.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
