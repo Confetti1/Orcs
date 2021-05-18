@@ -1480,6 +1480,23 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>ElvenTrainee</defName>
+    <title>Elven Trainee</title>
+    <titleShort>Trainee</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised in a part of the forest that was under threat of constant attack. In order to defend it, [PAWN_pronoun] was trained in the arts of bowmanship at a young age.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
 	
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
