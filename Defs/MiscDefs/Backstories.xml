@@ -1274,7 +1274,7 @@
     <defName>NatureChild</defName>
     <title>Nature Child</title>
     <titleShort>Nature Child</titleShort>
-    <baseDescription>[PAWN_nameDef] spent much of their childhood in the wild, preferring the company of </baseDescription>
+    <baseDescription>[PAWN_nameDef] spent much of [PAWN_possessive] childhood in the wild, preferring the company of the plants and animals [PAWN_pronoun] encountered. [PAWN_pronoun] would get lost in thought for hours as [PAWN_pronoun] identified the animals around [PAWN_possessive].</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>Elf</li>
@@ -1292,6 +1292,23 @@
     <workDisables>
             <li>Social</li>
     </workDisables>
+  </AlienRace.BackstoryDef>
+        
+  <AlienRace.BackstoryDef>
+    <defName>LibrarianAssistant</defName>
+    <title>Librarian's Assistant</title>
+    <titleShort>Young Librarian</titleShort>
+    <baseDescription>[PAWN_nameDef]'s mind was good at organizing things, which made [PAWN_objective] a fantastic assistant to a stern librarian. [PAWN_pronoun] spent lots of time memorizing where books where kept, and would read them in [PAWN_possessive] spare time.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
   </AlienRace.BackstoryDef>
 	
 <!--                                                                     NAME HERE, RACE, CHILD (if applicable)              -->   
