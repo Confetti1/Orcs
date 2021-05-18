@@ -60,26 +60,25 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <Orc_Tribal>5</Orc_Tribal>
+          <Dwarf_Villager>10</Dwarf_Villager>
           <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
-          <Orc_Tribal_Archer>5</Orc_Tribal_Archer>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>10</Dwarf_Warrior>
+          <DwarfColonyKing>3</DwarfColonyKing>
         </options>
       </li>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>3</Orc_Tribal_Chief>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>10</Dwarf_Warrior>
+          <DwarfColonyKing>3</DwarfColonyKing>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <Orc_Tribal_Trader>1</Orc_Tribal_Trader>
+          <Dwarf_Trader>1</Dwarf_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
@@ -88,19 +87,17 @@
           <Elephant>2</Elephant>
         </carriers>
         <guards>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>20</Dwarf_Warrior>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Orc_Tribal>10</Orc_Tribal>
-          <Orc_Tribal_Archer>10</Orc_Tribal_Archer>
-          <Orc_Tribal_Warrior>20</Orc_Tribal_Warrior>
-          <Orc_Tribal_Berserker>10</Orc_Tribal_Berserker>
-          <Orc_Tribal_Chief>10</Orc_Tribal_Chief>
+          <Dwarf_Villager>10</Dwarf_Villager>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>20</Dwarf_Warrior>
+          <DwarfColonyKing>10</DwarfColonyKing>
         </options>
       </li>
     </pawnGroupMakers>
