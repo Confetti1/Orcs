@@ -12,11 +12,11 @@
     <skillGains>
       <li>
          <defName>Cooking</defName>
-         <amount>4</amount>
+         <amount>2</amount>
       </li>
       <li>
          <defName>Medicine</defName>
-         <amount>4</amount>
+         <amount>2</amount>
       </li>
       <li>
          <defName>Social</defName>
@@ -97,11 +97,11 @@
       </li>
       <li>
          <defName>Social</defName>
-         <amount>5</amount>
+         <amount>4</amount>
       </li>
       <li>
          <defName>Intellectual</defName>
-         <amount>5</amount>
+         <amount>4</amount>
       </li>
     </skillGains>
     <workDisables>
@@ -109,6 +109,53 @@
 	    <li>Cooking</li>
 	    <li>Mining</li>
     </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Entertainment</defName>
+    <title>entertainment</title>
+    <titleShort>entertaintment</titleShort>
+    <baseDescription>[PAWN_nameDef] was a poor child, and needed to make money somehow. [PAWN_pronoun] decided to perform on the side of the road for the entertainment of passerby. [PAWN_pronoun] didn't make a ton of money, but [PAWN_pronoun] made enough to survive.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Social</defName>
+         <amount>3</amount>
+      </li>
+      <li>
+         <defName>Artistic</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Urchin</defName>
+    <title>urchin</title>
+    <titleShort>urchin</titleShort>
+    <baseDescription>[PAWN_nameDef] never knew [PAWN_possessive] parents, but [PAWN_pronoun] didn't care. [PAWN_pronoun] made [PAWN_possessive] living stealing from others, fighting out of scraps, and talking [PAWN_possessive] way out of conflict.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nimble</defName>
+      </li>
+    </forcedTraits>
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
@@ -1389,7 +1436,8 @@
       </li>
     </skillGains>
     <workDisables>
-       <li>Intellectual</li>
+      <li>Intellectual</li>
+      <li>ManualSkilled</li>
     </workDisables>
   </AlienRace.BackstoryDef>
 	
@@ -1409,12 +1457,14 @@
       </li>
     </skillGains>
     <workDisables>
-	<li>Caring</li>
+	    <li>Caring</li>
+	    <li>Social</li>
+      <li>ManualSkilled</li>
     </workDisables>
     <forcedTraits>
-        <li>
-                <defName>Abrasive</defName>
-	</li>
+      <li>
+        <defName>Abrasive</defName>
+	    </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
         
@@ -1435,6 +1485,78 @@
       <li>
          <defName>Plants</defName>
          <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>UglyFreak</defName>
+    <title>ugly freak</title>
+    <titleShort>freak</titleShort>
+    <baseDescription>[PAWN_nameDef] is uglier than your average goblin, and [PAWN_pronoun] wears it as a badge of honor. [PAWN_possessive] eager ugliness is bad enough to give them a combat advantage.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Social</defName>
+         <amount>-8</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>-2</degree>
+	    </li>
+    </forcedTraits>
+    <workDisables>
+	    <li>ManualSkilled</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>StoneThrower</defName>
+    <title>stone thrower</title>
+    <titleShort>thrower</titleShort>
+    <baseDescription>[PAWN_nameDef] would toss rocks at things all day long. They would pelt rocks, trees, bugs, and even fellow goblins with carefully chosen stones. They ended up getting pretty accurate.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+	    <li>Caring</li>
+	    <li>ManualSkilled</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>CompetentCrafter</defName>
+    <title>competent crafter</title>
+    <titleShort>crafter</titleShort>
+    <baseDescription>[PAWN_nameDef] was relied on by [PAWN_possessive] fellow goblins for [PAWN_possessive] crafting skills. [PAWN_pronoun] still bullied for not being strong, and could only mutter disdainfully about it.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Goblin</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>-2</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>4</amount>
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
@@ -1554,6 +1676,27 @@
       <li>
          <defName>Crafting</defName>
          <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Alesmith</defName>
+    <title>alesmith</title>
+    <titleShort>alesmith</titleShort>
+    <baseDescription>[PAWN_nameDef] brewed ales for the dwarves of [PAWN_possessive] tunnel home. [PAWN_possessive] services were in high demand.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Cooking</defName>
+         <amount>5</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>3</amount>
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
