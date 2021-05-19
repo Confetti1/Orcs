@@ -35,4 +35,160 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <!-- =========================================NPC PAWNS=================================================== --> 
+  <PawnKindDef Name="ElfColonistBase" Abstract="True">
+  <race>Elf</race>
+  <defaultFactionType>NobleElves</defaultFactionType>
+  <maxGenerationAge>400</maxGenerationAge>
+  <chemicalAddictionChance>0.05</chemicalAddictionChance>
+  <invNutrition>2.55</invNutrition>
+  <apparelTags>
+    <li>IndustrialBasic</li>
+  </apparelTags>
+</PawnKindDef>
+ <!-- Villager -->
+<PawnKindDef ParentName="ElfColonistBase">
+  <defName>Elf_Villager</defName>
+  <label>elf villager</label>
+  <combatPower>20</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Elf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>190~200</weaponMoney>
+  <weaponTags>
+    <li>NeolithicRangedSimple</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+  
+  <!-- Elf Archer -->
+<PawnKindDef ParentName="ElfColonistBase">
+  <defName>Elf_Crossbowman</defName>
+  <label>elf crossbowman</label>
+  <combatPower>30</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Elf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>NeolithicRangedAdvanced</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+
+<PawnKindDef ParentName="ElfColonistBase">
+  <defName>Elf_Warrior</defName>
+  <label>elf warrior</label>
+  <combatPower>30</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Elf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance> 
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ElfColonistBase" Name="ElfColonyKingBase" Abstract="True">
+    <defName>Elf_Colony_King</defName>
+    <combatPower>140</combatPower>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <minGenerationAge>30</minGenerationAge>
+    <maxGenerationAge>999</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Elf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <itemQuality>Normal</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>450~750</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <weaponMoney>500~1000</weaponMoney>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ElfColonyKingBase">
+    <defName>Elf_Colony_King</defName>
+    <label>Elf Berserker King</label>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef> 
+  
+  <PawnKindDef ParentName="ElfColonistBase">
+    <defName>Elf_Trader</defName>
+    <label>elf trader</label>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Elf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+        <li>Apparel_BowlerHat</li>
+      </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
 </Defs>
