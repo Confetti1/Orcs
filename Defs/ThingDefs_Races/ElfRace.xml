@@ -141,8 +141,8 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(-.43, 0.2)</Narrow_Pointy>
-								<Narrow_Normal>(-.43, 0.2)</Narrow_Normal>
+								<Narrow_Pointy>(-.38, 0.2)</Narrow_Pointy>
+								<Narrow_Normal>(-.38, 0.2)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
@@ -188,8 +188,8 @@
 								<Thin>0</Thin>
 							</bodyTypes>
 							<crownTypes>
-								<Narrow_Pointy>(-.41, 0.2)</Narrow_Pointy>
-								<Narrow_Normal>(-.41, 0.2)</Narrow_Normal>
+								<Narrow_Pointy>(-.37, 0.2)</Narrow_Pointy>
+								<Narrow_Normal>(-.37, 0.2)</Narrow_Normal>
 							</crownTypes>
 						</south>
 						<north>
