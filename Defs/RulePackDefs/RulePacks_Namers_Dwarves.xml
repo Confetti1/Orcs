@@ -12,9 +12,10 @@
                 <li>DwarfLast->[DwarfAdjective][DwarfNoun]</li>
                 <li>DwarfLast->[DwarfAdjective][DwarfMaterial]</li>
                 <li>DwarfLast->[DwarfMaterial][DwarfNoun]</li>
-                <li>DwarfFaction->[C1][C2][C3]</li>
+                <li>DwarfFaction->[C1][C2][C2][C3]</li>
                 <li>DwarfSettlement->[C2][C3]</li>
                 <li>DwarfSettlement->[C1][C2][C3]</li>
+                <li>DwarfSettlement->[C1][C2][C2][C3]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>DwarfNoun->Words/DwarfNameNoun</li>
