@@ -79,7 +79,7 @@
 <PawnKindDef ParentName="DwarfColonistBase">
   <defName>Dwarf_Crossbowman</defName>
   <label>dwarf crossbowman</label>
-  <combatPower>6</combatPower>
+  <combatPower>40</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
       <li>
@@ -109,7 +109,7 @@
 <PawnKindDef ParentName="DwarfColonistBase">
   <defName>Dwarf_Warrior</defName>
   <label>dwarf warrior</label>
-  <combatPower>6</combatPower>
+  <combatPower>40</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
       <li>
