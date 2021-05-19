@@ -8,11 +8,15 @@
                 <li>GoblinFirst->[GobNoun][GobVerb]</li>
                 <li>GoblinFirst->[GobNoise][GobNoise]</li>
                 <li>GoblinLast->[GobNoun]</li>
+                <li>GoblinFaction->[GobNoun][GobVerbPlural]</li>
+                <li>GoblinColony->[GobAdjective][GobNoun]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>GobNoise->Words/GoblinNoise</li>
                 <li>GobVerb->Words/GoblinVerb</li>
                 <li>GobNoun->Words/GoblinNoun</li>
+                <li>GobAdjective->Words/GoblinAdjective</li>
+                <li>GobVerbPlural->Words/GoblinVerbPlural</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
@@ -26,6 +30,31 @@
         <rulePack>
             <rulesStrings>
                 <li>r_name(p=2)->[GoblinFirst] [GoblinLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    
+    <RulePackDef>
+        <defName>NamerColonyGoblin</defName>
+        <include>
+            <li>NamerGoblinUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[GoblinColony]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerFactionGoblin</defName>
+        <include>
+            <li>NamerGoblinUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[GoblinFaction]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
