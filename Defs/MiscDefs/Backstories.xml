@@ -1536,6 +1536,27 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Miner</defName>
+    <title>miner</title>
+    <titleShort>miner</titleShort>
+    <baseDescription>[PAWN_nameDef] found their passion in the swing of [PAWN_possessive] pickaxe.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
 	
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
@@ -1555,8 +1576,5 @@
     <workDisables>
     </workDisables>
   </AlienRace.BackstoryDef> -->
-  
-  
-  
 </Defs>
     
