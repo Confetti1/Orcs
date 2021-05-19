@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  
+  <!-- Goblin Dog -->
+  <PawnKindDef>    
+    <defName>Goblin_Dog</defName>
+    <label>goblin dog</label>
+    <race>GoblinDog</race>
+    <combatPower>10</combatPower>
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+    </backstoryFiltersOverride>
+    <apparelTags>
+    </apparelTags>
+    <invNutrition>0</invNutrition>
+    <weaponMoney>100~200</weaponMoney>
+    <weaponTags>
+    </weaponTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>150~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  
   <!-- Tribal -->
   <PawnKindDef Abstract="True" Name ="GoblinTribalBase">    
     <race>Goblin</race>
@@ -11,7 +40,7 @@
   
   <PawnKindDef ParentName="GoblinTribalBase">
     <defName>Goblin_Tribal</defName>
-    <label>goblintribal</label>
+    <label>goblin tribal</label>
     <race>Goblin</race>
     <combatPower>10</combatPower>
     <defaultFactionType>GoblinTribe</defaultFactionType>
