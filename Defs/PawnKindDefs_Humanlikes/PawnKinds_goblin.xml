@@ -3,8 +3,8 @@
   
   <!-- Goblin Dog -->
   <PawnKindDef>    
-    <defName>Goblin_Dog</defName>
-    <label>goblin dog</label>
+    <defName>Goblin_War_Dog</defName>
+    <label>goblin war dog</label>
     <race>GoblinDog</race>
     <combatPower>10</combatPower>
     <isFighter>true</isFighter>
