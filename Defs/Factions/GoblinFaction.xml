@@ -60,7 +60,7 @@
           <Goblin_Tribal>10</Goblin_Tribal>
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
-          <GoblinDog>8</GoblinDog>
+          <Goblin_War_Dog>10</Goblin_War_Dog>
           <Goblin_Chief>3</Goblin_Chief>
         </options>
       </li>
@@ -69,6 +69,7 @@
         <options>
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
+          <Goblin_War_Dog>10</Goblin_War_Dog>
         </options>
       </li>
      
@@ -78,7 +79,7 @@
           <Goblin_Tribal>10</Goblin_Tribal>
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
-          <GoblinDog>8</GoblinDog>
+          <Goblin_War_Dog>10</Goblin_War_Dog>
           <Goblin_Chief>10</Goblin_Chief>
         </options>
       </li>
