@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>  
+  <!-- ======================================================== CHILDHOODS ======================================================== -->
   <AlienRace.BackstoryDef>
     <defName>ResponsibleChild</defName>
-    <title>Responsible Child</title>
+    <title>Responsible</title>
     <titleShort>Responsible</titleShort>
-    <baseDescription>[PAWN_nameDef] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] younger siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the most responsible child [PAWN_possessive] large, bustling family. [PAWN_pronoun] had to learn how to watch over [PAWN_possessive] siblings while [PAWN_possessive] parents were busy working. [PAWN_pronoun] learned a lot, but developed a stern exterior.</baseDescription>
     <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
     </spawnCategories>
@@ -26,8 +29,8 @@
   </AlienRace.BackstoryDef>
     
   <AlienRace.BackstoryDef>
-    <defName>ShyChild</defName>
-    <title>Shy Child</title>
+    <defName>Shy</defName>
+    <title>Shy</title>
     <titleShort>Shy</titleShort>
     <baseDescription>[PAWN_nameDef] was the quietest child in [PAWN_possessive] large, bustling family. In order to escape from the chaos, [PAWN_pronoun] often sneaked out of the city and spent time in the forests around it.</baseDescription>
     <slot>Childhood</slot>
@@ -115,7 +118,7 @@
     <defName>Entertainment</defName>
     <title>entertainment</title>
     <titleShort>entertaintment</titleShort>
-    <baseDescription>[PAWN_nameDef] was a poor child, and needed to make money somehow. [PAWN_pronoun] decided to perform on the side of the road for the entertainment of passerby. [PAWN_pronoun] didn't make a ton of money, but [PAWN_pronoun] made enough to survive.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a poor child and needed to make money somehow. [PAWN_pronoun] decided to perform on the side of the road for the entertainment of passerby. [PAWN_pronoun] didn't make a ton of money, but [PAWN_pronoun] made enough to survive.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
@@ -130,6 +133,26 @@
          <amount>3</amount>
       </li>
     </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>WarSurvivor</defName>
+    <title>war survivor</title>
+    <titleShort>survivor</titleShort>
+    <baseDescription>[PAWN_nameDef]'s home was set ablaze during great battle. [PAWN_possessive] parents didn't make it out alive, so [PAWN_pronoun] had to build a shelter for [PAWN_possessive] brothers and sisters to survive in.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Construction</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisabled>    
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
@@ -297,7 +320,7 @@
     </disallowedTraits>
   </AlienRace.BackstoryDef>
   
-  <!--                                                           BARTENDER -->
+<!-- ======================================================== ADULTHOODS ======================================================== -->
   <AlienRace.BackstoryDef>
     <defName>Bartender</defName>
     <title>Bartender</title>
@@ -317,6 +340,30 @@
       </li>
       <li>
         <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>TownGuard</defName>
+    <title>town guard</title>
+    <titleShort>Guard</titleShort>
+    <baseDescription>Whether out of need for a job or out of love for [PAWN_possessive] community, [PAWN_nameDef] became a town guard. [PAWN_pronoun] learned to effectively arrest people, as well as talk to criminals through their crimes.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -1634,6 +1681,23 @@
       <li>
          <defName>Melee</defName>
          <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>MountainClimber</defName>
+    <title>mountain climber</title>
+    <titleShort>climber</titleShort>
+    <baseDescription>[PAWN_nameDef] enjoyed climbing mountains, but once got themselves stuck in a dirt hole They ended up having to tunnel their way out.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>3</amount>
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
