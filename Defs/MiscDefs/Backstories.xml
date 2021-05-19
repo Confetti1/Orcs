@@ -1497,6 +1497,45 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
+  
+  <!-- ========================================================== DWARVES ============================================================== -->
+  <AlienRace.BackstoryDef>
+    <defName>WarriorsApprentice</defName>
+    <title>warrior's apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDescription>[PAWN_nameDef] was raised and trained by a wise old dwarf in the way of combat.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>DwarvenBlacksmith</defName>
+    <title>dwarven blacksmith</title>
+    <titleShort>blacksmith</titleShort>
+    <baseDescription>[PAWN_nameDef] became a blacksmith just like [PAWN_possessive] father, and [PAWN_possessive] father's father.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>3</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
 	
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
