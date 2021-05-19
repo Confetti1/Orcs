@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <!-- Goblin Dog -->
+  <!-- Goblin Dog
   <PawnKindDef>    
     <defName>Goblin_War_Dog</defName>
     <label>goblin war dog</label>
@@ -27,7 +27,7 @@
     <techHediffsTags>
       <li>Poor</li>
     </techHediffsTags>
-  </PawnKindDef>
+  </PawnKindDef> -->
   
   <!-- Tribal -->
   <PawnKindDef Abstract="True" Name ="GoblinTribalBase">    
