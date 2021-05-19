@@ -11,8 +11,8 @@
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <factionNameMaker>NamerFactionDwarf</factionNameMaker>
+    <settlementNameMaker>NamerSettlementDwarf</settlementNameMaker>
     <pawnNameMaker>NamerPersonDwarfMale</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonDwarfFemale</pawnNameMakerFemale>
     <techLevel>Medieval</techLevel>
