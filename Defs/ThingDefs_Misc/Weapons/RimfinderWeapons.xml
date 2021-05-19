@@ -11,7 +11,7 @@
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>Goblin</li>
+      <li>GoblinMelee</li>
     </weaponTags>
     <costStuffCount>35</costStuffCount>
     <statBases>
@@ -166,6 +166,7 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
+  
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Crossbow_Bolt</defName>
     <label>crossbow bolt</label>
@@ -240,4 +241,68 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef> 
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>SackOfRocks</defName>
+    <label>sack of rocks</label>
+    <description>A simple sack full of rocks. Rocks can be thrown from inside the bag, or the bag itself can be used as a weapon. </description>
+    <graphicData>
+      <texPath>Item/Equipment/Weapons/SackOfRocks</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>GoblinRanged</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ThrownRock</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <range>15</range>
+        <soundCast>ThrowGrenade</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> 
+  
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>ThrownRock</defName>
+    <label>thrown rock</label>
+    <graphicData>
+      <texPath>Equipment/Weapons/FlyingRock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
 </Defs>
