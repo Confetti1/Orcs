@@ -10,6 +10,9 @@
     <tags>
       <li>Rimfinder</li>
     </tags>
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
     <researchViewX>0.00</researchViewX>
     <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
@@ -17,12 +20,15 @@
   <ResearchProjectDef>
     <defName>Ballista</defName>
     <label>ballista</label>
-    <description>Create a ballistae, which are large crossbow-like weapons mounted in place. They require loading individual bolts, but each bolt can easily punch through armor and remove limbs.</description>
+    <description>Create ballistae, which are large crossbow-like weapons mounted in place. They require loading individual bolts, but each bolt can easily punch through armor and remove limbs.</description>
     <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
       <li>Rimfinder</li>
     </tags>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
     <researchViewX>0.00</researchViewX>
     <researchViewY>1.00</researchViewY>
   </ResearchProjectDef>
