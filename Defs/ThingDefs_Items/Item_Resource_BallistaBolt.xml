@@ -58,7 +58,7 @@
       <WoodLog>25</WoodLog>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Mortars</researchPrerequisite>
+      <researchPrerequisite>Ballista</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
