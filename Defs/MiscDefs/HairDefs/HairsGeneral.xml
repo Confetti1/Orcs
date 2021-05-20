@@ -154,7 +154,7 @@
   <HairDef>
     <defName>Elfboy</defName>
     <label>elfboy</label>
-    <hairGender>Any</hairGender>
+    <hairGender>Male</hairGender>
     <texPath>Hairs/Elfboy</texPath>
     <hairTags>
       <li>Elf</li>
