@@ -18,6 +18,22 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
+    <defName>Crossbows</defName>
+    <label>crossbows</label>
+    <description>Create crossbows, a medieval alternative to things like hunting rifles and pistols.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>Rimfinder</li>
+    </tags>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
     <defName>Ballista</defName>
     <label>ballista</label>
     <description>Create ballistae, which are large crossbow-like weapons mounted in place. They require loading individual bolts, but each bolt can easily punch through armor and remove limbs.</description>
@@ -27,9 +43,9 @@
       <li>Rimfinder</li>
     </tags>
     <prerequisites>
-      <li>Smithing</li>
+      <li>Crossbows</li>
     </prerequisites>
-    <researchViewX>0.00</researchViewX>
+    <researchViewX>2.00</researchViewX>
     <researchViewY>1.00</researchViewY>
   </ResearchProjectDef>
 </Defs>
