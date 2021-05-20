@@ -9,7 +9,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
+    <factionIconPath>Textures/Symbols/ElfCamp</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
     <factionNameMaker>NamerFactionDwarf</factionNameMaker>
     <settlementNameMaker>NamerSettlementDwarf</settlementNameMaker>
@@ -27,7 +27,7 @@
     <hairTags>
       <li>Elf</li>
     </hairTags>
-    <settlementTexturePath>World/WorldObjects/DwarfSettlement</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/ElfSettlement</settlementTexturePath>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
@@ -126,7 +126,7 @@
       <li>(214, 172, 48)</li>
       <li>(48, 217, 214)</li>
     </colorSpectrum>
-    <factionIconPath>World/WorldObjects/Expanding/DwarfCamp</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/ElfCamp</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
     <naturalColonyGoodwill>-50~0</naturalColonyGoodwill>
   </FactionDef>
