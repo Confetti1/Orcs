@@ -61,7 +61,7 @@
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>Goblin</li>
+      <li>GoblinMelee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <statBases>
@@ -245,7 +245,7 @@
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>SackOfRocks</defName>
     <label>sack of rocks</label>
-    <description>A simple sack full of rocks. Rocks can be thrown from inside the bag, or the bag itself can be used as a weapon. </description>
+    <description>A simple sack full of rocks. Rocks can be thrown from inside the bag, or the bag itself can be used as a weapon.</description>
     <graphicData>
       <texPath>Item/Equipment/Weapons/SackOfRocks</texPath>
       <graphicClass>Graphic_Single</graphicClass>
