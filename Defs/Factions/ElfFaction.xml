@@ -11,8 +11,8 @@
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/ElfCamp</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
-    <factionNameMaker>NamerFactionDwarf</factionNameMaker>
-    <settlementNameMaker>NamerSettlementDwarf</settlementNameMaker>
+    <factionNameMaker>NamerFactionElf</factionNameMaker>
+    <settlementNameMaker>NamerSettlementElf</settlementNameMaker>
     <pawnNameMaker>NamerPersonElfMale</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonElfFemale</pawnNameMakerFemale>
     <techLevel>Medieval</techLevel>
@@ -123,8 +123,8 @@
     <label>noble elves</label>
     <description>These elves have a close connection with their environment. They dislike war, and would prefer to settle things peacefully if possible.</description>
     <colorSpectrum>
-      <li>(214, 172, 48)</li>
-      <li>(48, 217, 214)</li>
+      <li>(156, 209, 115)</li>
+      <li>(58, 145, 110)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ElfCamp</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
