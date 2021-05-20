@@ -9,7 +9,7 @@
     <slot>Childhood</slot>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
-    <spawnCategories>wordha
+    <spawnCategories>
       <li>City</li>
     </spawnCategories>
     <skillGains>
