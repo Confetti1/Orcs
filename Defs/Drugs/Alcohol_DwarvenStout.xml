@@ -105,6 +105,7 @@
     <recipeUsers>
       <li>Brewery</li>
     </recipeUsers>
+    <researchPrerequisite>DwarvenStoutBrewing</researchPrerequisite>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
       <li>
@@ -149,9 +150,6 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>DwarvenStoutBrewing</researchPrerequisite>
-    </recipeMaker>
     <statBases>
       <DeteriorationRate>1.0</DeteriorationRate>
       <MarketValue>4</MarketValue>
