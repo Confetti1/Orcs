@@ -121,7 +121,7 @@
   <FactionDef ParentName="ElfFactionBase">
     <defName>NobleElves</defName>
     <label>noble elves</label>
-    <description>These elves have a close connection with their environment. They dislike war, and would prefer to settle things peacefully if possible. </description>
+    <description>These elves have a close connection with their environment. They dislike war, and would prefer to settle things peacefully if possible.</description>
     <colorSpectrum>
       <li>(214, 172, 48)</li>
       <li>(48, 217, 214)</li>
