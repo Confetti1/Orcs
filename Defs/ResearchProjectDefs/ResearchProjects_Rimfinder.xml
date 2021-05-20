@@ -1,1 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
+  <ResearchProjectDef>
+    <defName>DwarvenStoutBrewing</defName>
+    <label>dwarven stout brewing</label>
+    <description>Prepare dwarven stout, a drink so thick that it can partially fill the drinker's tummy! The recipe is obscure and varies between different dwarf groups, so you may need a dwarf to research this.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+    </tags>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Ballista</defName>
+    <label>ballista</label>
+    <description>Create a ballistae, which are large crossbow-like weapons mounted in place. They require loading individual bolts, but each bolt can easily punch through armor and remove limbs.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+    </tags>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>
