@@ -132,5 +132,59 @@
       <li>Dwarf</li>
     </hairTags>
   </HairDef>
-  
+  <!-- ====================================================== ELF HAIRS =============================================================== -->
+  <HairDef>
+    <defName>Cleric</defName>
+    <label>cleric</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Cleric</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Dual</defName>
+    <label>dual</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Dual</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Elfboy</defName>
+    <label>elfboy</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Elfboy</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Princess</defName>
+    <label>princess</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Princess</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Shortelf</defName>
+    <label>shortelf</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Shortelf</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Sulky</defName>
+    <label>shortmaleelf</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Sulky</texPath>
+    <hairTags>
+      <li>Elf</li>
+    </hairTags>
+  </HairDef> 
 </Defs>
