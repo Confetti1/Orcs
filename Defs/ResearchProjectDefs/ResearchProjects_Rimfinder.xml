@@ -8,6 +8,7 @@
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
+      <li>Rimfinder</li>
     </tags>
     <researchViewX>0.00</researchViewX>
     <researchViewY>0.00</researchViewY>
@@ -20,8 +21,9 @@
     <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
+      <li>Rimfinder</li>
     </tags>
     <researchViewX>0.00</researchViewX>
-    <researchViewY>2.00</researchViewY>
+    <researchViewY>1.00</researchViewY>
   </ResearchProjectDef>
 </Defs>
