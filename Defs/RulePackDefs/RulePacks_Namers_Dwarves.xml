@@ -13,6 +13,10 @@
                 <li>DwarfLast->[DwarfAdjective][DwarfMaterial]</li>
                 <li>DwarfLast->[DwarfMaterial][DwarfNoun]</li>
                 <li>DwarfFaction->[C1][C2][C2][C3]</li>
+                <li>DwarfSettlement->[C2][C3]'s [Geo]</li>
+                <li>DwarfSettlement->[C1][C2][C3]'s [Geo]</li>
+                <li>DwarfSettlement->[Geo] of [C2][C3]</li>
+                <li>DwarfSettlement->[Geo] of[C1][C2][C3]</li>
                 <li>DwarfSettlement->[C2][C3]</li>
                 <li>DwarfSettlement->[C1][C2][C3]</li>
                 <li>DwarfSettlement->[C1][C2][C2][C3]</li>
@@ -30,6 +34,7 @@
                 <li>C1->WordParts/DwarfColony1</li>
                 <li>C2->WordParts/DwarfColony2</li>
                 <li>C3->WordParts/DwarfColony3</li>
+                <li>Geo->Words/DwarfGeography</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
