@@ -149,6 +149,9 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>DwarvenStoutBrewing</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <DeteriorationRate>1.0</DeteriorationRate>
       <MarketValue>4</MarketValue>
