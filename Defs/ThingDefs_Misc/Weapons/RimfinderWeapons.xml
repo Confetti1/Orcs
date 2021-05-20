@@ -160,7 +160,7 @@
     <recipeMaker>
       <recipeUsers>
       </recipeUsers>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>Crossbows</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -235,7 +235,7 @@
     <recipeMaker>
       <recipeUsers>
       </recipeUsers>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>Crossbows</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
