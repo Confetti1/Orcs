@@ -13,8 +13,10 @@
                 <li>FemaleElfFirst->[F1][F2]</li>
                 <li>ElfLast->[M1][F2][M3]</li>
                 <li>ElfLast->[F1][M2][F3]</li>
-                <li>ElfSettlement->[F1][M2][F3]</li>
-                <li>ElfFaction->[F1][M2][F3]</li>
+                <li>ElfSettlement->[C1][C2][C3]</li>
+                <li>ElfSettlement->[C1][C2][C3]'s [Noun]</li>
+                <li>ElfSettlement->[Noun] of [C1][C2][C3]'s</li>
+                <li>ElfFaction->[C1][C2][C3]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>M1->WordParts/ElfSylM1</li>
@@ -23,6 +25,10 @@
                 <li>F1->WordParts/ElfSylF1</li>
                 <li>F2->WordParts/ElfSylF2</li>
                 <li>F3->WordParts/ElfSylF3</li>
+                <li>C1->WordParts/ElfFaction1</li>
+                <li>C2->WordParts/ElfFaction2</li>
+                <li>C3->WordParts/ElfFaction3</li>
+                <li>Noun->Words/ElfFactionNouns</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
