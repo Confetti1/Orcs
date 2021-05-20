@@ -60,6 +60,7 @@
           <Goblin_Tribal>10</Goblin_Tribal>
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
+          <GoblinDog>10</GoblinDog>
           <Goblin_Chief>3</Goblin_Chief>
         </options>
       </li>
@@ -68,6 +69,7 @@
         <options>
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
+          <GoblinDog>3</GoblinDog>
         </options>
       </li>
      
@@ -78,6 +80,7 @@
           <Goblin_Fighter>10</Goblin_Fighter>
           <Goblin_Archer>10</Goblin_Archer>
           <Goblin_Chief>10</Goblin_Chief>
+          <GoblinDog>10</GoblinDog>
         </options>
       </li>
     </pawnGroupMakers>
@@ -103,7 +106,7 @@
   <FactionDef ParentName="GoblinTribeBase">
     <defName>GoblinTribe</defName>
     <label>goblin tribe</label>
-    <description>Gobs!</description>
+    <description>These goblins don't care about much other than their own whims. They'll likely raid you for fun.</description>
     <colorSpectrum>
       <li>(255, 126, 61)</li>
       <li>(140, 230, 135)</li>
