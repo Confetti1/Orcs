@@ -20,7 +20,7 @@
   <ResearchProjectDef>
     <defName>Crossbows</defName>
     <label>crossbows</label>
-    <description>Create crossbows, a medieval alternative to things like hunting rifles and pistols.</description>
+    <description>Create crossbows, a medieval alternative to things like hunting rifles and pistols. Their damage is similar to hunting rifles, but they have a slightly inferior firing rate.</description>
     <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
