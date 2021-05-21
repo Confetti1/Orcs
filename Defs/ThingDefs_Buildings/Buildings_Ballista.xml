@@ -67,9 +67,9 @@
     </statBases>
     <building>
       <turretGunDef>Ballista</turretGunDef>
+      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>20.0</turretBurstCooldownTime>
       <buildingTags>
-        <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-        <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
         <li>Artillery</li>
         <li>Artillery_BaseDestroyer</li>
         <li>Artillery_MannedMortar</li>
