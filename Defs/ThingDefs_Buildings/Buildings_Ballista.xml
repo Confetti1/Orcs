@@ -37,8 +37,7 @@
     <costStuffCount>75</costStuffCount>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <costList>
-      <Steel>150</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <WoodLog>150</WoodLog>
     </costList>
     <inspectorTabs>
       <li>ITab_Shells</li>
@@ -51,20 +50,19 @@
     </comps>
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>0.7</Flammability>
+      <Flammability>1</Flammability>
       <WorkToBuild>2000</WorkToBuild>
       <Mass>30</Mass>
       <Beauty>-20</Beauty>
     </statBases>
     <building>
-      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretBurstWarmupTime>1.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>5.0</turretBurstCooldownTime>
       <buildingTags>
         <li>Artillery</li>
       </buildingTags>
     </building>
     <placeWorkers>
-      <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
