@@ -107,7 +107,7 @@
     <defName>GoblinDog</defName>
     <label>goblin dog</label>
     <race>GoblinDog</race>
-    <combatPower>30</combatPower>
+    <combatPower>50</combatPower>
     <ecoSystemWeight>0.6</ecoSystemWeight>
     <lifeStages>
       <li>
