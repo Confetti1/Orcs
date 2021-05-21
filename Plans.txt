@@ -23,7 +23,6 @@ Add additional races, backstories (race specific and otherwise), and factions fo
     
 Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Greatswords
-  -Crossbows
   -Muskets
   -Flintlocks
   -Double Hackbut
@@ -32,7 +31,8 @@ Add new Pathfinder-based weapons to allow a more medieval-focused run possible
 Add magic-crafting, where gold is used to create magical items, like:
   -Continual Flame (Special torch/ballista thing that never needs to be refueled, and creates no heat.)
   -Weapons +1 (If I can figure out a way to enhance normal weapons, then that would be awesome)
-  -Ring of Protection
+  -Ring of Protection (Give a slight armor bonus to all body parts)
+  -Bracers of Archery (Increase sight)
   -Wands (Objects that can only be used a certain amount of times to achieve magical effects)
     -Fireball
   
