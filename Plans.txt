@@ -46,6 +46,7 @@ Add magic-crafting, where gold is used to create magical items, like:
     -Magic Missile (Three or four missiles that do low damage, but never miss)
     -Scorching Ray (Three fiery bolts that do high damage)
   -Bag of Holding (Storage space for a large amount of things, possibly? Maybe not depending on coding difficulty)
+  -Animated Crossbow Turret (Automatically aims and shoots)
   
 Add bookmaking (Way to make paper from wood, use paper and cloth to make books)
   -Used to make bookshelves, which has high beauty. It also increases the speed
