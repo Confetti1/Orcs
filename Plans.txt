@@ -42,6 +42,8 @@ Add magic-crafting, where gold is used to create magical items, like:
     -Calm Emotions (Gives the user/target a sizeable psychic calm)
     -Shield or Mage Armor (Custom heDiff that increases armor while active, perhaps?)
     -Cat's Grace/Bull's Strength (Maybe just cat's grace to increase manipulation)
+    -Magic Missile (Three or four missiles that do low damage, but never miss)
+    -Scorching Ray (Three fiery bolts that do high damage)
   -Bag of Holding (Storage space for a large amount of things, possibly? Maybe not depending on coding difficulty)
   
 -------POSSIBLE/STRETCH THINGS-------
