@@ -6,7 +6,7 @@
     <description>A magical table with the tools needed to extract magical energies from gold and infuse ordinary objects with it to create wondrous items.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/TableSculpting</texPath>
+      <texPath>Buildings/WondrousWorkshop</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(3.5,1.5)</drawSize>
