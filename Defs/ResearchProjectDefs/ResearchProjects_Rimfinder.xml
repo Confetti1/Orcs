@@ -42,4 +42,27 @@
     <researchViewX>2.00</researchViewX>
     <researchViewY>1.00</researchViewY>
   </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>MagicCrafting</defName>
+    <label>magic crafting</label>
+    <description>Learn how to extract magical energy from gold, and make magical items.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Rimfinder</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>MagicTempControl</defName>
+    <label>magic temp control</label>
+    <description>Learn to make elemental orbs that can passively lower or raise the temperature of a room.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Rimfinder</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.50</researchViewY>
+  </ResearchProjectDef>
+  
 </Defs>
