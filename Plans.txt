@@ -36,6 +36,7 @@ Add magic-crafting, where gold is used to create magical items, like:
   -Boots of Speed (Base speed increase, unless I can figure out a way to make them activatable once per day)
   -Wands (Objects that can only be used a certain amount of times to achieve magical effects)
     -Fireball
+    -Sleep (Custom heDiff that makes consciousness to 0)
   
 -------POSSIBLE/STRETCH THINGS-------
 Add new Pathfinder-based siege weapons and defenses
