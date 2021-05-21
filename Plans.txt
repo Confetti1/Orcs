@@ -1,7 +1,8 @@
 TO DO:
--Need elf hairs
+-Need more elf hairs
 -Need more dwarf hairs
 -Halflings and tieflings have not been implemented yet
+-Fix requirement of Mortars needed to make ballista
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
