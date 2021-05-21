@@ -10,8 +10,21 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Buildings/Ballista_Base</texPath>
     </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <costList>
+      <WoodLog>150</WoodLog>
+      <Steel>60</Steel>
+    </costList>
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>Ballista</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
     <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
