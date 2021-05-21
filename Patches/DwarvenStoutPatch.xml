@@ -15,7 +15,7 @@
 				<thingDef>DwarvenStout</thingDef>
 				<ingredientFilter>
 					<thingDefs>
-						<li>DwarvenStout</li>
+						<li>DwarvenWort</li>
 					</thingDefs>
 				</ingredientFilter>
 				<processDays>15</processDays>
