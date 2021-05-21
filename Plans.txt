@@ -35,7 +35,7 @@ Add magic-crafting, where gold is used to create magical items, like:
   -Bracers of Archery (Increase sight)
   -Boots of Speed (Base speed increase, unless I can figure out a way to make them activatable once per day)
   -Belt of Cat's Grace/Bull's Strength
-  -Headband of Alluring Charisma (Increases social factor)
+  -Headband of Alluring Charisma (Increases social factor/Talking functionality)
   -Wands (Objects that can only be used a certain amount of times to achieve magical effects)
     -Fireball
     -Sleep (Custom heDiff that makes consciousness to 0)
