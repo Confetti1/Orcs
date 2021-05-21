@@ -34,11 +34,14 @@ Add magic-crafting, where gold is used to create magical items, like:
   -Ring of Protection (Give a slight armor bonus to all body parts)
   -Bracers of Archery (Increase sight)
   -Boots of Speed (Base speed increase, unless I can figure out a way to make them activatable once per day)
+  -Belt of Cat's Grace/Bull's Strength
+  -Headband of Alluring Charisma (Increases social factor)
   -Wands (Objects that can only be used a certain amount of times to achieve magical effects)
     -Fireball
     -Sleep (Custom heDiff that makes consciousness to 0)
     -Calm Emotions (Gives the user/target a sizeable psychic calm)
     -Shield or Mage Armor (Custom heDiff that increases armor while active, perhaps?)
+    -Cat's Grace/Bull's Strength (Maybe just cat's grace to increase manipulation)
   -Bag of Holding (Storage space for a large amount of things, possibly? Maybe not depending on coding difficulty)
   
 -------POSSIBLE/STRETCH THINGS-------
