@@ -48,17 +48,17 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>GoblinMelee</li>
+          <li>Goblin</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>NeolithicBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <invNutrition>0</invNutrition>
     <weaponMoney>200~200</weaponMoney>
     <weaponTags>
-      <li>Goblin</li>
+      <li>GoblinMelee</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>150~200</apparelMoney>
@@ -84,7 +84,7 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>NeolithicBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <invNutrition>0</invNutrition>
     <weaponMoney>200~400</weaponMoney>
@@ -115,7 +115,7 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>NeolithicBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <invNutrition>0</invNutrition>
     <weaponMoney>100~200</weaponMoney>
@@ -147,7 +147,7 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>NeolithicBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <invNutrition>0</invNutrition>
     <weaponMoney>400~500</weaponMoney>
