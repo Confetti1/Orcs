@@ -7,9 +7,7 @@
     <description>Prepare dwarven stout, a drink so thick that it can partially fill the drinker's tummy! The recipe is obscure and varies between different dwarf groups, so you may need a dwarf to research this.</description>
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
-    <tags>
-      <li>Rimfinder</li>
-    </tags>
+    <tab>Rimfinder</tab>
     <prerequisites>
       <li>Brewing</li>
     </prerequisites>
@@ -23,9 +21,7 @@
     <description>Create crossbows, a medieval alternative to things like hunting rifles and pistols. Their damage is similar to hunting rifles, but they have a slightly inferior firing rate.</description>
     <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
-    <tags>
-      <li>Rimfinder</li>
-    </tags>
+    <tab>Rimfinder</tab>
     <prerequisites>
       <li>Smithing</li>
     </prerequisites>
@@ -39,9 +35,7 @@
     <description>Create ballistae, which are large crossbow-like weapons mounted in place. They require loading individual bolts, but each bolt can easily punch through armor and remove limbs.</description>
     <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
-    <tags>
-      <li>Rimfinder</li>
-    </tags>
+    <tab>Rimfinder</tab>
     <prerequisites>
       <li>Crossbows</li>
     </prerequisites>
