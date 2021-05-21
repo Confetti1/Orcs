@@ -127,10 +127,10 @@
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
     <statBases>
-      <AccuracyTouch>0.5</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.7</AccuracyLong>
+      <AccuracyLong>0.8</AccuracyLong>
     </statBases>
     <verbs>
       <li>
