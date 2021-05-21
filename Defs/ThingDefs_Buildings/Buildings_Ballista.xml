@@ -18,9 +18,6 @@
     </costList>
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <researchPrerequisites>
-      <li>Ballista</li>
-    </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
