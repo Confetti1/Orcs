@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="BuildingBase">
-    <defName>BallistaBase</defName>
-    <label>ballista base</label>
-    <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Mannable">
-      <manWorkType>Violent</manWorkType>
-      </li>
-    </comps>
+  
+  <ThingDef Name="BaseBallistaBuilding" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Buildings/Ballista_Base</texPath>
+      <texPath>Things/Building/Security/TurretMortar_Base</texPath>
       <drawSize>(4,4)</drawSize>
       <damageData>
         <rect>(0.38,0.2,0.56375,0.8)</rect>
@@ -35,6 +29,62 @@
     <thingCategories>
       <li>BuildingsSecurity</li>
     </thingCategories>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <costStuffCount>75</costStuffCount>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <inspectorTabs>
+      <li>ITab_Shells</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <building>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Ballista</li>
+    </researchPrerequisites>
+    <uiIconScale>1.1</uiIconScale>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBallistaBuilding">
+    <defName>BallistaBase</defName>
+    <label>ballista base</label>
+    <description>A large, stationary crossbow that fires huge, specialized bolts. It's fairly accurate for it's distance, but it requires someone to man it in order to aim and reload it.</description>
+    <comps>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Ballista_Base</texPath>
+    </graphicData>
     <costStuffCount>30</costStuffCount>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <costList>
@@ -43,8 +93,9 @@
     </costList>
     <designationHotKey>Misc4</designationHotKey>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <tickerType>Normal</tickerType>
-    <designationCategory>Security</designationCategory>
+    <researchPrerequisites>
+      <li>Ballista</li>
+    </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
@@ -55,22 +106,9 @@
     <researchPrerequisites>
       <li>Ballista</li>
     </researchPrerequisites>
-    <inspectorTabs>
-      <li>ITab_Shells</li>
-    </inspectorTabs>
-    <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>0.7</Flammability>
-      <WorkToBuild>2000</WorkToBuild>
-      <Mass>30</Mass>
-      <Beauty>-20</Beauty>
-    </statBases>
     <building>
       <turretGunDef>Ballista</turretGunDef>
-      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>20.0</turretBurstCooldownTime>
       <buildingTags>
-        <li>Artillery</li>
         <li>Artillery_BaseDestroyer</li>
         <li>Artillery_MannedMortar</li>
       </buildingTags>
