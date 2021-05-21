@@ -15,7 +15,7 @@
                 <li>ElfLast->[F1][M2][F3]</li>
                 <li>ElfSettlement->[C1][C2][C3]</li>
                 <li>ElfSettlement->[C1][C2][C3]'s [Noun]</li>
-                <li>ElfSettlement->[Noun] of [C1][C2][C3]'s</li>
+                <li>ElfSettlement->[Noun] of [C1][C2][C3]</li>
                 <li>ElfFaction->[C1][C2][C3]</li>
             </rulesStrings>
             <rulesFiles>
