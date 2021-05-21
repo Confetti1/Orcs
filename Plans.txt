@@ -3,6 +3,7 @@ TO DO:
 -Need more dwarf hairs
 -Halflings and tieflings have not been implemented yet
 -Fix requirement of Mortars needed to make ballista
+-Fix ballista bolt prices (Currently 38 to sell)
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
