@@ -100,9 +100,6 @@
     <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
-    <researchPrerequisites>
-      <li>Ballista</li>
-    </researchPrerequisites>
     <building>
       <turretGunDef>Ballista</turretGunDef>
       <buildingTags>
