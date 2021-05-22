@@ -131,7 +131,7 @@
   </FactionDef>
   
   <ThingSetMakerDef>
-    <defName>DwarfColonyRaidLootMaker</defName>
+    <defName>KingdomRaidLootMaker</defName>
     <root Class="ThingSetMaker_MarketValue">
       <fixedParams>
         <filter>
@@ -139,7 +139,7 @@
             <li>Gold</li>
             <li>Silver</li>
             <li>Jade</li>
-            <li>MedicineHerbal</li>
+            <li>MedicineIndustrial</li>
           </thingDefs>
         </filter>
       </fixedParams>
