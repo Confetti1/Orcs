@@ -2,7 +2,7 @@ TO DO:
 -Need more elf hairs
 -Need more dwarf hairs
 -Halflings and tieflings have not been implemented yet
--Make namegen for Humans
+-Customize the kingdom more, custom trade
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
