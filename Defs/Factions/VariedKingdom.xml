@@ -23,7 +23,7 @@
         </categories>
       </li>
     </backstoryFilters>
-    <leaderTitle>Emperor</leaderTitle>
+    <leaderTitle>King</leaderTitle>
     <hairTags>
       <li>Dwarf</li>
       <li>Elf</li>
@@ -60,8 +60,12 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <Dwarf_Villager>10</Dwarf_Villager>
-          <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
+          <HumanCitizen>10</HumanCitizen>
+          <OrcCitizen>3</OrcCitizen>
+          <GnomeCitizen>8</GnomeCitizen>
+          <ElfCitizen>8</ElfCitizen>
+          <DwarfCitizen>8<DwarfCitizen>
+           
           <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
           <Dwarf_Warrior>10</Dwarf_Warrior>
           <Dwarf_Colony_King>3</Dwarf_Colony_King>
