@@ -87,7 +87,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>OrbOfCold</defName>
     <label>orb of cold</label>
-    <description>This orb has been enchanted with eternal cold, and consistently lowers the temperature of the room it's in.</description>
+    <description>This orb has been enchanted with supernatural cold, and consistently lowers the temperature of the room it's in.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Buildings/OrbOfCold</texPath>
@@ -128,6 +128,7 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
+      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Glower">
         <glowRadius>1</glowRadius>
         <glowColor>(168,237,230,0)</glowColor>
@@ -148,7 +149,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>OrbOfHeat</defName>
     <label>orb of heat</label>
-    <description>This orb has been enchanted with eternal heat, and consistently increases the temperature of the room it's in.</description>
+    <description>This orb has been enchanted with supernatural heat, and consistently increases the temperature of the room it's in.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Buildings/OrbOfHeat</texPath>
@@ -189,6 +190,7 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
+      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Glower">
         <glowRadius>1</glowRadius>
         <glowColor>(168,237,230,0)</glowColor>
