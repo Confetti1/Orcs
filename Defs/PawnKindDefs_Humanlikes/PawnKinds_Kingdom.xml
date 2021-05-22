@@ -411,4 +411,134 @@
       <li>MedievalRangedAdvanced</li>
     </weaponTags>
   </PawnKindDef> 
+  <!-- ============================================================== TRADERS (Human, Dwarf, Elf, Gnome) ========================================================= -->
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>HumanTrader</defName>
+    <label>human trader</label>
+    <race>Human</race>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>DwarfTrader</defName>
+    <label>dwarf trader</label>
+    <race>Dwarf</race>
+    <nameGenerator>NamerPersonDwarfMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>City</li>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>ElfTrader</defName>
+    <label>elf trader</label>
+    <race>Elf</race>
+    <nameGenerator>NamerPersonElfMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonElfFemale</nameGeneratorFemale>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>City</li>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>GnomeTrader</defName>
+    <label>gnome trader</label>
+    <race>Gnome</race>
+    <nameGenerator>NamerPersonGnomeMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonGnomeFemale</nameGeneratorFemale>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>City</li>
+          <li>Gnome</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
 </Defs>
