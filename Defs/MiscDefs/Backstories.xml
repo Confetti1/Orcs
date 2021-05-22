@@ -2096,7 +2096,6 @@
       </li>
     </skillGains>
     <workDisables>
-      <li>Plants</li>
       <li>PlantWork</li>
     </workDisables>
   </AlienRace.BackstoryDef>
