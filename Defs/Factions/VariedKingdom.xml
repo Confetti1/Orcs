@@ -9,7 +9,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
+    <factionIconPath>Textures/Symbols/KingdomSymbol</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
     <factionNameMaker>NamerFactionDwarf</factionNameMaker>
     <settlementNameMaker>NamerSettlementDwarf</settlementNameMaker>
