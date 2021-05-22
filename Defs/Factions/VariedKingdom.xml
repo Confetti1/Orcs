@@ -19,13 +19,15 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Dwarf</li>
+          <li>City</li>
         </categories>
       </li>
     </backstoryFilters>
-    <leaderTitle>King</leaderTitle>
+    <leaderTitle>Emperor</leaderTitle>
     <hairTags>
       <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Gnome</li>
     </hairTags>
     <settlementTexturePath>World/WorldObjects/KingdomSettlement</settlementTexturePath>
     <caravanTraderKinds>
