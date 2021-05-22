@@ -133,7 +133,7 @@
       <li>(80, 110, 30)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
-    <startingGoodwill>5</startingGoodwill>
+    <startingGoodwill>0</startingGoodwill>
     <naturalColonyGoodwill>-100~-50</naturalColonyGoodwill>
   </FactionDef>
   
