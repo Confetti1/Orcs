@@ -13,7 +13,7 @@
   <!-- ====================================== CITIZENS (Human, Orc, Elf, Gnome, Dwarf) ============================================= -->
   <PawnKindDef ParentName="KingdomBase">
     <defName>HumanCitizen</defName>
-    <label>human citizenr</label>
+    <label>human citizen</label>
     <race>Human</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -303,7 +303,11 @@
     <label>dwarf warrior</label>
     <race>Dwarf</race>
     <backstoryFiltersOverride>
-      <li>Dwarf</li>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
     </backstoryFiltersOverride>
     <combatPower>60</combatPower>
     <chemicalAddictionChance>.05</chemicalAddictionChance>
@@ -330,7 +334,11 @@
     <label>orc warrior</label>
     <race>Orc</race>
     <backstoryFiltersOverride>
-      <li>OrcCivil</li>
+      <li>
+        <categories>
+          <li>CivilOrc</li>
+        </categories>
+      </li>
     </backstoryFiltersOverride>
     <combatPower>60</combatPower>
     <chemicalAddictionChance>.05</chemicalAddictionChance>
