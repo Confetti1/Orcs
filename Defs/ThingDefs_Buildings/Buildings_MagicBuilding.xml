@@ -135,7 +135,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>-25</heatPerSecond>
-        <heatPushMaxTemperature>-30</heatPushMaxTemperature>
+        <heatPushMinTemperature>1</heatPushminTemperature>
       </li>
     </comps>
     <designationCategory>Temperature</designationCategory>
