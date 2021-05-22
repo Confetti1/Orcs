@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Buildings/AnimatedCrossbow_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,4)</drawSize>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
@@ -32,7 +32,7 @@
       <WorkToBuild>1800</WorkToBuild>
       <Mass>8</Mass>
       <Beauty>-20</Beauty>
-      <ShootingAccuracyTurret>0.90</ShootingAccuracyTurret>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
     <comps>
@@ -44,7 +44,7 @@
         <fuelGizmoLabel>Crossbow Ammo</fuelGizmoLabel>
         <outOfFuelMessage>Cannot shoot: Needs more ammo</outOfFuelMessage>
         <fuelFilter><thingDefs><li>WoodLog</li></thingDefs></fuelFilter>
-        <fuelCapacity>20</fuelCapacity>       <!-- 30 bursts -->
+        <fuelCapacity>30</fuelCapacity>       <!-- 30 shots -->
         <fuelMultiplier>0.5</fuelMultiplier> <!-- 1.333 steel per burst, 80 per full rearm -->
         <initialFuelPercent>1</initialFuelPercent>
         <autoRefuelPercent>0.5</autoRefuelPercent>
@@ -96,9 +96,9 @@
     </graphicData>
     <statBases>
       <AccuracyTouch>0.9</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.22</AccuracyLong>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>5</Mass>
