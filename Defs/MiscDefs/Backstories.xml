@@ -11,6 +11,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -38,6 +41,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -65,6 +71,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -92,6 +101,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -122,6 +134,8 @@
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -143,6 +157,7 @@
     <slot>Childhood</slot>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -190,6 +205,7 @@
     <bodyTypeGlobal>Male</bodyTypeGlobal>
     <spawnCategories>
       <li>City</li>
+      <li>Dwarf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -217,6 +233,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
+      <li>Dwarf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -236,6 +253,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -270,6 +288,7 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>City</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -302,6 +321,7 @@
     <spawnCategories>
       <li>City</li>
       <li>OrcCivil</li>
+      <li>Dwarf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -332,6 +352,8 @@
     <spawnCategories>
       <li>OrcCivil</li>
       <li>City</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -356,6 +378,9 @@
     <spawnCategories>
       <li>OrcCivil</li>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -379,6 +404,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -411,6 +439,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>    
       <li>
@@ -442,6 +472,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>    
       <li>
@@ -470,6 +503,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -496,6 +531,7 @@
     <bodyTypeGlobal>Male</bodyTypeGlobal>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -523,6 +559,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -553,6 +592,9 @@
     <spawnCategories>
       <li>OrcCivil</li>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -590,6 +632,9 @@
     <spawnCategories>
       <li>OrcCivil</li>
       <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -598,7 +643,7 @@
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -617,6 +662,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>City</li>
+      <li>Halfling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -1682,6 +1728,159 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>NatureWarden</defName>
+    <title>nature warden</title>
+    <titleShort>warden</titleShort>
+    <baseDescription>[PAWN_nameDef] was given the vital task of watching over [PAWN_possessive] homeland's forests. [PAWN_pronoun] took this very seriously, and neglected other skills in order to hone [PAWN_possessive] fighting abilities.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>NatureWarden</defName>
+    <title>nature warden</title>
+    <titleShort>warden</titleShort>
+    <baseDescription>[PAWN_nameDef] was given the vital task of watching over [PAWN_possessive] homeland's forests. [PAWN_pronoun] took this very seriously, and neglected other skills in order to hone [PAWN_possessive] fighting abilities.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Animals</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Sharpshooter</defName>
+    <title>sharpshooter</title>
+    <titleShort>sharpshooter</titleShort>
+    <baseDescription>[PAWN_nameDef] protected [PAWN_possessive] homeland from raiders. [PAWN_pronoun] spent tireless nights in a trees, keeping [PAWN_possessive] vigilant eyes out for anything strange.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Shooting</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>QuickSleeper</defName>
+        <chance>30</chance>
+      </li>
+      <li>
+        <defName>NightOwl</defName>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>BenevolentHealer</defName>
+    <title>benevolent healer</title>
+    <titleShort>healer</titleShort>
+    <baseDescription>[PAWN_nameDef] would appear to those in their most dire of moments and provide what aid that [PAWN_pronoun] could. [PAWN_pronoun] would heal the wounds of the injured and give kind words to the desperate.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Medicine</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Kind</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>ArboretumKeeper</defName>
+    <title>arboretum keeper</title>
+    <titleShort>keeper</titleShort>
+    <baseDescription>[PAWN_nameDef] enjoyed watching trees grow, and decided to make a living out of it. [PAWN_pronoun] managed the growing of trees as well as the processing of the wood that came from [PAWN_possessive] arboretum. [PAWN_pronoun] learned the value that all life has in a forest, and vowed never to harm an innocent animal.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Elf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Plants</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Construction</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>2</amount>
+      </li>
+      <li>
+         <defName>Mining</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hunting</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  
+  
   <!-- ========================================================== DWARVES ============================================================== -->
   <AlienRace.BackstoryDef>
     <defName>WarriorsApprentice</defName>
@@ -1780,6 +1979,128 @@
     </skillGains>
   </AlienRace.BackstoryDef>
 	
+  <!-- ========================================================= VARIED BACKSTORIES (apply to multiple races) ============================================ -->
+  <AlienRace.BackstoryDef>
+    <defName>BattlefieldHealer</defName>
+    <title>battlefield healer</title>
+    <titleShort>healer</titleShort>
+    <baseDescription>It was [PAWN_nameDef]'s responsibility to make sure that as few of [PAWN_possessive] fellow soldiers made it out alive. [PAWN_pronoun] was taught the basic techniques needed to keep someone breathing just a bit longer. [PAWN_pronoun still participated in standard military training.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Orc</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Medicine</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Soldier</defName>
+    <title>soldier</title>
+    <titleShort>soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] vowed to [PAWN_possessive] people that [PAWN_pronoun] would protect them to [PAWN_possessive] dying breath. [PAWN_pronoun] trained rigorously to ensure that [PAWN_pronoun] could keep that promise.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Halfling</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Medicine</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Melee</defName>
+         <amount>4</amount>
+      </li>
+      <li>
+         <defName>Shooting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>IntricateArtist</defName>
+    <title>intricateartist</title>
+    <titleShort>artist</titleShort>
+    <baseDescription>[PAWN_nameDef] found peace and clarity in creating art. [PAWN_possessive] works were so intricate that they spoke for themselves.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Halfling</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Artistic</defName>
+         <amount>8</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>-2</amount>
+      </li>
+      <li>
+         <defName>Crafting</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>MagicItemCrafter</defName>
+    <title>magic item crafter</title>
+    <titleShort>magic crafter</titleShort>
+    <baseDescription>[PAWN_nameDef] studied long and hard to learn how to create magical items from gold. [PAWN_pronoun] made a pretty decent living off of it. They spent so much time in their workshop that they began to have distaste for working outdoors.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Halfling</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Crafting</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Intellectual</defName>
+         <amount>6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Plants</li>
+      <li>PlantWork</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
 <!--  <AlienRace.BackstoryDef>
     <defName></defName>
     <title></title>
