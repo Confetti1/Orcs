@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Buildings/AnimatedCrossbow_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
@@ -91,7 +91,7 @@
     <label>animated crossbow</label>
     <description>A crossbow enchanted with the ability to aim and fire at will.</description>
     <graphicData>
-      <texPath>Buildings/BallistaTop</texPath>
+      <texPath>Buildings/AnimatedCrossbow_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
