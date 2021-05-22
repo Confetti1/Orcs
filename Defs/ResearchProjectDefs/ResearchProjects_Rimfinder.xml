@@ -58,9 +58,40 @@
     <defName>MagicTempControl</defName>
     <label>magic temp control</label>
     <description>Learn to make elemental orbs that can passively lower or raise the temperature of a room.</description>
-    <baseCost>500</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <tab>Rimfinder</tab>
+    <prerequisites>
+      <li>MagicCrafting</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.50</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>WeaponryEnchanting</defName>
+    <label>weaponry enchanting</label>
+    <description>Learn the basics of creating enchanted weapons, like swords and crossbows.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Rimfinder</tab>
+    <prerequisites>
+      <li>MagicCrafting</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>AnimatedDefenses</defName>
+    <label>animated defenses</label>
+    <description>Enchant stationary mounted crossbows with a semblance of sentience, allowing them to fire automatically at invaders.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Rimfinder</tab>
+    <prerequisites>
+      <li>WeaponryEnchanting</li>
+    </prerequisites>
     <researchViewX>2.00</researchViewX>
     <researchViewY>2.50</researchViewY>
   </ResearchProjectDef>
