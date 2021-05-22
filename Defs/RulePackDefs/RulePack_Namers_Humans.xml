@@ -10,8 +10,15 @@
                 <li>MaleHumanFirst->[M1][M3][M4]</li>
                 <li>MaleHumanFirst->[M2][M3][M4]</li>
                 <li>MaleHumanFirst->[M1][M2][M3][M4]</li> 
-                <li>FemaleHumanFirst->[F1][F2][F3]</li>
-                <li>HumanLast->[DwarfAdjective][DwarfNoun]</li>
+                <li>FemaleHumanFirst->[F1][F2]</li>
+                <li>FemaleHumanFirst->[F1][F3]</li>
+                <li>FemaleHumanFirst->[F1][F3][F4]</li>
+                <li>FemaleHumanFirst->[F2][F3][F4]</li>
+                <li>FemaleHumanFirst->[F1][F2][F3][F4]</li>
+                <li>HumanLast->[M1][F2]</li>
+                <li>HumanLast->[F1][M2]</li>
+                <li>HumanLast->[M1][F3][M4]</li>
+                <li>HumanLast->[F1][M3][F4]</li>
                 <li>KingdomFaction->[K1][K2v][K3c][K4]</li>
                 <li>KingdomFaction->[K1][K2vcv][K3c][K4]</li>
                 <li>KingdomFaction->[K1][K2vcv][K3c]</li>
@@ -37,6 +44,10 @@
                 <li>M2->WordParts/MaleHumanSyl2</li>
                 <li>M3->WordParts/MaleHumanSyl3</li>
                 <li>M4->WordParts/MaleHumanSyl4</li>
+                <li>F1->WordParts/FemaleHumanSyl1</li>
+                <li>F2->WordParts/FemaleHumanSyl2</li>
+                <li>F3->WordParts/FemaleHumanSyl3</li>
+                <li>F4->WordParts/FemaleHumanSyl4</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
