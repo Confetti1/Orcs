@@ -53,7 +53,9 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
-    <researchPrerequisite>MagicCrafting</researchPrerequisite>
+    <researchPrerequisites>
+      <li>MagicCrafting</li>
+    </researchPrerequisites>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
