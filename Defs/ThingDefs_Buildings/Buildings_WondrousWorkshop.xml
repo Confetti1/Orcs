@@ -23,7 +23,7 @@
     </graphicData>
     <costList>
       <Steel>50</Steel>
-      <Gold>5</Gold>
+      <WoodLog>50</WoodLog>
     </costList>
     <stuffCategories>
       <li>Metallic</li>
@@ -53,6 +53,7 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
+    <researchPrerequisite>MagicCrafting</researchPrerequisite>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
@@ -66,4 +67,41 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
+  
+  <RecipeDef>
+    <defName>Synthesize_Gold_From_Wood</defName>
+    <label>synthesize gold from wood</label>
+    <description>Create gold from wood using the power of alchemy. Doing so takes a while and uses up a lot of wood, but can be worth it if you are short on gold.</description>
+    <jobString>Synthesizing gold from wood.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>20000</workAmount>
+    <recipeUsers>
+      <li>WondrousWorkshop</li>
+    </recipeUsers>
+    <researchPrerequisite>MagicCrafting</researchPrerequisite>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Gold>1</Gold>
+    </products>
+  </RecipeDef>
+  
 </Defs>
