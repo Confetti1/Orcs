@@ -151,7 +151,7 @@
     <description>This orb has been enchanted with eternal heat, and consistently increases the temperature of the room it's in.</description>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/Buildings/OrbOfHeat</texPath>
+      <texPath>Buildings/OrbOfHeat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <damageData>
