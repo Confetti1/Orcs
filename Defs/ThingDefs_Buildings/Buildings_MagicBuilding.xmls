@@ -82,5 +82,128 @@
       <li>MagicCrafting</li>
     </researchPrerequisites>
   </ThingDef>
+    
+    
+  <ThingDef ParentName="BuildingBase">
+    <defName>OrbOfCold</defName>
+    <label>orb of cold</label>
+    <description>This orb has been enchanted with eternal cold, and consistently lowers the temperature of the room it's in.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Misc/TorchLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/TorchLamp_MenuIcon</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <MeditationFocusStrength>0.0</MeditationFocusStrength>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <Steel>20</Steel>
+      <Gold>2</Gold>
+    </costList>
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>.5</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(168,237,230,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>-25</heatPerSecond>
+        <heatPushMaxTemperature>-30</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites>
+      <li>MagicTempControl</li>
+    </researchPrerequisites>
+  </ThingDef>
+    
+  <ThingDef ParentName="BuildingBase">
+    <defName>OrbOfHeat</defName>
+    <label>orb of heat</label>
+    <description>This orb has been enchanted with eternal heat, and consistently increases the temperature of the room it's in.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Misc/TorchLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/TorchLamp_MenuIcon</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <MeditationFocusStrength>0.0</MeditationFocusStrength>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <Steel>20</Steel>
+      <Gold>2</Gold>
+    </costList>
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>.5</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(168,237,230,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>25</heatPerSecond>
+        <heatPushMaxTemperature>40</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites>
+      <li>MagicTempControl</li>
+    </researchPrerequisites>
+  </ThingDef>
 
 </Defs>
