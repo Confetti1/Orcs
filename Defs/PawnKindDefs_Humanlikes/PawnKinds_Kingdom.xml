@@ -38,6 +38,8 @@
     <defName>OrcCitizen</defName>
     <label>orc citizenr</label>
     <race>Orc</race>
+    <nameGenerator>NamerPersonOrcMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonOrcFemale</nameGeneratorFemale>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -61,6 +63,8 @@
     <defName>GnomeCitizen</defName>
     <label>gnome citizenr</label>
     <race>Gnome</race>
+    <nameGenerator>NamerPersonGnomeMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonGnomeFemale</nameGeneratorFemale>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -92,6 +96,8 @@
     <defName>ElfCitizen</defName>
     <label>elf citizenr</label>
     <race>Elf</race>
+    <nameGenerator>NamerPersonElfMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonElfFemale</nameGeneratorFemale>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -115,6 +121,8 @@
     <defName>DwarfCitizen</defName>
     <label>dwarf citizenr</label>
     <race>Dwarf</race>
+    <nameGenerator>NamerPersonDwarfMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -162,6 +170,8 @@
   <defName>ElfArcher</defName>
   <label>elf archer</label>
   <race>Elf</race>
+  <nameGenerator>NamerPersonElfMale</nameGenerator>
+  <nameGeneratorFemale>NamerPersonElfFemale</nameGeneratorFemale>
   <combatPower>60</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -192,6 +202,8 @@
   <defName>DwarfArcher</defName>
   <label>dwarf archer</label>
   <race>Dwarf</race>
+  <nameGenerator>NamerPersonDwarfMale</nameGenerator>
+  <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
   <combatPower>60</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -221,6 +233,8 @@
   <defName>GnomeArcher</defName>
   <label>gnome archer</label>
   <race>Gnome</race>
+  <nameGenerator>NamerPersonGnomeMale</nameGenerator>
+  <nameGeneratorFemale>NamerPersonGnomeFemale</nameGeneratorFemale>
   <combatPower>60</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -275,6 +289,8 @@
   <defName>ElfWarrior</defName>
   <label>elf warrior</label>
   <race>Elf</race>
+  <nameGenerator>NamerPersonElfMale</nameGenerator>
+  <nameGeneratorFemale>NamerPersonElfFemale</nameGeneratorFemale>
   <combatPower>60</combatPower>
   <chemicalAddictionChance>.05</chemicalAddictionChance>
   <backstoryFiltersOverride>
@@ -307,6 +323,8 @@
     <defName>DwarfWarrior</defName>
     <label>dwarf warrior</label>
     <race>Dwarf</race>
+    <nameGenerator>NamerPersonDwarfMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonDwarfFemale</nameGeneratorFemale>
     <backstoryFiltersOverride>
       <li>Dwarf</li>
       <li>City</li>
@@ -335,6 +353,8 @@
     <defName>OrcWarrior</defName>
     <label>orc warrior</label>
     <race>Orc</race>
+    <nameGenerator>NamerPersonOrcMale</nameGenerator>
+    <nameGeneratorFemale>NamerPersonOrcFemale</nameGeneratorFemale>
     <backstoryFiltersOverride>
       <li>CivilOrc</li>
       <li>City</li>
