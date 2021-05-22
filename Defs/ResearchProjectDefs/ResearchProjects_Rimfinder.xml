@@ -91,6 +91,7 @@
     <tab>Rimfinder</tab>
     <prerequisites>
       <li>WeaponryEnchanting</li>
+      <li>Crossbows</li>
     </prerequisites>
     <researchViewX>2.00</researchViewX>
     <researchViewY>2.50</researchViewY>
