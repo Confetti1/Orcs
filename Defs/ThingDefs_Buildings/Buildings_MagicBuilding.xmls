@@ -90,14 +90,14 @@
     <description>This orb has been enchanted with eternal cold, and consistently lowers the temperature of the room it's in.</description>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/Building/Misc/TorchLamp</texPath>
+      <texPath>Buildings/OrbOfCold</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Misc/TorchLamp_MenuIcon</uiIconPath>
+    <uiIconPath>Buildings/OrbOfCold</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
@@ -151,14 +151,14 @@
     <description>This orb has been enchanted with eternal heat, and consistently increases the temperature of the room it's in.</description>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/Building/Misc/TorchLamp</texPath>
+      <texPath>Things/Buildings/OrbOfHeat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Misc/TorchLamp_MenuIcon</uiIconPath>
+    <uiIconPath>Buildings/OrbOfHeat</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
