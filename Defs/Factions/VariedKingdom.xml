@@ -168,7 +168,7 @@
       <li>(166, 13, 13)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/KingdomSymbolEvil</factionIconPath>
-    <startingGoodwill>-50-100</startingGoodwill>
+    <startingGoodwill>-50~-100</startingGoodwill>
     <naturalColonyGoodwill>-100</naturalColonyGoodwill>
   </FactionDef>
 </Defs>
