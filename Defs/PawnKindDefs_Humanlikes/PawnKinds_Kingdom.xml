@@ -304,9 +304,9 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="KingdomBase">
-    <defName>HumanWarrior</defName>
-    <label>human warrior</label>
-    <race>Human</race>
+    <defName>DwarfWarrior</defName>
+    <label>dwarf warrior</label>
+    <race>Dwarf</race>
     <backstoryFiltersOverride>
       <li>Dwarf</li>
       <li>City</li>
@@ -331,4 +331,64 @@
     <techHediffsChance>0.15</techHediffsChance> 
   </PawnKindDef>
   
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>OrcWarrior</defName>
+    <label>orc warrior</label>
+    <race>Orc</race>
+    <backstoryFiltersOverride>
+      <li>CivilOrc</li>
+      <li>City</li>
+    </backstoryFiltersOverride>
+    <combatPower>60</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance> 
+  </PawnKindDef>
+  <!-- ============================================================ KING ========================================================= -->
+   <PawnKindDef ParentName="KingdomBase" Name="KingdomKingBase" Abstract="True">
+    <defName>KingdomKingBase</defName>
+    <combatPower>140</combatPower>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <minGenerationAge>30</minGenerationAge>
+    <maxGenerationAge>999</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>City</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <itemQuality>Excellent</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>450~750</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <weaponMoney>500~1000</weaponMoney>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomKingBase">
+    <defName>KingdomKing</defName>
+    <label>king</label>
+    <race>Human</race>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+      <li>MedievalRangedAdvanced</li>
+    </weaponTags>
+  </PawnKindDef> 
 </Defs>
