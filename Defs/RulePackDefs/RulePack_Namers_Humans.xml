@@ -60,7 +60,7 @@
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=2)->[MaleDwarfFirst] [DwarfLast]</li>
+                <li>r_name(p=2)->[MaleHumanFirst] [HumanLast]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
@@ -68,7 +68,7 @@
     <RulePackDef>
         <defName>NamerPersonHumanFemale</defName>
         <include>
-            <li>NamerDwarfUtility</li>
+            <li>NamerHumanUtility</li>
         </include>
         <rulePack>
             <rulesStrings>
@@ -76,7 +76,6 @@
             </rulesStrings>
         </rulePack>
     </RulePackDef>
-    
     <RulePackDef>
         <defName>NamerFactionKingdom</defName>
         <include>
