@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>            
+  <FactionDef ParentName="PlayerFactionBase" Name="KingdomFactionBase" Abstract ="True">
+    <pawnSingular>citizen</pawnSingular>
+    <pawnsPlural>citizens</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
+    <geneticVariance>0.1</geneticVariance>
+    <factionNameMaker>NamerFactionDwarf</factionNameMaker>
+    <settlementNameMaker>NamerSettlementDwarf</settlementNameMaker>
+    <pawnNameMaker>NamerPersonDwarfMale</pawnNameMaker>
+    <pawnNameMakerFemale>NamerPersonDwarfFemale</pawnNameMakerFemale>
+    <techLevel>Medieval</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Dwarf</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>King</leaderTitle>
+    <hairTags>
+      <li>Dwarf</li>
+    </hairTags>
+    <settlementTexturePath>World/WorldObjects/KingdomSettlement</settlementTexturePath>
+    <caravanTraderKinds>
+      <li>Caravan_Dwarf_BulkGoods</li>
+      <li>Caravan_Dwarf_CombatSupplier</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~40</allowedArrivalTemperatureRange>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+          <points>
+            <li>(0,35)</li>
+            <li>(70, 50)</li>
+            <li>(800, 100)</li>
+            <li>(1300, 150)</li>
+            <li>(100000, 10000)</li>
+          </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Dwarf_Villager>10</Dwarf_Villager>
+          <Orc_Tribal_Warrior>10</Orc_Tribal_Warrior>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>10</Dwarf_Warrior>
+          <Dwarf_Colony_King>3</Dwarf_Colony_King>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>10</Dwarf_Warrior>
+          <Dwarf_Colony_King>3</Dwarf_Colony_King>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Dwarf_Trader>1</Dwarf_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>20</Dwarf_Warrior>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Dwarf_Villager>10</Dwarf_Villager>
+          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
+          <Dwarf_Warrior>20</Dwarf_Warrior>
+          <Dwarf_Colony_King>10</Dwarf_Colony_King>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+  
+  <ThingSetMakerDef>
+    <defName>DwarfColonyRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+            <li>Silver</li>
+            <li>Jade</li>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+  
+  <FactionDef ParentName="KingdomFactionBase">
+    <defName>GenerousKingdom</defName>
+    <label>generous kingdom</label>
+    <description>This is a kingdom populated by a variety of races and peoples. They simply want to coexist with other factions, and are willing to trade and make diplomacy with newer colonies.</description>
+    <colorSpectrum>
+      <li>(100, 200, 100)</li>
+      <li>(80, 108, 219)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/KingdomSymbol</factionIconPath>
+    <startingGoodwill>0~50</startingGoodwill>
+    <naturalColonyGoodwill>0</naturalColonyGoodwill>
+  </FactionDef>
+  
+  <FactionDef ParentName="KingdomFactionBase">
+    <defName>EvilKingdom</defName>
+    <label>evil kingdom</label>
+    <description>This kingdom is populated by a variety of races and peoples. They are very militaristic, and their only goal is to take over the continent by force. They have no need for trading, as their kingdom is self-sustaining.</description>
+    <colorSpectrum>
+      <li>(184, 62, 91)</li>
+      <li>(166, 13, 13)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/KingdomSymbolEvil</factionIconPath>
+    <startingGoodwill>-50-100</startingGoodwill>
+    <naturalColonyGoodwill>-100</naturalColonyGoodwill>
+  </FactionDef>
+</Defs>
