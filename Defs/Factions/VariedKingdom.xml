@@ -59,18 +59,18 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <HumanCitizen>10</HumanCitizen>
+          <HumanCitizen>20</HumanCitizen>
           <OrcCitizen>3</OrcCitizen>
           <GnomeCitizen>8</GnomeCitizen>
           <ElfCitizen>8</ElfCitizen>
           <DwarfCitizen>8</DwarfCitizen>
             
-          <HumanArcher>10</HumanArcher>
+          <HumanArcher>20</HumanArcher>
           <ElfArcher>10</ElfArcher>
           <DwarfArcher>5</DwarfArcher>
           <GnomeArcher>8</GnomeArcher>
             
-          <HumanWarrior>10</HumanWarrior>
+          <HumanWarrior>20</HumanWarrior>
           <ElfWarrior>5</ElfWarrior>
           <DwarfWarrior>8</DwarfWarrior>
           <OrcWarrior>3</OrcWarrior>
@@ -79,9 +79,21 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Dwarf_Crossbowman>10</Dwarf_Crossbowman>
-          <Dwarf_Warrior>10</Dwarf_Warrior>
-          <Dwarf_Colony_King>3</Dwarf_Colony_King>
+          <HumanCitizen>20</HumanCitizen>
+          <OrcCitizen>3</OrcCitizen>
+          <GnomeCitizen>8</GnomeCitizen>
+          <ElfCitizen>8</ElfCitizen>
+          <DwarfCitizen>8</DwarfCitizen>
+            
+          <HumanArcher>20</HumanArcher>
+          <ElfArcher>10</ElfArcher>
+          <DwarfArcher>5</DwarfArcher>
+          <GnomeArcher>8</GnomeArcher>
+            
+          <HumanWarrior>20</HumanWarrior>
+          <ElfWarrior>5</ElfWarrior>
+          <DwarfWarrior>8</DwarfWarrior>
+          <OrcWarrior>3</OrcWarrior>
         </options>
       </li>
       <li>
