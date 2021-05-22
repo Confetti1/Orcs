@@ -68,7 +68,6 @@
       <li>
         <categories>
           <li>Gnome</li>
-          <li>City</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -168,7 +167,6 @@
       <li>
         <categories>
           <li>Elf</li>
-          <li>City</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -198,7 +196,6 @@
       <li>
         <categories>
           <li>Elf</li>
-          <li>City</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -227,7 +224,6 @@
       <li>
         <categories>
           <li>Gnome</li>
-          <li>City</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -280,7 +276,6 @@
   <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>City</li>
           <li>Elf</li>
         </categories>
       </li>
@@ -309,7 +304,6 @@
     <race>Dwarf</race>
     <backstoryFiltersOverride>
       <li>Dwarf</li>
-      <li>City</li>
     </backstoryFiltersOverride>
     <combatPower>60</combatPower>
     <chemicalAddictionChance>.05</chemicalAddictionChance>
@@ -336,8 +330,7 @@
     <label>orc warrior</label>
     <race>Orc</race>
     <backstoryFiltersOverride>
-      <li>CivilOrc</li>
-      <li>City</li>
+      <li>OrcCivil</li>
     </backstoryFiltersOverride>
     <combatPower>60</combatPower>
     <chemicalAddictionChance>.05</chemicalAddictionChance>
@@ -365,13 +358,6 @@
     <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>999</maxGenerationAge>
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>City</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
     <itemQuality>Excellent</itemQuality>
     <factionLeader>true</factionLeader>
     <canBeSapper>true</canBeSapper>
@@ -426,7 +412,6 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>City</li>
           <li>Dwarf</li>
         </categories>
       </li>
@@ -459,8 +444,7 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>City</li>
-          <li>Dwarf</li>
+          <li>Elf</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -492,7 +476,6 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>City</li>
           <li>Gnome</li>
         </categories>
       </li>
