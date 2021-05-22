@@ -1950,7 +1950,147 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-	
+	<!-- ========================================================= TIEFLING CHILDHOODS ===================================================== -->
+  
+  <AlienRace.BackstoryDef>
+    <defName>Grimspawn</defName>
+    <title>grimspawn</title>
+    <titleShort>grimspawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Daemon, a otherworldly being that seeks to devour the souls of the dead. [PAWN_pronoun] inherited the foul being's shrewd insight.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Pitborn</defName>
+    <title>pitborn</title>
+    <titleShort>pitborn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Demon, an evil being made from sin in the abyss. [PAWN_pronoun] inherited their ancestor's fury.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Bloodthirsty</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Hellspawn</defName>
+    <title>hellspawn</title>
+    <titleShort>hellspawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Devil, a being of law that resides in Hell. [PAWN_pronoun] inherited their ancestor's discipline and cunning.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Tough</defName>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>Masochist</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Beastbrood</defName>
+    <title>beastbrood</title>
+    <titleShort>beastbrood</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Rakshasa, a bestial creature residing on the Material Plane with intent to take it over. [PAWN_pronoun] inherited their ancestor's ego and skill.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Jealous</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  
   <!-- ========================================================= VARIED BACKSTORIES (apply to multiple races) ============================================ -->
   <AlienRace.BackstoryDef>
     <defName>BattlefieldHealer</defName>
