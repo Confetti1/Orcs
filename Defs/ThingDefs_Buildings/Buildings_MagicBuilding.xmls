@@ -116,7 +116,7 @@
     <selectable>true</selectable>
     <costList>
       <Steel>20</Steel>
-      <Gold>2</Gold>
+      <Gold>1</Gold>
     </costList>
     <building>
       <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
@@ -177,7 +177,7 @@
     <selectable>true</selectable>
     <costList>
       <Steel>20</Steel>
-      <Gold>2</Gold>
+      <Gold>1</Gold>
     </costList>
     <building>
       <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
