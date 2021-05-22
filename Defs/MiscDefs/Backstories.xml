@@ -1757,34 +1757,6 @@
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
-    <defName>NatureWarden</defName>
-    <title>nature warden</title>
-    <titleShort>warden</titleShort>
-    <baseDescription>[PAWN_nameDef] was given the vital task of watching over [PAWN_possessive] homeland's forests. [PAWN_pronoun] took this very seriously, and neglected other skills in order to hone [PAWN_possessive] fighting abilities.</baseDescription>
-    <slot>Adulthood</slot>
-    <spawnCategories>
-      <li>Elf</li>
-    </spawnCategories>
-    <skillGains>
-      <li>
-         <defName>Shooting</defName>
-         <amount>4</amount>
-      </li>
-      <li>
-         <defName>Animals</defName>
-         <amount>4</amount>
-      </li>
-      <li>
-         <defName>Plants</defName>
-         <amount>4</amount>
-      </li>
-    </skillGains>
-    <workDisables>
-      <li>Crafting</li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  
-  <AlienRace.BackstoryDef>
     <defName>Sharpshooter</defName>
     <title>sharpshooter</title>
     <titleShort>sharpshooter</titleShort>
