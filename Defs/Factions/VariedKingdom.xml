@@ -25,9 +25,8 @@
     </backstoryFilters>
     <leaderTitle>King</leaderTitle>
     <hairTags>
-      <li>Dwarf</li>
-      <li>Elf</li>
-      <li>Gnome</li>
+      <li>Rural</li>
+      <li>Tribal</li>
     </hairTags>
     <settlementTexturePath>World/WorldObjects/KingdomSettlement</settlementTexturePath>
     <caravanTraderKinds>
