@@ -74,7 +74,7 @@
       <combatPower>40</combatPower>   <!-- same as a scavenger -->
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_AnimatedCrossbow</turretGunDef>
-      <turretBurstCooldownTime>4</turretBurstCooldownTime>
+      <turretBurstCooldownTime>2</turretBurstCooldownTime>
     </building>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
@@ -99,7 +99,7 @@
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.22</AccuracyLong>
-      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>5</Mass>
       <Flammability>1</Flammability>
