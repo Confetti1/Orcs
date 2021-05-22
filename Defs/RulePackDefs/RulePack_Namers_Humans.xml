@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerHumanUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>MaleHumanFirst->[M1][M2]</li>
+                <li>MaleHumanFirst->[M1][M3]</li>
+                <li>MaleHumanFirst->[M1][M3][M4]</li>
+                <li>MaleHumanFirst->[M2][M3][M4]</li>
+                <li>MaleHumanFirst->[M1][M2][M3][M4]</li> 
+                <li>FemaleHumanFirst->[F1][F2][F3]</li>
+                <li>HumanLast->[DwarfAdjective][DwarfNoun]</li>
+                <li>KingdomFaction->[K1][K2v][K3c][K4]</li>
+                <li>KingdomFaction->[K1][K2vcv][K3c][K4]</li>
+                <li>KingdomFaction->[K1][K2vcv][K3c]</li>
+                <li>KingdomFaction->[K1][K2vcv][K3c][K4]</li>
+                <li>KingdomFaction->[FactionNoun] of [K1][K2v][K3c][K4]</li>
+                <li>KingdomFaction->[FactionNoun] of [K1][K2vcv][K3c][K4]</li>
+                <li>KingdomFaction->[FactionNoun] of [K1][K2vcv][K3c]</li>
+                <li>KingdomFaction->[FactionNoun] of [K1][K2vcv][K3c][K4]</li>
+                <li>KingdomSettlement->[K1][K2v][K3c][K4]</li>
+                <li>KingdomSettlement->[K1][K2vcv][K3c][K4]</li>
+                <li>KingdomSettlement->[K1][K2vcv][K3c]</li>
+                <li>KingdomSettlement->[K1][K2vcv][K3c][K4]</li>
+
+            </rulesStrings>
+            <rulesFiles>
+                <li>K1->WordParts/Kingdom1</li>
+                <li>K2v->WordParts/Kingdom2v</li>
+                <li>K2vcv->WordParts/Kingdom2vcv</li>
+                <li>K3c->WordParts/Kingdom3c</li>
+                <li>K4->WordParts/Kingdom4</li>
+                <li>FactionNoun->Words/KingdomFactionNouns</li>
+                <li>M1->WordParts/MaleHumanSyl1</li>
+                <li>M2->WordParts/MaleHumanSyl2</li>
+                <li>M3->WordParts/MaleHumanSyl3</li>
+                <li>M4->WordParts/MaleHumanSyl4</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    
+    <RulePackDef>
+        <defName>NamerPersonHumanMale</defName>
+        <include>
+            <li>NamerHumanUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[MaleDwarfFirst] [DwarfLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+            
+    <RulePackDef>
+        <defName>NamerPersonHumanFemale</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[FemaleHumanFirst] [HumanLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerFactionKingdom</defName>
+        <include>
+            <li>NamerHumanUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[KingdomFaction]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerSettlementKingdom</defName>
+        <include>
+            <li>NamerHumanUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[KingdomSettlement]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
