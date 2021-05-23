@@ -238,8 +238,6 @@
       </generalSettings>
         <thoughtSettings>
           <replacerList>
-            <li>
-            </li>
           </replacerList>
           <cannotReceiveThoughts>
             <li>EnvironmentDark</li>
