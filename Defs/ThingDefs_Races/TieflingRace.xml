@@ -175,6 +175,9 @@
               <bodyPart>left horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>true</layerInvert>
+              <backstoryGraphics>
+                <SeraptisSpawn>Tiefling/Horns/seraptisleft</SeraptisSpawn>
+              </backstoryGraphics>
 
               <alignWithHead>true</alignWithHead>
               <drawSize>(1, 1)</drawSize>
