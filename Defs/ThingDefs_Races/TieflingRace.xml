@@ -153,6 +153,87 @@
                 </li>
             </colorChannels>
             <headOffset>(0.0, 0)</headOffset>
+        
+        <!-- ================================================ LEFT HORN ================================================ -->
+          <bodyAddons>
+            <li>
+              <path>Tiefling/Horns/lefthorn</path>
+              <bodyPart>left horn</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </east>
+                <south>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </south>
+              </offsets>
+            </li>
+              <!-- ================================================ RIGHT HORN ================================================ -->
+            <li>
+              <path>Tiefling/Horns/righthorn</path>
+              <bodyPart>right horn</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </east>
+                <south>
+                  <crownTypes>
+                    <Normal_Average>(0, 0)</Normal_Average>
+                    <Normal_Pointy>(0, 0)</Normal_Pointy>
+                    <Normal_Wide>(0, 0)</Normal_Wide>
+                  </crownTypes>
+                </south>
+              </offsets>
+            </li>
+          </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
         <thoughtSettings>
@@ -181,7 +262,7 @@
 		      <leatherDef>Leather_Human</leatherDef>
 		      <nameGenerator>NamerPersonHumanMale</nameGenerator>
           <nameGeneratorFemale>NamerPersonHumanFemale</nameGeneratorFemale>
-		      <body>Human</body>
+		      <body>Tiefling</body>
 		      <baseBodySize>1</baseBodySize>
 		      <baseHealthScale>1</baseHealthScale>
 		      <foodType>OmnivoreHuman</foodType>
