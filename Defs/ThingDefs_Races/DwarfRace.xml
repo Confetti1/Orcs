@@ -14,11 +14,12 @@
 	    </graphicPaths>
             
 	    <hairSettings>
-                <hasHair>True</hasHair>
-		<hairTags>
-			<li>Dwarf</li>
-		</hairTags>
-            </hairSettings>
+        <hasHair>True</hasHair>
+		    <hairTags>
+			    <li>Dwarf</li>
+		    </hairTags>
+        <getsGreyAt>250</getsGreyAt>
+      </hairSettings>
 		
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
