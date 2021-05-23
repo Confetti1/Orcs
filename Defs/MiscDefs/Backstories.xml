@@ -1987,10 +1987,96 @@
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
+    <defName>SeraptisSpawn</defName>
+    <title>seraptis spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Seraptis demon, a horrid being born from a particularly descructive death. [PAWN_pronoun] gained [PAWN_possessive] ancestor's aggressive and strangely compelling nature.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+	    </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+	    </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Depressive</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>NabasuSpawn</defName>
+    <title>nabasu spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Nabasu demon, a gluttonous creature with batlike wings. [PAWN_pronoun] gained [PAWN_possessive] ancestor's insatiable appetite.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+	    </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Gourmand</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>GlabrezuSpawn</defName>
+    <title>glabrezu spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Glabrezu demon, a cunning creature who grants wishes to unsuspecting mortals, only to carry out the wishes in the most destructive way possible. [PAWN_pronoun] gained [PAWN_possessive] ancestor's fiendish cunning and cruel creativity.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+	    </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+	    </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>GreatMemory</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
     <defName>BarbazuSpawn</defName>
     <title>barbazu spawn</title>
     <titleShort>spawn</titleShort>
-    <baseDescription>[PAWN_nameDef] is the spawn of a Barbazu, a warrior for the legions of Hell. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's knack for war.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Barbazu devil, a warrior for the legions of Hell. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's knack for war.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>Tiefling</li>
@@ -2004,6 +2090,98 @@
     <forcedTraits>
       <li>
         <defName>Bloodlust</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HamatulaSpawn</defName>
+    <title>hamatula spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Hamatula devil, a barbed being who imprisons and tortures the most damned souls in hell. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's desire to inflict pain, as well as their capability to withstand punishment.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+	    </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Bloodlust</defName>
+      </li>
+      <li>
+        <defName>Tough</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>PhistophilusSpawn</defName>
+    <title>phistophilus spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Phistophilus devil, a noble devil who eagerly signs and upholds the contracts of mortals and outsiders alike. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's cunning, as well as their sense of order.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+	    </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+	    </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Industriousness</defName><degree>2</degree>
+      </li>
+      <li>
+        <defName>GreatMemory</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>SarglagonSpawn</defName>
+    <title>sarglagon spawn</title>
+    <titleShort>spawn</titleShort>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Sarglagon devil, a hideous aquatic creature who guards Hell's waterways and occasionally watches over important people in the Material Plane. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's toughness and power, but unfortunately gained their ugly features as well.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+	    </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+	    </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+	    </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName><degree>-1</degree>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
