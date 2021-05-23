@@ -160,11 +160,11 @@
               <path>Tiefling/Horns/lefthorn</path>
               <bodyPart>left horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-					    <layerInvert>true</layerInvert>
-					    <layerOffset>0</layerOffset>
-					    <alignWithHead>true</alignWithHead>
-					    <drawSize>(1, 1)</drawSize>
-					    <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <layerInvert>true</layerInvert>
+
+              <alignWithHead>true</alignWithHead>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
@@ -174,55 +174,31 @@
               </hiddenUnderApparelFor>
               <offsets>
                 <south>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(0, 0.6)</Average_Normal>
+                    <Average_Pointy>(0, 0.6)</Average_Pointy>
+                    <Average_Wide>(0, 0.6)</Average_Wide>
                   </crownTypes>
                 </north>
                 <east>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </east>
                 <west>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </west>
               </offsets>
@@ -233,10 +209,10 @@
               <bodyPart>right horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>true</layerInvert>
-					    <layerOffset>0</layerOffset>
-					    <alignWithHead>true</alignWithHead>
-					    <drawSize>(1, 1)</drawSize>
-					    <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <layerOffset>0</layerOffset>
+              <alignWithHead>true</alignWithHead>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
@@ -246,55 +222,31 @@
               </hiddenUnderApparelFor>
               <offsets>
                 <south>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(0, 0.6)</Average_Normal>
+                    <Average_Pointy>(0, 0.6)</Average_Pointy>
+                    <Average_Wide>(0, 0.6)</Average_Wide>
                   </crownTypes>
                 </north>
                 <east>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </east>
                 <west>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-								    <Thin>0</Thin>
-                    <Male>0</Male>
-                    <Female>0</Female>
-							    </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0, 0)</Normal_Average>
-                    <Normal_Pointy>(0, 0)</Normal_Pointy>
-                    <Normal_Wide>(0, 0)</Normal_Wide>
+                    <Average_Normal>(-.42, 0.22)</Average_Normal>
+                    <Average_Pointy>(-.42, 0.22)</Average_Pointy>
+                    <Average_Wide>(-.42, 0.22)</Average_Wide>
                   </crownTypes>
                 </west>
               </offsets>
