@@ -1,10 +1,11 @@
-  
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Tiefling</defName>
         <label>tiefling</label>
-        <description>Tieflings are the offspring of humans and fiends. They are often shunned for their strange appearance and evil heritage. Tieflings aren't always evil, in fact a good amount of them despise their devilish or demonic parents for their own birth. Tieflings often look different depending on who their fiendish ancestor was.</description>
+        <description>Tieflings are the offspring of humans and fiends. They are often shunned for their strange appearance and evil heritage. Tieflings aren't always evil, in fact a good amount of them despise their devilish or demonic parents for their own birth. Tieflings often look different depending on who their fiendish ancestor was.
+	    
+	    Tieflings gain certain boons and urges from their ancestor, but most capable of keeping them under control.</description>
         <alienRace>
   	    
 	    <graphicPaths>
@@ -301,14 +302,14 @@
 	    
     </AlienRace.ThingDef_AlienRace>
 	<AlienRace.RaceSettings>
-		<defName>DwarfSettings</defName>
+		<defName>TieflingSettings</defName>
 		<pawnKindSettings>
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>Dwarf_Colonist</li>
+						<li>Tiefling_Colonist</li>
 					</kindDefs>
-					<chance>10.0</chance>
+					<chance>2.0</chance>
 				</li>	
 			</alienslavekinds>
                         <startingColonists>
@@ -316,7 +317,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Dwarf_Colonist</li>
+								<li>Tiefling_Colonist</li>
 							</kindDefs>
 							<chance>40.0</chance>
 						</li>
