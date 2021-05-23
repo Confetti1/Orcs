@@ -254,8 +254,8 @@
           <statBases>
             <MarketValue>1800</MarketValue>
             <MoveSpeed>4.6</MoveSpeed>
-            <ComfyTemperatureMin>5</ComfyTemperatureMin>
-            <ComfyTemperatureMax>24</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+            <ComfyTemperatureMax>45</ComfyTemperatureMax>
             <LeatherAmount>30</LeatherAmount>
             <RoyalFavorValue>3</RoyalFavorValue>
           </statBases>
