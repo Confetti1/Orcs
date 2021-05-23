@@ -154,7 +154,7 @@
                 <li>
                   <name>horns</name>
                   <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                    <colorChannel>skin</colorChannel>
+                    <colorChannel>skin_1</colorChannel>
                   </first>
                   <second Class="ColorGenerator_Options">
                     <options>
