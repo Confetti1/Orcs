@@ -151,7 +151,21 @@
                       </options>
                   </first>
                 </li>
-            </colorChannels>
+                <li>
+                  <name>horns</name>
+                  <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                    <colorChannel>skin</colorChannel>
+                  </first>
+                  <second Class="ColorGenerator_Options">
+                    <options>
+                      <li>
+                        <weight>10</weight>
+                        <only>RGBA(69, 69, 69, 255)</only>
+                      </li>
+                    </options>
+                  </second>
+                </li> 
+              </colorChannels>
             <headOffset>(0.0, 0)</headOffset>
         
         <!-- ================================================ LEFT HORN ================================================ -->
@@ -168,7 +182,7 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
-              <colorChannel>skin</colorChannel>
+              <colorChannel>horns</colorChannel>
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
@@ -216,7 +230,7 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
-              <colorChannel>skin</colorChannel>
+              <colorChannel>horns</colorChannel>
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
