@@ -10,7 +10,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
   </PawnKindDef>
-  <!-- ====================================== CITIZENS (Human, Orc, Elf, Gnome, Dwarf) ============================================= -->
+  <!-- ====================================== CITIZENS (Human, Orc, Elf, Gnome, Dwarf, Tiefling) ============================================= -->
   <PawnKindDef ParentName="KingdomBase">
     <defName>HumanCitizen</defName>
     <label>human citizen</label>
@@ -36,7 +36,7 @@
   
   <PawnKindDef ParentName="KingdomBase">
     <defName>OrcCitizen</defName>
-    <label>orc citizenr</label>
+    <label>orc citizen</label>
     <race>Orc</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -59,7 +59,7 @@
   
   <PawnKindDef ParentName="KingdomBase">
     <defName>GnomeCitizen</defName>
-    <label>gnome citizenr</label>
+    <label>gnome citizen</label>
     <race>Gnome</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -89,7 +89,7 @@
   
   <PawnKindDef ParentName="KingdomBase">
     <defName>ElfCitizen</defName>
-    <label>elf citizenr</label>
+    <label>elf citizen</label>
     <race>Elf</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -112,7 +112,7 @@
   
   <PawnKindDef ParentName="KingdomBase">
     <defName>DwarfCitizen</defName>
-    <label>dwarf citizenr</label>
+    <label>dwarf citizen</label>
     <race>Dwarf</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -133,7 +133,30 @@
     </techHediffsTags>
   </PawnKindDef>
   
-  <!-- ============================================================ ARCHERS (Human, Elf, Dwarf, Gnome) ========================================= -->
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>TieflingCitizen</defName>
+    <label>tiefling citizen</label>
+    <race>Tiefling</race>
+    <combatPower>35</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <weaponMoney>65~250</weaponMoney>
+    <apparelMoney>100~200</apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  
+  <!-- ============================================================ ARCHERS (Human, Elf, Dwarf, Gnome, Tiefling) ========================================= -->
   
   <PawnKindDef ParentName="KingdomBase">
   <defName>HumanArcher</defName>
@@ -224,6 +247,34 @@
       <li>
         <categories>
           <li>Gnome</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>50~100</apparelMoney>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>MedievalRanged</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+  <defName>TieflingArcher</defName>
+  <label>tiefling archer</label>
+  <race>Tiefling</race>
+  <combatPower>60</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Tiefling</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -359,6 +410,37 @@
     </techHediffsTags>
     <techHediffsChance>0.15</techHediffsChance> 
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>TieflingWarrior</defName>
+    <label>tiefling warrior</label>
+    <race>Tiefling</race>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Tiefling</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <combatPower>60</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance> 
+  </PawnKindDef>
   <!-- ============================================================ KING ========================================================= -->
    <PawnKindDef ParentName="KingdomBase" Name="KingdomKingBase" Abstract="True">
     <defName>KingdomKingBase</defName>
@@ -385,7 +467,7 @@
       <li>MedievalRangedAdvanced</li>
     </weaponTags>
   </PawnKindDef> 
-  <!-- ============================================================== TRADERS (Human, Dwarf, Elf, Gnome) ========================================================= -->
+  <!-- ============================================================== TRADERS (Human, Dwarf, Elf, Gnome, Tiefling) ========================================================= -->
   <PawnKindDef ParentName="KingdomBase">
     <defName>HumanTrader</defName>
     <label>human trader</label>
@@ -479,6 +561,38 @@
     <defName>GnomeTrader</defName>
     <label>gnome trader</label>
     <race>Gnome</race>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Gnome</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>TieflingTrader</defName>
+    <label>Tiefling trader</label>
+    <race>Tiefling</race>
     <combatPower>30</combatPower>
     <chemicalAddictionChance>.05</chemicalAddictionChance>
     <backstoryFiltersOverride>
