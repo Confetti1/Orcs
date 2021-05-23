@@ -4,6 +4,7 @@ TO DO:
 -Halflings and tieflings have not been implemented yet
 -Customize the kingdom more, custom trade
 -Custom Orc settlement and faction namers
+-Fix up the faction colors to be less samey
 -Add unicorns and sparkly nice-looking object for Kat
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
