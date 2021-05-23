@@ -3,9 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
         <defName>Tiefling</defName>
         <label>tiefling</label>
-        <description>Tieflings are the offspring of humans and fiends. They are often shunned for their strange appearance and evil heritage. Tieflings aren't always evil, in fact a good amount of them despise their devilish or demonic parents for their own birth. Tieflings often look different depending on who their fiendish ancestor was.
-	    
-	    Tieflings gain certain boons and urges from their ancestor, but most capable of keeping them under control.</description>
+        <description>Tieflings are the offspring of humans and fiends. They are often shunned for their strange appearance and evil heritage. Tieflings aren't always evil, in fact a good amount of them despise their devilish or demonic parents for their own birth. Tieflings often look different depending on who their fiendish ancestor was. Tieflings gain certain boons and urges from their ancestor, but most capable of keeping them under control.</description>
         <alienRace>
   	    
 	    <graphicPaths>
