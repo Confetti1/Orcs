@@ -2198,6 +2198,8 @@
     <titleShort>healer</titleShort>
     <baseDescription>It was [PAWN_nameDef]'s responsibility to make sure that as few of [PAWN_possessive] fellow soldiers made it out alive. [PAWN_pronoun] was taught the basic techniques needed to keep someone breathing just a bit longer. [PAWN_pronoun still participated in standard military training.</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>Dwarf</li>
       <li>Elf</li>
@@ -2231,6 +2233,8 @@
     <titleShort>soldier</titleShort>
     <baseDescription>[PAWN_nameDef] vowed to [PAWN_possessive] people that [PAWN_pronoun] would protect them to [PAWN_possessive] dying breath. [PAWN_pronoun] trained rigorously to ensure that [PAWN_pronoun] could keep that promise.</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>Dwarf</li>
       <li>Elf</li>
@@ -2265,6 +2269,8 @@
     <titleShort>artist</titleShort>
     <baseDescription>[PAWN_nameDef] found peace and clarity in creating art. [PAWN_possessive] works were so intricate that they spoke for themselves.</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>Dwarf</li>
       <li>Elf</li>
@@ -2294,6 +2300,8 @@
     <titleShort>magic crafter</titleShort>
     <baseDescription>[PAWN_nameDef] studied long and hard to learn how to create magical items from gold. [PAWN_pronoun] made a pretty decent living off of it. They spent so much time in their workshop that they began to have distaste for working outdoors.</baseDescription>
     <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
       <li>Dwarf</li>
       <li>Elf</li>
