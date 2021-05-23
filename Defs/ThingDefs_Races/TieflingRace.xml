@@ -185,13 +185,13 @@
                     <Normal_Wide>(0, 0)</Normal_Wide>
                   </crownTypes>
                 </east>
-                <south>
+                <west>
                   <crownTypes>
                     <Normal_Average>(0, 0)</Normal_Average>
                     <Normal_Pointy>(0, 0)</Normal_Pointy>
                     <Normal_Wide>(0, 0)</Normal_Wide>
                   </crownTypes>
-                </south>
+                </west>
               </offsets>
             </li>
               <!-- ================================================ RIGHT HORN ================================================ -->
@@ -224,13 +224,13 @@
                     <Normal_Wide>(0, 0)</Normal_Wide>
                   </crownTypes>
                 </east>
-                <south>
+                <west>
                   <crownTypes>
                     <Normal_Average>(0, 0)</Normal_Average>
                     <Normal_Pointy>(0, 0)</Normal_Pointy>
                     <Normal_Wide>(0, 0)</Normal_Wide>
                   </crownTypes>
-                </south>
+                </west>
               </offsets>
             </li>
           </bodyAddons>
