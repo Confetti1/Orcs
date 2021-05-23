@@ -3,6 +3,7 @@ TO DO:
 -Need more dwarf hairs
 -Halflings and tieflings have not been implemented yet
 -Customize the kingdom more, custom trade
+-Custom Orc settlement and faction namers
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
