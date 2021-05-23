@@ -233,6 +233,9 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
+              <backstoryGraphics>
+                <SeraptisSpawn>Tiefling/Horns/seraptisright</SeraptisSpawn>
+              </backstoryGraphics>
               <colorChannel>horns</colorChannel>
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
