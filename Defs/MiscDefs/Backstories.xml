@@ -1990,7 +1990,7 @@
     <defName>SeraptisSpawn</defName>
     <title>seraptis spawn</title>
     <titleShort>spawn</titleShort>
-    <baseDescription>[PAWN_nameDef] is the spawn of a Seraptis demon, a horrid being born from a particularly descructive death. [PAWN_pronoun] gained [PAWN_possessive] ancestor's aggressive and strangely compelling nature.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is the spawn of a Seraptis demon, a horrid being born from a particularly descructive death. [PAWN_pronoun] gained [PAWN_possessive] ancestor's strangely compelling nature, but also inherited their depressive state.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>Tiefling</li>
@@ -2011,7 +2011,12 @@
     </skillGains>
     <forcedTraits>
       <li>
-        <defName>Depressive</defName>
+        <defName>NaturalMood</defName><degree>-1</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>NaturalMood</defName><degree>-2</degree>
+        <chance>50</chance>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
