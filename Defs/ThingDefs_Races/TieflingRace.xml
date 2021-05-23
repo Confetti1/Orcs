@@ -107,6 +107,10 @@
                           <only>RGBA(72, 76, 194, 255)</only>
                         </li>
                         <li>
+                          <weight>10</weight>
+                          <only>RGBA(230, 214, 179, 255)</only>
+                        </li>
+                        <li>
                           <weight>8</weight>
                           <only>RGBA(135, 201, 144, 255)</only>
                         </li>
@@ -129,23 +133,19 @@
                       <options>
                          <li>
                            <weight>10</weight>
-                           <only>RGBA(69, 69, 69, 255)</only>
+                           <only>RGBA(48, 48, 48, 255)</only>
                         </li>
                         <li>
                           <weight>10</weight>
-                          <only>RGBA(87, 82, 68, 255)</only>
+                          <only>RGBA(228, 230, 142, 255)</only>
+                        </li>
+                        <li>
+                          <weight>7</weight>
+                          <only>RGBA(204, 204, 190, 255)</only>
                         </li>
                         <li>
                           <weight>10</weight>
-                          <only>RGBA(94, 71, 50, 255)</only>
-                        </li>
-                        <li>
-                          <weight>10</weight>
-                          <only>RGBA(125, 102, 35, 255)</only>
-                        </li>
-                        <li>
-                          <weight>5</weight>
-                          <only>RGBA(200, 130, 25, 255)</only>
+                          <only>RGBA(56, 50, 45, 255)</only>
                         </li>
                       </options>
                   </first>
@@ -160,14 +160,14 @@
             </li>
           </replacerList>
           <cannotReceiveThoughts>
-                            <li>EnvironmentDark</li>
+            <li>EnvironmentDark</li>
           </cannotReceiveThoughts>
           </thoughtSettings>
 		
             <compatibility>
-                <isFlesh>true</isFlesh>
-                <isSentient>true</isSentient>
-                <hasBlood>true</hasBlood>
+              <isFlesh>true</isFlesh>
+              <isSentient>true</isSentient>
+              <hasBlood>true</hasBlood>
             </compatibility>
 		
         </alienRace>
