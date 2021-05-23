@@ -307,7 +307,7 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>Tiefling_Colonist</li>
+						<li>TieflingColonist</li>
 					</kindDefs>
 					<chance>2.0</chance>
 				</li>	
@@ -317,9 +317,9 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Tiefling_Colonist</li>
+								<li>TieflingColonist</li>
 							</kindDefs>
-							<chance>40.0</chance>
+							<chance>5.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
