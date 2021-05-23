@@ -1965,7 +1965,7 @@
   
   <AlienRace.BackstoryDef>
     <defName>SuccubusSpawn</defName>
-    <title>succubusspawn</title>
+    <title>succubus spawn</title>
     <titleShort>spawn</titleShort>
     <baseDescription>[PAWN_nameDef] is the spawn of a succubus, a Demon made from the sins of lust. [PAWN_pronoun] gained [PAWN_possessive] ancestor's attractive appearance.</baseDescription>
     <slot>Childhood</slot>
@@ -1988,7 +1988,7 @@
   
   <AlienRace.BackstoryDef>
     <defName>BarbazuSpawn</defName>
-    <title>barbazuspawn</title>
+    <title>barbazu spawn</title>
     <titleShort>spawn</titleShort>
     <baseDescription>[PAWN_nameDef] is the spawn of a Barbazu, a warrior for the legions of Hell. [PAWN_pronoun] inherited [PAWN_possessive] ancestor's knack for war.</baseDescription>
     <slot>Childhood</slot>
@@ -2003,7 +2003,7 @@
     </skillGains>
     <forcedTraits>
       <li>
-        <defName>Bloodthirsty</defName>
+        <defName>Bloodlust</defName>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
