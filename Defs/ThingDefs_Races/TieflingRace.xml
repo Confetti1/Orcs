@@ -160,6 +160,15 @@
               <path>Tiefling/Horns/lefthorn</path>
               <bodyPart>left horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
+					    <layerInvert>true</layerInvert>
+					    <layerOffset>0</layerOffset>
+					    <alignWithHead>true</alignWithHead>
+					    <drawSize>(1, 1)</drawSize>
+					    <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <drawnInBed>true</drawnInBed>
+              <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>skin</colorChannel>
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
@@ -199,6 +208,15 @@
               <path>Tiefling/Horns/righthorn</path>
               <bodyPart>right horn</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>true</layerInvert>
+					    <layerOffset>0</layerOffset>
+					    <alignWithHead>true</alignWithHead>
+					    <drawSize>(1, 1)</drawSize>
+					    <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <drawnInBed>true</drawnInBed>
+              <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>skin</colorChannel>
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
