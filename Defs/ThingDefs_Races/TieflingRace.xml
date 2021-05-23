@@ -177,6 +177,12 @@
               <layerInvert>true</layerInvert>
               <backstoryGraphics>
                 <SeraptisSpawn>Tiefling/Horns/seraptisleft</SeraptisSpawn>
+                <NabasuSpawn>Tiefling/Horns/nabasuleft</NabasuSpawn>
+                <GlabrezuSpawn>Tiefling/Horns/glabrezuleft</GlabrezuSpawn>
+                <BarbazuSpawn>Tiefling/Horns/barbazuleft</BarbazuSpawn>
+                <HamatulaSpawn>Tiefling/Horns/hamatulaleft</HamatulaSpawn>
+                <PhistophilusSpawn>Tiefling/Horns/phistophilusleft</PhistophilusSpawn>
+                <SarglagonSpawn>Tiefling/Horns/sarglagonleft</SarglagonSpawn>
               </backstoryGraphics>
 
               <alignWithHead>true</alignWithHead>
@@ -235,6 +241,12 @@
               <drawnDesiccated>false</drawnDesiccated>
               <backstoryGraphics>
                 <SeraptisSpawn>Tiefling/Horns/seraptisright</SeraptisSpawn>
+                <NabasuSpawn>Tiefling/Horns/nabasuright</NabasuSpawn>
+                <GlabrezuSpawn>Tiefling/Horns/glabrezuright</GlabrezuSpawn>
+                <BarbazuSpawn>Tiefling/Horns/barbazuright</BarbazuSpawn>
+                <HamatulaSpawn>Tiefling/Horns/hamatularight</HamatulaSpawn>
+                <PhistophilusSpawn>Tiefling/Horns/phistophilusright</PhistophilusSpawn>
+                <SarglagonSpawn>Tiefling/Horns/sarglagonright</SarglagonSpawn>
               </backstoryGraphics>
               <colorChannel>horns</colorChannel>
               <hiddenUnderApparelFor>
