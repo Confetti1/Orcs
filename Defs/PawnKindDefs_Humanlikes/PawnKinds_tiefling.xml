@@ -9,7 +9,7 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="BasePlayerGnomePawnKind">
+  <PawnKindDef ParentName="BasePlayerTieflingPawnKind">
     <defName>TieflingColonist</defName>
     <label>tiefling colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
