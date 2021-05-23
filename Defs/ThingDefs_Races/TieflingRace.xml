@@ -17,7 +17,7 @@
 	    <hairSettings>
         <hasHair>True</hasHair>
 		<hairTags>
-			<li>Dwarf</li>
+			<li>Rural</li>
 		</hairTags>
       </hairSettings>
 		
@@ -29,40 +29,30 @@
 		    
         <forcedRaceTraitEntries>
           <li>
-            <defName>Industriousness</defName>
-              <degree>1</degree>
-              <chance>30</chance>
-            </li>
-            <li>
-              <defName>Industriousness</defName>
-              <degree>2</degree>
-              <chance>30</chance>
-            </li>
-            <li>
-              <defName>Undergrounder</defName>
-            </li>
-          </forcedRaceTraitEntries>
+          </li>
+        </forcedRaceTraitEntries>
 		    
-          <disallowedTraits>
-          </disallowedTraits>
+        <disallowedTraits>
+        </disallowedTraits>
                 
-          <traitCount>1</traitCount>
-          <additionalTraits>0~1</additionalTraits>
+        <traitCount>1</traitCount>
+        <additionalTraits>0~1</additionalTraits>
 		    
-          <maxDamageForSocialfight>6</maxDamageForSocialfight>
-          <allowHumanBios>true</allowHumanBios>
-          <immuneToXenophobia>false</immuneToXenophobia>
-          <minAgeForAdulthood>40</minAgeForAdulthood>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <allowHumanBios>true</allowHumanBios>
+        <immuneToXenophobia>false</immuneToXenophobia>
+        <minAgeForAdulthood>40</minAgeForAdulthood>
                 
-          <alienPartGenerator>				
-            <alienbodytypes>
-		          <li>Male</li>
-              <li>Female</li>
-              <li>Thin</li>
+        <alienPartGenerator>				
+          <alienbodytypes>
+		        <li>Male</li>
+            <li>Female</li>
+            <li>Thin</li>
             </alienbodytypes>
 			
             <aliencrowntypes>
               <li>Average_Normal</li>
+              <li>Average_Pointy</li>
               <li>Average_Wide</li>
             </aliencrowntypes>
 			
