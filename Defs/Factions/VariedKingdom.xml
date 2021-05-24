@@ -173,8 +173,7 @@
     <label>generous kingdom</label>
     <description>This is a kingdom populated by a variety of races and peoples. They simply want to coexist with other factions, and are willing to trade and make diplomacy with newer colonies.</description>
     <colorSpectrum>
-      <li>(100, 200, 100)</li>
-      <li>(80, 108, 219)</li>
+      <li>(65, 209, 202)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/KingdomSymbol</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
@@ -186,8 +185,7 @@
     <label>evil kingdom</label>
     <description>This kingdom is populated by a variety of races and peoples. They are very militaristic, and their only goal is to take over the continent by force. They have no need for trading, as their kingdom is self-sustaining.</description>
     <colorSpectrum>
-      <li>(184, 62, 91)</li>
-      <li>(166, 13, 13)</li>
+      <li>(176, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/KingdomSymbolEvil</factionIconPath>
     <startingGoodwill>-50~-100</startingGoodwill>
