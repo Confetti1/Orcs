@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>EverburningTorch</defName>
     <label>everburning torch</label>
     <description>Thanks to a continual flame spell, this torch never goes out unless deconstructed. It also gives off no heat.</description>
