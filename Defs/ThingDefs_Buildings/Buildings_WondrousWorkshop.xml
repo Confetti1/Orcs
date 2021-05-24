@@ -54,7 +54,7 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <recipes>
-      <li>Synthesize_Gold_From_Wood</li>
+      <li>SynthesizeGoldFromWood</li>
     </recipes>
     <researchPrerequisites>
       <li>MagicCrafting</li>
@@ -73,9 +73,9 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
-  
+  <!--
   <RecipeDef>
-    <defName>Synthesize_Gold_From_Wood</defName>
+    <defName>SynthesizeGoldFromWood</defName>
     <label>synthesize gold from wood</label>
     <description>Create gold from wood using the power of alchemy. Doing so takes a while and uses up a lot of wood, but can be worth it if you are short on gold.</description>
     <jobString>Synthesizing gold from wood.</jobString>
@@ -109,5 +109,5 @@
       <Gold>1</Gold>
     </products>
   </RecipeDef>
-  
+  -->
 </Defs>
