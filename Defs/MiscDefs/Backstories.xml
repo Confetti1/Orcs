@@ -2503,7 +2503,7 @@
     </workDisables>
     <forcedTraits>
       <li>
-        <defname>Wimp</defName>
+        <defName>Wimp</defName>
       </li>
     </forcedTraits>
   </AlienRace.BackstoryDef>
@@ -2539,14 +2539,14 @@
     </workDisables>
     <forcedTraits>
       <li>
-        <defname>Tough</defName>
+        <defName>Tough</defName>
       </li>
       <li>
-        <defname>Nerves</defName><degree>1</degree>
+        <defName>Nerves</defName><degree>1</degree>
         <chance>50</chance>
       </li>
       <li>
-        <defname>Nerves</defName><degree>2</degree>
+        <defName>Nerves</defName><degree>2</degree>
         <chance>25</chance>
       </li>
     </forcedTraits>
