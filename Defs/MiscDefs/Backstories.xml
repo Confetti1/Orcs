@@ -631,7 +631,7 @@
   </AlienRace.BackstoryDef>
       
   <AlienRace.BackstoryDef>
-    <defName>OrcScholar</defName>
+    <defName>Scholar</defName>
     <title>Scholar</title>
     <titleShort>Scholar</titleShort>
     <baseDescription>Having grown up around books, [PAWN_nameDef] found [PAWN_possessive] way into an academy. [PAWN_pronoun] graduated with ease, but not without learning to defend [PAWN_objective]self from bullies.</baseDescription>
@@ -696,6 +696,120 @@
         <degree>1</degree>
       </li>
     </forcedTraits>
+  </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+    <defName>HomeBuilder</defName>
+    <title>home builder</title>
+    <titleShort>builder</titleShort>
+    <baseDescription>[PAWN_nameDef] had to build [PAWN_objective]self a house one day, and realized that [PAWN_pronoun] had a knack for putting together a sturdy structure. [PAWN_pronoun] decided to make a living out of it, and ended up helping many people of their homeland with their construction projects.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+    <defName>Homesteader</defName>
+    <title>homesteader</title>
+    <titleShort>homesteader</titleShort>
+    <baseDescription>During a time when taxes were high, [PAWN_nameDef] gathered up some friends and decided to create their own life in the wild. [PAWN_pronoun] had to learn how to build and provide for [PAWN_objective]self. Unfortunately, [PAWN_pronoun] had no time to consider things like art or eloquence.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+			<li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+			<li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Artistic</li>
+		</workDisables>
+		<forcedTraits>
+			<li>
+        <defname>Nerves</defName><degree>1</degree>
+        <chance>50</chance>
+      </li>
+		</forcedTraits>
+  </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+    <defName>Occultist</defName>
+    <title>Occultist</title>
+    <titleShort>Occultist</titleShort>
+    <baseDescription>[PAWN_nameDef] found purpose in worshiping obscure and ancient gods. They granted [PAWN_objective] insight and grand inspiration. Their demands were higher than most, so [PAWN_nameDef] had to make a few human sacrifices.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+			<li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+			<li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+			<li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Artistic</li>
+		</workDisables>
+		<forcedTraits>
+			<li>
+        <defname>TooSmart</defName>
+				<chance>50</chance>
+      </li>
+			<li>
+        <defname>Psychopath</defName>
+      </li>
+		</forcedTraits>
   </AlienRace.BackstoryDef>
   
   
