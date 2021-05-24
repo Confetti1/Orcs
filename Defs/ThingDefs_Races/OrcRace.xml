@@ -302,6 +302,19 @@
         
         <comps>
         </comps>
+	    
+	    <relationSettings>
+        <relationChanceModifierLover>1</relationChanceModifierLover>
+        <relationChanceModifierExLover>1</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>1</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+
+        <relationChanceModifierParent>1</relationChanceModifierParent>
+        <relationChanceModifierChild>1</relationChanceModifierChild>
+        <relationChanceModifierSibling>1</relationChanceModifierSibling>  
+      </relationSettings>
         
         <modExtensions>
         </modExtensions>
