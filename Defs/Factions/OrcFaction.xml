@@ -129,8 +129,7 @@
     <label>rugged orc tribe</label>
     <description>The orcs live off the land. Sometimes, when the land isn't giving enough, they resort to raids. An orc raid is a matter that is worth taking quite seriously.</description>
     <colorSpectrum>
-      <li>(150, 16, 16)</li>
-      <li>(80, 110, 30)</li>
+      <li>(140, 51, 34)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/OrcCamp</factionIconPath>
     <startingGoodwill>0</startingGoodwill>
