@@ -1,0 +1,11 @@
+warrior
+shaman
+berserker
+farmer
+tribe
+cook
+hunter
+scout
+fighter
+brawler
+savage
