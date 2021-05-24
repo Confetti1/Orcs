@@ -799,7 +799,7 @@
     </skillGains>
 		<forcedTraits>
 			<li>
-        <defname>TooSmart</defName>
+        <defName>TooSmart</defName>
 				<chance>50</chance>
       </li>
 			<li>
@@ -833,7 +833,7 @@
     </skillGains>
 		<forcedTraits>
 			<li>
-        <defname>Kind</defName>
+        <defName>Kind</defName>
 				<chance>50</chance>
       </li>
 		</forcedTraits>
@@ -865,11 +865,11 @@
     </skillGains>
 		<forcedTraits>
 			<li>
-        <defname>Bloodlust</defName>
+        <defName>Bloodlust</defName>
 				<chance>50</chance>
       </li>
       <li>
-        <defname>Tough</defName>
+        <defName>Tough</defName>
 				<chance>50</chance>
       </li>
 		</forcedTraits>
