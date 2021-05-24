@@ -1,5 +1,6 @@
 TO DO:
 -Adjust price values of goblin weapons
+-slightly lessen the range of crossbows
 -Fix kingdom pawnkinds having little/no clothes
 -fix Vee gnome hairstyle
 -Fix wondrous workshop not working
