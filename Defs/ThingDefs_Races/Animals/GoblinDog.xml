@@ -107,7 +107,7 @@
     <defName>GoblinDog</defName>
     <label>goblin dog</label>
     <race>GoblinDog</race>
-    <combatPower>50</combatPower>
+    <combatPower>60</combatPower>
     <ecoSystemWeight>0.6</ecoSystemWeight>
     <lifeStages>
       <li>
@@ -115,7 +115,7 @@
         <labelPlural>goblin dog puppies</labelPlural>
         <bodyGraphicData>
           <texPath>Animal/Goblindog</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.7</drawSize>
           <color>(212,193,169)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -126,7 +126,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animal/Goblindog</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>1</drawSize>
           <color>(212,193,169)</color>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
@@ -141,7 +141,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animal/Goblindog</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
           <color>(212,193,169)</color>
           <shadowData>
             <volume>(0.3, 0.4, 0.3)</volume>
