@@ -803,7 +803,7 @@
 				<chance>50</chance>
       </li>
 			<li>
-        <defname>Psychopath</defName>
+        <defName>Psychopath</defName>
       </li>
 		</forcedTraits>
   </AlienRace.BackstoryDef>
