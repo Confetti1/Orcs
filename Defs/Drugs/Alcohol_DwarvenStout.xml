@@ -94,7 +94,7 @@
   <RecipeDef>
     <defName>Make_Dwarven_Wort</defName>
     <label>make dwarven wort</label>
-    <description>Make dwarven stout wort from hops and .</description>
+    <description>Make dwarven stout wort from hops and potatoes.</description>
     <jobString>Making dwarven wort.</jobString>
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
