@@ -66,7 +66,7 @@
         </linkableFacilities>
       </li>
     </comps>
-    <designationHotKey>Misc66</designationHotKey>
+  <!--  <designationHotKey>Misc2</designationHotKey> -->
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
