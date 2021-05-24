@@ -2267,6 +2267,89 @@
   </AlienRace.BackstoryDef>
   
   <AlienRace.BackstoryDef>
+    <defName>ParapetArcher</defName>
+    <title>parapet archer</title>
+    <titleShort>archer</titleShort>
+    <baseDescription>[PAWN_nameDef] found comfort and dominance when firing down on invaders while protected by parapet. [PAWN_pronoun] knew their favorite kind of combat was the kind where [PAWN_pronoun] was well out of harms way.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Halfling</li>
+      <li>City</li>
+      <li>Tiefling</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>-2</amount>
+      </li>
+      <li>
+         <defName>Shooting</defName>
+         <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defname>Wimp</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>BraveKnight</defName>
+    <title>brave knight</title>
+    <titleShort>knight</titleShort>
+    <baseDescription>[PAWN_nameDef] devoted [PAWN_objective]self to [PAWN_possessive] homeland, and trained rigorously in honorable combat. [PAWN_pronoun] can keep [PAWN_objective]self going even if the battle turns south.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>Dwarf</li>
+      <li>Elf</li>
+      <li>Halfling</li>
+      <li>City</li>
+      <li>Tiefling</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>8</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defname>Tough</defName>
+      </li>
+      <li>
+        <defname>Nerves</defName><degree>1</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defname>Nerves</defName><degree>2</degree>
+        <chance>25</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  
+  
+  <AlienRace.BackstoryDef>
     <defName>IntricateArtist</defName>
     <title>intricate artist</title>
     <titleShort>artist</titleShort>
