@@ -449,7 +449,6 @@
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>999</maxGenerationAge>
     <itemQuality>Excellent</itemQuality>
-    <factionLeader>true</factionLeader>
     <canBeSapper>true</canBeSapper>
     <apparelMoney>450~750</apparelMoney>
     <apparelRequired>
@@ -461,6 +460,7 @@
   <PawnKindDef ParentName="KingdomKingBase">
     <defName>KingdomKing</defName>
     <label>king</label>
+    <factionLeader>true</factionLeader>
     <race>Human</race>
     <weaponTags>
       <li>MedievalMeleeAdvanced</li>
