@@ -797,10 +797,6 @@
         <amount>-4</amount>
       </li>
     </skillGains>
-		<workDisables>
-			<li>Social</li>
-			<li>Artistic</li>
-		</workDisables>
 		<forcedTraits>
 			<li>
         <defname>TooSmart</defName>
@@ -810,6 +806,75 @@
         <defname>Psychopath</defName>
       </li>
 		</forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>ClericOfSarenrae</defName>
+    <title>cleric of Sarenrae</title>
+    <titleShort>Sarenite</titleShort>
+    <baseDescription>[PAWN_nameDef] found [PAWN_objective]self in a rough situation, but was guided out of it thanks to Sarenrae's light. [PAWN_pronoun] became a devoted cleric of Sarenrae, bringing mercy to the wounded and holy fire to the unredeemable.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+			<li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+		<forcedTraits>
+			<li>
+        <defname>Kind</defName>
+				<chance>50</chance>
+      </li>
+		</forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>GorumMercenary</defName>
+    <title>mercenary</title>
+    <titleShort>mercenary</titleShort>
+    <baseDescription>[PAWN_nameDef] learned the value of strength over all, and found that the god Gorum embodied [PAWN_possessive] beliefs. [PAWN_pronoun] became a mercenary to showcase [PAWN_possessive] strength, as well as share Gorum's ideals.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+		<forcedTraits>
+			<li>
+        <defname>Bloodlust</defName>
+				<chance>50</chance>
+      </li>
+      <li>
+        <defname>Tough</defName>
+				<chance>50</chance>
+      </li>
+		</forcedTraits>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
   
   
