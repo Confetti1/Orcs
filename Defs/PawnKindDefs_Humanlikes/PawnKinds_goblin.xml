@@ -32,7 +32,7 @@
   <!-- Tribal -->
   <PawnKindDef Abstract="True" Name ="GoblinTribalBase">    
     <race>Goblin</race>
-    <combatPower>10</combatPower>
+    <combatPower>15</combatPower>
     <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
