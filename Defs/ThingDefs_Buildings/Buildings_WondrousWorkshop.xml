@@ -53,6 +53,9 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
+    <recipes>
+      <li>Synthesize_Gold_From_Wood</li>
+    </recipes>
     <researchPrerequisites>
       <li>MagicCrafting</li>
     </researchPrerequisites>
@@ -67,6 +70,7 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
   
