@@ -878,6 +878,31 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>Merchant</defName>
+    <title>merchant</title>
+    <titleShort>merchant</titleShort>
+    <baseDescription>[PAWN_nameDef] made [PAWN_possessive] living procuring and selling goods at a profit. [PAWN_pronoun] learned the art of haggling over time. [PAWN_pronoun] even made some of [PAWN_possessive] merchandise.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
   
   
   <!-- ========================================================= GNOMES ========================================================== -->  
