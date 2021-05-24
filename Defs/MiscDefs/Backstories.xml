@@ -383,6 +383,7 @@
       <li>Dwarf</li>
       <li>Halfling</li>
       <li>Tiefling</li>
+      <li>Soldier</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -2205,6 +2206,7 @@
       <li>Elf</li>
       <li>Orc</li>
       <li>Tiefling</li>
+      <li>Soldier</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -2241,6 +2243,7 @@
       <li>Halfling</li>
       <li>City</li>
       <li>Tiefling</li>
+      <li>Soldier</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -2265,7 +2268,7 @@
   
   <AlienRace.BackstoryDef>
     <defName>IntricateArtist</defName>
-    <title>intricateartist</title>
+    <title>intricate artist</title>
     <titleShort>artist</titleShort>
     <baseDescription>[PAWN_nameDef] found peace and clarity in creating art. [PAWN_possessive] works were so intricate that they spoke for themselves.</baseDescription>
     <slot>Adulthood</slot>
