@@ -73,41 +73,4 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
-  <!--
-  <RecipeDef>
-    <defName>SynthesizeGoldFromWood</defName>
-    <label>synthesize gold from wood</label>
-    <description>Create gold from wood using the power of alchemy. Doing so takes a while and uses up a lot of wood, but can be worth it if you are short on gold.</description>
-    <jobString>Synthesizing gold from wood.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Surgery</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <workAmount>20000</workAmount>
-    <recipeUsers>
-      <li>WondrousWorkshop</li>
-    </recipeUsers>
-    <researchPrerequisite>MagicCrafting</researchPrerequisite>
-    <targetCountAdjustment>1</targetCountAdjustment>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>WoodLog</li>
-          </thingDefs>
-        </filter>
-        <count>150</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>WoodLog</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <Gold>1</Gold>
-    </products>
-  </RecipeDef>
-  -->
 </Defs>
