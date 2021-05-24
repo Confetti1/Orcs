@@ -4,6 +4,68 @@
     <defName>WondrousWorkshop</defName>
     <label>wondrous workshop</label>
     <description>A magical table with the tools needed to extract magical energies from gold and infuse ordinary objects with it to create wondrous items.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/ElectricSmelter</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>170</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3500</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+      <li>SynthesizeGoldFromWood</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <designationHotKey>Misc10</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MagicCrafting</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+  <!--
+  <ThingDef ParentName="BenchBase">
+    <defName>WondrousWorkshop</defName>
+    <label>wondrous workshop</label>
+    <description>A magical table with the tools needed to extract magical energies from gold and infuse ordinary objects with it to create wondrous items.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/WondrousWorkshop</texPath>
@@ -73,4 +135,5 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
+-->
 </Defs>
