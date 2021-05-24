@@ -12,8 +12,8 @@
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/Symbols/OrcIcon</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
-    <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <factionNameMaker>NamerFactionOrc</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOrc</settlementNameMaker>
     <pawnNameMaker>NamerPersonOrc</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonOrc</pawnNameMakerFemale>
     <techLevel>Neolithic</techLevel>
