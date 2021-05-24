@@ -760,7 +760,7 @@
 		</workDisables>
 		<forcedTraits>
 			<li>
-        <defname>Nerves</defName><degree>1</degree>
+        <defName>Nerves</defName><degree>1</degree>
         <chance>50</chance>
       </li>
 		</forcedTraits>
