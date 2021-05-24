@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>SynthesizeGoldFromWood</defName>
+    <label>synthesize gold from wood</label>
+    <description>Create gold from wood using the power of alchemy. Doing so takes a while and uses up a lot of wood, but can be worth it if you are short on gold.</description>
+    <jobString>Synthesizing gold from wood.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gold>1</Gold>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>
