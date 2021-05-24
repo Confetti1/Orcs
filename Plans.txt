@@ -1,10 +1,11 @@
 TO DO:
+-Fix wondrous workshop not working
 -Need more elf hairs
 -Need more dwarf hairs
--Halflings and tieflings have not been implemented yet
+-Halflings have not been implemented yet
 -Customize the kingdom more, custom trade
--Custom Orc settlement and faction namers
 -Fix up the faction colors to be less samey
+-Add "secret" factions, similar to mechanoids, for forces of nature (Demon attacks, maybe trolls and stuff)
 -Add unicorns and sparkly nice-looking object for Kat
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
