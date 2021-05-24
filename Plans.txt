@@ -1,4 +1,5 @@
 TO DO:
+-Adjust price values of goblin weapons
 -Fix wondrous workshop not working
 -Need more elf hairs
 -Need more dwarf hairs
