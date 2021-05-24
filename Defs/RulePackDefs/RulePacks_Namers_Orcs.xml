@@ -8,10 +8,18 @@
                 <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc6]</li>
                 <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc6]</li>
                 <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc2][SylOrc3]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc5]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
-                <li>FemaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc5]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>MaleOrcFirst->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3]</li>
+                <li>OrcFaction->[person]s of the [noun]</li>
+                <li>OrcFaction->[person]s of [SylOrc1][SylOrc2][SylOrc4][SylOrc6]</li>
+                <li>OrcFaction->[SylOrc1][SylOrc2][SylOrc4][SylOrc6]'s [person]s</li>
+                <li>OrcSettlement->[noun] of [SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>OrcSettlement->[person]s of the [noun]</li>
+                <li>OrcSettlement->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]'s [noun]</li>
+                <li>OrcSettlement->[SylOrc1][SylOrc2][SylOrc3][SylOrc5]</li>
+                <li>OrcSettlement->[SylOrc1][SylOrc2][SylOrc4][SylOrc2][SylOrc3]</li>
             </rulesStrings>
             <rulesFiles>
                 <li>SylOrc1->WordParts/Syllables_OrcNames1</li>
@@ -20,6 +28,8 @@
                 <li>SylOrc4->WordParts/Syllables_OrcNames4</li>
                 <li>SylOrc5->WordParts/Syllables_OrcNames5</li>
                 <li>OrcSurname->Words/OrcSurnames</li>
+                <li>noun->Words/orcnouns</li>
+                <li>person->Words/orcpeoplenouns</li>
             </rulesFiles>
         </rulePack>
     </RulePackDef>
@@ -33,6 +43,30 @@
         <rulePack>
             <rulesStrings>
                 <li>r_name(p=2)->[MaleOrcFirst] [OrcSurname]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerFactionOrc</defName>
+        <include>
+            <li>NamerOrcUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[OrcFaction]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerSettlementOrc</defName>
+        <include>
+            <li>NamerOrcUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[OrcSettlement]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
