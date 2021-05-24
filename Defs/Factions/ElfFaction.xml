@@ -123,8 +123,7 @@
     <label>noble elves</label>
     <description>These elves have a close connection with their environment. They dislike war, and would prefer to settle things peacefully if possible.</description>
     <colorSpectrum>
-      <li>(156, 209, 115)</li>
-      <li>(90, 191, 119)</li>
+      <li>(51, 184, 91)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ElfCamp</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
