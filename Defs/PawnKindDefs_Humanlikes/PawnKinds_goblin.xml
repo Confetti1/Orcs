@@ -151,6 +151,7 @@
     </apparelTags>
     <invNutrition>0</invNutrition>
     <weaponMoney>400~500</weaponMoney>
+    <factionLeader>true</factionLeader>
     <weaponTags>
       <li>MedievalMeleeDecent</li>
     </weaponTags>
