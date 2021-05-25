@@ -10,7 +10,7 @@
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>5</MarketValue>
-      <Mass>1.25</Mass>
+      <Mass>1</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>1.5</DeteriorationRate>
     </statBases>
@@ -27,7 +27,7 @@
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <effectWorking>Cook</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
-      <workAmount>800</workAmount>
+      <workAmount>600</workAmount>
       <targetCountAdjustment>5</targetCountAdjustment>
       <workSkill>Crafting</workSkill>
       <recipeUsers>
@@ -54,8 +54,8 @@
     </comps>
     <projectileWhenLoaded>Bullet_BallistaBolt_Basic</projectileWhenLoaded>
     <costList>
-      <Steel>20</Steel>
-      <WoodLog>25</WoodLog>
+      <Steel>8</Steel>
+      <WoodLog>10</WoodLog>
     </costList>
     <recipeMaker>
       <researchPrerequisite>Ballista</researchPrerequisite>
