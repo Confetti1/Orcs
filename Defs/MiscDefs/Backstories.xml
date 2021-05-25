@@ -2167,6 +2167,48 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Prospector</defName>
+    <title>prospector</title>
+    <titleShort>prospector</titleShort>
+    <baseDescription>[PAWN_nameDef]'s job was to locate good locations for new mines. [PAWN_pronoun] had to spend time camping on cliffsides as [PAWN_pronoun] tested rocks for ores.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Plants</defName>
+         <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>TunnelFighter</defName>
+    <title>tunnel fighter</title>
+    <titleShort>fighter</titleShort>
+    <baseDescription>[PAWN_nameDef]'s duty was to protect [PAWN_possessive] fellow dwarves as they mined. [PAWN_pronoun] helped with the mining when there wasn't any monsters of the deep to slay.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Dwarf</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Melee</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Mining</defName>
+         <amount>4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
 	<!-- ========================================================= TIEFLING CHILDHOODS ===================================================== -->
   
   <AlienRace.BackstoryDef>
