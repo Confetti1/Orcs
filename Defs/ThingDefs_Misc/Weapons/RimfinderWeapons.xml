@@ -273,7 +273,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ThrownRock</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>2</burstShotCount>
         <range>15</range>
         <soundCast>ThrowGrenade</soundCast>
       </li>
@@ -299,7 +299,7 @@
     </graphicData>
     <projectile>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>6</damageAmountBase>
+      <damageAmountBase>4</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.10</armorPenetrationBase>
       <speed>30</speed>
