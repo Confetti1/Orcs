@@ -5,6 +5,7 @@
     <label>wondrous workshop</label>
     <description>A magical table with the tools needed to extract magical energies from gold and infuse ordinary objects with it to create wondrous items.</description>
     <thingClass>Building_WorkTable</thingClass>
+    <EType>Building_WorkTable</EType>
     <graphicData>
       <texPath>Buildings/WondrousWorkshop</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -97,7 +98,7 @@
       </li>
     </ingredients>
     <products>
-      <Gold>10</Gold>
+      <Gold>1</Gold>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -105,4 +106,17 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
+  
+  <WorkGivers>
+    <WorkGiverDef>
+      <DefName>DoBillsWondrousWorkbench</DefName>
+      <giverClass>AI.WorkGiver_DoBill</giverClass>
+      <workType>Crafting</workType>
+      <priorityInType>10</priorityInType>
+      <WorkTableDef>WondrousWorkbench</WorkTableDef>
+      <verb>craft</verb>
+      <gerund>crafting</gerund>
+    </WorkGiverDef>
+  </WorkGivers>
+  
 </Defs>
