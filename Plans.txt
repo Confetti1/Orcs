@@ -12,6 +12,7 @@ TO DO:
 -Fix up the faction colors to be less samey
 -Add "secret" factions, similar to mechanoids, for forces of nature (Demon attacks, maybe trolls and stuff)
 -Add unicorns and sparkly nice-looking object for Kat
+-Add Pesh, the halucinogenic. See if I can get it to thrive in deserts/hot areas, and not much else. 
 Add additional races, backstories (race specific and otherwise), and factions for: 
   -Elves 
     -Better shooters, faster research
