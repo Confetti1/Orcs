@@ -107,7 +107,8 @@
   </RecipeDef>
   
   <WorkGiverDef>
-    <DefName>DoBillsWondrousWorkbench</DefName>
+    <defName>DoBillsWondrousWorkbench</defName>
+    <label>craft items</label>
     <giverClass>AI.WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>10</priorityInType>
