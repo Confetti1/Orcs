@@ -142,7 +142,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Crossbow_Bolt</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>40</range>
+        <range>30</range>
         <soundCast>Bow_Large</soundCast>
       </li>
     </verbs>
@@ -217,7 +217,7 @@
         <defaultProjectile>Crossbow_Bolt</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <burstShotCount>3</burstShotCount>
-        <range>40</range>
+        <range>30</range>
         <soundCast>Bow_Large</soundCast>
       </li>
     </verbs>
