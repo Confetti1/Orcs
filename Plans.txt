@@ -67,3 +67,5 @@ Add Pathfinder-based monsters and creatures to appear in the wild, and possibly 
 Add Pathfinder-based ores and materials
   -Adamantine (Ignores armor, improves defense by a lot)
   -Mithril (Weapons attack faster? Decrease movement speed penalty in armor)
+  
+Bird people need think tree def to lay eggs.
