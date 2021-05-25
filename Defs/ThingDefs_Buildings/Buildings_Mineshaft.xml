@@ -4,7 +4,6 @@
     <defName>Quarry</defName>
     <label>quarry</label>
     <description>An area that can be designated for excavation. Dirt and </description>
-    <EType>Building_WorkTable</EType>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/Quarry</texPath>
