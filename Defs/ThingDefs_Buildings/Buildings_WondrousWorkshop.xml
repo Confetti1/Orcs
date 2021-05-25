@@ -113,7 +113,7 @@
     <workType>Crafting</workType>
     <priorityInType>10</priorityInType>
     <fixedBillGiverDefs>
-      <li>WondrousWorkbench</li>
+      <li>WondrousWorkshop</li>
     </fixedBillGiverDefs>
     <verb>craft</verb>
     <gerund>crafting</gerund>
