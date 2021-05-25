@@ -63,7 +63,7 @@
   <invNutrition>0</invNutrition>
   <itemQuality>Normal</itemQuality>
   <gearHealthRange>0.2~1.1</gearHealthRange>
-  <apparelMoney>50~100</apparelMoney>
+  <apparelMoney>250~400</apparelMoney>
   <weaponMoney>190~200</weaponMoney>
   <weaponTags>
     <li>NeolithicMeleeAdvanced</li>
@@ -91,7 +91,7 @@
   <invNutrition>0</invNutrition>
   <itemQuality>Normal</itemQuality>
   <gearHealthRange>0.2~1.1</gearHealthRange>
-  <apparelMoney>50~100</apparelMoney>
+  <apparelMoney>250~400</apparelMoney>
   <apparelRequired>
       <li>Apparel_PlateArmor</li>
     </apparelRequired>
@@ -121,7 +121,7 @@
   <invNutrition>0</invNutrition>
   <itemQuality>Normal</itemQuality>
   <gearHealthRange>0.2~1.1</gearHealthRange>
-  <apparelMoney>50~100</apparelMoney>
+  <apparelMoney>250~400</apparelMoney>
   <weaponMoney>200~500</weaponMoney>
   <weaponTags>
     <li>MedievalMeleeAdvanced</li>
@@ -185,7 +185,7 @@
     </apparelRequired>
   <itemQuality>Normal</itemQuality>
   <gearHealthRange>0.2~1.1</gearHealthRange>
-  <apparelMoney>50~100</apparelMoney>
+  <apparelMoney>250~400</apparelMoney>
   <weaponMoney>190~200</weaponMoney>
   <weaponTags>
     <li>NeolithicMeleeAdvanced</li>
