@@ -24,6 +24,7 @@ Add additional races, backstories (race specific and otherwise), and factions fo
     -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
     -Custom dwarven-themed ale that gives big benefits to Dwarves, but more penalties to others?
     -Dwarven themed weapons?
+    -Digging drill-like production station, but it gives random stone chunks and minerals. 
   -Goblins
     -Add Barghests to be the chief of goblins, add Goblin Dogs to aid in goblin raids. 
   -Tieflings
