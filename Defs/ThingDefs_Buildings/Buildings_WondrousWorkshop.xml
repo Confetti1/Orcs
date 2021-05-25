@@ -5,7 +5,6 @@
     <label>wondrous workshop</label>
     <description>A magical table with the tools needed to extract magical energies from gold and infuse ordinary objects with it to create wondrous items.</description>
     <thingClass>Building_WorkTable</thingClass>
-    <EType>Building_WorkTable</EType>
     <graphicData>
       <texPath>Buildings/WondrousWorkshop</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
