@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Buildings/Quarry</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <statBases>
@@ -59,9 +59,9 @@
   <RecipeDef>
     <defName>DigUpSandstone</defName>
     <label>dig up sandstone</label>
-    <description>Use heat and strong electromagnets to extract useful metal from slag chunks.</description>
-    <jobString>Smelting metal from slag.</jobString>
-    <workAmount>400</workAmount>
+    <description>Dig through the stone and bring up some sandstone.</description>
+    <jobString>Digging up sandstone.</jobString>
+    <workAmount>10000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -74,17 +74,94 @@
     </fixedIngredientFilter>
   </RecipeDef>
   
-  <WorkGivers>
-    <WorkGiverDef>
-      <DefName>DoBillsQuarry</DefName>
-      <giverClass>AI.WorkGiver_DoBill</giverClass>
-      <workType>Mining</workType>
-      <priorityInType>10</priorityInType>
-      <WorkTableDef>Quarry</WorkTableDef>
-      <verb>dig</verb>
-      <gerund>digging</gerund>
-    </WorkGiverDef>
-  </WorkGivers>
+  <RecipeDef>
+    <defName>DigUpGranite</defName>
+    <label>dig up granite</label>
+    <description>Dig through the stone and bring up some granite.</description>
+    <jobString>Digging up granite.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ChunkGranite>1</ChunkGranite>
+    </products>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>DigUpMarble</defName>
+    <label>dig up marble</label>
+    <description>Dig through the stone and bring up some marble.</description>
+    <jobString>Digging up marble.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ChunkMarble>1</ChunkMarble>
+    </products>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>DigUpSlate</defName>
+    <label>dig up slate</label>
+    <description>Dig through the stone and bring up some slate.</description>
+    <jobString>Digging up slate.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ChunkSlate>1</ChunkSlate>
+    </products>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>DigUpLimestone</defName>
+    <label>dig up limestone</label>
+    <description>Dig through the stone and bring up some limestone.</description>
+    <jobString>Digging up limestone.</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ChunkLimestone>1</ChunkLimestone>
+    </products>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsQuarry</defName>
+    <label>dig for stone</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>10</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Quarry</li>
+    </fixedBillGiverDefs>
+    <verb>dig</verb>
+    <gerund>digging</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
   
 </Defs>
 
