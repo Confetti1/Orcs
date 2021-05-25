@@ -3,7 +3,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Quarry</defName>
     <label>quarry</label>
-    <description>An area that can be designated for excavation. Dirt and </description>
+    <description>An area that can be designated for digging up stone from.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/Quarry</texPath>
