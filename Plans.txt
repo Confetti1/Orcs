@@ -1,7 +1,4 @@
 TO DO:
--Adjust price values of goblin weapons
--fix Vee gnome hairstyle
--Fix wondrous workshop not working
 -Need more elf hairs
 -Need more dwarf hairs
 -Halflings have not been implemented yet
