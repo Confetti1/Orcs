@@ -161,8 +161,8 @@
     <fixedBillGiverDefs>
       <li>Quarry</li>
     </fixedBillGiverDefs>
-    <verb>dig</verb>
-    <gerund>digging</gerund>
+    <verb>dig at</verb>
+    <gerund>digging at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
