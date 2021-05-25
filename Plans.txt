@@ -1,13 +1,12 @@
 TO DO:
 -Adjust price values of goblin weapons
--slightly lessen the range of crossbows
 -fix Vee gnome hairstyle
 -Fix wondrous workshop not working
 -Need more elf hairs
 -Need more dwarf hairs
 -Halflings have not been implemented yet
 -Customize the kingdom more, custom trade
--Add goblin torch weapons
+-Add goblin torch weapon
 -Fix up the faction colors to be less samey
 -Add "secret" factions, similar to mechanoids, for forces of nature (Demon attacks, maybe trolls and stuff)
 -Add unicorns and sparkly nice-looking object for Kat
