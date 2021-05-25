@@ -87,7 +87,7 @@
       <li>
         <label>flame</label>
         <capacities>
-          <li>Flame</li>
+          <li>burn</li>
         </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
