@@ -1,7 +1,6 @@
 TO DO:
 -Adjust price values of goblin weapons
 -slightly lessen the range of crossbows
--Fix kingdom pawnkinds having little/no clothes
 -fix Vee gnome hairstyle
 -Fix wondrous workshop not working
 -Need more elf hairs
@@ -39,8 +38,6 @@ Add new Pathfinder-based weapons to allow a more medieval-focused run possible
   -Shield pistol/tamohawk pistol?
 
 Add magic-crafting, where gold is used to create magical items, like:
-  -Continual Flame (Special torch/ballista thing that never needs to be refueled, and creates no heat.)
-  -Orb of Neutrality (Raises temp if cold, lowers temp if hot. Strives for 21 degrees C.)
   -Weapons +1 (If I can figure out a way to enhance normal weapons, then that would be awesome)
   -Armor +1 (Same as above)
   -Ring of Protection (Give a slight armor bonus to all body parts)
@@ -57,7 +54,6 @@ Add magic-crafting, where gold is used to create magical items, like:
     -Magic Missile (Three or four missiles that do low damage, but never miss)
     -Scorching Ray (Three fiery bolts that do high damage)
   -Bag of Holding (Storage space for a large amount of things, possibly? Maybe not depending on coding difficulty)
-  -Animated Crossbow Turret (Automatically aims and shoots)
   
 Add bookmaking (Way to make paper from wood, use paper and cloth to make books)
   -Used to make bookshelves, which has high beauty. It also increases the speed
