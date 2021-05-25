@@ -51,7 +51,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+  <!--
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>MeleeWeapon_Torch</defName>
     <label>torch</label>
@@ -94,7 +94,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+  -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>MeleeWeapon_HorseChopper</defName>
     <label>horsechopper</label>
