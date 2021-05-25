@@ -4,6 +4,7 @@
     <defName>Quarry</defName>
     <label>quarry</label>
     <description>An area that can be designated for excavation. Dirt and </description>
+    <EType>Building_WorkTable</EType>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/Quarry</texPath>
@@ -73,6 +74,19 @@
     <fixedIngredientFilter>
     </fixedIngredientFilter>
   </RecipeDef>
+  
+  <WorkGivers>
+    <WorkGiverDef>
+      <DefName>DoBillsQuarry</DefName>
+      <giverClass>AI.WorkGiver_DoBill</giverClass>
+      <workType>Mining</workType>
+      <priorityInType>10</priorityInType>
+      <WorkTableDef>Quarry</WorkTableDef>
+      <verb>dig</verb>
+      <gerund>digging</gerund>
+    </WorkGiverDef>
+  </WorkGivers>
+  
 </Defs>
 
 
