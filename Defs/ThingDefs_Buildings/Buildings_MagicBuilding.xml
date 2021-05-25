@@ -214,7 +214,7 @@
     <description>This orb has the ability to absorb temperature extremes, reducing or increasing it to a generally comfortable medium. Multiple orbs may be necessary depending on the extreme of the temperature.</description>
     <category>Building</category>
     <graphicData>
-      <texPath>Buildings/OrbOfHeat</texPath>
+      <texPath>Buildings/OrbOfNeutrality</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <damageData>
