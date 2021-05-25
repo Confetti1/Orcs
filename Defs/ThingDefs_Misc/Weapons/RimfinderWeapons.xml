@@ -16,6 +16,7 @@
     <costStuffCount>30</costStuffCount>
     <statBases>
       <WorkToMake>8000</WorkToMake>
+      <MarketValue>5</MarketValue>
       <Mass>0.5</Mass>
     </statBases>
     <equippedAngleOffset>-30</equippedAngleOffset>
@@ -66,6 +67,7 @@
     <costStuffCount>100</costStuffCount>
     <statBases>
       <WorkToMake>1200</WorkToMake>
+      <MarketValue>10</MarketValue>
       <Mass>0.9</Mass>
     </statBases>
     <equippedAngleOffset>-30</equippedAngleOffset>
@@ -257,6 +259,7 @@
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
       <WorkToMake>15000</WorkToMake>
+      <MarketValue>5</MarketValue>
       <Mass>3.0</Mass>
       <AccuracyTouch>0.55</AccuracyTouch>
       <AccuracyShort>0.4</AccuracyShort>
