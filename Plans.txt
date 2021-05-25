@@ -8,6 +8,7 @@ TO DO:
 -Need more dwarf hairs
 -Halflings have not been implemented yet
 -Customize the kingdom more, custom trade
+-Add goblin torch weapons
 -Fix up the faction colors to be less samey
 -Add "secret" factions, similar to mechanoids, for forces of nature (Demon attacks, maybe trolls and stuff)
 -Add unicorns and sparkly nice-looking object for Kat
