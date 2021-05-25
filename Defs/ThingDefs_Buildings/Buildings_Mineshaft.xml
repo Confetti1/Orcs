@@ -25,6 +25,10 @@
     <surfaceType>Item</surfaceType>
     <recipes>
       <li>DigUpSandstone</li>
+      <li>DigUpLimestone</li>
+      <li>DigUpGranite</li>
+      <li>DigUpMarble</li>
+      <li>DigUpSlate</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
