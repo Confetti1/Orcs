@@ -39,6 +39,7 @@ Add new Pathfinder-based weapons to allow a more medieval-focused run possible
 
 Add magic-crafting, where gold is used to create magical items, like:
   -Continual Flame (Special torch/ballista thing that never needs to be refueled, and creates no heat.)
+  -Orb of Neutrality (Raises temp if cold, lowers temp if hot. Strives for 21 degrees C.)
   -Weapons +1 (If I can figure out a way to enhance normal weapons, then that would be awesome)
   -Armor +1 (Same as above)
   -Ring of Protection (Give a slight armor bonus to all body parts)
