@@ -55,9 +55,8 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-</Defs>
-
-<RecipeDef>
+  
+  <RecipeDef>
     <defName>DigUpSandstone</defName>
     <label>dig up sandstone</label>
     <description>Use heat and strong electromagnets to extract useful metal from slag chunks.</description>
@@ -74,3 +73,6 @@
     <fixedIngredientFilter>
     </fixedIngredientFilter>
   </RecipeDef>
+</Defs>
+
+
