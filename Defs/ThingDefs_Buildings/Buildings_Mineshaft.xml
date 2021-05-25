@@ -8,11 +8,11 @@
     <graphicData>
       <texPath>Buildings/Quarry</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <statBases>
-      <WorkToBuild>400</WorkToBuild>
+      <WorkToBuild>1000</WorkToBuild>
       <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
     </statBases>
     <scatterableOnMapGen>false</scatterableOnMapGen>
@@ -58,6 +58,8 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+    <uiIconPath>Buildings/Quarry</uiIconPath>
+    <uiIconScale>1</uiIconScale>
   </ThingDef>
   
   <RecipeDef>
@@ -65,7 +67,7 @@
     <label>dig up sandstone</label>
     <description>Dig through the stone and bring up some sandstone.</description>
     <jobString>Digging up sandstone.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -83,7 +85,7 @@
     <label>dig up granite</label>
     <description>Dig through the stone and bring up some granite.</description>
     <jobString>Digging up granite.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -101,7 +103,7 @@
     <label>dig up marble</label>
     <description>Dig through the stone and bring up some marble.</description>
     <jobString>Digging up marble.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -119,7 +121,7 @@
     <label>dig up slate</label>
     <description>Dig through the stone and bring up some slate.</description>
     <jobString>Digging up slate.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -137,7 +139,7 @@
     <label>dig up limestone</label>
     <description>Dig through the stone and bring up some limestone.</description>
     <jobString>Digging up limestone.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
