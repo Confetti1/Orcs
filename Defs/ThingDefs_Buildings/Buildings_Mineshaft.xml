@@ -68,7 +68,7 @@
     <description>Dig through the stone and bring up some sandstone.</description>
     <jobString>Digging up sandstone.</jobString>
     <workAmount>2500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
@@ -86,7 +86,7 @@
     <description>Dig through the stone and bring up some granite.</description>
     <jobString>Digging up granite.</jobString>
     <workAmount>2500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
@@ -104,7 +104,7 @@
     <description>Dig through the stone and bring up some marble.</description>
     <jobString>Digging up marble.</jobString>
     <workAmount>2500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
@@ -122,7 +122,7 @@
     <description>Dig through the stone and bring up some slate.</description>
     <jobString>Digging up slate.</jobString>
     <workAmount>2500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
@@ -140,7 +140,7 @@
     <description>Dig through the stone and bring up some limestone.</description>
     <jobString>Digging up limestone.</jobString>
     <workAmount>2500</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <ingredients>
@@ -170,5 +170,3 @@
   </WorkGiverDef>
   
 </Defs>
-
-
