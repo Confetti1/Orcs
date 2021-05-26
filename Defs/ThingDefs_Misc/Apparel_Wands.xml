@@ -47,17 +47,19 @@
     <verbs>
       <li>
         <verbClass>Verb_CastTargetEffect</verbClass>
-        <label>psychic shock lance</label>
+        <label>wand of fireball</label>
         <hasStandardCommand>true</hasStandardCommand>
         <targetable>true</targetable>
         <onlyManualCast>True</onlyManualCast>
         <range>30</range>
-        <warmupTime>0.5</warmupTime>
+        <warmupTime>2</warmupTime>
         <targetParams>
-          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetBuildings>true</canTargetBuildings>
           <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
-          <neverTargetIncapacitated>true</neverTargetIncapacitated>
+          <canTargetLocations>true</canTargetLocations>
+          <neverTargetIncapacitated>false</neverTargetIncapacitated>
         </targetParams>
+        <defaultProjectile>Fireball</defaultProjectile>
         <soundCast>PsychicShockLanceCast</soundCast>
       </li>
     </verbs>
