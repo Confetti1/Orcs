@@ -17,9 +17,7 @@ Add additional races, backstories (race specific and otherwise), and factions fo
     -Add custom tinker-type researches/craft projects that only gnomes can make. (Limber Leg, clockwork limbs)
   -Dwarves 
     -Inherent mining bonus, maybe yield more ore while mining? Custom Hediff for extra bonuses from drinking alcohol.
-    -Custom dwarven-themed ale that gives big benefits to Dwarves, but more penalties to others?
     -Dwarven themed weapons?
-    -Digging drill-like production station, but it gives random stone chunks and minerals. 
   -Goblins
     -Add Barghests to be the chief of goblins, add Goblin Dogs to aid in goblin raids. 
   -Tieflings
@@ -65,4 +63,8 @@ Add Pathfinder-based ores and materials
   -Adamantine (Ignores armor, improves defense by a lot)
   -Mithril (Weapons attack faster? Decrease movement speed penalty in armor)
   
-Bird people need think tree def to lay eggs.
+  --------OTHER MOD IDEAS---------
+Bird people who reproduce by eggs
+  -Bird people need think tree def to lay eggs.
+  
+Sound replacer that makes everyone scream at each other in combat.
