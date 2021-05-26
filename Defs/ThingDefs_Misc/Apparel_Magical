@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="ApparelNoQualityBase">
     <defName>RingOfProtectionPlusOne</defName>
     <label>ring of protection +1</label>
     <description>This magical ring shields it's wearer's entire body with a thin layer of force.</description>
@@ -10,7 +10,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tickerType>Normal</tickerType>
-
     <statBases>
       <Mass>3</Mass>
       <WorkToMake>14000</WorkToMake>
@@ -26,7 +25,7 @@
     <costList>
       <Gold>2</Gold>
       <Steel>50</Steel>
-    </costList>
+    </costList>   
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
       <researchPrerequisite>MagicCrafting</researchPrerequisite>
@@ -42,6 +41,7 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
+    
     <thingCategories>
       <li>ApparelUtility</li>
     </thingCategories>
@@ -50,7 +50,7 @@
       <careIfDamaged>false</careIfDamaged>
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
-        <li>Waist</li>
+        <li>Hands</li>
       </bodyPartGroups>
       <layers>
         <li>FullHead</li>
@@ -87,7 +87,7 @@
     </colorGenerator>
   </ThingDef>
   
-  <ThingDef ParentName="ApparelBase">
+  <ThingDef ParentName="ApparelNoQualityBase">
     <defName>RingOfEndureElements</defName>
     <label>ring of endure elements</label>
     <description>A magical ring that protects the wearer from adverse temperatures to a certain extent.</description>
