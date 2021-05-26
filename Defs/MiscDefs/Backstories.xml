@@ -944,6 +944,7 @@
     <spawnCategories>
       <li>OrcCivil</li>
       <li>City</li>
+      <li>Tiefling</li>
     </spawnCategories>
     <skillGains>
       <li>
@@ -962,8 +963,338 @@
       <li>
         <defName>Tough</defName>
       </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+    
+  <AlienRace.BackstoryDef>
+    <defName>Rogue</defName>
+    <title>rogue</title>
+    <titleShort>rogue</titleShort>
+    <baseDescription>[PAWN_nameDef]'s life path was never a straight line. [PAWN_pronoun] took life as it came, practicing a variety of different skills in order to make it through the day.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nimble</defName>
+      </li>
+    </forcedTraits>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>MeleeFighter</defName>
+    <title>melee fighter</title>
+    <titleShort>fighter</titleShort>
+    <baseDescription>[PAWN_nameDef] decided to use [PAWN_possessive] strength to make some money. [PAWN_pronoun] went along with adventuring groups who needed some extra muscle. [PAWN_pronoun] spent so much time running around in armor that [PAWN_pronoun] got pretty fit. No one else in [PAWN_possessive] groups ever wanted to do it, so [PAWN_nameDef] also took up cooking.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>SpeedOffset</defName><degree>1</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>SpeedOffset</defName><degree>2</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+    
+  <AlienRace.BackstoryDef>
+    <defName>RangedFighter</defName>
+    <title>ranged fighter</title>
+    <titleShort>fighter</titleShort>
+    <baseDescription>[PAWN_nameDef]'s sharp eyes served an adventurer's life well. [PAWN_pronoun] was accurate enough to be able to do some incredible trick shots. [PAWN_pronoun] ran around so much to get good shots that [PAWN_pronoun got pretty fit. [PAWN_nameDef] also picked up some things on first-aid so [PAWN_pronoun] could help patch people up after tough skirmishes.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Ranged</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>SpeedOffset</defName><degree>1</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>SpeedOffset</defName><degree>2</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Druid</defName>
+    <title>druid</title>
+    <titleShort>druid</titleShort>
+    <baseDescription>[PAWN_nameDef] devoted their life to respecting the natural order of the wild. [PANW_pronoun] spent most of [PAWN_possessive] time in the wild, but would still occasionally help adventuring groups that could use [PAWN_possessive] expertise.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Druid</defName>
+    <title>druid</title>
+    <titleShort>druid</titleShort>
+    <baseDescription>[PAWN_nameDef] devoted [PAWN_possessive] life to respecting the natural order of the wild. [PANW_pronoun] spent most of [PAWN_possessive] time in the wild, but would still occasionally help adventuring groups that could use [PAWN_possessive] expertise.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Ranger</defName>
+    <title>ranger</title>
+    <titleShort>ranger</titleShort>
+    <baseDescription>[PAWN_nameDef] started out just hunting for living, but found that [PAWN_pronoun] wanted to do more with [PAWN_possessive] work. [PAWN_pronoun] joined adventuring teams, where [PAWN_pronoun] offered [PAWN_possessive] expertise wherever [PAWN_pronoun] could.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Monk</defName>
+    <title>monk</title>
+    <titleShort>monk</titleShort>
+    <baseDescription>[PAWN_nameDef] was devoted to the perfection of the self. [PAWN_pronoun] meditated on mountain tops to perfect [PAWN_possessive] mind and trained rigorously to perfect [PAWN_possessive] body. After a while, [PAWN_pronoun] realized that [PAWN_pronoun] needed to experience the world in order to perfect [PAWN_objective]self in it.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nerves</defName><degree>2</degree>
+      </li>
+      <li>
+        <defName>Nimble</defName>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>PeacefulMonk</defName>
+    <title>vow of peace</title>
+    <titleShort>peace monk</titleShort>
+    <baseDescription>[PAWN_nameDef] realized that violence was never warranted, as any creature could have their heart changed for the better. [PAWN_pronoun] meditated on this fact for a long time, and devoted [PAWN_objective]self to helping others rather than harming them.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nerves</defName><degree>2</degree>
+      </li>
+      <li>
+        <defName>Nimble</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Barbarian</defName>
+    <title>barbarian</title>
+    <titleShort>barbarian</titleShort>
+    <baseDescription>[PAWN_nameDef] always had anger issues, but it wasn't until [PAWN_pronoun] thought about adventuring that [PAWN_pronoun] learned that [PAWN_pronoun] could put [PAWN_possessive] pent up rage somewhere a lot more beneficial for everyone.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <spawnCategories>
+      <li>City</li>
+      <li>Tiefling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>10</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>SpeedOffset</defName><degree>2</degree>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
   
   
   <!-- ========================================================= GNOMES ========================================================== -->  
