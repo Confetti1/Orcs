@@ -449,6 +449,7 @@
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>999</maxGenerationAge>
     <itemQuality>Excellent</itemQuality>
+    <factionLeader>true</factionLeader>
     <canBeSapper>true</canBeSapper>
     <apparelMoney>450~750</apparelMoney>
     <apparelRequired>
