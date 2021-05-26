@@ -8,10 +8,10 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Goblin/Sounds/Goblin_Angry</clipFolderPath>
+            <clipFolderPath>Sounds/Goblin/Goblin_Angry</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>15~15</volumeRange>
+        <volumeRange>20~20</volumeRange>
         <pitchRange>0.9541176~1.137647</pitchRange>
         <distRange>0~60</distRange>
         <sustainLoop>False</sustainLoop>
@@ -27,10 +27,10 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Goblin/Sounds/Goblin_Death</clipFolderPath>
+            <clipFolderPath>Sounds/Goblin/Goblin_Death</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>15~15</volumeRange>
+        <volumeRange>20~20</volumeRange>
         <pitchRange>0.9541176~1.137647</pitchRange>
         <distRange>0~60</distRange>
         <sustainLoop>False</sustainLoop>
@@ -46,10 +46,10 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Goblin/Sounds/Goblin_Wounded</clipFolderPath>
+            <clipFolderPath>Sounds/Goblin/Goblin_Wounded</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>15~15</volumeRange>
+        <volumeRange>20~20</volumeRange>
         <pitchRange>0.9541176~1.137647</pitchRange>
         <distRange>0~60</distRange>
         <sustainLoop>False</sustainLoop>
