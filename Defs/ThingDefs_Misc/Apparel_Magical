@@ -4,7 +4,7 @@
     <defName>RingOfProtectionPlusOne</defName>
     <label>ring of protection +1</label>
     <description>This magical ring shields it's wearer's entire body with a thin layer of force.</description>
-    <thingClass>ShieldBelt</thingClass>
+   <!-- <thingClass>ShieldBelt</thingClass> -->
     <graphicData>
       <texPath>Item/Equipment/Apparel/RingOfProtection</texPath>
       <graphicClass>Graphic_Single</graphicClass>
