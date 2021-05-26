@@ -15,8 +15,8 @@
       <WorkToMake>14000</WorkToMake>
       <Flammability>0.4</Flammability>
       <EquipDelay>2</EquipDelay>
-      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
@@ -50,15 +50,16 @@
       <careIfDamaged>false</careIfDamaged>
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
-        <li>Hands</li>
-      </bodyPartGroups>
-      <layers>
         <li>FullHead</li>
         <li>Torso</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>BeltDefense</li>
@@ -136,15 +137,16 @@
       <careIfDamaged>false</careIfDamaged>
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <layers>
         <li>FullHead</li>
         <li>Torso</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>BeltDefense</li>
