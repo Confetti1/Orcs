@@ -22,6 +22,7 @@
       <EquipDelay>2</EquipDelay>
       <MarketValue>600</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <tickerType>Normal</tickerType>
     <thingCategories>
@@ -43,19 +44,22 @@
     <tradeNeverStack>true</tradeNeverStack>
     <smeltable>false</smeltable>
     <burnableByRecipe>false</burnableByRecipe>
+    
     <drawGUIOverlay>false</drawGUIOverlay>
     <verbs>
       <li>
-        <verbClass>Verb_CastTargetEffect</verbClass>
+        <verbClass>Verb_LaunchProjectile</verbClass>
         <label>wand of fireball</label>
         <hasStandardCommand>true</hasStandardCommand>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <targetable>true</targetable>
         <onlyManualCast>True</onlyManualCast>
         <range>30</range>
         <warmupTime>2</warmupTime>
+        
         <targetParams>
           <canTargetBuildings>true</canTargetBuildings>
-          <onlyTargetPsychicSensitive>true</onlyTargetPsychicSensitive>
+          <onlyTargetPsychicSensitive>false</onlyTargetPsychicSensitive>
           <canTargetLocations>true</canTargetLocations>
           <neverTargetIncapacitated>false</neverTargetIncapacitated>
         </targetParams>
@@ -63,6 +67,7 @@
         <soundCast>PsychicShockLanceCast</soundCast>
       </li>
     </verbs>
+    
     <comps>
       <li Class="CompProperties_Reloadable">
         <maxCharges>10</maxCharges>
@@ -87,6 +92,7 @@
       <damageAmountBase>12</damageAmountBase>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <stoppingPower>1</stoppingPower>
+      <explosionDelay>1</explosionDelay>
       <speed>40</speed>
     </projectile>
   </ThingDef>
