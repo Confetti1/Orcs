@@ -38,7 +38,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>9</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -46,7 +46,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>12</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -124,7 +124,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
+        <power>5</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -140,7 +140,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>14</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -148,7 +148,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -176,7 +176,7 @@
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>MedievalRanged</li>
@@ -221,9 +221,9 @@
     </graphicData>
     <projectile>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>12</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
   </ThingDef>
@@ -319,7 +319,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ThrownRock</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>1</burstShotCount>
         <range>15</range>
         <soundCast>ThrowGrenade</soundCast>
       </li>
