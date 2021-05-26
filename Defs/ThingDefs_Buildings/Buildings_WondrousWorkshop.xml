@@ -111,7 +111,7 @@
     <label>craft items</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
-    <priorityInType>10</priorityInType>
+    <priorityInType>101</priorityInType>
     <fixedBillGiverDefs>
       <li>WondrousWorkshop</li>
     </fixedBillGiverDefs>
