@@ -181,7 +181,7 @@
 			<li>
 				<def>HumanlikeAdult</def>
 				<minAge>12</minAge>
-				<soundWounded>Pawn_Goblin_Injured</soundWounded>
+				<soundWounded>Pawn_Goblin_Wounded</soundWounded>
         <soundDeath>Pawn_Goblin_Death</soundDeath>
         <soundAngry>Pawn_Goblin_Angry</soundAngry>
 			</li>
