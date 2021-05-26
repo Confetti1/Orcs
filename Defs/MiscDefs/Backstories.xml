@@ -340,6 +340,36 @@
     </disallowedTraits>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>MineCrawler</defName>
+    <title>mine crawler</title>
+    <titleShort>crawler</titleShort>
+    <baseDescription>[PAWN_nameDef] worked in mines as a child. [PAWN_possessive] small size was needed for squeezing into small spaces to inspect cave openings and ore deposits. Unfortunately, [PAWN_possessive] developing lungs did not react well being exposed to cave fumes.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>City</li>
+      <li>Elf</li>
+      <li>Dwarf</li>
+      <li>Halfling</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+         <defName>Mining</defName>
+         <amount>6</amount>
+      </li>
+      <li>
+         <defName>Social</defName>
+         <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Immunity</defName><degree>-1</degree>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
 <!-- ======================================================== ADULTHOODS ======================================================== -->
   <AlienRace.BackstoryDef>
     <defName>Bartender</defName>
@@ -901,6 +931,37 @@
         <amount>4</amount>
       </li>
     </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>CoalMiner</defName>
+    <title>coal miner</title>
+    <titleShort>miner</titleShort>
+    <baseDescription>[PAWN_nameDef] made [PAWN_possessive] living mining for precious coal. It was rigorous and tough, but paid decently enough. Unfortunately, poor understanding of coal fumes left [PAWN_possessive] with some lung issues, which made [PAWN_possessive] prone to disease.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>OrcCivil</li>
+      <li>City</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Immunity</defName><degree>-1</degree>
+      </li>
+      <li>
+        <defName>Tough</defName>
+      </li>
   </AlienRace.BackstoryDef>
   
   
