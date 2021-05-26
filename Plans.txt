@@ -1,5 +1,7 @@
 TO DO:
 -Adjust research values to be more approachable.
+-Change Quarry graphic to make it more obvious that they are digging
+-Change Quarry to not be penalized for being outdoors, also make it add mining experience.
 -Need more elf hairs
 -Need more dwarf hairs
 -Halflings have not been implemented yet
