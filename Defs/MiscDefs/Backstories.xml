@@ -1072,7 +1072,7 @@
     </spawnCategories>
     <skillGains>
       <li>
-        <defName>Ranged</defName>
+        <defName>Shooting</defName>
         <amount>8</amount>
       </li>
       <li>
@@ -1107,38 +1107,6 @@
       <li>City</li>
       <li>Tiefling</li>
       <li>Soldier</li>
-    </spawnCategories>
-    <skillGains>
-      <li>
-        <defName>Animals</defName>
-        <amount>7</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>7</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>2</amount>
-      </li>
-    </skillGains>
-    <workDisables>
-      <li>Intellectual</li>
-      <li>Social</li>
-    </workDisables>
-  </AlienRace.BackstoryDef>
-  
-  <AlienRace.BackstoryDef>
-    <defName>Druid</defName>
-    <title>druid</title>
-    <titleShort>druid</titleShort>
-    <baseDescription>[PAWN_nameDef] devoted [PAWN_possessive] life to respecting the natural order of the wild. [PANW_pronoun] spent most of [PAWN_possessive] time in the wild, but would still occasionally help adventuring groups that could use [PAWN_possessive] expertise.</baseDescription>
-    <slot>Adulthood</slot>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <spawnCategories>
-      <li>City</li>
-      <li>Tiefling</li>
     </spawnCategories>
     <skillGains>
       <li>
