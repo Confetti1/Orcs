@@ -181,6 +181,9 @@
 			<li>
 				<def>HumanlikeAdult</def>
 				<minAge>12</minAge>
+				<soundWounded>Pawn_Goblin_Injured</soundWounded>
+        <soundDeath>Pawn_Goblin_Death</soundDeath>
+        <soundAngry>Pawn_Goblin_Angry</soundAngry>
 			</li>
 				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
 				<!--<li Class="AlienRace.LifeStageAgeAlien">
