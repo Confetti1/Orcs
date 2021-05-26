@@ -221,7 +221,7 @@
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Buildings/OrbOfHeat</uiIconPath>
+    <uiIconPath>Buildings/OrbOfNeutrality</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
