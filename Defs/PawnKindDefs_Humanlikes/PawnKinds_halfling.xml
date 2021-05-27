@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- PLAYER PAWNS -->
-  <PawnKindDef Abstract="True" Name ="BasePlayerGnomePawnKind">    
+  <PawnKindDef Abstract="True" Name ="BasePlayerHalflingPawnKind">    
     <race>Halfling</race>
     <combatPower>30</combatPower>
     <isFighter>false</isFighter>
