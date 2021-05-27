@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+        <defName>Halfling</defName>
+        <label>halfling</label>
+        <description>Halflings are a small race of humanoids that are characterized by their hard work ethic and quaint way of life. They're also known for being quite lucky.</description>
+        <alienRace>
+  	    
+	    <graphicPaths>
+		    <li>
+			    <body>Halfling/Bodies/</body>
+			    <head>Halfling/Heads/</head>
+		    </li>
+	    </graphicPaths>
+      
+      <relationSettings>
+        <relationChanceModifierLover>1</relationChanceModifierLover>
+        <relationChanceModifierExLover>1</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>1</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+
+        <relationChanceModifierParent>1</relationChanceModifierParent>
+        <relationChanceModifierChild>1</relationChanceModifierChild>
+        <relationChanceModifierSibling>1</relationChanceModifierSibling>  
+      </relationSettings>
+            
+	    <hairSettings>
+        <hasHair>True</hasHair>
+		    <hairTags>
+			    <li>Rural</li>
+		    </hairTags>
+        <getsGreyAt>90</getsGreyAt>
+      </hairSettings>
+		
+            <generalSettings>
+                <maleGenderProbability>0.5</maleGenderProbability>
+                <immuneToAge>false</immuneToAge>
+                <humanRecipeImport>true</humanRecipeImport>
+                <canLayDown>true</canLayDown>
+		    
+                <forcedRaceTraitEntries>
+                </forcedRaceTraitEntries>
+		    
+                <disallowedTraits>
+                </disallowedTraits>
+                
+                <traitCount>1</traitCount>
+                <additionalTraits>1~2</additionalTraits>
+		    
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+                <allowHumanBios>true</allowHumanBios>
+                <immuneToXenophobia>false</immuneToXenophobia>
+                <minAgeForAdulthood>20</minAgeForAdulthood>
+                
+                <alienPartGenerator>				
+               	    <alienbodytypes>
+		                  <li>Male</li>
+                      <li>Female</li>
+                    </alienbodytypes>
+			
+                    <aliencrowntypes>
+                       <li>Average_Normal</li>
+                       <li>Average_Wide</li>
+                       <li>Average_Pointy</li>
+                    </aliencrowntypes>
+			
+                    <useGenderedHeads>true</useGenderedHeads>
+                    <useGenderedBodies>false</useGenderedBodies>
+			
+		    <customDrawSize>(0.8, 0.7)</customDrawSize>
+		    <customHeadDrawSize>(0.8) 0.8)</customHeadDrawSize>
+		    <customPortraitDrawSize>(0.8, 0.7)</customPortraitDrawSize>
+		    <customPortraitHeadDrawSize>(0.8) 0.8)</customPortraitHeadDrawSize>
+                    
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(255, 241, 204, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(250, 216, 177, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>RGBA(125, 100, 76, 255)</only>
+                                    </li>
+                                </options>
+                            </first>
+				<!--
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(255, 255, 255, 255)</only>
+                                    </li>
+                                </options>
+                            </second>
+				-->
+                        </li>
+			<li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(69, 69, 69, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(87, 82, 68, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(94, 71, 50, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>10</weight>
+                                        <only>RGBA(125, 102, 35, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>RGBA(200, 130, 25, 255)</only>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>RGBA(199, 188, 117, 255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+		              <headOffset>(0.0, -0.03)</headOffset>
+               </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings>
+            </thoughtSettings>
+		
+            <compatibility>
+                <isFlesh>true</isFlesh>
+                <isSentient>true</isSentient>
+                <hasBlood>true</hasBlood>
+            </compatibility>
+		
+        </alienRace>
+        <race>	
+          <thinkTreeMain>Humanlike</thinkTreeMain>
+		      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+		      <intelligence>Humanlike</intelligence>
+		      <makesFootprints>true</makesFootprints>
+		      <lifeExpectancy>150</lifeExpectancy>
+		      <leatherDef>Leather_Human</leatherDef>
+		      <nameGenerator>NamerPersonHalflingMale</nameGenerator>
+          <nameGeneratorFemale>NamerPersonHalflingFemale</nameGeneratorFemale>
+		      <body>Human</body>
+		      <baseBodySize>.8</baseBodySize>
+		      <baseHealthScale>1</baseHealthScale>
+		      <foodType>OmnivoreHuman</foodType>
+		      <gestationPeriodDays>30</gestationPeriodDays>
+		      <meatMarketValue>0.8</meatMarketValue>
+		      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+		      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+		
+		      <litterSizeCurve>
+			      <points>
+				      <li>(0.5, 0)</li>
+				      <li>(1, 1)</li>
+				      <li>(1.01, 0.02)</li>
+				      <li>(3.5, 0)</li>
+			      </points>
+		      </litterSizeCurve>
+		
+		      <lifeStageAges>
+			      <li>
+				      <def>HumanlikeBaby</def>
+			      	<minAge>0</minAge>
+		      	</li>
+		      	<li>
+		      		<def>HumanlikeToddler</def>
+		      		<minAge>5</minAge>
+		      	</li>
+		      	<li>
+		      		<def>HumanlikeChild</def>
+		      		<minAge>10</minAge>
+		      	</li>
+		      	<li>
+			      	<def>HumanlikeTeenager</def>
+			      	<minAge>17</minAge>
+		      	</li>
+		      	<li>
+		      		<def>HumanlikeAdult</def>
+		      		<minAge>22</minAge>
+		      	</li>
+				<!-- HAR lets you do something like the below which should change the Body Def at that life stage, not the Body Type. -->
+				<!--<li Class="AlienRace.LifeStageAgeAlien">
+					<def>AlienAdult</def>
+					<minAge>18</minAge>
+					<body>AdultAlienBody</body>
+				</li> -->
+	      		</lifeStageAges>
+	      		<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+	      		<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+	      		<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+	      		<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+		
+      			<specialShadowData>
+      				<volume>(0.3, 0.8, 0.4)</volume>
+	      			<offset>(0,0,-0.3)</offset>
+	      		</specialShadowData>
+		
+	      		<ageGenerationCurve>
+	      			<points>
+		      			<li>(38,0)</li>
+		      			<li>(70,100)</li>
+		      			<li>(100,100)</li>
+		      			<li>(150,30)</li>
+		      			<li>(200,18)</li>
+		      			<li>(250,10)</li>
+		      			<li>(300,3)</li>
+		      			<li>(360,0)</li>
+		      		</points>
+		      	</ageGenerationCurve>
+	      	</race>
+        
+          <statBases>
+            <MarketValue>1800</MarketValue>
+            <MoveSpeed>3.2</MoveSpeed>
+            <ComfyTemperatureMin>5</ComfyTemperatureMin>
+            <ComfyTemperatureMax>24</ComfyTemperatureMax>
+            <LeatherAmount>30</LeatherAmount>
+            <RoyalFavorValue>3</RoyalFavorValue>
+          </statBases>
+        
+          <tools Inherit="False">
+             <li>
+                 <label>left fist</label>
+                 <capacities>
+                     <li>Blunt</li>
+                 </capacities>
+                 <power>8.2</power>
+                 <cooldownTime>2</cooldownTime>
+                 <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                 <surpriseAttack>
+                     <extraMeleeDamages>
+                         <li>
+                             <def>Stun</def>
+                             <amount>14</amount>
+                         </li>
+                     </extraMeleeDamages>
+                 </surpriseAttack>
+             </li>
+             <li>
+                 <label>right fist</label>
+                 <capacities>
+                     <li>Blunt</li>
+                 </capacities>
+                 <power>8.2</power>
+                 <cooldownTime>2</cooldownTime>
+                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                 <surpriseAttack>
+                     <extraMeleeDamages>
+                         <li>
+                             <def>Stun</def>
+                             <amount>14</amount>
+                         </li>
+                     </extraMeleeDamages>
+                 </surpriseAttack>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.07</chanceFactor>
+                <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+                <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        
+        <recipes>
+        </recipes>
+      
+      
+        
+        <comps>
+        </comps>
+        
+        <modExtensions>
+        </modExtensions>
+	    
+    </AlienRace.ThingDef_AlienRace>
+	<AlienRace.RaceSettings>
+		<defName>DwarfSettings</defName>
+		<pawnKindSettings>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>Halfling_Colonist</li>
+					</kindDefs>
+					<chance>10.0</chance>
+				</li>	
+			</alienslavekinds>
+                        <startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Halfling_Colonist</li>
+							</kindDefs>
+							<chance>40.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+	        </pawnKindSettings>
+	</AlienRace.RaceSettings>
+</Defs>
