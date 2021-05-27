@@ -65,18 +65,21 @@
           <ElfCitizen>8</ElfCitizen>
           <DwarfCitizen>8</DwarfCitizen>
           <TieflingCitizen>2</TieflingCitizen>
+          <HalflingCitizen>8</HalflingCitizen>
             
           <HumanArcher>20</HumanArcher>
           <ElfArcher>10</ElfArcher>
           <DwarfArcher>5</DwarfArcher>
           <GnomeArcher>8</GnomeArcher>
           <TieflingArcher>2</TieflingArcher>
+          <HalflingArcher>8</HalflingArcher>
             
           <HumanWarrior>20</HumanWarrior>
           <ElfWarrior>5</ElfWarrior>
           <DwarfWarrior>8</DwarfWarrior>
           <OrcWarrior>3</OrcWarrior>
           <TieflingWarrior>2</TieflingWarrior>
+          <HalflingWarrior>5</HalflingWarrior>
         </options>
       </li>
       <li>
@@ -88,18 +91,21 @@
           <ElfCitizen>8</ElfCitizen>
           <DwarfCitizen>8</DwarfCitizen>
           <TieflingCitizen>2</TieflingCitizen>
+          <HalflingCitizen>8</HalflingCitizen>
             
           <HumanArcher>20</HumanArcher>
           <ElfArcher>10</ElfArcher>
           <DwarfArcher>5</DwarfArcher>
           <GnomeArcher>8</GnomeArcher>
           <TieflingArcher>2</TieflingArcher>
+          <HalflingArcher>8</HalflingArcher>
             
           <HumanWarrior>20</HumanWarrior>
           <ElfWarrior>5</ElfWarrior>
           <DwarfWarrior>8</DwarfWarrior>
           <OrcWarrior>3</OrcWarrior>
           <TieflingWarrior>2</TieflingWarrior>
+          <HalflingWarrior>5</HalflingWarrior>
         </options>
       </li>
       <li>
@@ -110,6 +116,7 @@
           <ElfTrader>1</ElfTrader>
           <GnomeTrader>1</GnomeTrader>
           <TieflingTrader>1</TieflingTrader>
+          <HalflingTrader>1</HalflingTrader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
@@ -123,12 +130,14 @@
           <DwarfArcher>5</DwarfArcher>
           <GnomeArcher>8</GnomeArcher>
           <TieflingArcher>2</TieflingArcher>
+          <HalflingArcher>8</HalflingArcher>
             
           <HumanWarrior>10</HumanWarrior>
           <ElfWarrior>5</ElfWarrior>
           <DwarfWarrior>8</DwarfWarrior>
           <OrcWarrior>3</OrcWarrior>
           <TieflingWarrior>2</TieflingWarrior>
+          <HalflingWarrior>5</HalflingWarrior>
         </guards>
       </li>
       <li>
@@ -139,12 +148,14 @@
           <DwarfArcher>5</DwarfArcher>
           <GnomeArcher>8</GnomeArcher>
           <TieflingArcher>2</TieflingArcher>
+          <HalflingArcher>8</HalflingArcher>
             
           <HumanWarrior>10</HumanWarrior>
           <ElfWarrior>5</ElfWarrior>
           <DwarfWarrior>8</DwarfWarrior>
           <OrcWarrior>3</OrcWarrior>
           <TieflingWarrior>2</TieflingWarrior>
+          <HalflingWarrior>5</HalflingWarrior>
           
           <KingdomKing>1</KingdomKing>
         </options>
