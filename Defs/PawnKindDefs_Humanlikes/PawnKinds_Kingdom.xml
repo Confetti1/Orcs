@@ -10,7 +10,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
   </PawnKindDef>
-  <!-- ====================================== CITIZENS (Human, Orc, Elf, Gnome, Dwarf, Tiefling) ============================================= -->
+  <!-- ====================================== CITIZENS (Human, Orc, Elf, Gnome, Dwarf, Tiefling, Halfling) ============================================= -->
   <PawnKindDef ParentName="KingdomBase">
     <defName>HumanCitizen</defName>
     <label>human citizen</label>
@@ -137,6 +137,36 @@
     <defName>TieflingCitizen</defName>
     <label>tiefling citizen</label>
     <race>Tiefling</race>
+    <combatPower>35</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Tiefling</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <weaponMoney>65~250</weaponMoney>
+    <apparelMoney>250~400</apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>HalflingCitizen</defName>
+    <label>halfling citizen</label>
+    <race>Halfling</race>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -293,6 +323,34 @@
   <techHediffsChance>0.15</techHediffsChance>
 </PawnKindDef>
   
+<PawnKindDef ParentName="KingdomBase">
+  <defName>HalflingArcher</defName>
+  <label>halfling archer</label>
+  <race>Halfling</race>
+  <combatPower>60</combatPower>
+  <chemicalAddictionChance>.05</chemicalAddictionChance>
+  <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Halfling</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  <invNutrition>0</invNutrition>
+  <itemQuality>Normal</itemQuality>
+  <gearHealthRange>0.2~1.1</gearHealthRange>
+  <apparelMoney>250~400</apparelMoney>
+  <weaponMoney>200~500</weaponMoney>
+  <weaponTags>
+    <li>MedievalRanged</li>
+  </weaponTags>
+  <techHediffsMoney>50~50</techHediffsMoney>
+  <techHediffsTags>
+    <li>Poor</li>
+  </techHediffsTags>
+  <techHediffsChance>0.15</techHediffsChance>
+</PawnKindDef>
+  
   <!-- =================================================================== WARRIOR (Human, Elf, Orc, Dwarf) =================================================== -->
   <PawnKindDef ParentName="KingdomBase">
     <defName>HumanWarrior</defName>
@@ -419,6 +477,37 @@
       <li>
         <categories>
           <li>Tiefling</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <combatPower>60</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>250~400</apparelMoney>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance> 
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>HalflingWarrior</defName>
+    <label>halfling warrior</label>
+    <race>Halfling</race>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Halfling</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -599,7 +688,39 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-          <li>Gnome</li>
+          <li>Tiefling</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>250~400</apparelMoney>
+    <weaponMoney>190~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="KingdomBase">
+    <defName>HalflingTrader</defName>
+    <label>Halfling trader</label>
+    <race>Halfling</race>
+    <combatPower>30</combatPower>
+    <chemicalAddictionChance>.05</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Halfling</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
