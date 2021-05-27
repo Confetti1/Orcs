@@ -19,7 +19,7 @@
     <defName>Crossbows</defName>
     <label>crossbows</label>
     <description>Create crossbows, a medieval alternative to things like hunting rifles and pistols. Their damage is similar to hunting rifles, but they have a slightly inferior firing rate.</description>
-    <baseCost>800</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <tab>Rimfinder</tab>
     <prerequisites>
@@ -46,8 +46,8 @@
   <ResearchProjectDef>
     <defName>MagicCrafting</defName>
     <label>magic crafting</label>
-    <description>Learn how to extract magical energy from gold, and make magical items.</description>
-    <baseCost>2000</baseCost>
+    <description>Learn how to extract magical energy from gold, and make magical items. Even learn how to synthesize gold from wood logs!</description>
+    <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
     <tab>Rimfinder</tab>
     <researchViewX>0.00</researchViewX>
@@ -58,7 +58,7 @@
     <defName>MagicTempControl</defName>
     <label>magic temp control</label>
     <description>Learn to make elemental orbs that can passively lower or raise the temperature of a room.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
     <tab>Rimfinder</tab>
     <prerequisites>
@@ -69,20 +69,6 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>WeaponryEnchanting</defName>
-    <label>weaponry enchanting</label>
-    <description>Learn the basics of creating enchanted weapons, like swords and crossbows.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Medieval</techLevel>
-    <tab>Rimfinder</tab>
-    <prerequisites>
-      <li>MagicCrafting</li>
-    </prerequisites>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>2.00</researchViewY>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
     <defName>AnimatedDefenses</defName>
     <label>animated defenses</label>
     <description>Enchant stationary mounted crossbows with a semblance of sentience, allowing them to fire automatically at invaders.</description>
@@ -90,7 +76,7 @@
     <techLevel>Medieval</techLevel>
     <tab>Rimfinder</tab>
     <prerequisites>
-      <li>WeaponryEnchanting</li>
+      <li>MagicCrafting</li>
       <li>Crossbows</li>
     </prerequisites>
     <researchViewX>2.00</researchViewX>
