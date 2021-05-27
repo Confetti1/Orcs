@@ -41,6 +41,10 @@
                 <canLayDown>true</canLayDown>
 		    
                 <forcedRaceTraitEntries>
+                  <li>
+                    <defName>Nimble</defName>
+                    <chance>50</chance>
+                  </li>
                 </forcedRaceTraitEntries>
 		    
                 <disallowedTraits>
