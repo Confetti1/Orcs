@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+    <RulePackDef>
+        <defName>NamerHalflingUtility</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>MaleHalflingFirst->[M1][M2][M3]</li>
+                <li>FemaleHalflingFirst->[F1][F2][F3]</li>
+                <li>HalflingLast->[Surname1][Surname2]</li>
+                <li>HalflingLast->[F1][M2][F3]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>M1->WordParts/MHalflingSyl1</li>
+                <li>M2->WordParts/MHalflingSyl2</li>
+                <li>M3->WordParts/MHalflingSyl3</li>
+                <li>F1->WordParts/FHalflingSyl1</li>
+                <li>F2->WordParts/FHalflingSyl2</li>
+                <li>F3->WordParts/FHalflingSyl3</li>
+              <li>Surname1->Words/HalflingAdjective</li>
+              <li>Surname2->Words/HalflingNoun</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    
+    <RulePackDef>
+        <defName>NamerPersonHalflingMale</defName>
+        <include>
+            <li>NamerHalflingUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[MaleHalflingFirst] [HalflingLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+            
+    <RulePackDef>
+        <defName>NamerPersonHalflingFemale</defName>
+        <include>
+            <li>NamerHalflingUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[FemaleHalflingFirst] [HalflingLast]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>
