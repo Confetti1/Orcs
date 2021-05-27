@@ -4,6 +4,7 @@ TO DO:
 -Change Quarry to not be penalized for being outdoors, also make it add mining experience.
 -Need more elf hairs
 -Need more dwarf hairs
+-Find out if the racial hair glitch is from hair mods or not
 -Halflings have not been implemented yet
 -Customize the kingdom more, custom trade
 -Add goblin torch weapon
