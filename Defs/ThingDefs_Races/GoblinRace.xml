@@ -298,6 +298,21 @@
 	<AlienRace.RaceSettings>
 		<defName>GoblinSettings</defName>
 		<pawnKindSettings>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Goblin_Colonist</li>
+							</kindDefs>
+							<chance>40.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
 			<alienslavekinds>
 				<li>
 					<kindDefs>
