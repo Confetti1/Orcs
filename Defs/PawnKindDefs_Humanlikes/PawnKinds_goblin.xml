@@ -38,6 +38,38 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
   
+   <PawnKindDef ParentName="GoblinTribalBase">
+    <defName>Goblin_Colonist</defName>
+    <label>goblin tribal</label>
+    <race>Goblin</race>
+    <combatPower>10</combatPower>
+    <isFighter>false</isFighter>
+    <defaultFactionType>GoblinTribe</defaultFactionType>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Goblin</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <invNutrition>0</invNutrition>
+    <weaponMoney>200~200</weaponMoney>
+    <weaponTags>
+      <li>GoblinMelee</li>
+    </weaponTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>150~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+ </PawnKindDef>
+  
   <PawnKindDef ParentName="GoblinTribalBase">
     <defName>Goblin_Tribal</defName>
     <label>goblin tribal</label>
