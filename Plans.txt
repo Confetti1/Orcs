@@ -1,11 +1,14 @@
+BUGS:
+-Give food to traders so they don't steal
+-Add more goblin names so they're not quite so weird. (Possibly redo it?)
+-
+
 TO DO:
--Adjust research values to be more approachable.
 -Change Quarry graphic to make it more obvious that they are digging
 -Change Quarry to not be penalized for being outdoors, also make it add mining experience.
 -Need more elf hairs
 -Need more dwarf hairs
 -Find out if the racial hair glitch is from hair mods or not
--Halflings have not been implemented yet
 -Customize the kingdom more, custom trade
 -Add goblin torch weapon
 -Fix up the faction colors to be less samey
