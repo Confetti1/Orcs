@@ -2,6 +2,7 @@ BUGS:
 -Give food to traders so they don't steal
 -Add more goblin names so they're not quite so weird. (Possibly redo it?) More gobbo names
 -Make gnome eyebrows a separate body part
+-Fix ring of endure elements to not limit ranged attacks.
 
 TO DO:
 -Change Quarry graphic to make it more obvious that they are digging
